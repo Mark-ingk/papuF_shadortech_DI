@@ -1,3 +1,3 @@
-﻿Public Class Form6
+﻿Public Class frmPagos
 
 End Class

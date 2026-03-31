@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class frmInicio
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,9 +22,21 @@ Partial Class Form2
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form2"
+        SuspendLayout()
+        ' 
+        ' frmInicio
+        ' 
+        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        ClientSize = New Size(390, 844)
+        ForeColor = SystemColors.ButtonFace
+        FormBorderStyle = FormBorderStyle.None
+        MaximumSize = New Size(390, 844)
+        MinimumSize = New Size(390, 844)
+        Name = "frmInicio"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "frmInicio"
+        ResumeLayout(False)
     End Sub
 End Class

@@ -1,3 +1,3 @@
-﻿Public Class Form7
+﻿Public Class frmPerfil
 
 End Class

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form6
+Partial Class frmPagos
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,9 +22,20 @@ Partial Class Form6
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form6"
+        SuspendLayout()
+        ' 
+        ' frmPagos
+        ' 
+        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        ClientSize = New Size(390, 844)
+        FormBorderStyle = FormBorderStyle.None
+        MaximumSize = New Size(390, 844)
+        MinimumSize = New Size(390, 844)
+        Name = "frmPagos"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "frmPagos"
+        ResumeLayout(False)
     End Sub
 End Class

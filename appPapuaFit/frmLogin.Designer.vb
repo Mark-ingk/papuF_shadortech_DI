@@ -23,8 +23,8 @@ Partial Class frmLogin
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
         Label2 = New Label()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
@@ -48,7 +48,7 @@ Partial Class frmLogin
         Guna2TextBox1.BackColor = Color.FromArgb(CByte(32), CByte(32), CByte(32))
         Guna2TextBox1.BorderColor = Color.FromArgb(CByte(30), CByte(30), CByte(30))
         Guna2TextBox1.BorderRadius = 20
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges1
+        Guna2TextBox1.CustomizableEdges = CustomizableEdges3
         Guna2TextBox1.DefaultText = ""
         Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -62,7 +62,7 @@ Partial Class frmLogin
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PlaceholderText = ""
         Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2TextBox1.Size = New Size(254, 60)
         Guna2TextBox1.TabIndex = 2
         ' 
@@ -70,13 +70,13 @@ Partial Class frmLogin
         ' 
         Label1.AutoSize = True
         Label1.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        Label1.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.FromArgb(CByte(248), CByte(248), CByte(248))
         Label1.Location = New Point(61, 252)
         Label1.Name = "Label1"
-        Label1.Size = New Size(256, 54)
+        Label1.Size = New Size(180, 31)
         Label1.TabIndex = 1
-        Label1.Text = "Iniciar Secion"
+        Label1.Text = "cambio de texto"
         ' 
         ' IconPictureBox1
         ' 

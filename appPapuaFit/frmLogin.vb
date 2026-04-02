@@ -15,7 +15,7 @@
 
     End Sub
 
-    Private Sub Guna2Separator1_Click(sender As Object, e As EventArgs) Handles Guna2Separator1.Click
+    Private Sub Guna2Separator1_Click(sender As Object, e As EventArgs) Handles spr1.Click
 
     End Sub
 

@@ -22,124 +22,285 @@ Partial Class frmLogin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New ComponentModel.Container()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
-        Label2 = New Label()
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Label1 = New Label()
-        IconPictureBox1 = New FontAwesome.Sharp.IconPictureBox()
-        TableLayoutPanel1 = New TableLayoutPanel()
-        CType(IconPictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        TableLayoutPanel1.SuspendLayout()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        pnlLogin = New Guna.UI2.WinForms.Guna2Panel()
+        LinkLabel1 = New LinkLabel()
+        lblRegistro = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        icbtnInstagram = New FontAwesome.Sharp.IconButton()
+        icbtnFacebook = New FontAwesome.Sharp.IconButton()
+        icbtnGoogle = New FontAwesome.Sharp.IconButton()
+        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2Separator1 = New Guna.UI2.WinForms.Guna2Separator()
+        Guna2Separator2 = New Guna.UI2.WinForms.Guna2Separator()
+        btnINS = New Guna.UI2.WinForms.Guna2Button()
+        txtContra = New Guna.UI2.WinForms.Guna2TextBox()
+        txtEmail = New Guna.UI2.WinForms.Guna2TextBox()
+        lblLog = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        iconPesa = New FontAwesome.Sharp.IconPictureBox()
+        pnlLogin.SuspendLayout()
+        CType(iconPesa, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' Label2
+        ' pnlLogin
         ' 
-        Label2.AutoSize = True
-        Label2.Location = New Point(61, 0)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(0, 20)
-        Label2.TabIndex = 3
+        pnlLogin.AutoSize = True
+        pnlLogin.BorderRadius = 30
+        pnlLogin.Controls.Add(LinkLabel1)
+        pnlLogin.Controls.Add(lblRegistro)
+        pnlLogin.Controls.Add(icbtnInstagram)
+        pnlLogin.Controls.Add(icbtnFacebook)
+        pnlLogin.Controls.Add(icbtnGoogle)
+        pnlLogin.Controls.Add(Guna2HtmlLabel2)
+        pnlLogin.Controls.Add(Guna2Separator1)
+        pnlLogin.Controls.Add(Guna2Separator2)
+        pnlLogin.Controls.Add(btnINS)
+        pnlLogin.Controls.Add(txtContra)
+        pnlLogin.Controls.Add(txtEmail)
+        pnlLogin.Controls.Add(lblLog)
+        pnlLogin.Controls.Add(Guna2HtmlLabel1)
+        pnlLogin.Controls.Add(iconPesa)
+        pnlLogin.CustomizableEdges = CustomizableEdges7
+        pnlLogin.Dock = DockStyle.Fill
+        pnlLogin.Location = New Point(0, 0)
+        pnlLogin.Name = "pnlLogin"
+        pnlLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        pnlLogin.Size = New Size(390, 844)
+        pnlLogin.TabIndex = 0
         ' 
-        ' Guna2TextBox1
+        ' LinkLabel1
         ' 
-        Guna2TextBox1.BackColor = Color.FromArgb(CByte(32), CByte(32), CByte(32))
-        Guna2TextBox1.BorderColor = Color.FromArgb(CByte(30), CByte(30), CByte(30))
-        Guna2TextBox1.BorderRadius = 20
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges3
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(61, 340)
-        Guna2TextBox1.Margin = New Padding(3, 4, 3, 4)
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PlaceholderText = ""
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2TextBox1.Size = New Size(254, 60)
-        Guna2TextBox1.TabIndex = 2
+        LinkLabel1.AutoSize = True
+        LinkLabel1.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        LinkLabel1.LinkColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        LinkLabel1.Location = New Point(211, 785)
+        LinkLabel1.Name = "LinkLabel1"
+        LinkLabel1.Size = New Size(81, 20)
+        LinkLabel1.TabIndex = 14
+        LinkLabel1.TabStop = True
+        LinkLabel1.Text = "Registrarte"
         ' 
-        ' Label1
+        ' lblRegistro
         ' 
-        Label1.AutoSize = True
-        Label1.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        Label1.Font = New Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.ForeColor = Color.FromArgb(CByte(248), CByte(248), CByte(248))
-        Label1.Location = New Point(61, 252)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(180, 31)
-        Label1.TabIndex = 1
-        Label1.Text = "cambio de texto"
+        lblRegistro.BackColor = Color.Transparent
+        lblRegistro.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblRegistro.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        lblRegistro.Location = New Point(53, 785)
+        lblRegistro.Name = "lblRegistro"
+        lblRegistro.Size = New Size(141, 25)
+        lblRegistro.TabIndex = 13
+        lblRegistro.Text = "No tienes cuenta?"
         ' 
-        ' IconPictureBox1
+        ' icbtnInstagram
         ' 
-        IconPictureBox1.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        IconPictureBox1.ForeColor = Color.FromArgb(CByte(93), CByte(214), CByte(44))
-        IconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Dumbbell
-        IconPictureBox1.IconColor = Color.FromArgb(CByte(93), CByte(214), CByte(44))
-        IconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconPictureBox1.IconSize = 87
-        IconPictureBox1.Location = New Point(61, 87)
-        IconPictureBox1.Name = "IconPictureBox1"
-        IconPictureBox1.Size = New Size(87, 111)
-        IconPictureBox1.SizeMode = PictureBoxSizeMode.Zoom
-        IconPictureBox1.TabIndex = 0
-        IconPictureBox1.TabStop = False
+        icbtnInstagram.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icbtnInstagram.FlatStyle = FlatStyle.Flat
+        icbtnInstagram.ForeColor = Color.Black
+        icbtnInstagram.IconChar = FontAwesome.Sharp.IconChar.Instagram
+        icbtnInstagram.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        icbtnInstagram.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icbtnInstagram.Location = New Point(275, 641)
+        icbtnInstagram.Name = "icbtnInstagram"
+        icbtnInstagram.Size = New Size(57, 43)
+        icbtnInstagram.TabIndex = 12
+        icbtnInstagram.UseVisualStyleBackColor = False
         ' 
-        ' TableLayoutPanel1
+        ' icbtnFacebook
         ' 
-        TableLayoutPanel1.ColumnCount = 3
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 15F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 70F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 15F))
-        TableLayoutPanel1.Controls.Add(IconPictureBox1, 1, 1)
-        TableLayoutPanel1.Controls.Add(Label1, 1, 2)
-        TableLayoutPanel1.Controls.Add(Guna2TextBox1, 1, 3)
-        TableLayoutPanel1.Controls.Add(Label2, 1, 0)
-        TableLayoutPanel1.Dock = DockStyle.Fill
-        TableLayoutPanel1.Location = New Point(0, 0)
-        TableLayoutPanel1.Name = "TableLayoutPanel1"
-        TableLayoutPanel1.RowCount = 7
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 10F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 20F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 10F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 25F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 15F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 10F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 10F))
-        TableLayoutPanel1.Size = New Size(390, 844)
-        TableLayoutPanel1.TabIndex = 0
+        icbtnFacebook.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icbtnFacebook.FlatStyle = FlatStyle.Flat
+        icbtnFacebook.ForeColor = Color.Black
+        icbtnFacebook.IconChar = FontAwesome.Sharp.IconChar.FacebookF
+        icbtnFacebook.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        icbtnFacebook.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icbtnFacebook.Location = New Point(160, 641)
+        icbtnFacebook.Name = "icbtnFacebook"
+        icbtnFacebook.Size = New Size(57, 43)
+        icbtnFacebook.TabIndex = 11
+        icbtnFacebook.UseVisualStyleBackColor = False
+        ' 
+        ' icbtnGoogle
+        ' 
+        icbtnGoogle.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icbtnGoogle.FlatStyle = FlatStyle.Flat
+        icbtnGoogle.ForeColor = Color.Black
+        icbtnGoogle.IconChar = FontAwesome.Sharp.IconChar.Google
+        icbtnGoogle.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        icbtnGoogle.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icbtnGoogle.Location = New Point(40, 641)
+        icbtnGoogle.Name = "icbtnGoogle"
+        icbtnGoogle.Size = New Size(57, 43)
+        icbtnGoogle.TabIndex = 10
+        icbtnGoogle.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2HtmlLabel2
+        ' 
+        Guna2HtmlLabel2.BackColor = Color.Transparent
+        Guna2HtmlLabel2.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel2.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        Guna2HtmlLabel2.Location = New Point(180, 550)
+        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
+        Guna2HtmlLabel2.Size = New Size(23, 39)
+        Guna2HtmlLabel2.TabIndex = 9
+        Guna2HtmlLabel2.Text = "O"
+        ' 
+        ' Guna2Separator1
+        ' 
+        Guna2Separator1.Location = New Point(12, 559)
+        Guna2Separator1.Name = "Guna2Separator1"
+        Guna2Separator1.Size = New Size(154, 18)
+        Guna2Separator1.TabIndex = 8
+        ' 
+        ' Guna2Separator2
+        ' 
+        Guna2Separator2.Location = New Point(224, 559)
+        Guna2Separator2.Name = "Guna2Separator2"
+        Guna2Separator2.Size = New Size(154, 18)
+        Guna2Separator2.TabIndex = 7
+        ' 
+        ' btnINS
+        ' 
+        btnINS.Animated = True
+        btnINS.BorderRadius = 25
+        btnINS.CustomizableEdges = CustomizableEdges1
+        btnINS.DisabledState.BorderColor = Color.DarkGray
+        btnINS.DisabledState.CustomBorderColor = Color.DarkGray
+        btnINS.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnINS.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnINS.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnINS.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnINS.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
+        btnINS.Location = New Point(40, 443)
+        btnINS.Name = "btnINS"
+        btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        btnINS.Size = New Size(310, 52)
+        btnINS.TabIndex = 5
+        btnINS.Text = "INICIAR -->"
+        ' 
+        ' txtContra
+        ' 
+        txtContra.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtContra.BorderRadius = 20
+        txtContra.CustomizableEdges = CustomizableEdges3
+        txtContra.DefaultText = ""
+        txtContra.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtContra.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtContra.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtContra.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtContra.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtContra.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtContra.Font = New Font("Segoe UI", 9F)
+        txtContra.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtContra.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtContra.Location = New Point(40, 364)
+        txtContra.Margin = New Padding(3, 4, 3, 4)
+        txtContra.Name = "txtContra"
+        txtContra.PlaceholderText = "Contraseña"
+        txtContra.SelectedText = ""
+        txtContra.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtContra.Size = New Size(310, 50)
+        txtContra.TabIndex = 4
+        txtContra.UseSystemPasswordChar = True
+        ' 
+        ' txtEmail
+        ' 
+        txtEmail.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtEmail.BorderRadius = 20
+        txtEmail.CustomizableEdges = CustomizableEdges5
+        txtEmail.DefaultText = ""
+        txtEmail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtEmail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtEmail.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEmail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEmail.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtEmail.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEmail.Font = New Font("Segoe UI", 9F)
+        txtEmail.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtEmail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEmail.Location = New Point(40, 292)
+        txtEmail.Margin = New Padding(3, 4, 3, 4)
+        txtEmail.Name = "txtEmail"
+        txtEmail.PlaceholderText = "Email"
+        txtEmail.SelectedText = ""
+        txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtEmail.Size = New Size(310, 50)
+        txtEmail.TabIndex = 3
+        ' 
+        ' lblLog
+        ' 
+        lblLog.BackColor = Color.Transparent
+        lblLog.Font = New Font("Segoe UI", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblLog.ForeColor = Color.White
+        lblLog.Location = New Point(53, 197)
+        lblLog.Name = "lblLog"
+        lblLog.Size = New Size(270, 61)
+        lblLog.TabIndex = 2
+        lblLog.Text = "Iniciar Sesion"
+        ' 
+        ' Guna2HtmlLabel1
+        ' 
+        Guna2HtmlLabel1.BackColor = Color.Transparent
+        Guna2HtmlLabel1.Location = New Point(53, 218)
+        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Guna2HtmlLabel1.Size = New Size(3, 2)
+        Guna2HtmlLabel1.TabIndex = 1
+        Guna2HtmlLabel1.Text = Nothing
+        ' 
+        ' iconPesa
+        ' 
+        iconPesa.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        iconPesa.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        iconPesa.IconChar = FontAwesome.Sharp.IconChar.Dumbbell
+        iconPesa.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        iconPesa.IconFont = FontAwesome.Sharp.IconFont.Auto
+        iconPesa.IconSize = 108
+        iconPesa.Location = New Point(137, 73)
+        iconPesa.Name = "iconPesa"
+        iconPesa.Size = New Size(108, 108)
+        iconPesa.TabIndex = 0
+        iconPesa.TabStop = False
         ' 
         ' frmLogin
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
-        AutoScaleMode = AutoScaleMode.Font
+        AutoScaleMode = AutoScaleMode.None
         BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         ClientSize = New Size(390, 844)
-        Controls.Add(TableLayoutPanel1)
+        Controls.Add(pnlLogin)
         FormBorderStyle = FormBorderStyle.None
         MaximumSize = New Size(390, 844)
         MinimumSize = New Size(390, 844)
         Name = "frmLogin"
         StartPosition = FormStartPosition.CenterScreen
         Text = "frmLogin"
-        CType(IconPictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        TableLayoutPanel1.ResumeLayout(False)
-        TableLayoutPanel1.PerformLayout()
+        pnlLogin.ResumeLayout(False)
+        pnlLogin.PerformLayout()
+        CType(iconPesa, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
+        PerformLayout()
     End Sub
-    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents IconPictureBox1 As FontAwesome.Sharp.IconPictureBox
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+
+    Friend WithEvents pnlLogin As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents iconPesa As FontAwesome.Sharp.IconPictureBox
+    Friend WithEvents lblLog As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents txtEmail As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtContra As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents btnINS As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Separator2 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
+    Friend WithEvents icbtnGoogle As FontAwesome.Sharp.IconButton
+    Friend WithEvents icbtnInstagram As FontAwesome.Sharp.IconButton
+    Friend WithEvents icbtnFacebook As FontAwesome.Sharp.IconButton
+    Friend WithEvents lblRegistro As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents LinkLabel1 As LinkLabel
 
 End Class

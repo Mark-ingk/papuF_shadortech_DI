@@ -22,23 +22,23 @@ Partial Class frmLogin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlLogin = New Guna.UI2.WinForms.Guna2Panel()
         LinkLabel1 = New LinkLabel()
         lblRegistro = New Guna.UI2.WinForms.Guna2HtmlLabel()
         icbtnInstagram = New FontAwesome.Sharp.IconButton()
         icbtnFacebook = New FontAwesome.Sharp.IconButton()
         icbtnGoogle = New FontAwesome.Sharp.IconButton()
-        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Guna2Separator1 = New Guna.UI2.WinForms.Guna2Separator()
-        Guna2Separator2 = New Guna.UI2.WinForms.Guna2Separator()
+        lblO = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        spr1 = New Guna.UI2.WinForms.Guna2Separator()
+        spr2 = New Guna.UI2.WinForms.Guna2Separator()
         btnINS = New Guna.UI2.WinForms.Guna2Button()
         txtContra = New Guna.UI2.WinForms.Guna2TextBox()
         txtEmail = New Guna.UI2.WinForms.Guna2TextBox()
@@ -58,20 +58,20 @@ Partial Class frmLogin
         pnlLogin.Controls.Add(icbtnInstagram)
         pnlLogin.Controls.Add(icbtnFacebook)
         pnlLogin.Controls.Add(icbtnGoogle)
-        pnlLogin.Controls.Add(Guna2HtmlLabel2)
-        pnlLogin.Controls.Add(Guna2Separator1)
-        pnlLogin.Controls.Add(Guna2Separator2)
+        pnlLogin.Controls.Add(lblO)
+        pnlLogin.Controls.Add(spr1)
+        pnlLogin.Controls.Add(spr2)
         pnlLogin.Controls.Add(btnINS)
         pnlLogin.Controls.Add(txtContra)
         pnlLogin.Controls.Add(txtEmail)
         pnlLogin.Controls.Add(lblLog)
         pnlLogin.Controls.Add(Guna2HtmlLabel1)
         pnlLogin.Controls.Add(iconPesa)
-        pnlLogin.CustomizableEdges = CustomizableEdges7
+        pnlLogin.CustomizableEdges = CustomizableEdges15
         pnlLogin.Dock = DockStyle.Fill
         pnlLogin.Location = New Point(0, 0)
         pnlLogin.Name = "pnlLogin"
-        pnlLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        pnlLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         pnlLogin.Size = New Size(390, 844)
         pnlLogin.TabIndex = 0
         ' 
@@ -140,36 +140,36 @@ Partial Class frmLogin
         icbtnGoogle.TabIndex = 10
         icbtnGoogle.UseVisualStyleBackColor = False
         ' 
-        ' Guna2HtmlLabel2
+        ' lblO
         ' 
-        Guna2HtmlLabel2.BackColor = Color.Transparent
-        Guna2HtmlLabel2.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel2.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        Guna2HtmlLabel2.Location = New Point(180, 550)
-        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Guna2HtmlLabel2.Size = New Size(23, 39)
-        Guna2HtmlLabel2.TabIndex = 9
-        Guna2HtmlLabel2.Text = "O"
+        lblO.BackColor = Color.Transparent
+        lblO.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblO.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        lblO.Location = New Point(180, 550)
+        lblO.Name = "lblO"
+        lblO.Size = New Size(23, 39)
+        lblO.TabIndex = 9
+        lblO.Text = "O"
         ' 
-        ' Guna2Separator1
+        ' spr1
         ' 
-        Guna2Separator1.Location = New Point(12, 559)
-        Guna2Separator1.Name = "Guna2Separator1"
-        Guna2Separator1.Size = New Size(154, 18)
-        Guna2Separator1.TabIndex = 8
+        spr1.Location = New Point(12, 559)
+        spr1.Name = "spr1"
+        spr1.Size = New Size(154, 18)
+        spr1.TabIndex = 8
         ' 
-        ' Guna2Separator2
+        ' spr2
         ' 
-        Guna2Separator2.Location = New Point(224, 559)
-        Guna2Separator2.Name = "Guna2Separator2"
-        Guna2Separator2.Size = New Size(154, 18)
-        Guna2Separator2.TabIndex = 7
+        spr2.Location = New Point(224, 559)
+        spr2.Name = "spr2"
+        spr2.Size = New Size(154, 18)
+        spr2.TabIndex = 7
         ' 
         ' btnINS
         ' 
         btnINS.Animated = True
         btnINS.BorderRadius = 25
-        btnINS.CustomizableEdges = CustomizableEdges1
+        btnINS.CustomizableEdges = CustomizableEdges9
         btnINS.DisabledState.BorderColor = Color.DarkGray
         btnINS.DisabledState.CustomBorderColor = Color.DarkGray
         btnINS.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -179,7 +179,7 @@ Partial Class frmLogin
         btnINS.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
         btnINS.Location = New Point(40, 443)
         btnINS.Name = "btnINS"
-        btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         btnINS.Size = New Size(310, 52)
         btnINS.TabIndex = 5
         btnINS.Text = "INICIAR -->"
@@ -188,7 +188,7 @@ Partial Class frmLogin
         ' 
         txtContra.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtContra.BorderRadius = 20
-        txtContra.CustomizableEdges = CustomizableEdges3
+        txtContra.CustomizableEdges = CustomizableEdges11
         txtContra.DefaultText = ""
         txtContra.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtContra.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -204,7 +204,7 @@ Partial Class frmLogin
         txtContra.Name = "txtContra"
         txtContra.PlaceholderText = "Contraseña"
         txtContra.SelectedText = ""
-        txtContra.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtContra.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         txtContra.Size = New Size(310, 50)
         txtContra.TabIndex = 4
         txtContra.UseSystemPasswordChar = True
@@ -213,7 +213,7 @@ Partial Class frmLogin
         ' 
         txtEmail.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtEmail.BorderRadius = 20
-        txtEmail.CustomizableEdges = CustomizableEdges5
+        txtEmail.CustomizableEdges = CustomizableEdges13
         txtEmail.DefaultText = ""
         txtEmail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEmail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -229,7 +229,7 @@ Partial Class frmLogin
         txtEmail.Name = "txtEmail"
         txtEmail.PlaceholderText = "Email"
         txtEmail.SelectedText = ""
-        txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         txtEmail.Size = New Size(310, 50)
         txtEmail.TabIndex = 3
         ' 
@@ -293,9 +293,9 @@ Partial Class frmLogin
     Friend WithEvents txtEmail As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txtContra As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents btnINS As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Separator2 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents spr2 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents lblO As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents spr1 As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
     Friend WithEvents icbtnGoogle As FontAwesome.Sharp.IconButton
     Friend WithEvents icbtnInstagram As FontAwesome.Sharp.IconButton

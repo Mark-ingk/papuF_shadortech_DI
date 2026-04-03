@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmInicio
+Partial Class frmRegistro
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,37 +22,19 @@ Partial Class frmInicio
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Label1 = New Label()
         SuspendLayout()
         ' 
-        ' Label1
+        ' frmRegistro
         ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 27.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(95, 175)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(128, 50)
-        Label1.TabIndex = 0
-        Label1.Text = "Label1"
-        ' 
-        ' frmInicio
-        ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        ClientSize = New Size(341, 633)
-        Controls.Add(Label1)
-        ForeColor = SystemColors.ButtonFace
+        ClientSize = New Size(390, 844)
         FormBorderStyle = FormBorderStyle.None
-        Margin = New Padding(3, 2, 3, 2)
-        MaximumSize = New Size(341, 633)
-        MinimumSize = New Size(341, 633)
-        Name = "frmInicio"
+        MaximumSize = New Size(390, 844)
+        MinimumSize = New Size(390, 844)
+        Name = "frmRegistro"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "frmInicio"
         ResumeLayout(False)
-        PerformLayout()
     End Sub
-
-    Friend WithEvents Label1 As Label
 End Class

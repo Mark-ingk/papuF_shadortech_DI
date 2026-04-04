@@ -22,18 +22,14 @@ Partial Class frmInicio
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Label1 = New Label()
+        components = New ComponentModel.Container()
+        Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         SuspendLayout()
         ' 
-        ' Label1
+        ' Guna2ShadowForm1
         ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 27.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(95, 175)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(128, 50)
-        Label1.TabIndex = 0
-        Label1.Text = "Label1"
+        Guna2ShadowForm1.BorderRadius = 25
+        Guna2ShadowForm1.ShadowColor = Color.Red
         ' 
         ' frmInicio
         ' 
@@ -41,7 +37,6 @@ Partial Class frmInicio
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         ClientSize = New Size(341, 633)
-        Controls.Add(Label1)
         ForeColor = SystemColors.ButtonFace
         FormBorderStyle = FormBorderStyle.None
         Margin = New Padding(3, 2, 3, 2)
@@ -51,8 +46,7 @@ Partial Class frmInicio
         StartPosition = FormStartPosition.CenterScreen
         Text = "frmInicio"
         ResumeLayout(False)
-        PerformLayout()
     End Sub
 
-    Friend WithEvents Label1 As Label
+    Friend WithEvents Guna2ShadowForm1 As Guna.UI2.WinForms.Guna2ShadowForm
 End Class

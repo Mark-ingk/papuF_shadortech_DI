@@ -50,6 +50,7 @@ Partial Class frmLogin
         ' 
         ' pnlLogin
         ' 
+        pnlLogin.Anchor = AnchorStyles.None
         pnlLogin.AutoSize = True
         pnlLogin.BorderRadius = 30
         pnlLogin.Controls.Add(LinkLabel1)
@@ -66,19 +67,22 @@ Partial Class frmLogin
         pnlLogin.Controls.Add(lblLog)
         pnlLogin.Controls.Add(iconPesa)
         pnlLogin.CustomizableEdges = CustomizableEdges7
-        pnlLogin.Dock = DockStyle.Fill
-        pnlLogin.Location = New Point(0, 0)
+        pnlLogin.Location = New Point(2, 0)
+        pnlLogin.MaximumSize = New Size(390, 844)
+        pnlLogin.MinimumSize = New Size(390, 844)
         pnlLogin.Name = "pnlLogin"
+        pnlLogin.Padding = New Padding(25, 20, 25, 20)
         pnlLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         pnlLogin.Size = New Size(390, 844)
         pnlLogin.TabIndex = 0
         ' 
         ' LinkLabel1
         ' 
+        LinkLabel1.Anchor = AnchorStyles.Bottom
         LinkLabel1.AutoSize = True
         LinkLabel1.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         LinkLabel1.LinkColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        LinkLabel1.Location = New Point(211, 785)
+        LinkLabel1.Location = New Point(210, 805)
         LinkLabel1.Name = "LinkLabel1"
         LinkLabel1.Size = New Size(63, 15)
         LinkLabel1.TabIndex = 14
@@ -87,10 +91,11 @@ Partial Class frmLogin
         ' 
         ' lblRegistro
         ' 
+        lblRegistro.Anchor = AnchorStyles.Bottom
         lblRegistro.BackColor = Color.Transparent
         lblRegistro.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblRegistro.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        lblRegistro.Location = New Point(53, 785)
+        lblRegistro.Location = New Point(92, 799)
         lblRegistro.Name = "lblRegistro"
         lblRegistro.Size = New Size(112, 21)
         lblRegistro.TabIndex = 13
@@ -104,7 +109,7 @@ Partial Class frmLogin
         icbtnInstagram.IconChar = FontAwesome.Sharp.IconChar.Instagram
         icbtnInstagram.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icbtnInstagram.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icbtnInstagram.Location = New Point(275, 641)
+        icbtnInstagram.Location = New Point(305, 610)
         icbtnInstagram.Name = "icbtnInstagram"
         icbtnInstagram.Size = New Size(57, 43)
         icbtnInstagram.TabIndex = 12
@@ -118,7 +123,7 @@ Partial Class frmLogin
         icbtnFacebook.IconChar = FontAwesome.Sharp.IconChar.FacebookF
         icbtnFacebook.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icbtnFacebook.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icbtnFacebook.Location = New Point(160, 641)
+        icbtnFacebook.Location = New Point(161, 610)
         icbtnFacebook.Name = "icbtnFacebook"
         icbtnFacebook.Size = New Size(57, 43)
         icbtnFacebook.TabIndex = 11
@@ -132,7 +137,7 @@ Partial Class frmLogin
         icbtnGoogle.IconChar = FontAwesome.Sharp.IconChar.Google
         icbtnGoogle.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icbtnGoogle.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icbtnGoogle.Location = New Point(40, 641)
+        icbtnGoogle.Location = New Point(28, 610)
         icbtnGoogle.Name = "icbtnGoogle"
         icbtnGoogle.Size = New Size(57, 43)
         icbtnGoogle.TabIndex = 10
@@ -141,30 +146,31 @@ Partial Class frmLogin
         ' lblO
         ' 
         lblO.BackColor = Color.Transparent
-        lblO.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblO.Font = New Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblO.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        lblO.Location = New Point(180, 550)
+        lblO.Location = New Point(181, 537)
         lblO.Name = "lblO"
-        lblO.Size = New Size(20, 32)
+        lblO.Size = New Size(23, 39)
         lblO.TabIndex = 9
         lblO.Text = "O"
         ' 
         ' spr1
         ' 
-        spr1.Location = New Point(12, 559)
+        spr1.Location = New Point(10, 548)
         spr1.Name = "spr1"
         spr1.Size = New Size(154, 18)
         spr1.TabIndex = 8
         ' 
         ' spr2
         ' 
-        spr2.Location = New Point(224, 559)
+        spr2.Location = New Point(222, 548)
         spr2.Name = "spr2"
         spr2.Size = New Size(154, 18)
         spr2.TabIndex = 7
         ' 
         ' btnINS
         ' 
+        btnINS.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         btnINS.Animated = True
         btnINS.BorderRadius = 25
         btnINS.CustomizableEdges = CustomizableEdges1
@@ -175,15 +181,16 @@ Partial Class frmLogin
         btnINS.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnINS.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnINS.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnINS.Location = New Point(40, 443)
+        btnINS.Location = New Point(45, 443)
         btnINS.Name = "btnINS"
         btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        btnINS.Size = New Size(310, 52)
+        btnINS.Size = New Size(310, 55)
         btnINS.TabIndex = 5
         btnINS.Text = "INICIAR"
         ' 
         ' txtContra
         ' 
+        txtContra.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         txtContra.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtContra.BorderRadius = 20
         txtContra.CustomizableEdges = CustomizableEdges3
@@ -197,18 +204,20 @@ Partial Class frmLogin
         txtContra.Font = New Font("Segoe UI", 9F)
         txtContra.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         txtContra.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtContra.Location = New Point(40, 364)
-        txtContra.Margin = New Padding(3, 4, 3, 4)
+        txtContra.Location = New Point(45, 361)
+        txtContra.Margin = New Padding(3, 0, 3, 25)
         txtContra.Name = "txtContra"
         txtContra.PlaceholderText = "Contraseña"
         txtContra.SelectedText = ""
         txtContra.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        txtContra.Size = New Size(310, 50)
+        txtContra.Size = New Size(310, 55)
         txtContra.TabIndex = 4
+        txtContra.TextOffset = New Point(10, 0)
         txtContra.UseSystemPasswordChar = True
         ' 
         ' txtEmail
         ' 
+        txtEmail.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         txtEmail.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtEmail.BorderRadius = 20
         txtEmail.CustomizableEdges = CustomizableEdges5
@@ -222,21 +231,24 @@ Partial Class frmLogin
         txtEmail.Font = New Font("Segoe UI", 9F)
         txtEmail.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         txtEmail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEmail.Location = New Point(40, 292)
-        txtEmail.Margin = New Padding(3, 4, 3, 4)
+        txtEmail.Location = New Point(45, 291)
+        txtEmail.Margin = New Padding(3, 40, 3, 15)
         txtEmail.Name = "txtEmail"
         txtEmail.PlaceholderText = "Email"
         txtEmail.SelectedText = ""
         txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        txtEmail.Size = New Size(310, 50)
+        txtEmail.Size = New Size(310, 55)
         txtEmail.TabIndex = 3
+        txtEmail.TextOffset = New Point(10, 0)
         ' 
         ' lblLog
         ' 
+        lblLog.Anchor = AnchorStyles.Top
         lblLog.BackColor = Color.Transparent
         lblLog.Font = New Font("Segoe UI", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblLog.ForeColor = Color.White
-        lblLog.Location = New Point(86, 187)
+        lblLog.Location = New Point(92, 221)
+        lblLog.Margin = New Padding(3, 15, 3, 3)
         lblLog.Name = "lblLog"
         lblLog.Size = New Size(216, 48)
         lblLog.TabIndex = 2
@@ -244,13 +256,15 @@ Partial Class frmLogin
         ' 
         ' iconPesa
         ' 
+        iconPesa.Anchor = AnchorStyles.Top
         iconPesa.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         iconPesa.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         iconPesa.IconChar = FontAwesome.Sharp.IconChar.Dumbbell
         iconPesa.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         iconPesa.IconFont = FontAwesome.Sharp.IconFont.Auto
         iconPesa.IconSize = 108
-        iconPesa.Location = New Point(140, 73)
+        iconPesa.Location = New Point(146, 95)
+        iconPesa.Margin = New Padding(3, 40, 3, 3)
         iconPesa.Name = "iconPesa"
         iconPesa.Size = New Size(108, 108)
         iconPesa.TabIndex = 0

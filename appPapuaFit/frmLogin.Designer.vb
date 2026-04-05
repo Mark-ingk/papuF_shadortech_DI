@@ -67,7 +67,8 @@ Partial Class frmLogin
         pnlLogin.Controls.Add(lblLog)
         pnlLogin.Controls.Add(iconPesa)
         pnlLogin.CustomizableEdges = CustomizableEdges7
-        pnlLogin.Location = New Point(2, 0)
+        pnlLogin.Location = New Point(2, 3)
+        pnlLogin.Margin = New Padding(0)
         pnlLogin.MaximumSize = New Size(390, 844)
         pnlLogin.MinimumSize = New Size(390, 844)
         pnlLogin.Name = "pnlLogin"
@@ -92,6 +93,7 @@ Partial Class frmLogin
         ' lblRegistro
         ' 
         lblRegistro.Anchor = AnchorStyles.Bottom
+        lblRegistro.AutoSize = False
         lblRegistro.BackColor = Color.Transparent
         lblRegistro.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblRegistro.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
@@ -191,6 +193,7 @@ Partial Class frmLogin
         ' txtContra
         ' 
         txtContra.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        txtContra.Animated = True
         txtContra.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtContra.BorderRadius = 20
         txtContra.CustomizableEdges = CustomizableEdges3
@@ -200,10 +203,10 @@ Partial Class frmLogin
         txtContra.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtContra.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtContra.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        txtContra.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtContra.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
         txtContra.Font = New Font("Segoe UI", 9F)
         txtContra.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        txtContra.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtContra.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
         txtContra.Location = New Point(45, 361)
         txtContra.Margin = New Padding(3, 0, 3, 25)
         txtContra.Name = "txtContra"
@@ -217,7 +220,7 @@ Partial Class frmLogin
         ' 
         ' txtEmail
         ' 
-        txtEmail.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        txtEmail.Animated = True
         txtEmail.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtEmail.BorderRadius = 20
         txtEmail.CustomizableEdges = CustomizableEdges5
@@ -227,10 +230,10 @@ Partial Class frmLogin
         txtEmail.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtEmail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtEmail.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        txtEmail.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEmail.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
         txtEmail.Font = New Font("Segoe UI", 9F)
         txtEmail.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        txtEmail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEmail.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
         txtEmail.Location = New Point(45, 291)
         txtEmail.Margin = New Padding(3, 40, 3, 15)
         txtEmail.Name = "txtEmail"
@@ -298,7 +301,6 @@ Partial Class frmLogin
     Friend WithEvents spr2 As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents lblO As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents spr1 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
     Friend WithEvents icbtnGoogle As FontAwesome.Sharp.IconButton
     Friend WithEvents icbtnInstagram As FontAwesome.Sharp.IconButton
     Friend WithEvents icbtnFacebook As FontAwesome.Sharp.IconButton

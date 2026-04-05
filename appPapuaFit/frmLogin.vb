@@ -34,4 +34,12 @@
     Private Sub lblO_Click(sender As Object, e As EventArgs) Handles lblO.Click
 
     End Sub
+
+    Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub iconPesa_Click(sender As Object, e As EventArgs) Handles iconPesa.Click
+
+    End Sub
 End Class

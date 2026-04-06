@@ -69,5 +69,45 @@ Namespace My.Resources
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Hombre_haciendo_ejercicios_de_bíceps_con_mancuernas() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Hombre haciendo ejercicios de bíceps con mancuernas", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property round_account_button_with_user_inside_icon_icons_com_72596() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("round-account-button-with-user-inside_icon-icons.com_72596", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property undraw_healthy_habit_2ata() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("undraw_healthy-habit_2ata", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property undraw_healthy_habit_2ata1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("undraw_healthy-habit_2ata1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
     End Module
 End Namespace

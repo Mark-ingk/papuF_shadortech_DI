@@ -36,319 +36,386 @@ Partial Class frmPerfil
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmPerfil))
-        PictureBox1 = New PictureBox()
-        Label1 = New Label()
-        Label2 = New Label()
-        Label3 = New Label()
-        Label4 = New Label()
-        Label5 = New Label()
-        Label6 = New Label()
-        Label7 = New Label()
-        Label8 = New Label()
-        txtEmail = New Guna.UI2.WinForms.Guna2TextBox()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        pbxFotoPerfil = New PictureBox()
+        lblPerfilUsuario = New Label()
+        lblNombre = New Label()
+        lblFechaNacimiento = New Label()
+        lblCorreoElectronico = New Label()
+        lblGenero = New Label()
+        lblHistorialEntrenamiento = New Label()
+        lblRutinaActualAsignada = New Label()
+        lblObjetivosPrincipales = New Label()
+        txtFechaNacimiento = New Guna.UI2.WinForms.Guna2TextBox()
+        txtGenero = New Guna.UI2.WinForms.Guna2TextBox()
+        txtCorreoElectronico = New Guna.UI2.WinForms.Guna2TextBox()
+        txtObjetivosPrincipales = New Guna.UI2.WinForms.Guna2TextBox()
+        txtRutinaActualAsignada = New Guna.UI2.WinForms.Guna2TextBox()
+        txtHistorialEntrenamiento = New Guna.UI2.WinForms.Guna2TextBox()
+        btnRegresar = New Button()
+        pnlInterfazPerfil = New Panel()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox5 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox6 = New Guna.UI2.WinForms.Guna2TextBox()
-        Button1 = New Button()
-        Button2 = New Button()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        btnEditarPerfil = New Guna.UI2.WinForms.Guna2Button()
+        btnAjustes = New Button()
+        CType(pbxFotoPerfil, ComponentModel.ISupportInitialize).BeginInit()
+        pnlInterfazPerfil.SuspendLayout()
         SuspendLayout()
         ' 
-        ' PictureBox1
+        ' pbxFotoPerfil
         ' 
-        PictureBox1.Image = My.Resources.Resources._08fb9799f32e6996ef8ff1f2c92666c9
-        PictureBox1.Location = New Point(98, 50)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(185, 173)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 0
-        PictureBox1.TabStop = False
+        pbxFotoPerfil.Image = My.Resources.Resources._08fb9799f32e6996ef8ff1f2c92666c9
+        pbxFotoPerfil.Location = New Point(112, 50)
+        pbxFotoPerfil.Name = "pbxFotoPerfil"
+        pbxFotoPerfil.Size = New Size(171, 150)
+        pbxFotoPerfil.SizeMode = PictureBoxSizeMode.StretchImage
+        pbxFotoPerfil.TabIndex = 0
+        pbxFotoPerfil.TabStop = False
         ' 
-        ' Label1
+        ' lblPerfilUsuario
         ' 
-        Label1.ForeColor = SystemColors.ButtonFace
-        Label1.Location = New Point(122, 9)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(142, 27)
-        Label1.TabIndex = 1
-        Label1.Text = "Perfil de Usuario"
+        lblPerfilUsuario.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblPerfilUsuario.ForeColor = SystemColors.ButtonFace
+        lblPerfilUsuario.Location = New Point(94, 5)
+        lblPerfilUsuario.Name = "lblPerfilUsuario"
+        lblPerfilUsuario.Size = New Size(206, 33)
+        lblPerfilUsuario.TabIndex = 1
+        lblPerfilUsuario.Text = "Perfil de Usuario"
         ' 
-        ' Label2
+        ' lblNombre
         ' 
-        Label2.ForeColor = SystemColors.ButtonHighlight
-        Label2.Location = New Point(12, 240)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(87, 36)
-        Label2.TabIndex = 2
-        Label2.Text = "Nombre "
+        lblNombre.BackColor = Color.Transparent
+        lblNombre.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblNombre.ForeColor = SystemColors.ButtonHighlight
+        lblNombre.Location = New Point(13, 258)
+        lblNombre.Name = "lblNombre"
+        lblNombre.Size = New Size(366, 31)
+        lblNombre.TabIndex = 2
+        lblNombre.Text = "Nombre "
         ' 
-        ' Label3
+        ' lblFechaNacimiento
         ' 
-        Label3.ForeColor = SystemColors.ButtonHighlight
-        Label3.Location = New Point(12, 325)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(181, 36)
-        Label3.TabIndex = 4
-        Label3.Text = "Fecha de Nacimiento"
+        lblFechaNacimiento.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblFechaNacimiento.ForeColor = SystemColors.ButtonHighlight
+        lblFechaNacimiento.Location = New Point(13, 342)
+        lblFechaNacimiento.Name = "lblFechaNacimiento"
+        lblFechaNacimiento.Size = New Size(366, 31)
+        lblFechaNacimiento.TabIndex = 4
+        lblFechaNacimiento.Text = "Fecha de Nacimiento"
         ' 
-        ' Label4
+        ' lblCorreoElectronico
         ' 
-        Label4.ForeColor = SystemColors.ButtonHighlight
-        Label4.Location = New Point(12, 497)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(181, 36)
-        Label4.TabIndex = 8
-        Label4.Text = "Correo Electronico"
+        lblCorreoElectronico.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblCorreoElectronico.ForeColor = SystemColors.ButtonHighlight
+        lblCorreoElectronico.Location = New Point(13, 510)
+        lblCorreoElectronico.Name = "lblCorreoElectronico"
+        lblCorreoElectronico.Size = New Size(366, 31)
+        lblCorreoElectronico.TabIndex = 8
+        lblCorreoElectronico.Text = "Correo Electronico"
         ' 
-        ' Label5
+        ' lblGenero
         ' 
-        Label5.ForeColor = SystemColors.ButtonHighlight
-        Label5.Location = New Point(12, 412)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(87, 36)
-        Label5.TabIndex = 6
-        Label5.Text = "Genero"
+        lblGenero.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblGenero.ForeColor = SystemColors.ButtonHighlight
+        lblGenero.Location = New Point(13, 426)
+        lblGenero.Name = "lblGenero"
+        lblGenero.Size = New Size(366, 31)
+        lblGenero.TabIndex = 6
+        lblGenero.Text = "Genero"
         ' 
-        ' Label6
+        ' lblHistorialEntrenamiento
         ' 
-        Label6.ForeColor = SystemColors.ButtonHighlight
-        Label6.Location = New Point(12, 750)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(224, 36)
-        Label6.TabIndex = 14
-        Label6.Text = "Historial de Entrenamiento"
+        lblHistorialEntrenamiento.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblHistorialEntrenamiento.ForeColor = SystemColors.ButtonHighlight
+        lblHistorialEntrenamiento.Location = New Point(13, 762)
+        lblHistorialEntrenamiento.Name = "lblHistorialEntrenamiento"
+        lblHistorialEntrenamiento.Size = New Size(366, 31)
+        lblHistorialEntrenamiento.TabIndex = 14
+        lblHistorialEntrenamiento.Text = "Historial de Entrenamiento"
         ' 
-        ' Label7
+        ' lblRutinaActualAsignada
         ' 
-        Label7.ForeColor = SystemColors.ButtonHighlight
-        Label7.Location = New Point(12, 665)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(195, 36)
-        Label7.TabIndex = 12
-        Label7.Text = "Rutina Actual Asignada"
+        lblRutinaActualAsignada.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblRutinaActualAsignada.ForeColor = SystemColors.ButtonHighlight
+        lblRutinaActualAsignada.Location = New Point(13, 678)
+        lblRutinaActualAsignada.Name = "lblRutinaActualAsignada"
+        lblRutinaActualAsignada.Size = New Size(366, 31)
+        lblRutinaActualAsignada.TabIndex = 12
+        lblRutinaActualAsignada.Text = "Rutina Actual Asignada"
         ' 
-        ' Label8
+        ' lblObjetivosPrincipales
         ' 
-        Label8.ForeColor = SystemColors.ButtonHighlight
-        Label8.Location = New Point(12, 578)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(181, 36)
-        Label8.TabIndex = 10
-        Label8.Text = "Objetivos Principales"
+        lblObjetivosPrincipales.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblObjetivosPrincipales.ForeColor = SystemColors.ButtonHighlight
+        lblObjetivosPrincipales.Location = New Point(13, 594)
+        lblObjetivosPrincipales.Name = "lblObjetivosPrincipales"
+        lblObjetivosPrincipales.Size = New Size(366, 31)
+        lblObjetivosPrincipales.TabIndex = 10
+        lblObjetivosPrincipales.Text = "Objetivos Principales"
         ' 
-        ' txtEmail
+        ' txtFechaNacimiento
         ' 
-        txtEmail.Animated = True
-        txtEmail.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        txtEmail.BorderRadius = 15
-        txtEmail.CustomizableEdges = CustomizableEdges1
-        txtEmail.DefaultText = ""
-        txtEmail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEmail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEmail.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEmail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEmail.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        txtEmail.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtEmail.Font = New Font("Segoe UI", 9F)
-        txtEmail.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        txtEmail.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtEmail.Location = New Point(12, 278)
-        txtEmail.Margin = New Padding(3, 40, 3, 15)
-        txtEmail.Name = "txtEmail"
-        txtEmail.PlaceholderText = "Jose Luis Perez Martinez"
-        txtEmail.SelectedText = ""
-        txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        txtEmail.Size = New Size(366, 31)
-        txtEmail.TabIndex = 17
-        txtEmail.TextOffset = New Point(10, 0)
+        txtFechaNacimiento.Animated = True
+        txtFechaNacimiento.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtFechaNacimiento.BorderRadius = 15
+        txtFechaNacimiento.CustomizableEdges = CustomizableEdges1
+        txtFechaNacimiento.DefaultText = ""
+        txtFechaNacimiento.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtFechaNacimiento.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtFechaNacimiento.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtFechaNacimiento.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtFechaNacimiento.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtFechaNacimiento.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtFechaNacimiento.Font = New Font("Segoe UI", 9F)
+        txtFechaNacimiento.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtFechaNacimiento.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtFechaNacimiento.Location = New Point(13, 384)
+        txtFechaNacimiento.Margin = New Padding(3, 40, 3, 15)
+        txtFechaNacimiento.Name = "txtFechaNacimiento"
+        txtFechaNacimiento.PlaceholderText = "10 de Abril de 1995"
+        txtFechaNacimiento.ReadOnly = True
+        txtFechaNacimiento.SelectedText = ""
+        txtFechaNacimiento.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtFechaNacimiento.Size = New Size(366, 31)
+        txtFechaNacimiento.TabIndex = 18
+        txtFechaNacimiento.TextOffset = New Point(10, 0)
+        ' 
+        ' txtGenero
+        ' 
+        txtGenero.Animated = True
+        txtGenero.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtGenero.BorderRadius = 15
+        txtGenero.CustomizableEdges = CustomizableEdges3
+        txtGenero.DefaultText = ""
+        txtGenero.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtGenero.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtGenero.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtGenero.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtGenero.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtGenero.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtGenero.Font = New Font("Segoe UI", 9F)
+        txtGenero.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtGenero.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtGenero.Location = New Point(13, 468)
+        txtGenero.Margin = New Padding(3, 40, 3, 15)
+        txtGenero.Name = "txtGenero"
+        txtGenero.PlaceholderText = "Masculino"
+        txtGenero.ReadOnly = True
+        txtGenero.SelectedText = ""
+        txtGenero.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtGenero.Size = New Size(366, 31)
+        txtGenero.TabIndex = 19
+        txtGenero.TextOffset = New Point(10, 0)
+        ' 
+        ' txtCorreoElectronico
+        ' 
+        txtCorreoElectronico.Animated = True
+        txtCorreoElectronico.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtCorreoElectronico.BorderRadius = 15
+        txtCorreoElectronico.CustomizableEdges = CustomizableEdges5
+        txtCorreoElectronico.DefaultText = ""
+        txtCorreoElectronico.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtCorreoElectronico.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtCorreoElectronico.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCorreoElectronico.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCorreoElectronico.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtCorreoElectronico.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtCorreoElectronico.Font = New Font("Segoe UI", 9F)
+        txtCorreoElectronico.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtCorreoElectronico.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtCorreoElectronico.Location = New Point(13, 552)
+        txtCorreoElectronico.Margin = New Padding(3, 40, 3, 15)
+        txtCorreoElectronico.Name = "txtCorreoElectronico"
+        txtCorreoElectronico.PlaceholderText = "Elmaspapulince219@gmail.com"
+        txtCorreoElectronico.ReadOnly = True
+        txtCorreoElectronico.SelectedText = ""
+        txtCorreoElectronico.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtCorreoElectronico.Size = New Size(366, 31)
+        txtCorreoElectronico.TabIndex = 20
+        txtCorreoElectronico.TextOffset = New Point(10, 0)
+        ' 
+        ' txtObjetivosPrincipales
+        ' 
+        txtObjetivosPrincipales.Animated = True
+        txtObjetivosPrincipales.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtObjetivosPrincipales.BorderRadius = 15
+        txtObjetivosPrincipales.CustomizableEdges = CustomizableEdges7
+        txtObjetivosPrincipales.DefaultText = ""
+        txtObjetivosPrincipales.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtObjetivosPrincipales.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtObjetivosPrincipales.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtObjetivosPrincipales.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtObjetivosPrincipales.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtObjetivosPrincipales.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtObjetivosPrincipales.Font = New Font("Segoe UI", 9F)
+        txtObjetivosPrincipales.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtObjetivosPrincipales.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtObjetivosPrincipales.Location = New Point(13, 636)
+        txtObjetivosPrincipales.Margin = New Padding(3, 40, 3, 15)
+        txtObjetivosPrincipales.Name = "txtObjetivosPrincipales"
+        txtObjetivosPrincipales.PlaceholderText = "Bajar de peso, Subir masa muscular, etc."
+        txtObjetivosPrincipales.ReadOnly = True
+        txtObjetivosPrincipales.SelectedText = ""
+        txtObjetivosPrincipales.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtObjetivosPrincipales.Size = New Size(366, 31)
+        txtObjetivosPrincipales.TabIndex = 21
+        txtObjetivosPrincipales.TextOffset = New Point(10, 0)
+        ' 
+        ' txtRutinaActualAsignada
+        ' 
+        txtRutinaActualAsignada.Animated = True
+        txtRutinaActualAsignada.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtRutinaActualAsignada.BorderRadius = 15
+        txtRutinaActualAsignada.CustomizableEdges = CustomizableEdges9
+        txtRutinaActualAsignada.DefaultText = ""
+        txtRutinaActualAsignada.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtRutinaActualAsignada.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtRutinaActualAsignada.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtRutinaActualAsignada.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtRutinaActualAsignada.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtRutinaActualAsignada.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtRutinaActualAsignada.Font = New Font("Segoe UI", 9F)
+        txtRutinaActualAsignada.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtRutinaActualAsignada.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtRutinaActualAsignada.Location = New Point(13, 720)
+        txtRutinaActualAsignada.Margin = New Padding(3, 40, 3, 15)
+        txtRutinaActualAsignada.Name = "txtRutinaActualAsignada"
+        txtRutinaActualAsignada.PlaceholderText = "Sentadilla bulgara con 5 repeticiones"
+        txtRutinaActualAsignada.ReadOnly = True
+        txtRutinaActualAsignada.SelectedText = ""
+        txtRutinaActualAsignada.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        txtRutinaActualAsignada.Size = New Size(366, 31)
+        txtRutinaActualAsignada.TabIndex = 22
+        txtRutinaActualAsignada.TextOffset = New Point(10, 0)
+        ' 
+        ' txtHistorialEntrenamiento
+        ' 
+        txtHistorialEntrenamiento.Animated = True
+        txtHistorialEntrenamiento.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtHistorialEntrenamiento.BorderRadius = 15
+        txtHistorialEntrenamiento.CustomizableEdges = CustomizableEdges11
+        txtHistorialEntrenamiento.DefaultText = ""
+        txtHistorialEntrenamiento.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtHistorialEntrenamiento.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtHistorialEntrenamiento.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtHistorialEntrenamiento.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtHistorialEntrenamiento.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtHistorialEntrenamiento.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtHistorialEntrenamiento.Font = New Font("Segoe UI", 9F)
+        txtHistorialEntrenamiento.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtHistorialEntrenamiento.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtHistorialEntrenamiento.Location = New Point(13, 804)
+        txtHistorialEntrenamiento.Margin = New Padding(3, 40, 3, 15)
+        txtHistorialEntrenamiento.Name = "txtHistorialEntrenamiento"
+        txtHistorialEntrenamiento.PlaceholderText = "3 sesiones tomadas en el ultimo mes"
+        txtHistorialEntrenamiento.ReadOnly = True
+        txtHistorialEntrenamiento.SelectedText = ""
+        txtHistorialEntrenamiento.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        txtHistorialEntrenamiento.Size = New Size(366, 31)
+        txtHistorialEntrenamiento.TabIndex = 23
+        txtHistorialEntrenamiento.TextOffset = New Point(10, 0)
+        ' 
+        ' btnRegresar
+        ' 
+        btnRegresar.BackColor = Color.Transparent
+        btnRegresar.BackgroundImage = My.Resources.Resources.ic_arrow_back_128_282261
+        btnRegresar.BackgroundImageLayout = ImageLayout.Center
+        btnRegresar.FlatStyle = FlatStyle.Flat
+        btnRegresar.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        btnRegresar.ImageAlign = ContentAlignment.BottomCenter
+        btnRegresar.Location = New Point(0, 0)
+        btnRegresar.Name = "btnRegresar"
+        btnRegresar.Size = New Size(65, 66)
+        btnRegresar.TabIndex = 24
+        btnRegresar.UseVisualStyleBackColor = False
+        ' 
+        ' pnlInterfazPerfil
+        ' 
+        pnlInterfazPerfil.Controls.Add(Guna2TextBox1)
+        pnlInterfazPerfil.Controls.Add(txtHistorialEntrenamiento)
+        pnlInterfazPerfil.Controls.Add(btnRegresar)
+        pnlInterfazPerfil.Controls.Add(txtRutinaActualAsignada)
+        pnlInterfazPerfil.Controls.Add(btnEditarPerfil)
+        pnlInterfazPerfil.Controls.Add(txtObjetivosPrincipales)
+        pnlInterfazPerfil.Controls.Add(txtCorreoElectronico)
+        pnlInterfazPerfil.Controls.Add(btnAjustes)
+        pnlInterfazPerfil.Controls.Add(txtGenero)
+        pnlInterfazPerfil.Controls.Add(pbxFotoPerfil)
+        pnlInterfazPerfil.Controls.Add(txtFechaNacimiento)
+        pnlInterfazPerfil.Controls.Add(lblPerfilUsuario)
+        pnlInterfazPerfil.Controls.Add(lblNombre)
+        pnlInterfazPerfil.Controls.Add(lblHistorialEntrenamiento)
+        pnlInterfazPerfil.Controls.Add(lblFechaNacimiento)
+        pnlInterfazPerfil.Controls.Add(lblRutinaActualAsignada)
+        pnlInterfazPerfil.Controls.Add(lblGenero)
+        pnlInterfazPerfil.Controls.Add(lblObjetivosPrincipales)
+        pnlInterfazPerfil.Controls.Add(lblCorreoElectronico)
+        pnlInterfazPerfil.Location = New Point(-1, -3)
+        pnlInterfazPerfil.Name = "pnlInterfazPerfil"
+        pnlInterfazPerfil.Size = New Size(390, 844)
+        pnlInterfazPerfil.TabIndex = 26
         ' 
         ' Guna2TextBox1
         ' 
         Guna2TextBox1.Animated = True
         Guna2TextBox1.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         Guna2TextBox1.BorderRadius = 15
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges3
+        Guna2TextBox1.CustomizableEdges = CustomizableEdges13
         Guna2TextBox1.DefaultText = ""
         Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox1.Enabled = False
         Guna2TextBox1.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
         Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
         Guna2TextBox1.Font = New Font("Segoe UI", 9F)
         Guna2TextBox1.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox1.Location = New Point(12, 366)
+        Guna2TextBox1.Location = New Point(13, 298)
         Guna2TextBox1.Margin = New Padding(3, 40, 3, 15)
         Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PlaceholderText = "10 de Abril de 1995"
+        Guna2TextBox1.PlaceholderText = "Jose Luis Perez Martinez"
+        Guna2TextBox1.ReadOnly = True
         Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         Guna2TextBox1.Size = New Size(366, 31)
-        Guna2TextBox1.TabIndex = 18
+        Guna2TextBox1.TabIndex = 29
         Guna2TextBox1.TextOffset = New Point(10, 0)
         ' 
-        ' Guna2TextBox2
+        ' btnEditarPerfil
         ' 
-        Guna2TextBox2.Animated = True
-        Guna2TextBox2.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        Guna2TextBox2.BorderRadius = 15
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges5
-        Guna2TextBox2.DefaultText = ""
-        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox2.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox2.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox2.Location = New Point(12, 451)
-        Guna2TextBox2.Margin = New Padding(3, 40, 3, 15)
-        Guna2TextBox2.Name = "Guna2TextBox2"
-        Guna2TextBox2.PlaceholderText = "Masculino"
-        Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2TextBox2.Size = New Size(366, 31)
-        Guna2TextBox2.TabIndex = 19
-        Guna2TextBox2.TextOffset = New Point(10, 0)
+        btnEditarPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        btnEditarPerfil.Animated = True
+        btnEditarPerfil.BorderRadius = 15
+        btnEditarPerfil.CustomizableEdges = CustomizableEdges15
+        btnEditarPerfil.DisabledState.BorderColor = Color.DarkGray
+        btnEditarPerfil.DisabledState.CustomBorderColor = Color.DarkGray
+        btnEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnEditarPerfil.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnEditarPerfil.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnEditarPerfil.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnEditarPerfil.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
+        btnEditarPerfil.Location = New Point(99, 212)
+        btnEditarPerfil.Name = "btnEditarPerfil"
+        btnEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        btnEditarPerfil.Size = New Size(196, 41)
+        btnEditarPerfil.TabIndex = 28
+        btnEditarPerfil.Text = "Editar Perfil"
         ' 
-        ' Guna2TextBox3
+        ' btnAjustes
         ' 
-        Guna2TextBox3.Animated = True
-        Guna2TextBox3.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        Guna2TextBox3.BorderRadius = 15
-        Guna2TextBox3.CustomizableEdges = CustomizableEdges7
-        Guna2TextBox3.DefaultText = ""
-        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox3.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox3.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox3.Location = New Point(12, 532)
-        Guna2TextBox3.Margin = New Padding(3, 40, 3, 15)
-        Guna2TextBox3.Name = "Guna2TextBox3"
-        Guna2TextBox3.PlaceholderText = "Elmaspapulince219@gmail.com"
-        Guna2TextBox3.SelectedText = ""
-        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox3.Size = New Size(366, 31)
-        Guna2TextBox3.TabIndex = 20
-        Guna2TextBox3.TextOffset = New Point(10, 0)
-        ' 
-        ' Guna2TextBox4
-        ' 
-        Guna2TextBox4.Animated = True
-        Guna2TextBox4.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        Guna2TextBox4.BorderRadius = 15
-        Guna2TextBox4.CustomizableEdges = CustomizableEdges9
-        Guna2TextBox4.DefaultText = ""
-        Guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox4.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox4.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox4.Location = New Point(12, 618)
-        Guna2TextBox4.Margin = New Padding(3, 40, 3, 15)
-        Guna2TextBox4.Name = "Guna2TextBox4"
-        Guna2TextBox4.PlaceholderText = "Bajar de peso, Subir masa muscular, etc."
-        Guna2TextBox4.SelectedText = ""
-        Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2TextBox4.Size = New Size(366, 31)
-        Guna2TextBox4.TabIndex = 21
-        Guna2TextBox4.TextOffset = New Point(10, 0)
-        ' 
-        ' Guna2TextBox5
-        ' 
-        Guna2TextBox5.Animated = True
-        Guna2TextBox5.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        Guna2TextBox5.BorderRadius = 15
-        Guna2TextBox5.CustomizableEdges = CustomizableEdges11
-        Guna2TextBox5.DefaultText = ""
-        Guna2TextBox5.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox5.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox5.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox5.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        Guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox5.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox5.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox5.Location = New Point(12, 704)
-        Guna2TextBox5.Margin = New Padding(3, 40, 3, 15)
-        Guna2TextBox5.Name = "Guna2TextBox5"
-        Guna2TextBox5.PlaceholderText = "Sentadilla bulgara con 5 repeticiones"
-        Guna2TextBox5.SelectedText = ""
-        Guna2TextBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2TextBox5.Size = New Size(366, 31)
-        Guna2TextBox5.TabIndex = 22
-        Guna2TextBox5.TextOffset = New Point(10, 0)
-        ' 
-        ' Guna2TextBox6
-        ' 
-        Guna2TextBox6.Animated = True
-        Guna2TextBox6.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        Guna2TextBox6.BorderRadius = 15
-        Guna2TextBox6.CustomizableEdges = CustomizableEdges13
-        Guna2TextBox6.DefaultText = ""
-        Guna2TextBox6.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox6.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox6.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox6.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox6.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        Guna2TextBox6.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox6.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox6.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        Guna2TextBox6.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox6.Location = New Point(12, 789)
-        Guna2TextBox6.Margin = New Padding(3, 40, 3, 15)
-        Guna2TextBox6.Name = "Guna2TextBox6"
-        Guna2TextBox6.PlaceholderText = "3 sesiones tomadas en el ultimo mes"
-        Guna2TextBox6.SelectedText = ""
-        Guna2TextBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Guna2TextBox6.Size = New Size(366, 31)
-        Guna2TextBox6.TabIndex = 23
-        Guna2TextBox6.TextOffset = New Point(10, 0)
-        ' 
-        ' Button1
-        ' 
-        Button1.BackColor = Color.Transparent
-        Button1.BackgroundImage = My.Resources.Resources.ic_arrow_back_128_282261
-        Button1.BackgroundImageLayout = ImageLayout.Center
-        Button1.FlatStyle = FlatStyle.Flat
-        Button1.ForeColor = Color.Black
-        Button1.ImageAlign = ContentAlignment.BottomCenter
-        Button1.Location = New Point(-3, -3)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(68, 66)
-        Button1.TabIndex = 24
-        Button1.UseVisualStyleBackColor = False
-        ' 
-        ' Button2
-        ' 
-        Button2.BackColor = Color.Transparent
-        Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), Image)
-        Button2.BackgroundImageLayout = ImageLayout.Center
-        Button2.FlatStyle = FlatStyle.Flat
-        Button2.ForeColor = Color.Black
-        Button2.ImageAlign = ContentAlignment.BottomCenter
-        Button2.Location = New Point(323, -3)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(68, 66)
-        Button2.TabIndex = 25
-        Button2.UseVisualStyleBackColor = False
+        btnAjustes.BackColor = Color.Transparent
+        btnAjustes.BackgroundImage = My.Resources.Resources.engine_gear_internet_option_security_setting_web_icon_127066
+        btnAjustes.BackgroundImageLayout = ImageLayout.Center
+        btnAjustes.FlatStyle = FlatStyle.Flat
+        btnAjustes.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        btnAjustes.ImageAlign = ContentAlignment.BottomCenter
+        btnAjustes.Location = New Point(325, 0)
+        btnAjustes.Name = "btnAjustes"
+        btnAjustes.Size = New Size(65, 63)
+        btnAjustes.TabIndex = 27
+        btnAjustes.UseVisualStyleBackColor = False
         ' 
         ' frmPerfil
         ' 
@@ -356,24 +423,7 @@ Partial Class frmPerfil
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         ClientSize = New Size(390, 844)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
-        Controls.Add(Guna2TextBox6)
-        Controls.Add(Guna2TextBox5)
-        Controls.Add(Guna2TextBox4)
-        Controls.Add(Guna2TextBox3)
-        Controls.Add(Guna2TextBox2)
-        Controls.Add(Guna2TextBox1)
-        Controls.Add(txtEmail)
-        Controls.Add(Label6)
-        Controls.Add(Label7)
-        Controls.Add(Label8)
-        Controls.Add(Label4)
-        Controls.Add(Label5)
-        Controls.Add(Label3)
-        Controls.Add(Label2)
-        Controls.Add(Label1)
-        Controls.Add(PictureBox1)
+        Controls.Add(pnlInterfazPerfil)
         FormBorderStyle = FormBorderStyle.None
         Margin = New Padding(4, 3, 4, 3)
         MaximumSize = New Size(390, 844)
@@ -381,26 +431,29 @@ Partial Class frmPerfil
         Name = "frmPerfil"
         StartPosition = FormStartPosition.CenterScreen
         Text = "frmPerfil"
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(pbxFotoPerfil, ComponentModel.ISupportInitialize).EndInit()
+        pnlInterfazPerfil.ResumeLayout(False)
         ResumeLayout(False)
     End Sub
 
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents txtEmail As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents pbxFotoPerfil As PictureBox
+    Friend WithEvents lblPerfilUsuario As Label
+    Friend WithEvents lblNombre As Label
+    Friend WithEvents lblFechaNacimiento As Label
+    Friend WithEvents lblCorreoElectronico As Label
+    Friend WithEvents lblGenero As Label
+    Friend WithEvents lblHistorialEntrenamiento As Label
+    Friend WithEvents lblRutinaActualAsignada As Label
+    Friend WithEvents lblObjetivosPrincipales As Label
+    Friend WithEvents txtFechaNacimiento As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtGenero As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtCorreoElectronico As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtObjetivosPrincipales As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtRutinaActualAsignada As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtHistorialEntrenamiento As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents btnRegresar As Button
+    Friend WithEvents pnlInterfazPerfil As Panel
+    Friend WithEvents btnAjustes As Button
+    Friend WithEvents btnEditarPerfil As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox3 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox4 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox5 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox6 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
 End Class

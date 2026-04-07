@@ -61,9 +61,10 @@ Partial Class frmPerfil
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources._08fb9799f32e6996ef8ff1f2c92666c9
-        PictureBox1.Location = New Point(98, 50)
+        PictureBox1.Location = New Point(69, 30)
+        PictureBox1.Margin = New Padding(2, 2, 2, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(185, 173)
+        PictureBox1.Size = New Size(130, 104)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
@@ -71,72 +72,80 @@ Partial Class frmPerfil
         ' Label1
         ' 
         Label1.ForeColor = SystemColors.ButtonFace
-        Label1.Location = New Point(122, 9)
+        Label1.Location = New Point(85, 5)
+        Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(142, 27)
+        Label1.Size = New Size(99, 16)
         Label1.TabIndex = 1
         Label1.Text = "Perfil de Usuario"
         ' 
         ' Label2
         ' 
         Label2.ForeColor = SystemColors.ButtonHighlight
-        Label2.Location = New Point(12, 240)
+        Label2.Location = New Point(8, 144)
+        Label2.Margin = New Padding(2, 0, 2, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(87, 36)
+        Label2.Size = New Size(61, 22)
         Label2.TabIndex = 2
         Label2.Text = "Nombre "
         ' 
         ' Label3
         ' 
         Label3.ForeColor = SystemColors.ButtonHighlight
-        Label3.Location = New Point(12, 325)
+        Label3.Location = New Point(8, 195)
+        Label3.Margin = New Padding(2, 0, 2, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(181, 36)
+        Label3.Size = New Size(127, 22)
         Label3.TabIndex = 4
         Label3.Text = "Fecha de Nacimiento"
         ' 
         ' Label4
         ' 
         Label4.ForeColor = SystemColors.ButtonHighlight
-        Label4.Location = New Point(12, 497)
+        Label4.Location = New Point(8, 298)
+        Label4.Margin = New Padding(2, 0, 2, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(181, 36)
+        Label4.Size = New Size(127, 22)
         Label4.TabIndex = 8
         Label4.Text = "Correo Electronico"
         ' 
         ' Label5
         ' 
         Label5.ForeColor = SystemColors.ButtonHighlight
-        Label5.Location = New Point(12, 412)
+        Label5.Location = New Point(8, 247)
+        Label5.Margin = New Padding(2, 0, 2, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(87, 36)
+        Label5.Size = New Size(61, 22)
         Label5.TabIndex = 6
         Label5.Text = "Genero"
         ' 
         ' Label6
         ' 
         Label6.ForeColor = SystemColors.ButtonHighlight
-        Label6.Location = New Point(12, 750)
+        Label6.Location = New Point(8, 450)
+        Label6.Margin = New Padding(2, 0, 2, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(224, 36)
+        Label6.Size = New Size(157, 22)
         Label6.TabIndex = 14
         Label6.Text = "Historial de Entrenamiento"
         ' 
         ' Label7
         ' 
         Label7.ForeColor = SystemColors.ButtonHighlight
-        Label7.Location = New Point(12, 665)
+        Label7.Location = New Point(8, 399)
+        Label7.Margin = New Padding(2, 0, 2, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(195, 36)
+        Label7.Size = New Size(136, 22)
         Label7.TabIndex = 12
         Label7.Text = "Rutina Actual Asignada"
         ' 
         ' Label8
         ' 
         Label8.ForeColor = SystemColors.ButtonHighlight
-        Label8.Location = New Point(12, 578)
+        Label8.Location = New Point(8, 347)
+        Label8.Margin = New Padding(2, 0, 2, 0)
         Label8.Name = "Label8"
-        Label8.Size = New Size(181, 36)
+        Label8.Size = New Size(127, 22)
         Label8.TabIndex = 10
         Label8.Text = "Objetivos Principales"
         ' 
@@ -156,13 +165,13 @@ Partial Class frmPerfil
         txtEmail.Font = New Font("Segoe UI", 9F)
         txtEmail.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         txtEmail.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtEmail.Location = New Point(12, 278)
-        txtEmail.Margin = New Padding(3, 40, 3, 15)
+        txtEmail.Location = New Point(8, 167)
+        txtEmail.Margin = New Padding(2, 24, 2, 9)
         txtEmail.Name = "txtEmail"
         txtEmail.PlaceholderText = "Jose Luis Perez Martinez"
         txtEmail.SelectedText = ""
         txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        txtEmail.Size = New Size(366, 31)
+        txtEmail.Size = New Size(256, 19)
         txtEmail.TabIndex = 17
         txtEmail.TextOffset = New Point(10, 0)
         ' 
@@ -182,13 +191,13 @@ Partial Class frmPerfil
         Guna2TextBox1.Font = New Font("Segoe UI", 9F)
         Guna2TextBox1.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox1.Location = New Point(12, 366)
-        Guna2TextBox1.Margin = New Padding(3, 40, 3, 15)
+        Guna2TextBox1.Location = New Point(8, 220)
+        Guna2TextBox1.Margin = New Padding(2, 24, 2, 9)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PlaceholderText = "10 de Abril de 1995"
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2TextBox1.Size = New Size(366, 31)
+        Guna2TextBox1.Size = New Size(256, 19)
         Guna2TextBox1.TabIndex = 18
         Guna2TextBox1.TextOffset = New Point(10, 0)
         ' 
@@ -208,13 +217,13 @@ Partial Class frmPerfil
         Guna2TextBox2.Font = New Font("Segoe UI", 9F)
         Guna2TextBox2.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox2.Location = New Point(12, 451)
-        Guna2TextBox2.Margin = New Padding(3, 40, 3, 15)
+        Guna2TextBox2.Location = New Point(8, 271)
+        Guna2TextBox2.Margin = New Padding(2, 24, 2, 9)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PlaceholderText = "Masculino"
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2TextBox2.Size = New Size(366, 31)
+        Guna2TextBox2.Size = New Size(256, 19)
         Guna2TextBox2.TabIndex = 19
         Guna2TextBox2.TextOffset = New Point(10, 0)
         ' 
@@ -234,13 +243,13 @@ Partial Class frmPerfil
         Guna2TextBox3.Font = New Font("Segoe UI", 9F)
         Guna2TextBox3.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox3.Location = New Point(12, 532)
-        Guna2TextBox3.Margin = New Padding(3, 40, 3, 15)
+        Guna2TextBox3.Location = New Point(8, 319)
+        Guna2TextBox3.Margin = New Padding(2, 24, 2, 9)
         Guna2TextBox3.Name = "Guna2TextBox3"
         Guna2TextBox3.PlaceholderText = "Elmaspapulince219@gmail.com"
         Guna2TextBox3.SelectedText = ""
         Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox3.Size = New Size(366, 31)
+        Guna2TextBox3.Size = New Size(256, 19)
         Guna2TextBox3.TabIndex = 20
         Guna2TextBox3.TextOffset = New Point(10, 0)
         ' 
@@ -260,13 +269,13 @@ Partial Class frmPerfil
         Guna2TextBox4.Font = New Font("Segoe UI", 9F)
         Guna2TextBox4.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox4.Location = New Point(12, 618)
-        Guna2TextBox4.Margin = New Padding(3, 40, 3, 15)
+        Guna2TextBox4.Location = New Point(8, 371)
+        Guna2TextBox4.Margin = New Padding(2, 24, 2, 9)
         Guna2TextBox4.Name = "Guna2TextBox4"
         Guna2TextBox4.PlaceholderText = "Bajar de peso, Subir masa muscular, etc."
         Guna2TextBox4.SelectedText = ""
         Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2TextBox4.Size = New Size(366, 31)
+        Guna2TextBox4.Size = New Size(256, 19)
         Guna2TextBox4.TabIndex = 21
         Guna2TextBox4.TextOffset = New Point(10, 0)
         ' 
@@ -286,13 +295,13 @@ Partial Class frmPerfil
         Guna2TextBox5.Font = New Font("Segoe UI", 9F)
         Guna2TextBox5.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox5.Location = New Point(12, 704)
-        Guna2TextBox5.Margin = New Padding(3, 40, 3, 15)
+        Guna2TextBox5.Location = New Point(8, 422)
+        Guna2TextBox5.Margin = New Padding(2, 24, 2, 9)
         Guna2TextBox5.Name = "Guna2TextBox5"
         Guna2TextBox5.PlaceholderText = "Sentadilla bulgara con 5 repeticiones"
         Guna2TextBox5.SelectedText = ""
         Guna2TextBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2TextBox5.Size = New Size(366, 31)
+        Guna2TextBox5.Size = New Size(256, 19)
         Guna2TextBox5.TabIndex = 22
         Guna2TextBox5.TextOffset = New Point(10, 0)
         ' 
@@ -312,13 +321,13 @@ Partial Class frmPerfil
         Guna2TextBox6.Font = New Font("Segoe UI", 9F)
         Guna2TextBox6.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         Guna2TextBox6.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox6.Location = New Point(12, 789)
-        Guna2TextBox6.Margin = New Padding(3, 40, 3, 15)
+        Guna2TextBox6.Location = New Point(8, 473)
+        Guna2TextBox6.Margin = New Padding(2, 24, 2, 9)
         Guna2TextBox6.Name = "Guna2TextBox6"
         Guna2TextBox6.PlaceholderText = "3 sesiones tomadas en el ultimo mes"
         Guna2TextBox6.SelectedText = ""
         Guna2TextBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Guna2TextBox6.Size = New Size(366, 31)
+        Guna2TextBox6.Size = New Size(256, 19)
         Guna2TextBox6.TabIndex = 23
         Guna2TextBox6.TextOffset = New Point(10, 0)
         ' 
@@ -330,9 +339,10 @@ Partial Class frmPerfil
         Button1.FlatStyle = FlatStyle.Flat
         Button1.ForeColor = Color.Black
         Button1.ImageAlign = ContentAlignment.BottomCenter
-        Button1.Location = New Point(-3, -3)
+        Button1.Location = New Point(11, 11)
+        Button1.Margin = New Padding(2, 2, 2, 2)
         Button1.Name = "Button1"
-        Button1.Size = New Size(68, 66)
+        Button1.Size = New Size(48, 40)
         Button1.TabIndex = 24
         Button1.UseVisualStyleBackColor = False
         ' 
@@ -344,18 +354,19 @@ Partial Class frmPerfil
         Button2.FlatStyle = FlatStyle.Flat
         Button2.ForeColor = Color.Black
         Button2.ImageAlign = ContentAlignment.BottomCenter
-        Button2.Location = New Point(323, -3)
+        Button2.Location = New Point(226, -2)
+        Button2.Margin = New Padding(2, 2, 2, 2)
         Button2.Name = "Button2"
-        Button2.Size = New Size(68, 66)
+        Button2.Size = New Size(48, 40)
         Button2.TabIndex = 25
         Button2.UseVisualStyleBackColor = False
         ' 
         ' frmPerfil
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        ClientSize = New Size(390, 844)
+        ClientSize = New Size(273, 506)
         Controls.Add(Button2)
         Controls.Add(Button1)
         Controls.Add(Guna2TextBox6)
@@ -375,9 +386,9 @@ Partial Class frmPerfil
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
         FormBorderStyle = FormBorderStyle.None
-        Margin = New Padding(4, 3, 4, 3)
-        MaximumSize = New Size(390, 844)
-        MinimumSize = New Size(390, 844)
+        Margin = New Padding(3, 2, 3, 2)
+        MaximumSize = New Size(273, 506)
+        MinimumSize = New Size(273, 506)
         Name = "frmPerfil"
         StartPosition = FormStartPosition.CenterScreen
         Text = "frmPerfil"

@@ -37,10 +37,10 @@ Partial Class frmAcceso
         btnGen = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Guna2HtmlLabel6 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Guna2HtmlLabel6 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2Panel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -64,7 +64,7 @@ Partial Class frmAcceso
         Guna2Panel1.MaximumSize = New Size(390, 0)
         Guna2Panel1.MinimumSize = New Size(390, 0)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.Padding = New Padding(25, 20, 25, 20)
+        Guna2Panel1.Padding = New Padding(25, 25, 25, 30)
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2Panel1.Size = New Size(390, 383)
         Guna2Panel1.TabIndex = 0
@@ -74,7 +74,7 @@ Partial Class frmAcceso
         Guna2HtmlLabel5.BackColor = Color.Transparent
         Guna2HtmlLabel5.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel5.ForeColor = SystemColors.AppWorkspace
-        Guna2HtmlLabel5.Location = New Point(12, 195)
+        Guna2HtmlLabel5.Location = New Point(12, 200)
         Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
         Guna2HtmlLabel5.Size = New Size(146, 19)
         Guna2HtmlLabel5.TabIndex = 9
@@ -85,7 +85,7 @@ Partial Class frmAcceso
         Guna2HtmlLabel4.BackColor = Color.Transparent
         Guna2HtmlLabel4.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel4.ForeColor = SystemColors.AppWorkspace
-        Guna2HtmlLabel4.Location = New Point(12, 170)
+        Guna2HtmlLabel4.Location = New Point(12, 175)
         Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
         Guna2HtmlLabel4.Size = New Size(235, 19)
         Guna2HtmlLabel4.TabIndex = 8
@@ -94,7 +94,7 @@ Partial Class frmAcceso
         ' Guna2HtmlLabel3
         ' 
         Guna2HtmlLabel3.BackColor = Color.Transparent
-        Guna2HtmlLabel3.Location = New Point(38, 170)
+        Guna2HtmlLabel3.Location = New Point(38, 175)
         Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
         Guna2HtmlLabel3.Size = New Size(3, 2)
         Guna2HtmlLabel3.TabIndex = 7
@@ -114,7 +114,8 @@ Partial Class frmAcceso
         btnGen.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnGen.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnGen.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnGen.Location = New Point(12, 279)
+        btnGen.Location = New Point(12, 269)
+        btnGen.Margin = New Padding(25, 25, 25, 30)
         btnGen.Name = "btnGen"
         btnGen.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btnGen.Size = New Size(366, 81)
@@ -126,7 +127,7 @@ Partial Class frmAcceso
         Guna2HtmlLabel2.BackColor = Color.Transparent
         Guna2HtmlLabel2.Font = New Font("Segoe UI Variable Display", 41.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel2.ForeColor = SystemColors.ActiveBorder
-        Guna2HtmlLabel2.Location = New Point(243, 74)
+        Guna2HtmlLabel2.Location = New Point(243, 79)
         Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
         Guna2HtmlLabel2.Size = New Size(76, 75)
         Guna2HtmlLabel2.TabIndex = 2
@@ -137,27 +138,18 @@ Partial Class frmAcceso
         Guna2HtmlLabel1.BackColor = Color.Transparent
         Guna2HtmlLabel1.Font = New Font("Segoe UI", 41.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel1.ForeColor = SystemColors.Control
-        Guna2HtmlLabel1.Location = New Point(28, 73)
+        Guna2HtmlLabel1.Location = New Point(28, 78)
+        Guna2HtmlLabel1.Margin = New Padding(0, 0, 0, 0)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(209, 76)
         Guna2HtmlLabel1.TabIndex = 1
         Guna2HtmlLabel1.Text = "Generar"
         ' 
-        ' Guna2HtmlLabel6
-        ' 
-        Guna2HtmlLabel6.BackColor = Color.Transparent
-        Guna2HtmlLabel6.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel6.Location = New Point(88, 25)
-        Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
-        Guna2HtmlLabel6.Size = New Size(171, 34)
-        Guna2HtmlLabel6.TabIndex = 1
-        Guna2HtmlLabel6.Text = "Hola de Nuevo!"
-        ' 
         ' Guna2HtmlLabel7
         ' 
         Guna2HtmlLabel7.BackColor = Color.Transparent
         Guna2HtmlLabel7.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel7.Location = New Point(265, 25)
+        Guna2HtmlLabel7.Location = New Point(243, 26)
         Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
         Guna2HtmlLabel7.Size = New Size(65, 34)
         Guna2HtmlLabel7.TabIndex = 2
@@ -173,12 +165,12 @@ Partial Class frmAcceso
         Guna2CircleButton1.Font = New Font("Segoe UI", 9F)
         Guna2CircleButton1.ForeColor = Color.White
         Guna2CircleButton1.Image = My.Resources.Resources.round_account_button_with_user_inside_icon_icons_com_72596
-        Guna2CircleButton1.ImageSize = New Size(61, 57)
-        Guna2CircleButton1.Location = New Point(12, 12)
+        Guna2CircleButton1.ImageSize = New Size(30, 30)
+        Guna2CircleButton1.Location = New Point(28, 25)
         Guna2CircleButton1.Name = "Guna2CircleButton1"
         Guna2CircleButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges5
         Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Guna2CircleButton1.Size = New Size(62, 59)
+        Guna2CircleButton1.Size = New Size(39, 35)
         Guna2CircleButton1.TabIndex = 3
         ' 
         ' Guna2PictureBox1
@@ -191,13 +183,24 @@ Partial Class frmAcceso
         Guna2PictureBox1.Image = CType(resources.GetObject("Guna2PictureBox1.Image"), Image)
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(12, 87)
+        Guna2PictureBox1.Margin = New Padding(25, 40, 25, 30)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges7
-        Guna2PictureBox1.Size = New Size(353, 432)
+        Guna2PictureBox1.Size = New Size(366, 432)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         Guna2PictureBox1.TabIndex = 4
         Guna2PictureBox1.TabStop = False
         Guna2PictureBox1.UseTransparentBackground = True
+        ' 
+        ' Guna2HtmlLabel6
+        ' 
+        Guna2HtmlLabel6.BackColor = Color.Transparent
+        Guna2HtmlLabel6.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel6.Location = New Point(66, 25)
+        Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
+        Guna2HtmlLabel6.Size = New Size(171, 34)
+        Guna2HtmlLabel6.TabIndex = 1
+        Guna2HtmlLabel6.Text = "Hola de Nuevo!"
         ' 
         ' frmAcceso
         ' 
@@ -231,8 +234,8 @@ Partial Class frmAcceso
     Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel6 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel7 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2HtmlLabel6 As Guna.UI2.WinForms.Guna2HtmlLabel
 End Class

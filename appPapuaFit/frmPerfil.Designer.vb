@@ -262,7 +262,7 @@ Partial Class frmPerfil
         pnlInterfazPerfil.Controls.Add(lblNombre)
         pnlInterfazPerfil.Controls.Add(lblFechaNacimiento)
         pnlInterfazPerfil.Controls.Add(lblGenero)
-        pnlInterfazPerfil.Location = New Point(-1, -5)
+        pnlInterfazPerfil.Location = New Point(0, 0)
         pnlInterfazPerfil.MaximumSize = New Size(390, 844)
         pnlInterfazPerfil.MinimumSize = New Size(390, 844)
         pnlInterfazPerfil.Name = "pnlInterfazPerfil"
@@ -453,8 +453,8 @@ Partial Class frmPerfil
         Controls.Add(pnlInterfazPerfil)
         FormBorderStyle = FormBorderStyle.None
         Margin = New Padding(3, 2, 3, 2)
-        MaximumSize = New Size(273, 506)
-        MinimumSize = New Size(273, 506)
+        MaximumSize = New Size(390, 844)
+        MinimumSize = New Size(390, 844)
         Name = "frmPerfil"
         StartPosition = FormStartPosition.CenterScreen
         Text = "frmPerfil"

@@ -189,11 +189,11 @@ Partial Class frmPerfil
         btnEditarPerfil.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnEditarPerfil.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnEditarPerfil.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnEditarPerfil.Location = New Point(98, 207)
+        btnEditarPerfil.Location = New Point(100, 211)
         btnEditarPerfil.Margin = New Padding(4, 5, 4, 5)
         btnEditarPerfil.Name = "btnEditarPerfil"
         btnEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        btnEditarPerfil.Size = New Size(194, 53)
+        btnEditarPerfil.Size = New Size(191, 53)
         btnEditarPerfil.TabIndex = 28
         btnEditarPerfil.Text = "Editar Perfil"
         ' 
@@ -263,10 +263,10 @@ Partial Class frmPerfil
         pnlInterfazPerfil.Controls.Add(lblFechaNacimiento)
         pnlInterfazPerfil.Controls.Add(lblGenero)
         pnlInterfazPerfil.Location = New Point(-1, -5)
-        pnlInterfazPerfil.Margin = New Padding(4, 5, 4, 5)
         pnlInterfazPerfil.MaximumSize = New Size(390, 844)
         pnlInterfazPerfil.MinimumSize = New Size(390, 844)
         pnlInterfazPerfil.Name = "pnlInterfazPerfil"
+        pnlInterfazPerfil.Padding = New Padding(25)
         pnlInterfazPerfil.Size = New Size(390, 844)
         pnlInterfazPerfil.TabIndex = 26
         ' 
@@ -318,7 +318,7 @@ Partial Class frmPerfil
         ' 
         lblHistorialEntrenamiento.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblHistorialEntrenamiento.ForeColor = SystemColors.ButtonHighlight
-        lblHistorialEntrenamiento.Location = New Point(13, 751)
+        lblHistorialEntrenamiento.Location = New Point(26, 751)
         lblHistorialEntrenamiento.Margin = New Padding(4, 0, 4, 0)
         lblHistorialEntrenamiento.Name = "lblHistorialEntrenamiento"
         lblHistorialEntrenamiento.Size = New Size(364, 36)

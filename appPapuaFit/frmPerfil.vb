@@ -12,7 +12,7 @@
 
     End Sub
 
-    Private Sub Guna2TextBox3_TextChanged(sender As Object, e As EventArgs) Handles txtCorreoElectronico.TextChanged
+    Private Sub Guna2TextBox3_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -45,6 +45,18 @@
     End Sub
 
     Private Sub pbxFotoPerfil_Click(sender As Object, e As EventArgs) Handles pbxFotoPerfil.Click
+
+    End Sub
+
+    Private Sub lblGenero_Click(sender As Object, e As EventArgs) Handles lblGenero.Click
+
+    End Sub
+
+    Private Sub txtGenero_TextChanged(sender As Object, e As EventArgs) Handles txtGenero.TextChanged
+
+    End Sub
+
+    Private Sub txtCorreoElectronico_TextChanged(sender As Object, e As EventArgs) Handles txtCorreoElectronico.TextChanged
 
     End Sub
 End Class

@@ -318,7 +318,7 @@ Partial Class frmPerfil
         ' 
         lblHistorialEntrenamiento.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblHistorialEntrenamiento.ForeColor = SystemColors.ButtonHighlight
-        lblHistorialEntrenamiento.Location = New Point(13, 751)
+        lblHistorialEntrenamiento.Location = New Point(26, 751)
         lblHistorialEntrenamiento.Margin = New Padding(4, 0, 4, 0)
         lblHistorialEntrenamiento.Name = "lblHistorialEntrenamiento"
         lblHistorialEntrenamiento.Size = New Size(364, 36)

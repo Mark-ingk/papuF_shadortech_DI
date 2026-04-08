@@ -26,13 +26,14 @@ Partial Class frmRutinas
         ' 
         ' frmRutinas
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        ClientSize = New Size(390, 844)
+        ClientSize = New Size(341, 633)
         FormBorderStyle = FormBorderStyle.None
-        MaximumSize = New Size(390, 844)
-        MinimumSize = New Size(390, 844)
+        Margin = New Padding(3, 2, 3, 2)
+        MaximumSize = New Size(341, 633)
+        MinimumSize = New Size(341, 544)
         Name = "frmRutinas"
         StartPosition = FormStartPosition.CenterScreen
         Text = "frmRutinas"

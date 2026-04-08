@@ -59,4 +59,12 @@
     Private Sub txtCorreoElectronico_TextChanged(sender As Object, e As EventArgs) Handles txtCorreoElectronico.TextChanged
 
     End Sub
+
+    Public Sub New()
+        ' Este es el constructor del formulario
+        InitializeComponent()
+
+        ' Escalado por DPI
+        Me.AutoScaleMode = AutoScaleMode.Dpi
+    End Sub
 End Class

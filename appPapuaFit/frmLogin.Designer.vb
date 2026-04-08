@@ -31,19 +31,18 @@ Partial Class frmLogin
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlLogin = New Guna.UI2.WinForms.Guna2Panel()
+        lblLog = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        btnINS = New Guna.UI2.WinForms.Guna2Button()
+        txtContra = New Guna.UI2.WinForms.Guna2TextBox()
+        txtEmail = New Guna.UI2.WinForms.Guna2TextBox()
+        iconPesa = New FontAwesome.Sharp.IconPictureBox()
+        Guna2Separator1 = New Guna.UI2.WinForms.Guna2Separator()
         LinkLabel1 = New LinkLabel()
         lblRegistro = New Guna.UI2.WinForms.Guna2HtmlLabel()
         icbtnInstagram = New FontAwesome.Sharp.IconButton()
         icbtnFacebook = New FontAwesome.Sharp.IconButton()
         icbtnGoogle = New FontAwesome.Sharp.IconButton()
-        lblO = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        spr1 = New Guna.UI2.WinForms.Guna2Separator()
         spr2 = New Guna.UI2.WinForms.Guna2Separator()
-        btnINS = New Guna.UI2.WinForms.Guna2Button()
-        txtContra = New Guna.UI2.WinForms.Guna2TextBox()
-        txtEmail = New Guna.UI2.WinForms.Guna2TextBox()
-        lblLog = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        iconPesa = New FontAwesome.Sharp.IconPictureBox()
         pnlLogin.SuspendLayout()
         CType(iconPesa, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -51,124 +50,44 @@ Partial Class frmLogin
         ' pnlLogin
         ' 
         pnlLogin.Anchor = AnchorStyles.None
-        pnlLogin.AutoSize = True
         pnlLogin.BorderRadius = 30
+        pnlLogin.Controls.Add(lblLog)
+        pnlLogin.Controls.Add(btnINS)
+        pnlLogin.Controls.Add(txtContra)
+        pnlLogin.Controls.Add(txtEmail)
+        pnlLogin.Controls.Add(iconPesa)
+        pnlLogin.Controls.Add(Guna2Separator1)
         pnlLogin.Controls.Add(LinkLabel1)
         pnlLogin.Controls.Add(lblRegistro)
         pnlLogin.Controls.Add(icbtnInstagram)
         pnlLogin.Controls.Add(icbtnFacebook)
         pnlLogin.Controls.Add(icbtnGoogle)
-        pnlLogin.Controls.Add(lblO)
-        pnlLogin.Controls.Add(spr1)
         pnlLogin.Controls.Add(spr2)
-        pnlLogin.Controls.Add(btnINS)
-        pnlLogin.Controls.Add(txtContra)
-        pnlLogin.Controls.Add(txtEmail)
-        pnlLogin.Controls.Add(lblLog)
-        pnlLogin.Controls.Add(iconPesa)
         pnlLogin.CustomizableEdges = CustomizableEdges7
-        pnlLogin.Location = New Point(2, 3)
+        pnlLogin.Location = New Point(-1, 0)
         pnlLogin.Margin = New Padding(0)
         pnlLogin.MaximumSize = New Size(390, 844)
         pnlLogin.MinimumSize = New Size(390, 844)
         pnlLogin.Name = "pnlLogin"
-        pnlLogin.Padding = New Padding(25, 20, 25, 20)
+        pnlLogin.Padding = New Padding(25, 25, 25, 40)
         pnlLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         pnlLogin.Size = New Size(390, 844)
         pnlLogin.TabIndex = 0
         ' 
-        ' LinkLabel1
+        ' lblLog
         ' 
-        LinkLabel1.Anchor = AnchorStyles.Bottom
-        LinkLabel1.AutoSize = True
-        LinkLabel1.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        LinkLabel1.LinkColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        LinkLabel1.Location = New Point(210, 805)
-        LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(63, 15)
-        LinkLabel1.TabIndex = 14
-        LinkLabel1.TabStop = True
-        LinkLabel1.Text = "Registrarte"
-        ' 
-        ' lblRegistro
-        ' 
-        lblRegistro.Anchor = AnchorStyles.Bottom
-        lblRegistro.AutoSize = False
-        lblRegistro.BackColor = Color.Transparent
-        lblRegistro.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        lblRegistro.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        lblRegistro.Location = New Point(92, 799)
-        lblRegistro.Name = "lblRegistro"
-        lblRegistro.Size = New Size(112, 21)
-        lblRegistro.TabIndex = 13
-        lblRegistro.Text = "No tienes cuenta?"
-        ' 
-        ' icbtnInstagram
-        ' 
-        icbtnInstagram.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        icbtnInstagram.FlatStyle = FlatStyle.Flat
-        icbtnInstagram.ForeColor = Color.Black
-        icbtnInstagram.IconChar = FontAwesome.Sharp.IconChar.Instagram
-        icbtnInstagram.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        icbtnInstagram.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icbtnInstagram.Location = New Point(305, 610)
-        icbtnInstagram.Name = "icbtnInstagram"
-        icbtnInstagram.Size = New Size(57, 43)
-        icbtnInstagram.TabIndex = 12
-        icbtnInstagram.UseVisualStyleBackColor = False
-        ' 
-        ' icbtnFacebook
-        ' 
-        icbtnFacebook.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        icbtnFacebook.FlatStyle = FlatStyle.Flat
-        icbtnFacebook.ForeColor = Color.Black
-        icbtnFacebook.IconChar = FontAwesome.Sharp.IconChar.FacebookF
-        icbtnFacebook.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        icbtnFacebook.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icbtnFacebook.Location = New Point(161, 610)
-        icbtnFacebook.Name = "icbtnFacebook"
-        icbtnFacebook.Size = New Size(57, 43)
-        icbtnFacebook.TabIndex = 11
-        icbtnFacebook.UseVisualStyleBackColor = False
-        ' 
-        ' icbtnGoogle
-        ' 
-        icbtnGoogle.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        icbtnGoogle.FlatStyle = FlatStyle.Flat
-        icbtnGoogle.ForeColor = Color.Black
-        icbtnGoogle.IconChar = FontAwesome.Sharp.IconChar.Google
-        icbtnGoogle.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        icbtnGoogle.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icbtnGoogle.Location = New Point(28, 610)
-        icbtnGoogle.Name = "icbtnGoogle"
-        icbtnGoogle.Size = New Size(57, 43)
-        icbtnGoogle.TabIndex = 10
-        icbtnGoogle.UseVisualStyleBackColor = False
-        ' 
-        ' lblO
-        ' 
-        lblO.BackColor = Color.Transparent
-        lblO.Font = New Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        lblO.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        lblO.Location = New Point(181, 537)
-        lblO.Name = "lblO"
-        lblO.Size = New Size(23, 39)
-        lblO.TabIndex = 9
-        lblO.Text = "O"
-        ' 
-        ' spr1
-        ' 
-        spr1.Location = New Point(10, 548)
-        spr1.Name = "spr1"
-        spr1.Size = New Size(154, 18)
-        spr1.TabIndex = 8
-        ' 
-        ' spr2
-        ' 
-        spr2.Location = New Point(222, 548)
-        spr2.Name = "spr2"
-        spr2.Size = New Size(154, 18)
-        spr2.TabIndex = 7
+        lblLog.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        lblLog.AutoSize = False
+        lblLog.BackColor = Color.Transparent
+        lblLog.Font = New Font("Segoe UI", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblLog.ForeColor = Color.White
+        lblLog.Location = New Point(50, 213)
+        lblLog.Margin = New Padding(20, 40, 20, 10)
+        lblLog.Name = "lblLog"
+        lblLog.Size = New Size(314, 48)
+        lblLog.TabIndex = 2
+        lblLog.Text = "Iniciar Sesion"
+        lblLog.TextAlignment = ContentAlignment.TopCenter
         ' 
         ' btnINS
         ' 
@@ -183,7 +102,8 @@ Partial Class frmLogin
         btnINS.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnINS.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnINS.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnINS.Location = New Point(45, 443)
+        btnINS.Location = New Point(47, 446)
+        btnINS.Margin = New Padding(0, 10, 0, 30)
         btnINS.Name = "btnINS"
         btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btnINS.Size = New Size(310, 55)
@@ -207,8 +127,8 @@ Partial Class frmLogin
         txtContra.Font = New Font("Segoe UI", 9F)
         txtContra.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         txtContra.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtContra.Location = New Point(45, 361)
-        txtContra.Margin = New Padding(3, 0, 3, 25)
+        txtContra.Location = New Point(47, 371)
+        txtContra.Margin = New Padding(0, 0, 0, 15)
         txtContra.Name = "txtContra"
         txtContra.PlaceholderText = "Contraseña"
         txtContra.SelectedText = ""
@@ -220,6 +140,7 @@ Partial Class frmLogin
         ' 
         ' txtEmail
         ' 
+        txtEmail.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         txtEmail.Animated = True
         txtEmail.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtEmail.BorderRadius = 20
@@ -234,8 +155,8 @@ Partial Class frmLogin
         txtEmail.Font = New Font("Segoe UI", 9F)
         txtEmail.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
         txtEmail.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtEmail.Location = New Point(45, 291)
-        txtEmail.Margin = New Padding(3, 40, 3, 15)
+        txtEmail.Location = New Point(47, 296)
+        txtEmail.Margin = New Padding(0, 0, 0, 15)
         txtEmail.Name = "txtEmail"
         txtEmail.PlaceholderText = "Email"
         txtEmail.SelectedText = ""
@@ -243,19 +164,6 @@ Partial Class frmLogin
         txtEmail.Size = New Size(310, 55)
         txtEmail.TabIndex = 3
         txtEmail.TextOffset = New Point(10, 0)
-        ' 
-        ' lblLog
-        ' 
-        lblLog.Anchor = AnchorStyles.Top
-        lblLog.BackColor = Color.Transparent
-        lblLog.Font = New Font("Segoe UI", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblLog.ForeColor = Color.White
-        lblLog.Location = New Point(92, 221)
-        lblLog.Margin = New Padding(3, 15, 3, 3)
-        lblLog.Name = "lblLog"
-        lblLog.Size = New Size(216, 48)
-        lblLog.TabIndex = 2
-        lblLog.Text = "Iniciar Sesion"
         ' 
         ' iconPesa
         ' 
@@ -266,12 +174,106 @@ Partial Class frmLogin
         iconPesa.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         iconPesa.IconFont = FontAwesome.Sharp.IconFont.Auto
         iconPesa.IconSize = 108
-        iconPesa.Location = New Point(146, 95)
-        iconPesa.Margin = New Padding(3, 40, 3, 3)
+        iconPesa.Location = New Point(153, 100)
+        iconPesa.Margin = New Padding(20, 40, 20, 10)
         iconPesa.Name = "iconPesa"
         iconPesa.Size = New Size(108, 108)
         iconPesa.TabIndex = 0
         iconPesa.TabStop = False
+        ' 
+        ' Guna2Separator1
+        ' 
+        Guna2Separator1.Location = New Point(9, 548)
+        Guna2Separator1.Margin = New Padding(0, 0, 0, 20)
+        Guna2Separator1.Name = "Guna2Separator1"
+        Guna2Separator1.Size = New Size(172, 18)
+        Guna2Separator1.TabIndex = 15
+        ' 
+        ' LinkLabel1
+        ' 
+        LinkLabel1.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        LinkLabel1.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        LinkLabel1.LinkColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        LinkLabel1.Location = New Point(226, 771)
+        LinkLabel1.Margin = New Padding(10, 0, 0, 10)
+        LinkLabel1.Name = "LinkLabel1"
+        LinkLabel1.Padding = New Padding(10, 0, 0, 0)
+        LinkLabel1.Size = New Size(81, 20)
+        LinkLabel1.TabIndex = 14
+        LinkLabel1.TabStop = True
+        LinkLabel1.Text = "Registrarte"
+        LinkLabel1.TextAlign = ContentAlignment.MiddleLeft
+        ' 
+        ' lblRegistro
+        ' 
+        lblRegistro.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        lblRegistro.AutoSize = False
+        lblRegistro.BackColor = Color.Transparent
+        lblRegistro.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblRegistro.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        lblRegistro.Location = New Point(21, 771)
+        lblRegistro.Margin = New Padding(0, 0, 10, 10)
+        lblRegistro.Name = "lblRegistro"
+        lblRegistro.Size = New Size(195, 21)
+        lblRegistro.TabIndex = 13
+        lblRegistro.Text = "No tienes cuenta?"
+        lblRegistro.TextAlignment = ContentAlignment.MiddleRight
+        ' 
+        ' icbtnInstagram
+        ' 
+        icbtnInstagram.Anchor = AnchorStyles.Bottom
+        icbtnInstagram.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icbtnInstagram.FlatStyle = FlatStyle.Flat
+        icbtnInstagram.ForeColor = Color.Black
+        icbtnInstagram.IconChar = FontAwesome.Sharp.IconChar.Instagram
+        icbtnInstagram.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        icbtnInstagram.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icbtnInstagram.Location = New Point(307, 590)
+        icbtnInstagram.Margin = New Padding(10, 0, 10, 0)
+        icbtnInstagram.Name = "icbtnInstagram"
+        icbtnInstagram.Size = New Size(57, 43)
+        icbtnInstagram.TabIndex = 12
+        icbtnInstagram.UseVisualStyleBackColor = False
+        ' 
+        ' icbtnFacebook
+        ' 
+        icbtnFacebook.Anchor = AnchorStyles.Bottom
+        icbtnFacebook.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icbtnFacebook.FlatStyle = FlatStyle.Flat
+        icbtnFacebook.ForeColor = Color.Black
+        icbtnFacebook.IconChar = FontAwesome.Sharp.IconChar.FacebookF
+        icbtnFacebook.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        icbtnFacebook.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icbtnFacebook.Location = New Point(163, 590)
+        icbtnFacebook.Margin = New Padding(10, 0, 10, 0)
+        icbtnFacebook.Name = "icbtnFacebook"
+        icbtnFacebook.Size = New Size(57, 43)
+        icbtnFacebook.TabIndex = 11
+        icbtnFacebook.UseVisualStyleBackColor = False
+        ' 
+        ' icbtnGoogle
+        ' 
+        icbtnGoogle.Anchor = AnchorStyles.Bottom
+        icbtnGoogle.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icbtnGoogle.FlatStyle = FlatStyle.Flat
+        icbtnGoogle.ForeColor = Color.Black
+        icbtnGoogle.IconChar = FontAwesome.Sharp.IconChar.Google
+        icbtnGoogle.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        icbtnGoogle.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icbtnGoogle.Location = New Point(30, 590)
+        icbtnGoogle.Margin = New Padding(10, 0, 10, 0)
+        icbtnGoogle.Name = "icbtnGoogle"
+        icbtnGoogle.Size = New Size(57, 43)
+        icbtnGoogle.TabIndex = 10
+        icbtnGoogle.UseVisualStyleBackColor = False
+        ' 
+        ' spr2
+        ' 
+        spr2.Location = New Point(206, 548)
+        spr2.Margin = New Padding(0, 0, 0, 20)
+        spr2.Name = "spr2"
+        spr2.Size = New Size(172, 18)
+        spr2.TabIndex = 7
         ' 
         ' frmLogin
         ' 
@@ -286,10 +288,8 @@ Partial Class frmLogin
         StartPosition = FormStartPosition.CenterScreen
         Text = "frmLogin"
         pnlLogin.ResumeLayout(False)
-        pnlLogin.PerformLayout()
         CType(iconPesa, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
-        PerformLayout()
     End Sub
 
     Friend WithEvents pnlLogin As Guna.UI2.WinForms.Guna2Panel
@@ -299,12 +299,11 @@ Partial Class frmLogin
     Friend WithEvents txtContra As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents btnINS As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents spr2 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents lblO As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents spr1 As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents icbtnGoogle As FontAwesome.Sharp.IconButton
     Friend WithEvents icbtnInstagram As FontAwesome.Sharp.IconButton
     Friend WithEvents icbtnFacebook As FontAwesome.Sharp.IconButton
     Friend WithEvents lblRegistro As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents LinkLabel1 As LinkLabel
+    Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
 
 End Class

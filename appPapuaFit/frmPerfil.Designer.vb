@@ -419,15 +419,15 @@ Partial Class frmPerfil
         ' 
         ' frmPerfil
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         ClientSize = New Size(390, 844)
         Controls.Add(pnlInterfazPerfil)
         FormBorderStyle = FormBorderStyle.None
-        Margin = New Padding(4, 3, 4, 3)
-        MaximumSize = New Size(390, 844)
-        MinimumSize = New Size(390, 844)
+        Margin = New Padding(3, 2, 3, 2)
+        MaximumSize = New Size(273, 506)
+        MinimumSize = New Size(273, 506)
         Name = "frmPerfil"
         StartPosition = FormStartPosition.CenterScreen
         Text = "frmPerfil"

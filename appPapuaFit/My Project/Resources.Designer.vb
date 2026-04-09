@@ -143,6 +143,36 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property qrcodehd_106111() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("qrcodehd_106111", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property qrcodehd_1061111() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("qrcodehd_1061111", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property qrcodehd_1061112() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("qrcodehd_1061112", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property round_account_button_with_user_inside_icon_icons_com_72596() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("round-account-button-with-user-inside_icon-icons.com_72596", resourceCulture)

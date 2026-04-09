@@ -22,6 +22,8 @@ Partial Class frmEditarPerfil
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -36,9 +38,8 @@ Partial Class frmEditarPerfil
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Panel1 = New Panel()
+        btnCancelarCambiosEditarPerfil = New Guna.UI2.WinForms.Guna2Button()
         btnGuardarCambiosEditarPerfil = New Guna.UI2.WinForms.Guna2Button()
         txtObjetivosPrincipalesEditarPerfil = New Guna.UI2.WinForms.Guna2TextBox()
         lblObjetivosPrincipalesEditarPerfil = New Label()
@@ -55,7 +56,6 @@ Partial Class frmEditarPerfil
         lblEditarPerfilDeUsuario = New Label()
         btnAjustesEditarPerfil = New Button()
         btnRegresarEditarPerfil = New Button()
-        btnCancelarCambiosEditarPerfil = New Guna.UI2.WinForms.Guna2Button()
         Panel1.SuspendLayout()
         CType(pbxEditarFotoPerfil, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -86,6 +86,27 @@ Partial Class frmEditarPerfil
         Panel1.Padding = New Padding(25)
         Panel1.Size = New Size(390, 844)
         Panel1.TabIndex = 0
+        ' 
+        ' btnCancelarCambiosEditarPerfil
+        ' 
+        btnCancelarCambiosEditarPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        btnCancelarCambiosEditarPerfil.Animated = True
+        btnCancelarCambiosEditarPerfil.BorderRadius = 15
+        btnCancelarCambiosEditarPerfil.CustomizableEdges = CustomizableEdges1
+        btnCancelarCambiosEditarPerfil.DisabledState.BorderColor = Color.DarkGray
+        btnCancelarCambiosEditarPerfil.DisabledState.CustomBorderColor = Color.DarkGray
+        btnCancelarCambiosEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnCancelarCambiosEditarPerfil.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnCancelarCambiosEditarPerfil.FillColor = Color.Red
+        btnCancelarCambiosEditarPerfil.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnCancelarCambiosEditarPerfil.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
+        btnCancelarCambiosEditarPerfil.Location = New Point(29, 730)
+        btnCancelarCambiosEditarPerfil.Margin = New Padding(4, 5, 4, 5)
+        btnCancelarCambiosEditarPerfil.Name = "btnCancelarCambiosEditarPerfil"
+        btnCancelarCambiosEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        btnCancelarCambiosEditarPerfil.Size = New Size(134, 61)
+        btnCancelarCambiosEditarPerfil.TabIndex = 48
+        btnCancelarCambiosEditarPerfil.Text = "Cancelar Cambios"
         ' 
         ' btnGuardarCambiosEditarPerfil
         ' 
@@ -358,27 +379,6 @@ Partial Class frmEditarPerfil
         btnRegresarEditarPerfil.Size = New Size(67, 73)
         btnRegresarEditarPerfil.TabIndex = 25
         btnRegresarEditarPerfil.UseVisualStyleBackColor = False
-        ' 
-        ' btnCancelarCambiosEditarPerfil
-        ' 
-        btnCancelarCambiosEditarPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        btnCancelarCambiosEditarPerfil.Animated = True
-        btnCancelarCambiosEditarPerfil.BorderRadius = 15
-        btnCancelarCambiosEditarPerfil.CustomizableEdges = CustomizableEdges1
-        btnCancelarCambiosEditarPerfil.DisabledState.BorderColor = Color.DarkGray
-        btnCancelarCambiosEditarPerfil.DisabledState.CustomBorderColor = Color.DarkGray
-        btnCancelarCambiosEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnCancelarCambiosEditarPerfil.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnCancelarCambiosEditarPerfil.FillColor = Color.Red
-        btnCancelarCambiosEditarPerfil.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnCancelarCambiosEditarPerfil.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnCancelarCambiosEditarPerfil.Location = New Point(29, 730)
-        btnCancelarCambiosEditarPerfil.Margin = New Padding(4, 5, 4, 5)
-        btnCancelarCambiosEditarPerfil.Name = "btnCancelarCambiosEditarPerfil"
-        btnCancelarCambiosEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        btnCancelarCambiosEditarPerfil.Size = New Size(134, 61)
-        btnCancelarCambiosEditarPerfil.TabIndex = 48
-        btnCancelarCambiosEditarPerfil.Text = "Cancelar Cambios"
         ' 
         ' frmEditarPerfil
         ' 

@@ -22,22 +22,22 @@ Partial Class frmPerfil
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         lblGenero = New Label()
         lblFechaNacimiento = New Label()
         lblNombre = New Label()
@@ -112,7 +112,7 @@ Partial Class frmPerfil
         txtFechaNacimiento.Animated = True
         txtFechaNacimiento.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtFechaNacimiento.BorderRadius = 15
-        txtFechaNacimiento.CustomizableEdges = CustomizableEdges1
+        txtFechaNacimiento.CustomizableEdges = CustomizableEdges49
         txtFechaNacimiento.DefaultText = ""
         txtFechaNacimiento.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtFechaNacimiento.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -128,13 +128,13 @@ Partial Class frmPerfil
         txtFechaNacimiento.Margin = New Padding(4, 67, 4, 25)
         txtFechaNacimiento.Name = "txtFechaNacimiento"
         txtFechaNacimiento.PlaceholderForeColor = Color.Black
-        txtFechaNacimiento.PlaceholderText = "10 de Abril de 1995"
+        txtFechaNacimiento.PlaceholderText = "lunes, 10 de Abril de 1995"
         txtFechaNacimiento.ReadOnly = True
         txtFechaNacimiento.SelectedText = ""
-        txtFechaNacimiento.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtFechaNacimiento.ShadowDecoration.CustomizableEdges = CustomizableEdges50
         txtFechaNacimiento.Size = New Size(364, 36)
         txtFechaNacimiento.TabIndex = 18
-        txtFechaNacimiento.TextOffset = New Point(10, 0)
+        txtFechaNacimiento.TextOffset = New Point(15, 0)
         ' 
         ' pbxFotoPerfil
         ' 
@@ -152,7 +152,7 @@ Partial Class frmPerfil
         txtGenero.Animated = True
         txtGenero.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtGenero.BorderRadius = 15
-        txtGenero.CustomizableEdges = CustomizableEdges3
+        txtGenero.CustomizableEdges = CustomizableEdges51
         txtGenero.DefaultText = ""
         txtGenero.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtGenero.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -171,17 +171,17 @@ Partial Class frmPerfil
         txtGenero.PlaceholderText = "Masculino"
         txtGenero.ReadOnly = True
         txtGenero.SelectedText = ""
-        txtGenero.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtGenero.ShadowDecoration.CustomizableEdges = CustomizableEdges52
         txtGenero.Size = New Size(364, 36)
         txtGenero.TabIndex = 19
-        txtGenero.TextOffset = New Point(10, 0)
+        txtGenero.TextOffset = New Point(15, 0)
         ' 
         ' btnEditarPerfil
         ' 
         btnEditarPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         btnEditarPerfil.Animated = True
         btnEditarPerfil.BorderRadius = 15
-        btnEditarPerfil.CustomizableEdges = CustomizableEdges5
+        btnEditarPerfil.CustomizableEdges = CustomizableEdges53
         btnEditarPerfil.DisabledState.BorderColor = Color.DarkGray
         btnEditarPerfil.DisabledState.CustomBorderColor = Color.DarkGray
         btnEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -192,7 +192,7 @@ Partial Class frmPerfil
         btnEditarPerfil.Location = New Point(100, 211)
         btnEditarPerfil.Margin = New Padding(4, 5, 4, 5)
         btnEditarPerfil.Name = "btnEditarPerfil"
-        btnEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        btnEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges54
         btnEditarPerfil.Size = New Size(191, 53)
         btnEditarPerfil.TabIndex = 28
         btnEditarPerfil.Text = "Editar Perfil"
@@ -217,7 +217,7 @@ Partial Class frmPerfil
         txtNombre.Animated = True
         txtNombre.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtNombre.BorderRadius = 15
-        txtNombre.CustomizableEdges = CustomizableEdges7
+        txtNombre.CustomizableEdges = CustomizableEdges55
         txtNombre.DefaultText = ""
         txtNombre.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtNombre.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -236,10 +236,10 @@ Partial Class frmPerfil
         txtNombre.PlaceholderText = "Jose Luis Perez Martinez"
         txtNombre.ReadOnly = True
         txtNombre.SelectedText = ""
-        txtNombre.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtNombre.ShadowDecoration.CustomizableEdges = CustomizableEdges56
         txtNombre.Size = New Size(364, 36)
         txtNombre.TabIndex = 29
-        txtNombre.TextOffset = New Point(10, 0)
+        txtNombre.TextOffset = New Point(15, 0)
         ' 
         ' pnlInterfazPerfil
         ' 
@@ -290,7 +290,7 @@ Partial Class frmPerfil
         txtHistorialEntrenamiento.Animated = True
         txtHistorialEntrenamiento.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtHistorialEntrenamiento.BorderRadius = 15
-        txtHistorialEntrenamiento.CustomizableEdges = CustomizableEdges9
+        txtHistorialEntrenamiento.CustomizableEdges = CustomizableEdges57
         txtHistorialEntrenamiento.DefaultText = ""
         txtHistorialEntrenamiento.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtHistorialEntrenamiento.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -309,10 +309,10 @@ Partial Class frmPerfil
         txtHistorialEntrenamiento.PlaceholderText = "3 sesiones tomadas en el ultimo mes"
         txtHistorialEntrenamiento.ReadOnly = True
         txtHistorialEntrenamiento.SelectedText = ""
-        txtHistorialEntrenamiento.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        txtHistorialEntrenamiento.ShadowDecoration.CustomizableEdges = CustomizableEdges58
         txtHistorialEntrenamiento.Size = New Size(364, 36)
         txtHistorialEntrenamiento.TabIndex = 38
-        txtHistorialEntrenamiento.TextOffset = New Point(10, 0)
+        txtHistorialEntrenamiento.TextOffset = New Point(15, 0)
         ' 
         ' lblHistorialEntrenamiento
         ' 
@@ -330,7 +330,7 @@ Partial Class frmPerfil
         txtRutinaActualAsignada.Animated = True
         txtRutinaActualAsignada.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtRutinaActualAsignada.BorderRadius = 15
-        txtRutinaActualAsignada.CustomizableEdges = CustomizableEdges11
+        txtRutinaActualAsignada.CustomizableEdges = CustomizableEdges59
         txtRutinaActualAsignada.DefaultText = ""
         txtRutinaActualAsignada.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtRutinaActualAsignada.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -349,10 +349,10 @@ Partial Class frmPerfil
         txtRutinaActualAsignada.PlaceholderText = "Sentadilla bulgara con 5 repeticiones"
         txtRutinaActualAsignada.ReadOnly = True
         txtRutinaActualAsignada.SelectedText = ""
-        txtRutinaActualAsignada.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        txtRutinaActualAsignada.ShadowDecoration.CustomizableEdges = CustomizableEdges60
         txtRutinaActualAsignada.Size = New Size(364, 36)
         txtRutinaActualAsignada.TabIndex = 36
-        txtRutinaActualAsignada.TextOffset = New Point(10, 0)
+        txtRutinaActualAsignada.TextOffset = New Point(15, 0)
         ' 
         ' lblRutinaActualAsignada
         ' 
@@ -370,7 +370,7 @@ Partial Class frmPerfil
         txtObjetivosPrincipales.Animated = True
         txtObjetivosPrincipales.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtObjetivosPrincipales.BorderRadius = 15
-        txtObjetivosPrincipales.CustomizableEdges = CustomizableEdges13
+        txtObjetivosPrincipales.CustomizableEdges = CustomizableEdges61
         txtObjetivosPrincipales.DefaultText = ""
         txtObjetivosPrincipales.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtObjetivosPrincipales.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -389,10 +389,10 @@ Partial Class frmPerfil
         txtObjetivosPrincipales.PlaceholderText = "Bajar de peso, Subir masa muscular, etc."
         txtObjetivosPrincipales.ReadOnly = True
         txtObjetivosPrincipales.SelectedText = ""
-        txtObjetivosPrincipales.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        txtObjetivosPrincipales.ShadowDecoration.CustomizableEdges = CustomizableEdges62
         txtObjetivosPrincipales.Size = New Size(364, 36)
         txtObjetivosPrincipales.TabIndex = 34
-        txtObjetivosPrincipales.TextOffset = New Point(10, 0)
+        txtObjetivosPrincipales.TextOffset = New Point(15, 0)
         ' 
         ' lblObjetivosPrincipales
         ' 
@@ -410,7 +410,7 @@ Partial Class frmPerfil
         txtCorreoElectronico.Animated = True
         txtCorreoElectronico.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtCorreoElectronico.BorderRadius = 15
-        txtCorreoElectronico.CustomizableEdges = CustomizableEdges15
+        txtCorreoElectronico.CustomizableEdges = CustomizableEdges63
         txtCorreoElectronico.DefaultText = ""
         txtCorreoElectronico.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtCorreoElectronico.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -429,10 +429,10 @@ Partial Class frmPerfil
         txtCorreoElectronico.PlaceholderText = "Elmaspapulince219@gmail.com"
         txtCorreoElectronico.ReadOnly = True
         txtCorreoElectronico.SelectedText = ""
-        txtCorreoElectronico.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        txtCorreoElectronico.ShadowDecoration.CustomizableEdges = CustomizableEdges64
         txtCorreoElectronico.Size = New Size(364, 36)
         txtCorreoElectronico.TabIndex = 32
-        txtCorreoElectronico.TextOffset = New Point(10, 0)
+        txtCorreoElectronico.TextOffset = New Point(15, 0)
         ' 
         ' lblCorreoElectronico
         ' 

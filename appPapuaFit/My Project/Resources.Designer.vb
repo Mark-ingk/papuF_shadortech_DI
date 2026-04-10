@@ -83,6 +83,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property blancooo() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("blancooo", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property carrodeC() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("carrodeC", resourceCulture)
@@ -96,6 +106,16 @@ Namespace My.Resources
         Friend ReadOnly Property engine_gear_internet_option_security_setting_web_icon_127066() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("engine_gear_internet_option_security_setting_web_icon_127066", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property foto_de_perfil() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("foto de perfil", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -166,6 +186,16 @@ Namespace My.Resources
         Friend ReadOnly Property mimi() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("mimi", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property prefiiil() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("prefiiil", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

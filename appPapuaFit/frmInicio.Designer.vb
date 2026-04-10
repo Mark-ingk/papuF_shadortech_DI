@@ -52,6 +52,9 @@ Partial Class frmInicio
         IconButton1 = New FontAwesome.Sharp.IconButton()
         pnlInicio = New Panel()
         Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        IconButton6 = New FontAwesome.Sharp.IconButton()
+        IconButton5 = New FontAwesome.Sharp.IconButton()
+        IconButton4 = New FontAwesome.Sharp.IconButton()
         Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         IconButton3 = New FontAwesome.Sharp.IconButton()
         IconButton2 = New FontAwesome.Sharp.IconButton()
@@ -89,9 +92,6 @@ Partial Class frmInicio
         LinkLabel2 = New LinkLabel()
         Guna2HtmlLabel13 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        IconButton4 = New FontAwesome.Sharp.IconButton()
-        IconButton5 = New FontAwesome.Sharp.IconButton()
-        IconButton6 = New FontAwesome.Sharp.IconButton()
         pnlTopinicio.SuspendLayout()
         CType(picAvatar, ComponentModel.ISupportInitialize).BeginInit()
         pnlInicio.SuspendLayout()
@@ -234,6 +234,60 @@ Partial Class frmInicio
         Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         Guna2Panel5.Size = New Size(390, 88)
         Guna2Panel5.TabIndex = 6
+        ' 
+        ' IconButton6
+        ' 
+        IconButton6.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        IconButton6.BackColor = Color.Transparent
+        IconButton6.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        IconButton6.FlatAppearance.BorderSize = 0
+        IconButton6.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        IconButton6.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        IconButton6.FlatStyle = FlatStyle.Flat
+        IconButton6.IconChar = FontAwesome.Sharp.IconChar.User
+        IconButton6.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        IconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconButton6.Location = New Point(314, 23)
+        IconButton6.Name = "IconButton6"
+        IconButton6.Size = New Size(48, 53)
+        IconButton6.TabIndex = 15
+        IconButton6.UseVisualStyleBackColor = False
+        ' 
+        ' IconButton5
+        ' 
+        IconButton5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        IconButton5.BackColor = Color.Transparent
+        IconButton5.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        IconButton5.FlatAppearance.BorderSize = 0
+        IconButton5.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        IconButton5.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        IconButton5.FlatStyle = FlatStyle.Flat
+        IconButton5.IconChar = FontAwesome.Sharp.IconChar.WeightHanging
+        IconButton5.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        IconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconButton5.Location = New Point(251, 23)
+        IconButton5.Name = "IconButton5"
+        IconButton5.Size = New Size(48, 53)
+        IconButton5.TabIndex = 14
+        IconButton5.UseVisualStyleBackColor = False
+        ' 
+        ' IconButton4
+        ' 
+        IconButton4.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        IconButton4.BackColor = Color.Transparent
+        IconButton4.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        IconButton4.FlatAppearance.BorderSize = 0
+        IconButton4.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        IconButton4.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        IconButton4.FlatStyle = FlatStyle.Flat
+        IconButton4.IconChar = FontAwesome.Sharp.IconChar.Qrcode
+        IconButton4.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        IconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconButton4.Location = New Point(79, 28)
+        IconButton4.Name = "IconButton4"
+        IconButton4.Size = New Size(48, 53)
+        IconButton4.TabIndex = 13
+        IconButton4.UseVisualStyleBackColor = False
         ' 
         ' Guna2CircleButton1
         ' 
@@ -782,60 +836,6 @@ Partial Class frmInicio
         Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         Guna2Button2.Size = New Size(316, 85)
         Guna2Button2.TabIndex = 33
-        ' 
-        ' IconButton4
-        ' 
-        IconButton4.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        IconButton4.BackColor = Color.Transparent
-        IconButton4.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        IconButton4.FlatAppearance.BorderSize = 0
-        IconButton4.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        IconButton4.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        IconButton4.FlatStyle = FlatStyle.Flat
-        IconButton4.IconChar = FontAwesome.Sharp.IconChar.Qrcode
-        IconButton4.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        IconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconButton4.Location = New Point(79, 28)
-        IconButton4.Name = "IconButton4"
-        IconButton4.Size = New Size(48, 53)
-        IconButton4.TabIndex = 13
-        IconButton4.UseVisualStyleBackColor = False
-        ' 
-        ' IconButton5
-        ' 
-        IconButton5.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        IconButton5.BackColor = Color.Transparent
-        IconButton5.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        IconButton5.FlatAppearance.BorderSize = 0
-        IconButton5.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        IconButton5.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        IconButton5.FlatStyle = FlatStyle.Flat
-        IconButton5.IconChar = FontAwesome.Sharp.IconChar.WeightHanging
-        IconButton5.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        IconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconButton5.Location = New Point(251, 23)
-        IconButton5.Name = "IconButton5"
-        IconButton5.Size = New Size(48, 53)
-        IconButton5.TabIndex = 14
-        IconButton5.UseVisualStyleBackColor = False
-        ' 
-        ' IconButton6
-        ' 
-        IconButton6.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        IconButton6.BackColor = Color.Transparent
-        IconButton6.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        IconButton6.FlatAppearance.BorderSize = 0
-        IconButton6.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        IconButton6.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        IconButton6.FlatStyle = FlatStyle.Flat
-        IconButton6.IconChar = FontAwesome.Sharp.IconChar.User
-        IconButton6.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        IconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconButton6.Location = New Point(314, 23)
-        IconButton6.Name = "IconButton6"
-        IconButton6.Size = New Size(48, 53)
-        IconButton6.TabIndex = 15
-        IconButton6.UseVisualStyleBackColor = False
         ' 
         ' frmInicio
         ' 

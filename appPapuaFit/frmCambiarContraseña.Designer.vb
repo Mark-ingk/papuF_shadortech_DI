@@ -22,27 +22,27 @@ Partial Class frmCambiarContraseña
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlCambiarContraseña = New Panel()
+        btnCancelarCambiosCambiarContraseña = New Guna.UI2.WinForms.Guna2Button()
+        btnGuardarCambiosCambiarContraseña = New Guna.UI2.WinForms.Guna2Button()
+        lblConfirmarContraseña = New Label()
+        txtConfirmarContraseña = New Guna.UI2.WinForms.Guna2TextBox()
         lblNuevaContraseña = New Label()
         txtNuevaContraseña = New Guna.UI2.WinForms.Guna2TextBox()
         lblContraseñaActual = New Label()
         txtContraseñaActual = New Guna.UI2.WinForms.Guna2TextBox()
         btnRegresarCambiarContraseña = New Button()
         lblCambiarContraseña = New Label()
-        lblConfirmarContraseña = New Label()
-        txtConfirmarContraseña = New Guna.UI2.WinForms.Guna2TextBox()
-        btnGuardarCambiosCambiarContraseña = New Guna.UI2.WinForms.Guna2Button()
-        btnCancelarCambiosCambiarContraseña = New Guna.UI2.WinForms.Guna2Button()
         pnlCambiarContraseña.SuspendLayout()
         SuspendLayout()
         ' 
@@ -66,6 +66,88 @@ Partial Class frmCambiarContraseña
         pnlCambiarContraseña.Size = New Size(390, 844)
         pnlCambiarContraseña.TabIndex = 0
         ' 
+        ' btnCancelarCambiosCambiarContraseña
+        ' 
+        btnCancelarCambiosCambiarContraseña.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        btnCancelarCambiosCambiarContraseña.Animated = True
+        btnCancelarCambiosCambiarContraseña.BorderRadius = 15
+        btnCancelarCambiosCambiarContraseña.CustomizableEdges = CustomizableEdges1
+        btnCancelarCambiosCambiarContraseña.DisabledState.BorderColor = Color.DarkGray
+        btnCancelarCambiosCambiarContraseña.DisabledState.CustomBorderColor = Color.DarkGray
+        btnCancelarCambiosCambiarContraseña.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnCancelarCambiosCambiarContraseña.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnCancelarCambiosCambiarContraseña.FillColor = Color.Red
+        btnCancelarCambiosCambiarContraseña.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnCancelarCambiosCambiarContraseña.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
+        btnCancelarCambiosCambiarContraseña.Location = New Point(29, 347)
+        btnCancelarCambiosCambiarContraseña.Margin = New Padding(4, 5, 4, 5)
+        btnCancelarCambiosCambiarContraseña.Name = "btnCancelarCambiosCambiarContraseña"
+        btnCancelarCambiosCambiarContraseña.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        btnCancelarCambiosCambiarContraseña.Size = New Size(134, 61)
+        btnCancelarCambiosCambiarContraseña.TabIndex = 49
+        btnCancelarCambiosCambiarContraseña.Text = "Cancelar Cambios"
+        ' 
+        ' btnGuardarCambiosCambiarContraseña
+        ' 
+        btnGuardarCambiosCambiarContraseña.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        btnGuardarCambiosCambiarContraseña.Animated = True
+        btnGuardarCambiosCambiarContraseña.BorderRadius = 15
+        btnGuardarCambiosCambiarContraseña.CustomizableEdges = CustomizableEdges3
+        btnGuardarCambiosCambiarContraseña.DisabledState.BorderColor = Color.DarkGray
+        btnGuardarCambiosCambiarContraseña.DisabledState.CustomBorderColor = Color.DarkGray
+        btnGuardarCambiosCambiarContraseña.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnGuardarCambiosCambiarContraseña.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnGuardarCambiosCambiarContraseña.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnGuardarCambiosCambiarContraseña.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnGuardarCambiosCambiarContraseña.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
+        btnGuardarCambiosCambiarContraseña.Location = New Point(227, 347)
+        btnGuardarCambiosCambiarContraseña.Margin = New Padding(4, 5, 4, 5)
+        btnGuardarCambiosCambiarContraseña.Name = "btnGuardarCambiosCambiarContraseña"
+        btnGuardarCambiosCambiarContraseña.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnGuardarCambiosCambiarContraseña.Size = New Size(134, 61)
+        btnGuardarCambiosCambiarContraseña.TabIndex = 48
+        btnGuardarCambiosCambiarContraseña.Text = "Guardar Cambios"
+        ' 
+        ' lblConfirmarContraseña
+        ' 
+        lblConfirmarContraseña.BackColor = Color.Transparent
+        lblConfirmarContraseña.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblConfirmarContraseña.ForeColor = SystemColors.ButtonHighlight
+        lblConfirmarContraseña.Location = New Point(13, 250)
+        lblConfirmarContraseña.Margin = New Padding(4, 0, 4, 0)
+        lblConfirmarContraseña.Name = "lblConfirmarContraseña"
+        lblConfirmarContraseña.Size = New Size(364, 28)
+        lblConfirmarContraseña.TabIndex = 35
+        lblConfirmarContraseña.Text = "Confirmar Contraseña"
+        ' 
+        ' txtConfirmarContraseña
+        ' 
+        txtConfirmarContraseña.Animated = True
+        txtConfirmarContraseña.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtConfirmarContraseña.BorderRadius = 15
+        txtConfirmarContraseña.CustomizableEdges = CustomizableEdges5
+        txtConfirmarContraseña.DefaultText = ""
+        txtConfirmarContraseña.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtConfirmarContraseña.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtConfirmarContraseña.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtConfirmarContraseña.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtConfirmarContraseña.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtConfirmarContraseña.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtConfirmarContraseña.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtConfirmarContraseña.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtConfirmarContraseña.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtConfirmarContraseña.Location = New Point(13, 281)
+        txtConfirmarContraseña.Margin = New Padding(4, 67, 4, 25)
+        txtConfirmarContraseña.Name = "txtConfirmarContraseña"
+        txtConfirmarContraseña.PasswordChar = "*"c
+        txtConfirmarContraseña.PlaceholderForeColor = Color.Black
+        txtConfirmarContraseña.PlaceholderText = ""
+        txtConfirmarContraseña.SelectedText = ""
+        txtConfirmarContraseña.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtConfirmarContraseña.Size = New Size(364, 36)
+        txtConfirmarContraseña.TabIndex = 34
+        txtConfirmarContraseña.TextOffset = New Point(15, 0)
+        ' 
         ' lblNuevaContraseña
         ' 
         lblNuevaContraseña.BackColor = Color.Transparent
@@ -83,7 +165,7 @@ Partial Class frmCambiarContraseña
         txtNuevaContraseña.Animated = True
         txtNuevaContraseña.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtNuevaContraseña.BorderRadius = 15
-        txtNuevaContraseña.CustomizableEdges = CustomizableEdges11
+        txtNuevaContraseña.CustomizableEdges = CustomizableEdges7
         txtNuevaContraseña.DefaultText = ""
         txtNuevaContraseña.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtNuevaContraseña.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -101,7 +183,7 @@ Partial Class frmCambiarContraseña
         txtNuevaContraseña.PlaceholderForeColor = Color.Black
         txtNuevaContraseña.PlaceholderText = ""
         txtNuevaContraseña.SelectedText = ""
-        txtNuevaContraseña.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        txtNuevaContraseña.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         txtNuevaContraseña.Size = New Size(364, 36)
         txtNuevaContraseña.TabIndex = 32
         txtNuevaContraseña.TextOffset = New Point(15, 0)
@@ -123,7 +205,7 @@ Partial Class frmCambiarContraseña
         txtContraseñaActual.Animated = True
         txtContraseñaActual.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtContraseñaActual.BorderRadius = 15
-        txtContraseñaActual.CustomizableEdges = CustomizableEdges13
+        txtContraseñaActual.CustomizableEdges = CustomizableEdges9
         txtContraseñaActual.DefaultText = ""
         txtContraseñaActual.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtContraseñaActual.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -141,7 +223,7 @@ Partial Class frmCambiarContraseña
         txtContraseñaActual.PlaceholderForeColor = Color.Black
         txtContraseñaActual.PlaceholderText = ""
         txtContraseñaActual.SelectedText = ""
-        txtContraseñaActual.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        txtContraseñaActual.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         txtContraseñaActual.Size = New Size(364, 36)
         txtContraseñaActual.TabIndex = 30
         txtContraseñaActual.TextOffset = New Point(15, 0)
@@ -172,92 +254,9 @@ Partial Class frmCambiarContraseña
         lblCambiarContraseña.TabIndex = 2
         lblCambiarContraseña.Text = "Cambiar Contraseña"
         ' 
-        ' lblConfirmarContraseña
-        ' 
-        lblConfirmarContraseña.BackColor = Color.Transparent
-        lblConfirmarContraseña.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblConfirmarContraseña.ForeColor = SystemColors.ButtonHighlight
-        lblConfirmarContraseña.Location = New Point(13, 250)
-        lblConfirmarContraseña.Margin = New Padding(4, 0, 4, 0)
-        lblConfirmarContraseña.Name = "lblConfirmarContraseña"
-        lblConfirmarContraseña.Size = New Size(364, 28)
-        lblConfirmarContraseña.TabIndex = 35
-        lblConfirmarContraseña.Text = "Confirmar Contraseña"
-        ' 
-        ' txtConfirmarContraseña
-        ' 
-        txtConfirmarContraseña.Animated = True
-        txtConfirmarContraseña.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        txtConfirmarContraseña.BorderRadius = 15
-        txtConfirmarContraseña.CustomizableEdges = CustomizableEdges15
-        txtConfirmarContraseña.DefaultText = ""
-        txtConfirmarContraseña.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtConfirmarContraseña.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtConfirmarContraseña.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtConfirmarContraseña.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtConfirmarContraseña.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        txtConfirmarContraseña.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtConfirmarContraseña.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtConfirmarContraseña.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        txtConfirmarContraseña.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtConfirmarContraseña.Location = New Point(13, 281)
-        txtConfirmarContraseña.Margin = New Padding(4, 67, 4, 25)
-        txtConfirmarContraseña.Name = "txtConfirmarContraseña"
-        txtConfirmarContraseña.PasswordChar = "*"c
-        txtConfirmarContraseña.PlaceholderForeColor = Color.Black
-        txtConfirmarContraseña.PlaceholderText = ""
-        txtConfirmarContraseña.SelectedText = ""
-        txtConfirmarContraseña.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        txtConfirmarContraseña.Size = New Size(364, 36)
-        txtConfirmarContraseña.TabIndex = 34
-        txtConfirmarContraseña.TextOffset = New Point(15, 0)
-        ' 
-        ' btnGuardarCambiosCambiarContraseña
-        ' 
-        btnGuardarCambiosCambiarContraseña.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        btnGuardarCambiosCambiarContraseña.Animated = True
-        btnGuardarCambiosCambiarContraseña.BorderRadius = 15
-        btnGuardarCambiosCambiarContraseña.CustomizableEdges = CustomizableEdges17
-        btnGuardarCambiosCambiarContraseña.DisabledState.BorderColor = Color.DarkGray
-        btnGuardarCambiosCambiarContraseña.DisabledState.CustomBorderColor = Color.DarkGray
-        btnGuardarCambiosCambiarContraseña.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnGuardarCambiosCambiarContraseña.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnGuardarCambiosCambiarContraseña.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnGuardarCambiosCambiarContraseña.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnGuardarCambiosCambiarContraseña.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnGuardarCambiosCambiarContraseña.Location = New Point(227, 347)
-        btnGuardarCambiosCambiarContraseña.Margin = New Padding(4, 5, 4, 5)
-        btnGuardarCambiosCambiarContraseña.Name = "btnGuardarCambiosCambiarContraseña"
-        btnGuardarCambiosCambiarContraseña.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        btnGuardarCambiosCambiarContraseña.Size = New Size(134, 61)
-        btnGuardarCambiosCambiarContraseña.TabIndex = 48
-        btnGuardarCambiosCambiarContraseña.Text = "Guardar Cambios"
-        ' 
-        ' btnCancelarCambiosCambiarContraseña
-        ' 
-        btnCancelarCambiosCambiarContraseña.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        btnCancelarCambiosCambiarContraseña.Animated = True
-        btnCancelarCambiosCambiarContraseña.BorderRadius = 15
-        btnCancelarCambiosCambiarContraseña.CustomizableEdges = CustomizableEdges19
-        btnCancelarCambiosCambiarContraseña.DisabledState.BorderColor = Color.DarkGray
-        btnCancelarCambiosCambiarContraseña.DisabledState.CustomBorderColor = Color.DarkGray
-        btnCancelarCambiosCambiarContraseña.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnCancelarCambiosCambiarContraseña.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnCancelarCambiosCambiarContraseña.FillColor = Color.Red
-        btnCancelarCambiosCambiarContraseña.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnCancelarCambiosCambiarContraseña.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnCancelarCambiosCambiarContraseña.Location = New Point(29, 347)
-        btnCancelarCambiosCambiarContraseña.Margin = New Padding(4, 5, 4, 5)
-        btnCancelarCambiosCambiarContraseña.Name = "btnCancelarCambiosCambiarContraseña"
-        btnCancelarCambiosCambiarContraseña.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        btnCancelarCambiosCambiarContraseña.Size = New Size(134, 61)
-        btnCancelarCambiosCambiarContraseña.TabIndex = 49
-        btnCancelarCambiosCambiarContraseña.Text = "Cancelar Cambios"
-        ' 
         ' frmCambiarContraseña
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
-        AutoScaleMode = AutoScaleMode.Font
+        AutoScaleMode = AutoScaleMode.None
         BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         ClientSize = New Size(390, 844)
         Controls.Add(pnlCambiarContraseña)

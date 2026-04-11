@@ -22,22 +22,22 @@ Partial Class frmEditarPerfil
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Panel1 = New Panel()
         btnCancelarCambiosEditarPerfil = New Guna.UI2.WinForms.Guna2Button()
         btnGuardarCambiosEditarPerfil = New Guna.UI2.WinForms.Guna2Button()
@@ -92,7 +92,7 @@ Partial Class frmEditarPerfil
         btnCancelarCambiosEditarPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         btnCancelarCambiosEditarPerfil.Animated = True
         btnCancelarCambiosEditarPerfil.BorderRadius = 15
-        btnCancelarCambiosEditarPerfil.CustomizableEdges = CustomizableEdges1
+        btnCancelarCambiosEditarPerfil.CustomizableEdges = CustomizableEdges17
         btnCancelarCambiosEditarPerfil.DisabledState.BorderColor = Color.DarkGray
         btnCancelarCambiosEditarPerfil.DisabledState.CustomBorderColor = Color.DarkGray
         btnCancelarCambiosEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -103,7 +103,7 @@ Partial Class frmEditarPerfil
         btnCancelarCambiosEditarPerfil.Location = New Point(29, 730)
         btnCancelarCambiosEditarPerfil.Margin = New Padding(4, 5, 4, 5)
         btnCancelarCambiosEditarPerfil.Name = "btnCancelarCambiosEditarPerfil"
-        btnCancelarCambiosEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        btnCancelarCambiosEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         btnCancelarCambiosEditarPerfil.Size = New Size(134, 61)
         btnCancelarCambiosEditarPerfil.TabIndex = 48
         btnCancelarCambiosEditarPerfil.Text = "Cancelar Cambios"
@@ -113,7 +113,7 @@ Partial Class frmEditarPerfil
         btnGuardarCambiosEditarPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         btnGuardarCambiosEditarPerfil.Animated = True
         btnGuardarCambiosEditarPerfil.BorderRadius = 15
-        btnGuardarCambiosEditarPerfil.CustomizableEdges = CustomizableEdges3
+        btnGuardarCambiosEditarPerfil.CustomizableEdges = CustomizableEdges19
         btnGuardarCambiosEditarPerfil.DisabledState.BorderColor = Color.DarkGray
         btnGuardarCambiosEditarPerfil.DisabledState.CustomBorderColor = Color.DarkGray
         btnGuardarCambiosEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -124,7 +124,7 @@ Partial Class frmEditarPerfil
         btnGuardarCambiosEditarPerfil.Location = New Point(227, 730)
         btnGuardarCambiosEditarPerfil.Margin = New Padding(4, 5, 4, 5)
         btnGuardarCambiosEditarPerfil.Name = "btnGuardarCambiosEditarPerfil"
-        btnGuardarCambiosEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnGuardarCambiosEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         btnGuardarCambiosEditarPerfil.Size = New Size(134, 61)
         btnGuardarCambiosEditarPerfil.TabIndex = 47
         btnGuardarCambiosEditarPerfil.Text = "Guardar Cambios"
@@ -134,7 +134,7 @@ Partial Class frmEditarPerfil
         txtObjetivosPrincipalesEditarPerfil.Animated = True
         txtObjetivosPrincipalesEditarPerfil.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtObjetivosPrincipalesEditarPerfil.BorderRadius = 15
-        txtObjetivosPrincipalesEditarPerfil.CustomizableEdges = CustomizableEdges5
+        txtObjetivosPrincipalesEditarPerfil.CustomizableEdges = CustomizableEdges21
         txtObjetivosPrincipalesEditarPerfil.DefaultText = ""
         txtObjetivosPrincipalesEditarPerfil.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtObjetivosPrincipalesEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -151,7 +151,7 @@ Partial Class frmEditarPerfil
         txtObjetivosPrincipalesEditarPerfil.PlaceholderForeColor = Color.Black
         txtObjetivosPrincipalesEditarPerfil.PlaceholderText = "Coloca de 3 a 5 objetivos que tengas aqui"
         txtObjetivosPrincipalesEditarPerfil.SelectedText = ""
-        txtObjetivosPrincipalesEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtObjetivosPrincipalesEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         txtObjetivosPrincipalesEditarPerfil.Size = New Size(364, 36)
         txtObjetivosPrincipalesEditarPerfil.TabIndex = 46
         txtObjetivosPrincipalesEditarPerfil.TextOffset = New Point(15, 0)
@@ -172,7 +172,7 @@ Partial Class frmEditarPerfil
         txtCorreoElectronicoEditarPerfil.Animated = True
         txtCorreoElectronicoEditarPerfil.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtCorreoElectronicoEditarPerfil.BorderRadius = 15
-        txtCorreoElectronicoEditarPerfil.CustomizableEdges = CustomizableEdges7
+        txtCorreoElectronicoEditarPerfil.CustomizableEdges = CustomizableEdges23
         txtCorreoElectronicoEditarPerfil.DefaultText = ""
         txtCorreoElectronicoEditarPerfil.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtCorreoElectronicoEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -189,7 +189,7 @@ Partial Class frmEditarPerfil
         txtCorreoElectronicoEditarPerfil.PlaceholderForeColor = Color.Black
         txtCorreoElectronicoEditarPerfil.PlaceholderText = "Coloca tu correo completo aqui"
         txtCorreoElectronicoEditarPerfil.SelectedText = ""
-        txtCorreoElectronicoEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtCorreoElectronicoEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         txtCorreoElectronicoEditarPerfil.Size = New Size(364, 36)
         txtCorreoElectronicoEditarPerfil.TabIndex = 44
         txtCorreoElectronicoEditarPerfil.TextOffset = New Point(15, 0)
@@ -222,7 +222,7 @@ Partial Class frmEditarPerfil
         cbxGeneroEditarPerfil.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         cbxGeneroEditarPerfil.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         cbxGeneroEditarPerfil.BorderRadius = 15
-        cbxGeneroEditarPerfil.CustomizableEdges = CustomizableEdges9
+        cbxGeneroEditarPerfil.CustomizableEdges = CustomizableEdges25
         cbxGeneroEditarPerfil.DrawMode = DrawMode.OwnerDrawFixed
         cbxGeneroEditarPerfil.DropDownStyle = ComboBoxStyle.DropDownList
         cbxGeneroEditarPerfil.FillColor = Color.FromArgb(CByte(244), CByte(244), CByte(244))
@@ -234,7 +234,7 @@ Partial Class frmEditarPerfil
         cbxGeneroEditarPerfil.Items.AddRange(New Object() {"Masculino", "Femenino", "Otro"})
         cbxGeneroEditarPerfil.Location = New Point(13, 460)
         cbxGeneroEditarPerfil.Name = "cbxGeneroEditarPerfil"
-        cbxGeneroEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        cbxGeneroEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         cbxGeneroEditarPerfil.Size = New Size(364, 36)
         cbxGeneroEditarPerfil.TabIndex = 41
         cbxGeneroEditarPerfil.TextOffset = New Point(15, 0)
@@ -244,7 +244,7 @@ Partial Class frmEditarPerfil
         dtpFechaNacimientoEditarPerfil.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         dtpFechaNacimientoEditarPerfil.BorderRadius = 15
         dtpFechaNacimientoEditarPerfil.Checked = True
-        dtpFechaNacimientoEditarPerfil.CustomizableEdges = CustomizableEdges11
+        dtpFechaNacimientoEditarPerfil.CustomizableEdges = CustomizableEdges27
         dtpFechaNacimientoEditarPerfil.FillColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
         dtpFechaNacimientoEditarPerfil.Font = New Font("Segoe UI", 9F)
         dtpFechaNacimientoEditarPerfil.Format = DateTimePickerFormat.Long
@@ -252,7 +252,7 @@ Partial Class frmEditarPerfil
         dtpFechaNacimientoEditarPerfil.MaxDate = New Date(2026, 12, 31, 0, 0, 0, 0)
         dtpFechaNacimientoEditarPerfil.MinDate = New Date(1970, 12, 31, 0, 0, 0, 0)
         dtpFechaNacimientoEditarPerfil.Name = "dtpFechaNacimientoEditarPerfil"
-        dtpFechaNacimientoEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        dtpFechaNacimientoEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         dtpFechaNacimientoEditarPerfil.Size = New Size(364, 37)
         dtpFechaNacimientoEditarPerfil.TabIndex = 40
         dtpFechaNacimientoEditarPerfil.Value = New Date(2026, 4, 8, 18, 56, 16, 229)
@@ -273,7 +273,7 @@ Partial Class frmEditarPerfil
         txtNombreEditarPerfil.Animated = True
         txtNombreEditarPerfil.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         txtNombreEditarPerfil.BorderRadius = 15
-        txtNombreEditarPerfil.CustomizableEdges = CustomizableEdges13
+        txtNombreEditarPerfil.CustomizableEdges = CustomizableEdges29
         txtNombreEditarPerfil.DefaultText = ""
         txtNombreEditarPerfil.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtNombreEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -290,7 +290,7 @@ Partial Class frmEditarPerfil
         txtNombreEditarPerfil.PlaceholderForeColor = Color.Black
         txtNombreEditarPerfil.PlaceholderText = "Coloca tu nombre completo aqui"
         txtNombreEditarPerfil.SelectedText = ""
-        txtNombreEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        txtNombreEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         txtNombreEditarPerfil.Size = New Size(364, 36)
         txtNombreEditarPerfil.TabIndex = 36
         txtNombreEditarPerfil.TextOffset = New Point(15, 0)
@@ -312,7 +312,7 @@ Partial Class frmEditarPerfil
         btnEditarFotoPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         btnEditarFotoPerfil.Animated = True
         btnEditarFotoPerfil.BorderRadius = 15
-        btnEditarFotoPerfil.CustomizableEdges = CustomizableEdges15
+        btnEditarFotoPerfil.CustomizableEdges = CustomizableEdges31
         btnEditarFotoPerfil.DisabledState.BorderColor = Color.DarkGray
         btnEditarFotoPerfil.DisabledState.CustomBorderColor = Color.DarkGray
         btnEditarFotoPerfil.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -323,7 +323,7 @@ Partial Class frmEditarPerfil
         btnEditarFotoPerfil.Location = New Point(91, 211)
         btnEditarFotoPerfil.Margin = New Padding(4, 5, 4, 5)
         btnEditarFotoPerfil.Name = "btnEditarFotoPerfil"
-        btnEditarFotoPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        btnEditarFotoPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges32
         btnEditarFotoPerfil.Size = New Size(209, 53)
         btnEditarFotoPerfil.TabIndex = 34
         btnEditarFotoPerfil.Text = "Editar Foto de Perfil"
@@ -341,12 +341,12 @@ Partial Class frmEditarPerfil
         ' 
         ' lblEditarPerfilDeUsuario
         ' 
-        lblEditarPerfilDeUsuario.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblEditarPerfilDeUsuario.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblEditarPerfilDeUsuario.ForeColor = SystemColors.ButtonFace
-        lblEditarPerfilDeUsuario.Location = New Point(87, 10)
+        lblEditarPerfilDeUsuario.Location = New Point(76, 10)
         lblEditarPerfilDeUsuario.Margin = New Padding(4, 0, 4, 0)
         lblEditarPerfilDeUsuario.Name = "lblEditarPerfilDeUsuario"
-        lblEditarPerfilDeUsuario.Size = New Size(216, 34)
+        lblEditarPerfilDeUsuario.Size = New Size(239, 34)
         lblEditarPerfilDeUsuario.TabIndex = 32
         lblEditarPerfilDeUsuario.Text = "Editar Perfil de Usuario"
         ' 

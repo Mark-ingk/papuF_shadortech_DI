@@ -775,6 +775,7 @@ Partial Class frmInicio
         ' 
         ' Guna2Button1
         ' 
+        Guna2Button1.Animated = True
         Guna2Button1.BorderRadius = 25
         Guna2Button1.CustomizableEdges = CustomizableEdges16
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
@@ -821,7 +822,9 @@ Partial Class frmInicio
         ' 
         ' Guna2Button2
         ' 
-        Guna2Button2.BorderRadius = 25
+        Guna2Button2.Animated = True
+        Guna2Button2.AutoRoundedCorners = True
+        Guna2Button2.BorderRadius = 41
         Guna2Button2.CustomizableEdges = CustomizableEdges18
         Guna2Button2.DisabledState.BorderColor = Color.DarkGray
         Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray

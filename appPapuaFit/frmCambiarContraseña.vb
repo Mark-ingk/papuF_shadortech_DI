@@ -1,5 +1,5 @@
 ﻿Public Class frmCambiarContraseña
-    Private Sub txtContraseñaActual_TextChanged(sender As Object, e As EventArgs) Handles txtContraseñaActual.TextChanged
+    Private Sub pnlCambiarContraseña_Paint(sender As Object, e As PaintEventArgs) Handles pnlCambiarContraseña.Paint
 
     End Sub
 End Class

@@ -333,7 +333,7 @@ Partial Class frmAjustes
         ' 
         lblAjustes.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblAjustes.ForeColor = SystemColors.ButtonFace
-        lblAjustes.Location = New Point(151, 10)
+        lblAjustes.Location = New Point(75, 17)
         lblAjustes.Margin = New Padding(4, 0, 4, 0)
         lblAjustes.Name = "lblAjustes"
         lblAjustes.Size = New Size(88, 34)

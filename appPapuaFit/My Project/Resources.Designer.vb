@@ -103,6 +103,26 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property chip___Editado() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chip - Editado", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Diseño_sin_título__2_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Diseño sin título (2)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property engine_gear_internet_option_security_setting_web_icon_127066() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("engine_gear_internet_option_security_setting_web_icon_127066", resourceCulture)

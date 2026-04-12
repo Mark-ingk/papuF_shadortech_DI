@@ -326,6 +326,7 @@ Partial Class frmEditarPerfil
         Name = "frmEditarPerfil"
         Padding = New Padding(25)
         StartPosition = FormStartPosition.CenterScreen
+        Text = "igit "
         pnlEditarPerfil.ResumeLayout(False)
         pnlEditarPerfil.PerformLayout()
         CType(pbxFotoPerfilEditarPerfil, ComponentModel.ISupportInitialize).EndInit()

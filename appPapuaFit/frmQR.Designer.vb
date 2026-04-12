@@ -185,7 +185,7 @@ Partial Class frmQR
         btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         btnINS.Size = New Size(310, 55)
         btnINS.TabIndex = 13
-        btnINS.Text = "INICIAR"
+        btnINS.Text = "REGRESAR"
         ' 
         ' pnlCntQR
         ' 

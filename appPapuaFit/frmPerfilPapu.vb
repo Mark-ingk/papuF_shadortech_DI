@@ -1,5 +1,5 @@
 ﻿Public Class frmPerfilPapu
-    Private Sub Guna2Separator1_Click(sender As Object, e As EventArgs) Handles spr1PerfilPapu.Click
+    Private Sub Guna2Separator1_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -19,19 +19,39 @@
 
     End Sub
 
-    Private Sub IconButton1_Click(sender As Object, e As EventArgs) Handles icbnAjustes.Click
+    Private Sub IconButton1_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub btnAnadirEntrenadorPerfilPapu_Click(sender As Object, e As EventArgs) Handles btnAnadirEntrenadorPerfilPapu.Click
+    Private Sub btnAnadirEntrenadorPerfilPapu_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub lblQrPerfilPapu_Click(sender As Object, e As EventArgs) Handles lblQrPerfilPapu.Click
+    Private Sub lblQrPerfilPapu_Click(sender As Object, e As EventArgs)
 
     End Sub
 
     Private Sub pnlPerfilPapu_Paint(sender As Object, e As PaintEventArgs) Handles pnlPerfilPapu.Paint
+
+    End Sub
+
+    Private Sub IconButton3_Click(sender As Object, e As EventArgs) Handles IconButton3.Click
+
+    End Sub
+
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
+
+    End Sub
+
+    Private Sub Guna2HtmlLabel1_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel1.Click
+
+    End Sub
+
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+
+    End Sub
+
+    Private Sub IconPictureBox7_Click(sender As Object, e As EventArgs) Handles IconPictureBox7.Click
 
     End Sub
 End Class

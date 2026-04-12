@@ -22,15 +22,15 @@ Partial Class frmPerfilPapu
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlPerfilPapu = New Panel()
         lblAjustesPerfilPapu = New Label()
+        txtMiembroDesdePerfilPapu = New Guna.UI2.WinForms.Guna2TextBox()
         lblEventosPerfilPapu = New Label()
         lblQrPerfilPapu = New Label()
         lblRutinaPerfilPapu = New Label()
@@ -42,14 +42,11 @@ Partial Class frmPerfilPapu
         lblEntrenadorPerfilPapu = New Label()
         btnEditarPerfilPerfilPapu = New Guna.UI2.WinForms.Guna2Button()
         lblNombrePerfilPapu = New Label()
-        pbxFotoPerfilPerfilPapu = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         lblPerfilUsuarioPerfilPapu = New Label()
         btnRegresarPerfilPapu = New Button()
         spr1PerfilPapu = New Guna.UI2.WinForms.Guna2Separator()
         spr2PerfilPapu = New Guna.UI2.WinForms.Guna2Separator()
-        txtMiembroDesdePerfilPapu = New Guna.UI2.WinForms.Guna2TextBox()
         pnlPerfilPapu.SuspendLayout()
-        CType(pbxFotoPerfilPerfilPapu, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' pnlPerfilPapu
@@ -67,7 +64,6 @@ Partial Class frmPerfilPapu
         pnlPerfilPapu.Controls.Add(lblEntrenadorPerfilPapu)
         pnlPerfilPapu.Controls.Add(btnEditarPerfilPerfilPapu)
         pnlPerfilPapu.Controls.Add(lblNombrePerfilPapu)
-        pnlPerfilPapu.Controls.Add(pbxFotoPerfilPerfilPapu)
         pnlPerfilPapu.Controls.Add(lblPerfilUsuarioPerfilPapu)
         pnlPerfilPapu.Controls.Add(btnRegresarPerfilPapu)
         pnlPerfilPapu.Controls.Add(spr1PerfilPapu)
@@ -91,6 +87,34 @@ Partial Class frmPerfilPapu
         lblAjustesPerfilPapu.TabIndex = 45
         lblAjustesPerfilPapu.Text = "Ajustes"
         lblAjustesPerfilPapu.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' txtMiembroDesdePerfilPapu
+        ' 
+        txtMiembroDesdePerfilPapu.Animated = True
+        txtMiembroDesdePerfilPapu.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtMiembroDesdePerfilPapu.CustomizableEdges = CustomizableEdges1
+        txtMiembroDesdePerfilPapu.DefaultText = ""
+        txtMiembroDesdePerfilPapu.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtMiembroDesdePerfilPapu.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtMiembroDesdePerfilPapu.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtMiembroDesdePerfilPapu.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtMiembroDesdePerfilPapu.Enabled = False
+        txtMiembroDesdePerfilPapu.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtMiembroDesdePerfilPapu.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtMiembroDesdePerfilPapu.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        txtMiembroDesdePerfilPapu.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtMiembroDesdePerfilPapu.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtMiembroDesdePerfilPapu.Location = New Point(0, 710)
+        txtMiembroDesdePerfilPapu.Margin = New Padding(20, 432, 20, 162)
+        txtMiembroDesdePerfilPapu.Name = "txtMiembroDesdePerfilPapu"
+        txtMiembroDesdePerfilPapu.PlaceholderForeColor = Color.Black
+        txtMiembroDesdePerfilPapu.PlaceholderText = "Miembro desde"
+        txtMiembroDesdePerfilPapu.ReadOnly = True
+        txtMiembroDesdePerfilPapu.SelectedText = ""
+        txtMiembroDesdePerfilPapu.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtMiembroDesdePerfilPapu.Size = New Size(390, 85)
+        txtMiembroDesdePerfilPapu.TabIndex = 46
+        txtMiembroDesdePerfilPapu.TextAlign = HorizontalAlignment.Center
         ' 
         ' lblEventosPerfilPapu
         ' 
@@ -259,20 +283,6 @@ Partial Class frmPerfilPapu
         lblNombrePerfilPapu.Text = "Usuario"
         lblNombrePerfilPapu.TextAlign = ContentAlignment.TopCenter
         ' 
-        ' pbxFotoPerfilPerfilPapu
-        ' 
-        pbxFotoPerfilPerfilPapu.BackColor = Color.Transparent
-        pbxFotoPerfilPerfilPapu.Image = My.Resources.Resources.prefiiil
-        pbxFotoPerfilPerfilPapu.ImageRotate = 0F
-        pbxFotoPerfilPerfilPapu.Location = New Point(117, 105)
-        pbxFotoPerfilPerfilPapu.Name = "pbxFotoPerfilPerfilPapu"
-        pbxFotoPerfilPerfilPapu.ShadowDecoration.CustomizableEdges = CustomizableEdges7
-        pbxFotoPerfilPerfilPapu.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        pbxFotoPerfilPerfilPapu.Size = New Size(156, 152)
-        pbxFotoPerfilPerfilPapu.SizeMode = PictureBoxSizeMode.StretchImage
-        pbxFotoPerfilPerfilPapu.TabIndex = 27
-        pbxFotoPerfilPerfilPapu.TabStop = False
-        ' 
         ' lblPerfilUsuarioPerfilPapu
         ' 
         lblPerfilUsuarioPerfilPapu.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
@@ -315,34 +325,6 @@ Partial Class frmPerfilPapu
         spr2PerfilPapu.Size = New Size(390, 18)
         spr2PerfilPapu.TabIndex = 16
         ' 
-        ' txtMiembroDesdePerfilPapu
-        ' 
-        txtMiembroDesdePerfilPapu.Animated = True
-        txtMiembroDesdePerfilPapu.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        txtMiembroDesdePerfilPapu.CustomizableEdges = CustomizableEdges1
-        txtMiembroDesdePerfilPapu.DefaultText = ""
-        txtMiembroDesdePerfilPapu.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtMiembroDesdePerfilPapu.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtMiembroDesdePerfilPapu.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtMiembroDesdePerfilPapu.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtMiembroDesdePerfilPapu.Enabled = False
-        txtMiembroDesdePerfilPapu.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        txtMiembroDesdePerfilPapu.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtMiembroDesdePerfilPapu.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        txtMiembroDesdePerfilPapu.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        txtMiembroDesdePerfilPapu.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtMiembroDesdePerfilPapu.Location = New Point(0, 710)
-        txtMiembroDesdePerfilPapu.Margin = New Padding(20, 432, 20, 162)
-        txtMiembroDesdePerfilPapu.Name = "txtMiembroDesdePerfilPapu"
-        txtMiembroDesdePerfilPapu.PlaceholderForeColor = Color.Black
-        txtMiembroDesdePerfilPapu.PlaceholderText = "Miembro desde"
-        txtMiembroDesdePerfilPapu.ReadOnly = True
-        txtMiembroDesdePerfilPapu.SelectedText = ""
-        txtMiembroDesdePerfilPapu.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        txtMiembroDesdePerfilPapu.Size = New Size(390, 85)
-        txtMiembroDesdePerfilPapu.TabIndex = 46
-        txtMiembroDesdePerfilPapu.TextAlign = HorizontalAlignment.Center
-        ' 
         ' frmPerfilPapu
         ' 
         AutoScaleMode = AutoScaleMode.None
@@ -356,7 +338,6 @@ Partial Class frmPerfilPapu
         Padding = New Padding(25)
         StartPosition = FormStartPosition.CenterScreen
         pnlPerfilPapu.ResumeLayout(False)
-        CType(pbxFotoPerfilPerfilPapu, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -369,7 +350,6 @@ Partial Class frmPerfilPapu
     Friend WithEvents btnEditarPerfilPerfilPapu As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnAnadirEntrenadorPerfilPapu As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents lblEntrenadorPerfilPapu As Label
-    Friend WithEvents pbxFotoPerfilPerfilPapu As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents ibnEventosPerfilPapu As FontAwesome.Sharp.IconButton
     Friend WithEvents ibnRutinaPerfilPapu As FontAwesome.Sharp.IconButton
     Friend WithEvents ibnQrPerfilPapu As FontAwesome.Sharp.IconButton

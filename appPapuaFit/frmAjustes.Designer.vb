@@ -26,49 +26,51 @@ Partial Class frmAjustes
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlAjustes = New Panel()
-        btnRegresarAjustes = New Button()
         btnCerrarSesionAjustes = New Guna.UI2.WinForms.Guna2Button()
-        txtUltimaActualizacion = New Guna.UI2.WinForms.Guna2TextBox()
-        lblUltimaActualizacion = New Label()
-        lblVersionDeApp = New Label()
+        lblUltimaActualizacionAjustes = New Label()
+        tbxUltimaActualizacionAjustes = New TextBox()
+        spr3 = New Guna.UI2.WinForms.Guna2Separator()
+        lblVersionAppAjustes = New Label()
+        tbxVersionAppAjustes = New TextBox()
+        spr3Ajustes = New Guna.UI2.WinForms.Guna2Separator()
+        lblCorreVinculadoAjustes = New Label()
+        tbxContraseñaActualAjustes = New TextBox()
+        spr2Ajustes = New Guna.UI2.WinForms.Guna2Separator()
+        spr1Ajustes = New Guna.UI2.WinForms.Guna2Separator()
+        btnRegresarAjustes = New Button()
         lblInformacionSistema = New Label()
-        lblPreferenciaAplicacion = New Label()
-        lblCambiarContraseña = New Label()
+        lblPreferenciaAplicacionAjustes = New Label()
+        lblCambiarContraseñaAjustes = New Label()
         btnCambiarContraseñaContinuar = New Guna.UI2.WinForms.Guna2Button()
-        txtCorreoVinculado = New Guna.UI2.WinForms.Guna2TextBox()
-        lblCorreoVinculado = New Label()
-        lblConfiguracionCuenta = New Label()
-        cbxNotifiacionesActivdadas = New Guna.UI2.WinForms.Guna2CheckBox()
-        lblNotificaciones = New Label()
-        txtVersionDeApp = New Guna.UI2.WinForms.Guna2TextBox()
+        lblConfiguracionCuentaAjustes = New Label()
+        cbxNotifiacionesActivdadasAjustes = New Guna.UI2.WinForms.Guna2CheckBox()
+        lblNotificacionesActivadasAjustes = New Label()
         lblAjustes = New Label()
         pnlAjustes.SuspendLayout()
         SuspendLayout()
         ' 
         ' pnlAjustes
         ' 
-        pnlAjustes.Controls.Add(btnRegresarAjustes)
         pnlAjustes.Controls.Add(btnCerrarSesionAjustes)
-        pnlAjustes.Controls.Add(txtUltimaActualizacion)
-        pnlAjustes.Controls.Add(lblUltimaActualizacion)
-        pnlAjustes.Controls.Add(lblVersionDeApp)
+        pnlAjustes.Controls.Add(lblUltimaActualizacionAjustes)
+        pnlAjustes.Controls.Add(tbxUltimaActualizacionAjustes)
+        pnlAjustes.Controls.Add(spr3)
+        pnlAjustes.Controls.Add(lblVersionAppAjustes)
+        pnlAjustes.Controls.Add(tbxVersionAppAjustes)
+        pnlAjustes.Controls.Add(spr3Ajustes)
+        pnlAjustes.Controls.Add(lblCorreVinculadoAjustes)
+        pnlAjustes.Controls.Add(tbxContraseñaActualAjustes)
+        pnlAjustes.Controls.Add(spr2Ajustes)
+        pnlAjustes.Controls.Add(spr1Ajustes)
+        pnlAjustes.Controls.Add(btnRegresarAjustes)
         pnlAjustes.Controls.Add(lblInformacionSistema)
-        pnlAjustes.Controls.Add(lblPreferenciaAplicacion)
-        pnlAjustes.Controls.Add(lblCambiarContraseña)
+        pnlAjustes.Controls.Add(lblPreferenciaAplicacionAjustes)
+        pnlAjustes.Controls.Add(lblCambiarContraseñaAjustes)
         pnlAjustes.Controls.Add(btnCambiarContraseñaContinuar)
-        pnlAjustes.Controls.Add(txtCorreoVinculado)
-        pnlAjustes.Controls.Add(lblCorreoVinculado)
-        pnlAjustes.Controls.Add(lblConfiguracionCuenta)
-        pnlAjustes.Controls.Add(cbxNotifiacionesActivdadas)
-        pnlAjustes.Controls.Add(lblNotificaciones)
-        pnlAjustes.Controls.Add(txtVersionDeApp)
+        pnlAjustes.Controls.Add(lblConfiguracionCuentaAjustes)
+        pnlAjustes.Controls.Add(cbxNotifiacionesActivdadasAjustes)
+        pnlAjustes.Controls.Add(lblNotificacionesActivadasAjustes)
         pnlAjustes.Controls.Add(lblAjustes)
         pnlAjustes.Location = New Point(0, 0)
         pnlAjustes.MaximumSize = New Size(390, 844)
@@ -77,6 +79,137 @@ Partial Class frmAjustes
         pnlAjustes.Padding = New Padding(25)
         pnlAjustes.Size = New Size(390, 844)
         pnlAjustes.TabIndex = 0
+        ' 
+        ' btnCerrarSesionAjustes
+        ' 
+        btnCerrarSesionAjustes.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        btnCerrarSesionAjustes.BorderRadius = 15
+        btnCerrarSesionAjustes.CustomizableEdges = CustomizableEdges1
+        btnCerrarSesionAjustes.DisabledState.BorderColor = Color.DarkGray
+        btnCerrarSesionAjustes.DisabledState.CustomBorderColor = Color.DarkGray
+        btnCerrarSesionAjustes.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnCerrarSesionAjustes.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnCerrarSesionAjustes.FillColor = Color.Red
+        btnCerrarSesionAjustes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnCerrarSesionAjustes.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        btnCerrarSesionAjustes.Location = New Point(21, 771)
+        btnCerrarSesionAjustes.Name = "btnCerrarSesionAjustes"
+        btnCerrarSesionAjustes.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        btnCerrarSesionAjustes.Size = New Size(348, 36)
+        btnCerrarSesionAjustes.TabIndex = 61
+        btnCerrarSesionAjustes.Text = "Cerrar Sesion"
+        ' 
+        ' lblUltimaActualizacionAjustes
+        ' 
+        lblUltimaActualizacionAjustes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblUltimaActualizacionAjustes.ForeColor = SystemColors.ButtonFace
+        lblUltimaActualizacionAjustes.Location = New Point(21, 673)
+        lblUltimaActualizacionAjustes.Margin = New Padding(4, 0, 4, 0)
+        lblUltimaActualizacionAjustes.Name = "lblUltimaActualizacionAjustes"
+        lblUltimaActualizacionAjustes.Size = New Size(194, 34)
+        lblUltimaActualizacionAjustes.TabIndex = 58
+        lblUltimaActualizacionAjustes.Text = "Ultima Actualizacion"
+        lblUltimaActualizacionAjustes.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' tbxUltimaActualizacionAjustes
+        ' 
+        tbxUltimaActualizacionAjustes.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        tbxUltimaActualizacionAjustes.BorderStyle = BorderStyle.None
+        tbxUltimaActualizacionAjustes.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        tbxUltimaActualizacionAjustes.ForeColor = SystemColors.ButtonFace
+        tbxUltimaActualizacionAjustes.Location = New Point(24, 710)
+        tbxUltimaActualizacionAjustes.Name = "tbxUltimaActualizacionAjustes"
+        tbxUltimaActualizacionAjustes.ReadOnly = True
+        tbxUltimaActualizacionAjustes.Size = New Size(345, 22)
+        tbxUltimaActualizacionAjustes.TabIndex = 59
+        tbxUltimaActualizacionAjustes.Text = "12 de abril de 2026"
+        ' 
+        ' spr3
+        ' 
+        spr3.BackColor = Color.Transparent
+        spr3.BackgroundImageLayout = ImageLayout.None
+        spr3.Location = New Point(24, 735)
+        spr3.Margin = New Padding(0, 0, 0, 20)
+        spr3.Name = "spr3"
+        spr3.Size = New Size(345, 13)
+        spr3.TabIndex = 60
+        ' 
+        ' lblVersionAppAjustes
+        ' 
+        lblVersionAppAjustes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblVersionAppAjustes.ForeColor = SystemColors.ButtonFace
+        lblVersionAppAjustes.Location = New Point(21, 578)
+        lblVersionAppAjustes.Margin = New Padding(4, 0, 4, 0)
+        lblVersionAppAjustes.Name = "lblVersionAppAjustes"
+        lblVersionAppAjustes.Size = New Size(169, 34)
+        lblVersionAppAjustes.TabIndex = 55
+        lblVersionAppAjustes.Text = "Version de la App"
+        lblVersionAppAjustes.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' tbxVersionAppAjustes
+        ' 
+        tbxVersionAppAjustes.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        tbxVersionAppAjustes.BorderStyle = BorderStyle.None
+        tbxVersionAppAjustes.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        tbxVersionAppAjustes.ForeColor = SystemColors.ButtonFace
+        tbxVersionAppAjustes.Location = New Point(24, 615)
+        tbxVersionAppAjustes.Name = "tbxVersionAppAjustes"
+        tbxVersionAppAjustes.ReadOnly = True
+        tbxVersionAppAjustes.Size = New Size(345, 22)
+        tbxVersionAppAjustes.TabIndex = 56
+        tbxVersionAppAjustes.Text = "1.0"
+        ' 
+        ' spr3Ajustes
+        ' 
+        spr3Ajustes.BackColor = Color.Transparent
+        spr3Ajustes.BackgroundImageLayout = ImageLayout.None
+        spr3Ajustes.Location = New Point(24, 640)
+        spr3Ajustes.Margin = New Padding(0, 0, 0, 20)
+        spr3Ajustes.Name = "spr3Ajustes"
+        spr3Ajustes.Size = New Size(345, 13)
+        spr3Ajustes.TabIndex = 57
+        ' 
+        ' lblCorreVinculadoAjustes
+        ' 
+        lblCorreVinculadoAjustes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblCorreVinculadoAjustes.ForeColor = SystemColors.ButtonFace
+        lblCorreVinculadoAjustes.Location = New Point(21, 162)
+        lblCorreVinculadoAjustes.Margin = New Padding(4, 0, 4, 0)
+        lblCorreVinculadoAjustes.Name = "lblCorreVinculadoAjustes"
+        lblCorreVinculadoAjustes.Size = New Size(169, 34)
+        lblCorreVinculadoAjustes.TabIndex = 52
+        lblCorreVinculadoAjustes.Text = "Correo Vinculado"
+        lblCorreVinculadoAjustes.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' tbxContraseñaActualAjustes
+        ' 
+        tbxContraseñaActualAjustes.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        tbxContraseñaActualAjustes.BorderStyle = BorderStyle.None
+        tbxContraseñaActualAjustes.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        tbxContraseñaActualAjustes.ForeColor = SystemColors.ButtonFace
+        tbxContraseñaActualAjustes.Location = New Point(24, 199)
+        tbxContraseñaActualAjustes.Name = "tbxContraseñaActualAjustes"
+        tbxContraseñaActualAjustes.Size = New Size(345, 22)
+        tbxContraseñaActualAjustes.TabIndex = 53
+        tbxContraseñaActualAjustes.Text = "Elpapugod123@gmail.com"
+        ' 
+        ' spr2Ajustes
+        ' 
+        spr2Ajustes.BackColor = Color.Transparent
+        spr2Ajustes.BackgroundImageLayout = ImageLayout.None
+        spr2Ajustes.Location = New Point(24, 224)
+        spr2Ajustes.Margin = New Padding(0, 0, 0, 20)
+        spr2Ajustes.Name = "spr2Ajustes"
+        spr2Ajustes.Size = New Size(345, 13)
+        spr2Ajustes.TabIndex = 54
+        ' 
+        ' spr1Ajustes
+        ' 
+        spr1Ajustes.Location = New Point(0, 64)
+        spr1Ajustes.Margin = New Padding(0, 0, 0, 20)
+        spr1Ajustes.Name = "spr1Ajustes"
+        spr1Ajustes.Size = New Size(390, 18)
+        spr1Ajustes.TabIndex = 51
         ' 
         ' btnRegresarAjustes
         ' 
@@ -93,247 +226,104 @@ Partial Class frmAjustes
         btnRegresarAjustes.TabIndex = 50
         btnRegresarAjustes.UseVisualStyleBackColor = False
         ' 
-        ' btnCerrarSesionAjustes
-        ' 
-        btnCerrarSesionAjustes.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        btnCerrarSesionAjustes.BorderRadius = 15
-        btnCerrarSesionAjustes.CustomizableEdges = CustomizableEdges1
-        btnCerrarSesionAjustes.DisabledState.BorderColor = Color.DarkGray
-        btnCerrarSesionAjustes.DisabledState.CustomBorderColor = Color.DarkGray
-        btnCerrarSesionAjustes.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnCerrarSesionAjustes.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnCerrarSesionAjustes.FillColor = Color.Red
-        btnCerrarSesionAjustes.Font = New Font("Segoe UI", 9F)
-        btnCerrarSesionAjustes.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        btnCerrarSesionAjustes.Location = New Point(13, 564)
-        btnCerrarSesionAjustes.Name = "btnCerrarSesionAjustes"
-        btnCerrarSesionAjustes.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        btnCerrarSesionAjustes.Size = New Size(364, 36)
-        btnCerrarSesionAjustes.TabIndex = 49
-        btnCerrarSesionAjustes.Text = "Cerrar Sesion"
-        ' 
-        ' txtUltimaActualizacion
-        ' 
-        txtUltimaActualizacion.Animated = True
-        txtUltimaActualizacion.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        txtUltimaActualizacion.BorderRadius = 15
-        txtUltimaActualizacion.CustomizableEdges = CustomizableEdges3
-        txtUltimaActualizacion.DefaultText = ""
-        txtUltimaActualizacion.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtUltimaActualizacion.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtUltimaActualizacion.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtUltimaActualizacion.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtUltimaActualizacion.Enabled = False
-        txtUltimaActualizacion.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        txtUltimaActualizacion.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtUltimaActualizacion.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtUltimaActualizacion.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        txtUltimaActualizacion.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtUltimaActualizacion.Location = New Point(13, 500)
-        txtUltimaActualizacion.Margin = New Padding(4, 67, 4, 25)
-        txtUltimaActualizacion.Name = "txtUltimaActualizacion"
-        txtUltimaActualizacion.PlaceholderForeColor = Color.Black
-        txtUltimaActualizacion.PlaceholderText = "9 de abril de 2026"
-        txtUltimaActualizacion.ReadOnly = True
-        txtUltimaActualizacion.SelectedText = ""
-        txtUltimaActualizacion.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        txtUltimaActualizacion.Size = New Size(364, 36)
-        txtUltimaActualizacion.TabIndex = 48
-        txtUltimaActualizacion.TextOffset = New Point(15, 0)
-        ' 
-        ' lblUltimaActualizacion
-        ' 
-        lblUltimaActualizacion.BackColor = Color.Transparent
-        lblUltimaActualizacion.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblUltimaActualizacion.ForeColor = SystemColors.ButtonHighlight
-        lblUltimaActualizacion.Location = New Point(13, 469)
-        lblUltimaActualizacion.Margin = New Padding(4, 0, 4, 0)
-        lblUltimaActualizacion.Name = "lblUltimaActualizacion"
-        lblUltimaActualizacion.Size = New Size(364, 28)
-        lblUltimaActualizacion.TabIndex = 47
-        lblUltimaActualizacion.Text = "Ultima Actualizacion"
-        ' 
-        ' lblVersionDeApp
-        ' 
-        lblVersionDeApp.BackColor = Color.Transparent
-        lblVersionDeApp.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblVersionDeApp.ForeColor = SystemColors.ButtonHighlight
-        lblVersionDeApp.Location = New Point(13, 389)
-        lblVersionDeApp.Margin = New Padding(4, 0, 4, 0)
-        lblVersionDeApp.Name = "lblVersionDeApp"
-        lblVersionDeApp.Size = New Size(364, 28)
-        lblVersionDeApp.TabIndex = 46
-        lblVersionDeApp.Text = "Version de la App"
-        ' 
         ' lblInformacionSistema
         ' 
         lblInformacionSistema.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblInformacionSistema.ForeColor = SystemColors.ButtonFace
-        lblInformacionSistema.Location = New Point(10, 348)
+        lblInformacionSistema.Location = New Point(21, 516)
         lblInformacionSistema.Margin = New Padding(4, 0, 4, 0)
         lblInformacionSistema.Name = "lblInformacionSistema"
         lblInformacionSistema.Size = New Size(227, 34)
         lblInformacionSistema.TabIndex = 45
         lblInformacionSistema.Text = "Informacion del sistema"
         ' 
-        ' lblPreferenciaAplicacion
+        ' lblPreferenciaAplicacionAjustes
         ' 
-        lblPreferenciaAplicacion.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblPreferenciaAplicacion.ForeColor = SystemColors.ButtonFace
-        lblPreferenciaAplicacion.Location = New Point(10, 276)
-        lblPreferenciaAplicacion.Margin = New Padding(4, 0, 4, 0)
-        lblPreferenciaAplicacion.Name = "lblPreferenciaAplicacion"
-        lblPreferenciaAplicacion.Size = New Size(254, 34)
-        lblPreferenciaAplicacion.TabIndex = 44
-        lblPreferenciaAplicacion.Text = "Preferencias de Aplicacion"
+        lblPreferenciaAplicacionAjustes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblPreferenciaAplicacionAjustes.ForeColor = SystemColors.ButtonFace
+        lblPreferenciaAplicacionAjustes.Location = New Point(21, 379)
+        lblPreferenciaAplicacionAjustes.Margin = New Padding(4, 0, 4, 0)
+        lblPreferenciaAplicacionAjustes.Name = "lblPreferenciaAplicacionAjustes"
+        lblPreferenciaAplicacionAjustes.Size = New Size(251, 34)
+        lblPreferenciaAplicacionAjustes.TabIndex = 44
+        lblPreferenciaAplicacionAjustes.Text = "Preferencias de Aplicacion"
         ' 
-        ' lblCambiarContraseña
+        ' lblCambiarContraseñaAjustes
         ' 
-        lblCambiarContraseña.BackColor = Color.Transparent
-        lblCambiarContraseña.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblCambiarContraseña.ForeColor = SystemColors.ButtonHighlight
-        lblCambiarContraseña.Location = New Point(13, 194)
-        lblCambiarContraseña.Margin = New Padding(4, 0, 4, 0)
-        lblCambiarContraseña.Name = "lblCambiarContraseña"
-        lblCambiarContraseña.Size = New Size(364, 28)
-        lblCambiarContraseña.TabIndex = 43
-        lblCambiarContraseña.Text = "Cambiar Contraseña"
+        lblCambiarContraseñaAjustes.BackColor = Color.Transparent
+        lblCambiarContraseñaAjustes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblCambiarContraseñaAjustes.ForeColor = SystemColors.ButtonHighlight
+        lblCambiarContraseñaAjustes.Location = New Point(21, 258)
+        lblCambiarContraseñaAjustes.Margin = New Padding(4, 0, 4, 0)
+        lblCambiarContraseñaAjustes.Name = "lblCambiarContraseñaAjustes"
+        lblCambiarContraseñaAjustes.Size = New Size(194, 28)
+        lblCambiarContraseñaAjustes.TabIndex = 43
+        lblCambiarContraseñaAjustes.Text = "Cambiar Contraseña"
         ' 
         ' btnCambiarContraseñaContinuar
         ' 
         btnCambiarContraseñaContinuar.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         btnCambiarContraseñaContinuar.BorderRadius = 15
-        btnCambiarContraseñaContinuar.CustomizableEdges = CustomizableEdges5
+        btnCambiarContraseñaContinuar.CustomizableEdges = CustomizableEdges3
         btnCambiarContraseñaContinuar.DisabledState.BorderColor = Color.DarkGray
         btnCambiarContraseñaContinuar.DisabledState.CustomBorderColor = Color.DarkGray
         btnCambiarContraseñaContinuar.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnCambiarContraseñaContinuar.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnCambiarContraseñaContinuar.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnCambiarContraseñaContinuar.Font = New Font("Segoe UI", 9F)
+        btnCambiarContraseñaContinuar.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnCambiarContraseñaContinuar.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        btnCambiarContraseñaContinuar.Location = New Point(13, 225)
+        btnCambiarContraseñaContinuar.Location = New Point(21, 301)
         btnCambiarContraseñaContinuar.Name = "btnCambiarContraseñaContinuar"
-        btnCambiarContraseñaContinuar.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        btnCambiarContraseñaContinuar.Size = New Size(364, 36)
+        btnCambiarContraseñaContinuar.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnCambiarContraseñaContinuar.Size = New Size(348, 36)
         btnCambiarContraseñaContinuar.TabIndex = 42
         btnCambiarContraseñaContinuar.Text = "Continuar"
         ' 
-        ' txtCorreoVinculado
+        ' lblConfiguracionCuentaAjustes
         ' 
-        txtCorreoVinculado.Animated = True
-        txtCorreoVinculado.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        txtCorreoVinculado.BorderRadius = 15
-        txtCorreoVinculado.CustomizableEdges = CustomizableEdges7
-        txtCorreoVinculado.DefaultText = ""
-        txtCorreoVinculado.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtCorreoVinculado.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtCorreoVinculado.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtCorreoVinculado.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtCorreoVinculado.Enabled = False
-        txtCorreoVinculado.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        txtCorreoVinculado.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtCorreoVinculado.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtCorreoVinculado.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        txtCorreoVinculado.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtCorreoVinculado.Location = New Point(13, 145)
-        txtCorreoVinculado.Margin = New Padding(4, 67, 4, 25)
-        txtCorreoVinculado.Name = "txtCorreoVinculado"
-        txtCorreoVinculado.PlaceholderForeColor = Color.Black
-        txtCorreoVinculado.PlaceholderText = "Elmaspapulince66@gmail.com"
-        txtCorreoVinculado.ReadOnly = True
-        txtCorreoVinculado.SelectedText = ""
-        txtCorreoVinculado.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        txtCorreoVinculado.Size = New Size(364, 36)
-        txtCorreoVinculado.TabIndex = 41
-        txtCorreoVinculado.TextOffset = New Point(15, 0)
+        lblConfiguracionCuentaAjustes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblConfiguracionCuentaAjustes.ForeColor = SystemColors.ButtonFace
+        lblConfiguracionCuentaAjustes.Location = New Point(21, 102)
+        lblConfiguracionCuentaAjustes.Margin = New Padding(4, 0, 4, 0)
+        lblConfiguracionCuentaAjustes.Name = "lblConfiguracionCuentaAjustes"
+        lblConfiguracionCuentaAjustes.Size = New Size(254, 34)
+        lblConfiguracionCuentaAjustes.TabIndex = 39
+        lblConfiguracionCuentaAjustes.Text = "Configuracion de la cuenta"
         ' 
-        ' lblCorreoVinculado
+        ' cbxNotifiacionesActivdadasAjustes
         ' 
-        lblCorreoVinculado.BackColor = Color.Transparent
-        lblCorreoVinculado.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblCorreoVinculado.ForeColor = SystemColors.ButtonHighlight
-        lblCorreoVinculado.Location = New Point(13, 114)
-        lblCorreoVinculado.Margin = New Padding(4, 0, 4, 0)
-        lblCorreoVinculado.Name = "lblCorreoVinculado"
-        lblCorreoVinculado.Size = New Size(100, 28)
-        lblCorreoVinculado.TabIndex = 40
-        lblCorreoVinculado.Text = "CorreoVinculado"
+        cbxNotifiacionesActivdadasAjustes.Checked = True
+        cbxNotifiacionesActivdadasAjustes.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cbxNotifiacionesActivdadasAjustes.CheckedState.BorderRadius = 0
+        cbxNotifiacionesActivdadasAjustes.CheckedState.BorderThickness = 0
+        cbxNotifiacionesActivdadasAjustes.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cbxNotifiacionesActivdadasAjustes.CheckState = CheckState.Indeterminate
+        cbxNotifiacionesActivdadasAjustes.Location = New Point(251, 439)
+        cbxNotifiacionesActivdadasAjustes.Name = "cbxNotifiacionesActivdadasAjustes"
+        cbxNotifiacionesActivdadasAjustes.Size = New Size(21, 28)
+        cbxNotifiacionesActivdadasAjustes.TabIndex = 38
+        cbxNotifiacionesActivdadasAjustes.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        cbxNotifiacionesActivdadasAjustes.UncheckedState.BorderRadius = 0
+        cbxNotifiacionesActivdadasAjustes.UncheckedState.BorderThickness = 0
+        cbxNotifiacionesActivdadasAjustes.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
         ' 
-        ' lblConfiguracionCuenta
+        ' lblNotificacionesActivadasAjustes
         ' 
-        lblConfiguracionCuenta.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblConfiguracionCuenta.ForeColor = SystemColors.ButtonFace
-        lblConfiguracionCuenta.Location = New Point(10, 73)
-        lblConfiguracionCuenta.Margin = New Padding(4, 0, 4, 0)
-        lblConfiguracionCuenta.Name = "lblConfiguracionCuenta"
-        lblConfiguracionCuenta.Size = New Size(254, 34)
-        lblConfiguracionCuenta.TabIndex = 39
-        lblConfiguracionCuenta.Text = "Configuracion de la cuenta"
-        ' 
-        ' cbxNotifiacionesActivdadas
-        ' 
-        cbxNotifiacionesActivdadas.Checked = True
-        cbxNotifiacionesActivdadas.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cbxNotifiacionesActivdadas.CheckedState.BorderRadius = 0
-        cbxNotifiacionesActivdadas.CheckedState.BorderThickness = 0
-        cbxNotifiacionesActivdadas.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cbxNotifiacionesActivdadas.CheckState = CheckState.Indeterminate
-        cbxNotifiacionesActivdadas.Location = New Point(157, 312)
-        cbxNotifiacionesActivdadas.Name = "cbxNotifiacionesActivdadas"
-        cbxNotifiacionesActivdadas.Size = New Size(30, 28)
-        cbxNotifiacionesActivdadas.TabIndex = 38
-        cbxNotifiacionesActivdadas.Text = "Guna2CheckBox1"
-        cbxNotifiacionesActivdadas.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        cbxNotifiacionesActivdadas.UncheckedState.BorderRadius = 0
-        cbxNotifiacionesActivdadas.UncheckedState.BorderThickness = 0
-        cbxNotifiacionesActivdadas.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        ' 
-        ' lblNotificaciones
-        ' 
-        lblNotificaciones.BackColor = Color.Transparent
-        lblNotificaciones.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblNotificaciones.ForeColor = SystemColors.ButtonHighlight
-        lblNotificaciones.Location = New Point(13, 317)
-        lblNotificaciones.Margin = New Padding(4, 0, 4, 0)
-        lblNotificaciones.Name = "lblNotificaciones"
-        lblNotificaciones.Size = New Size(364, 28)
-        lblNotificaciones.TabIndex = 37
-        lblNotificaciones.Text = "Notificaciones activadas"
-        ' 
-        ' txtVersionDeApp
-        ' 
-        txtVersionDeApp.Animated = True
-        txtVersionDeApp.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        txtVersionDeApp.BorderRadius = 15
-        txtVersionDeApp.CustomizableEdges = CustomizableEdges9
-        txtVersionDeApp.DefaultText = ""
-        txtVersionDeApp.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtVersionDeApp.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtVersionDeApp.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtVersionDeApp.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtVersionDeApp.Enabled = False
-        txtVersionDeApp.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        txtVersionDeApp.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtVersionDeApp.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txtVersionDeApp.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        txtVersionDeApp.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        txtVersionDeApp.Location = New Point(13, 420)
-        txtVersionDeApp.Margin = New Padding(4, 67, 4, 25)
-        txtVersionDeApp.Name = "txtVersionDeApp"
-        txtVersionDeApp.PlaceholderForeColor = Color.Black
-        txtVersionDeApp.PlaceholderText = "1.0"
-        txtVersionDeApp.ReadOnly = True
-        txtVersionDeApp.SelectedText = ""
-        txtVersionDeApp.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        txtVersionDeApp.Size = New Size(364, 36)
-        txtVersionDeApp.TabIndex = 34
-        txtVersionDeApp.TextOffset = New Point(15, 0)
+        lblNotificacionesActivadasAjustes.BackColor = Color.Transparent
+        lblNotificacionesActivadasAjustes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblNotificacionesActivadasAjustes.ForeColor = SystemColors.ButtonHighlight
+        lblNotificacionesActivadasAjustes.Location = New Point(21, 439)
+        lblNotificacionesActivadasAjustes.Margin = New Padding(4, 0, 4, 0)
+        lblNotificacionesActivadasAjustes.Name = "lblNotificacionesActivadasAjustes"
+        lblNotificacionesActivadasAjustes.Size = New Size(364, 28)
+        lblNotificacionesActivadasAjustes.TabIndex = 37
+        lblNotificacionesActivadasAjustes.Text = "Notificaciones activadas"
         ' 
         ' lblAjustes
         ' 
         lblAjustes.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblAjustes.ForeColor = SystemColors.ButtonFace
-        lblAjustes.Location = New Point(75, 17)
+        lblAjustes.Location = New Point(75, 19)
         lblAjustes.Margin = New Padding(4, 0, 4, 0)
         lblAjustes.Name = "lblAjustes"
         lblAjustes.Size = New Size(88, 34)
@@ -355,24 +345,29 @@ Partial Class frmAjustes
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form2"
         pnlAjustes.ResumeLayout(False)
+        pnlAjustes.PerformLayout()
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents pnlAjustes As Panel
     Friend WithEvents lblAjustes As Label
-    Friend WithEvents txtVersionDeApp As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents lblNotificaciones As Label
-    Friend WithEvents cbxNotifiacionesActivdadas As Guna.UI2.WinForms.Guna2CheckBox
-    Friend WithEvents lblConfiguracionCuenta As Label
-    Friend WithEvents txtCorreoVinculado As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents lblCorreoVinculado As Label
-    Friend WithEvents lblCambiarContraseña As Label
+    Friend WithEvents lblNotificacionesActivadasAjustes As Label
+    Friend WithEvents cbxNotifiacionesActivdadasAjustes As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents lblConfiguracionCuentaAjustes As Label
+    Friend WithEvents lblCambiarContraseñaAjustes As Label
     Friend WithEvents btnCambiarContraseñaContinuar As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents lblPreferenciaAplicacion As Label
+    Friend WithEvents lblPreferenciaAplicacionAjustes As Label
     Friend WithEvents lblInformacionSistema As Label
-    Friend WithEvents lblVersionDeApp As Label
-    Friend WithEvents lblUltimaActualizacion As Label
-    Friend WithEvents txtUltimaActualizacion As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents btnCerrarSesionAjustes As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnRegresarAjustes As Button
+    Friend WithEvents spr1Ajustes As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents lblCorreVinculadoAjustes As Label
+    Friend WithEvents tbxContraseñaActualAjustes As TextBox
+    Friend WithEvents spr2Ajustes As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents lblVersionAppAjustes As Label
+    Friend WithEvents tbxVersionAppAjustes As TextBox
+    Friend WithEvents spr3Ajustes As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents lblUltimaActualizacionAjustes As Label
+    Friend WithEvents tbxUltimaActualizacionAjustes As TextBox
+    Friend WithEvents spr3 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents btnCerrarSesionAjustes As Guna.UI2.WinForms.Guna2Button
 End Class

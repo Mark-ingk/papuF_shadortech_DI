@@ -22,10 +22,10 @@ Partial Class frmAjustes
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlAjustes = New Panel()
         btnCerrarSesionAjustes = New Guna.UI2.WinForms.Guna2Button()
         lblUltimaActualizacionAjustes = New Label()
@@ -84,7 +84,7 @@ Partial Class frmAjustes
         ' 
         btnCerrarSesionAjustes.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         btnCerrarSesionAjustes.BorderRadius = 15
-        btnCerrarSesionAjustes.CustomizableEdges = CustomizableEdges5
+        btnCerrarSesionAjustes.CustomizableEdges = CustomizableEdges1
         btnCerrarSesionAjustes.DisabledState.BorderColor = Color.DarkGray
         btnCerrarSesionAjustes.DisabledState.CustomBorderColor = Color.DarkGray
         btnCerrarSesionAjustes.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -94,7 +94,7 @@ Partial Class frmAjustes
         btnCerrarSesionAjustes.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         btnCerrarSesionAjustes.Location = New Point(21, 771)
         btnCerrarSesionAjustes.Name = "btnCerrarSesionAjustes"
-        btnCerrarSesionAjustes.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        btnCerrarSesionAjustes.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btnCerrarSesionAjustes.Size = New Size(348, 36)
         btnCerrarSesionAjustes.TabIndex = 61
         btnCerrarSesionAjustes.Text = "Cerrar Sesion"
@@ -264,7 +264,7 @@ Partial Class frmAjustes
         ' 
         btnCambiarContraseñaContinuar.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         btnCambiarContraseñaContinuar.BorderRadius = 15
-        btnCambiarContraseñaContinuar.CustomizableEdges = CustomizableEdges7
+        btnCambiarContraseñaContinuar.CustomizableEdges = CustomizableEdges3
         btnCambiarContraseñaContinuar.DisabledState.BorderColor = Color.DarkGray
         btnCambiarContraseñaContinuar.DisabledState.CustomBorderColor = Color.DarkGray
         btnCambiarContraseñaContinuar.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -274,7 +274,7 @@ Partial Class frmAjustes
         btnCambiarContraseñaContinuar.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         btnCambiarContraseñaContinuar.Location = New Point(21, 301)
         btnCambiarContraseñaContinuar.Name = "btnCambiarContraseñaContinuar"
-        btnCambiarContraseñaContinuar.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        btnCambiarContraseñaContinuar.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         btnCambiarContraseñaContinuar.Size = New Size(348, 36)
         btnCambiarContraseñaContinuar.TabIndex = 42
         btnCambiarContraseñaContinuar.Text = "Continuar"

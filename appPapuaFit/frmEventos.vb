@@ -49,4 +49,7 @@
         pbrEventoDia.Text = pbrEventoDia.Value.ToString() & " / " & progresoMaximoDia.ToString()
     End Sub
 
+    Private Sub lblEventoMes_Click(sender As Object, e As EventArgs) Handles lblEventoMes.Click
+
+    End Sub
 End Class

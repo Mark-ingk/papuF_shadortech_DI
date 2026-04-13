@@ -18,4 +18,8 @@
     Private Sub pnlAjustes_Paint_1(sender As Object, e As PaintEventArgs) Handles pnlAjustes.Paint
 
     End Sub
+
+    Private Sub pnlTopinicio_Paint(sender As Object, e As PaintEventArgs) Handles pnlTopinicio.Paint
+
+    End Sub
 End Class

@@ -233,6 +233,7 @@ Partial Class frmAjustes
         cbxNotifiacionesActivdadasAjustes.CheckedState.BorderThickness = 0
         cbxNotifiacionesActivdadasAjustes.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cbxNotifiacionesActivdadasAjustes.CheckState = CheckState.Indeterminate
+        cbxNotifiacionesActivdadasAjustes.Cursor = Cursors.Hand
         cbxNotifiacionesActivdadasAjustes.Location = New Point(249, 60)
         cbxNotifiacionesActivdadasAjustes.Name = "cbxNotifiacionesActivdadasAjustes"
         cbxNotifiacionesActivdadasAjustes.Size = New Size(21, 28)

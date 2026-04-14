@@ -701,8 +701,7 @@ Partial Class frmRutinas
         lblPasosNum.Text = "Entrenamiento de Pecho"
         ' 
         ' Guna2PictureBox1
-        ' 
-        Guna2PictureBox1.BackgroundImage = My.Resources.Resources.pecho
+        '
         Guna2PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         Guna2PictureBox1.BorderRadius = 16
         Guna2PictureBox1.CustomizableEdges = CustomizableEdges24

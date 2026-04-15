@@ -219,7 +219,7 @@ Partial Class frmEditarPerfil
         tbxMetas.Name = "tbxMetas"
         tbxMetas.Size = New Size(345, 22)
         tbxMetas.TabIndex = 48
-        tbxMetas.Text = "Escribe de 1 a 5 metas que tengas "
+        tbxMetas.Text = "Pon coma al final de cada meta"
         ' 
         ' lblNombresPerfilPapu
         ' 

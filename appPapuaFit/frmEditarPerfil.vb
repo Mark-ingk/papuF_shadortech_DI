@@ -97,4 +97,7 @@ Public Class frmEditarPerfil
 
     End Sub
 
+    Private Sub tbxMetas_TextChanged_1(sender As Object, e As EventArgs) Handles tbxMetas.TextChanged
+
+    End Sub
 End Class

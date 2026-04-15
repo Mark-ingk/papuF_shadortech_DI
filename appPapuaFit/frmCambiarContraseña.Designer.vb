@@ -290,7 +290,7 @@ Partial Class frmCambiarContraseña
         MaximumSize = New Size(390, 844)
         MinimumSize = New Size(390, 844)
         Name = "frmCambiarContraseña"
-        Padding = New Padding(25)
+        Padding = New Padding(25, 25, 25, 40)
         StartPosition = FormStartPosition.CenterScreen
         pnlCambiarContraseña.ResumeLayout(False)
         pnlTopCambiarContraseña.ResumeLayout(False)

@@ -27,50 +27,49 @@ Partial Class frmEditarPerfil
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlEditarPerfil = New Panel()
-        spr5EditarPerfil = New Guna.UI2.WinForms.Guna2Separator()
-        tbxCiudadEditarPerfil = New TextBox()
-        lblCiudadEditarPerfil = New Label()
+        pnlTopinicio = New Guna.UI2.WinForms.Guna2Panel()
+        btnRegresarAjustes = New Button()
+        lblEditarPerfilUsuario = New Label()
         btnCancelarEditarPerfil = New Guna.UI2.WinForms.Guna2Button()
-        srp4EditarPerfil = New Guna.UI2.WinForms.Guna2Separator()
-        tbxNumeroContractoEditarPerfil = New TextBox()
-        lblNumeroContactoEditarPerfil = New Label()
-        srp3EditarPerfil = New Guna.UI2.WinForms.Guna2Separator()
-        tbxApellidosEditarPerfil = New TextBox()
-        lblApellidosEditarPerfil = New Label()
         btnGuardarEditarPerfil = New Guna.UI2.WinForms.Guna2Button()
-        spr2EditarPerfil = New Guna.UI2.WinForms.Guna2Separator()
-        tbxNombresPerfilPapu = New TextBox()
+        pnlCuerpoEditarPerfil = New Guna.UI2.WinForms.Guna2Panel()
+        lblAviso = New Label()
+        tbxMetas = New TextBox()
         lblNombresPerfilPapu = New Label()
-        pbxFotoPerfilEditarPerfil = New Guna.UI2.WinForms.Guna2CirclePictureBox()
-        spr1EditarPerfil = New Guna.UI2.WinForms.Guna2Separator()
-        lblEditarPerfilDeUsuario = New Label()
-        btnRegresarEditarPerfil = New Button()
+        tbxNombresPerfilPapu = New TextBox()
+        spr5EditarPerfil = New Guna.UI2.WinForms.Guna2Separator()
+        spr2EditarPerfil = New Guna.UI2.WinForms.Guna2Separator()
+        lblCiudadEditarPerfil = New Label()
+        lblApellidosEditarPerfil = New Label()
+        tbxApellidosEditarPerfil = New TextBox()
+        srp4EditarPerfil = New Guna.UI2.WinForms.Guna2Separator()
+        srp3EditarPerfil = New Guna.UI2.WinForms.Guna2Separator()
+        tbxNumeroContactoEditarPerfil = New TextBox()
+        lblNumeroContactoEditarPerfil = New Label()
+        pnlFotoPerfil = New Guna.UI2.WinForms.Guna2Panel()
         lblClickEditarPerfilPapu = New Label()
+        pbxFotoPerfilEditarPerfil = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         pnlEditarPerfil.SuspendLayout()
+        pnlTopinicio.SuspendLayout()
+        pnlCuerpoEditarPerfil.SuspendLayout()
+        pnlFotoPerfil.SuspendLayout()
         CType(pbxFotoPerfilEditarPerfil, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' pnlEditarPerfil
         ' 
-        pnlEditarPerfil.Controls.Add(spr5EditarPerfil)
-        pnlEditarPerfil.Controls.Add(tbxCiudadEditarPerfil)
-        pnlEditarPerfil.Controls.Add(lblCiudadEditarPerfil)
+        pnlEditarPerfil.Controls.Add(pnlTopinicio)
         pnlEditarPerfil.Controls.Add(btnCancelarEditarPerfil)
-        pnlEditarPerfil.Controls.Add(srp4EditarPerfil)
-        pnlEditarPerfil.Controls.Add(tbxNumeroContractoEditarPerfil)
-        pnlEditarPerfil.Controls.Add(lblNumeroContactoEditarPerfil)
-        pnlEditarPerfil.Controls.Add(srp3EditarPerfil)
-        pnlEditarPerfil.Controls.Add(tbxApellidosEditarPerfil)
-        pnlEditarPerfil.Controls.Add(lblApellidosEditarPerfil)
         pnlEditarPerfil.Controls.Add(btnGuardarEditarPerfil)
-        pnlEditarPerfil.Controls.Add(spr2EditarPerfil)
-        pnlEditarPerfil.Controls.Add(tbxNombresPerfilPapu)
-        pnlEditarPerfil.Controls.Add(lblNombresPerfilPapu)
-        pnlEditarPerfil.Controls.Add(pbxFotoPerfilEditarPerfil)
-        pnlEditarPerfil.Controls.Add(spr1EditarPerfil)
-        pnlEditarPerfil.Controls.Add(lblEditarPerfilDeUsuario)
-        pnlEditarPerfil.Controls.Add(btnRegresarEditarPerfil)
+        pnlEditarPerfil.Controls.Add(pnlCuerpoEditarPerfil)
+        pnlEditarPerfil.Controls.Add(pnlFotoPerfil)
         pnlEditarPerfil.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         pnlEditarPerfil.Location = New Point(0, 0)
         pnlEditarPerfil.MaximumSize = New Size(390, 844)
@@ -80,37 +79,50 @@ Partial Class frmEditarPerfil
         pnlEditarPerfil.Size = New Size(390, 844)
         pnlEditarPerfil.TabIndex = 0
         ' 
-        ' spr5EditarPerfil
+        ' pnlTopinicio
         ' 
-        spr5EditarPerfil.BackColor = Color.Transparent
-        spr5EditarPerfil.BackgroundImageLayout = ImageLayout.None
-        spr5EditarPerfil.Location = New Point(24, 690)
-        spr5EditarPerfil.Margin = New Padding(0, 0, 0, 20)
-        spr5EditarPerfil.Name = "spr5EditarPerfil"
-        spr5EditarPerfil.Size = New Size(345, 13)
-        spr5EditarPerfil.TabIndex = 47
+        pnlTopinicio.BorderRadius = 40
+        pnlTopinicio.Controls.Add(btnRegresarAjustes)
+        pnlTopinicio.Controls.Add(lblEditarPerfilUsuario)
+        CustomizableEdges1.TopLeft = False
+        CustomizableEdges1.TopRight = False
+        pnlTopinicio.CustomizableEdges = CustomizableEdges1
+        pnlTopinicio.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        pnlTopinicio.Location = New Point(0, 0)
+        pnlTopinicio.Margin = New Padding(0, 0, 0, 10)
+        pnlTopinicio.Name = "pnlTopinicio"
+        pnlTopinicio.Padding = New Padding(25, 25, 25, 10)
+        pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        pnlTopinicio.Size = New Size(390, 77)
+        pnlTopinicio.TabIndex = 63
         ' 
-        ' tbxCiudadEditarPerfil
+        ' btnRegresarAjustes
         ' 
-        tbxCiudadEditarPerfil.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        tbxCiudadEditarPerfil.BorderStyle = BorderStyle.None
-        tbxCiudadEditarPerfil.ForeColor = SystemColors.ButtonFace
-        tbxCiudadEditarPerfil.Location = New Point(24, 665)
-        tbxCiudadEditarPerfil.Name = "tbxCiudadEditarPerfil"
-        tbxCiudadEditarPerfil.Size = New Size(345, 22)
-        tbxCiudadEditarPerfil.TabIndex = 46
+        btnRegresarAjustes.BackColor = Color.Transparent
+        btnRegresarAjustes.BackgroundImage = My.Resources.Resources.ic_arrow_back_128_282261
+        btnRegresarAjustes.BackgroundImageLayout = ImageLayout.Center
+        btnRegresarAjustes.Cursor = Cursors.Hand
+        btnRegresarAjustes.FlatStyle = FlatStyle.Flat
+        btnRegresarAjustes.ForeColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnRegresarAjustes.ImageAlign = ContentAlignment.BottomCenter
+        btnRegresarAjustes.Location = New Point(0, 2)
+        btnRegresarAjustes.Margin = New Padding(4, 5, 4, 5)
+        btnRegresarAjustes.Name = "btnRegresarAjustes"
+        btnRegresarAjustes.Size = New Size(67, 73)
+        btnRegresarAjustes.TabIndex = 50
+        btnRegresarAjustes.UseVisualStyleBackColor = False
         ' 
-        ' lblCiudadEditarPerfil
+        ' lblEditarPerfilUsuario
         ' 
-        lblCiudadEditarPerfil.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblCiudadEditarPerfil.ForeColor = SystemColors.ButtonFace
-        lblCiudadEditarPerfil.Location = New Point(21, 628)
-        lblCiudadEditarPerfil.Margin = New Padding(4, 0, 4, 0)
-        lblCiudadEditarPerfil.Name = "lblCiudadEditarPerfil"
-        lblCiudadEditarPerfil.Size = New Size(77, 34)
-        lblCiudadEditarPerfil.TabIndex = 45
-        lblCiudadEditarPerfil.Text = "Ciudad"
-        lblCiudadEditarPerfil.TextAlign = ContentAlignment.TopCenter
+        lblEditarPerfilUsuario.BackColor = Color.Transparent
+        lblEditarPerfilUsuario.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblEditarPerfilUsuario.ForeColor = SystemColors.ButtonFace
+        lblEditarPerfilUsuario.Location = New Point(75, 19)
+        lblEditarPerfilUsuario.Margin = New Padding(4, 0, 4, 0)
+        lblEditarPerfilUsuario.Name = "lblEditarPerfilUsuario"
+        lblEditarPerfilUsuario.Size = New Size(239, 34)
+        lblEditarPerfilUsuario.TabIndex = 33
+        lblEditarPerfilUsuario.Text = "Editar Perfil de usuario"
         ' 
         ' btnCancelarEditarPerfil
         ' 
@@ -118,7 +130,8 @@ Partial Class frmEditarPerfil
         btnCancelarEditarPerfil.Animated = True
         btnCancelarEditarPerfil.BorderColor = Color.Red
         btnCancelarEditarPerfil.BorderRadius = 15
-        btnCancelarEditarPerfil.CustomizableEdges = CustomizableEdges1
+        btnCancelarEditarPerfil.Cursor = Cursors.Hand
+        btnCancelarEditarPerfil.CustomizableEdges = CustomizableEdges3
         btnCancelarEditarPerfil.DisabledState.BorderColor = Color.DarkGray
         btnCancelarEditarPerfil.DisabledState.CustomBorderColor = Color.DarkGray
         btnCancelarEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -126,77 +139,13 @@ Partial Class frmEditarPerfil
         btnCancelarEditarPerfil.FillColor = Color.Red
         btnCancelarEditarPerfil.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnCancelarEditarPerfil.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnCancelarEditarPerfil.Location = New Point(21, 748)
+        btnCancelarEditarPerfil.Location = New Point(21, 774)
         btnCancelarEditarPerfil.Margin = New Padding(4, 5, 4, 5)
         btnCancelarEditarPerfil.Name = "btnCancelarEditarPerfil"
-        btnCancelarEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        btnCancelarEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         btnCancelarEditarPerfil.Size = New Size(165, 57)
         btnCancelarEditarPerfil.TabIndex = 44
         btnCancelarEditarPerfil.Text = "Cancelar"
-        ' 
-        ' srp4EditarPerfil
-        ' 
-        srp4EditarPerfil.BackColor = Color.Transparent
-        srp4EditarPerfil.BackgroundImageLayout = ImageLayout.None
-        srp4EditarPerfil.Location = New Point(24, 589)
-        srp4EditarPerfil.Margin = New Padding(0, 0, 0, 20)
-        srp4EditarPerfil.Name = "srp4EditarPerfil"
-        srp4EditarPerfil.Size = New Size(345, 13)
-        srp4EditarPerfil.TabIndex = 43
-        ' 
-        ' tbxNumeroContractoEditarPerfil
-        ' 
-        tbxNumeroContractoEditarPerfil.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        tbxNumeroContractoEditarPerfil.BorderStyle = BorderStyle.None
-        tbxNumeroContractoEditarPerfil.ForeColor = SystemColors.ButtonFace
-        tbxNumeroContractoEditarPerfil.Location = New Point(24, 564)
-        tbxNumeroContractoEditarPerfil.Name = "tbxNumeroContractoEditarPerfil"
-        tbxNumeroContractoEditarPerfil.Size = New Size(345, 22)
-        tbxNumeroContractoEditarPerfil.TabIndex = 42
-        ' 
-        ' lblNumeroContactoEditarPerfil
-        ' 
-        lblNumeroContactoEditarPerfil.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblNumeroContactoEditarPerfil.ForeColor = SystemColors.ButtonFace
-        lblNumeroContactoEditarPerfil.Location = New Point(21, 527)
-        lblNumeroContactoEditarPerfil.Margin = New Padding(4, 0, 4, 0)
-        lblNumeroContactoEditarPerfil.Name = "lblNumeroContactoEditarPerfil"
-        lblNumeroContactoEditarPerfil.Size = New Size(202, 34)
-        lblNumeroContactoEditarPerfil.TabIndex = 41
-        lblNumeroContactoEditarPerfil.Text = "Numero de Contacto"
-        lblNumeroContactoEditarPerfil.TextAlign = ContentAlignment.TopCenter
-        ' 
-        ' srp3EditarPerfil
-        ' 
-        srp3EditarPerfil.BackColor = Color.Transparent
-        srp3EditarPerfil.BackgroundImageLayout = ImageLayout.None
-        srp3EditarPerfil.Location = New Point(24, 493)
-        srp3EditarPerfil.Margin = New Padding(0, 0, 0, 20)
-        srp3EditarPerfil.Name = "srp3EditarPerfil"
-        srp3EditarPerfil.Size = New Size(345, 13)
-        srp3EditarPerfil.TabIndex = 40
-        ' 
-        ' tbxApellidosEditarPerfil
-        ' 
-        tbxApellidosEditarPerfil.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        tbxApellidosEditarPerfil.BorderStyle = BorderStyle.None
-        tbxApellidosEditarPerfil.ForeColor = SystemColors.ButtonFace
-        tbxApellidosEditarPerfil.Location = New Point(24, 468)
-        tbxApellidosEditarPerfil.Name = "tbxApellidosEditarPerfil"
-        tbxApellidosEditarPerfil.Size = New Size(345, 22)
-        tbxApellidosEditarPerfil.TabIndex = 39
-        ' 
-        ' lblApellidosEditarPerfil
-        ' 
-        lblApellidosEditarPerfil.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblApellidosEditarPerfil.ForeColor = SystemColors.ButtonFace
-        lblApellidosEditarPerfil.Location = New Point(21, 431)
-        lblApellidosEditarPerfil.Margin = New Padding(4, 0, 4, 0)
-        lblApellidosEditarPerfil.Name = "lblApellidosEditarPerfil"
-        lblApellidosEditarPerfil.Size = New Size(96, 34)
-        lblApellidosEditarPerfil.TabIndex = 38
-        lblApellidosEditarPerfil.Text = "Apellidos"
-        lblApellidosEditarPerfil.TextAlign = ContentAlignment.TopCenter
         ' 
         ' btnGuardarEditarPerfil
         ' 
@@ -204,7 +153,8 @@ Partial Class frmEditarPerfil
         btnGuardarEditarPerfil.Animated = True
         btnGuardarEditarPerfil.BorderColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnGuardarEditarPerfil.BorderRadius = 15
-        btnGuardarEditarPerfil.CustomizableEdges = CustomizableEdges3
+        btnGuardarEditarPerfil.Cursor = Cursors.Hand
+        btnGuardarEditarPerfil.CustomizableEdges = CustomizableEdges5
         btnGuardarEditarPerfil.DisabledState.BorderColor = Color.DarkGray
         btnGuardarEditarPerfil.DisabledState.CustomBorderColor = Color.DarkGray
         btnGuardarEditarPerfil.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -212,39 +162,71 @@ Partial Class frmEditarPerfil
         btnGuardarEditarPerfil.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnGuardarEditarPerfil.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnGuardarEditarPerfil.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnGuardarEditarPerfil.Location = New Point(204, 748)
+        btnGuardarEditarPerfil.Location = New Point(204, 774)
         btnGuardarEditarPerfil.Margin = New Padding(4, 5, 4, 5)
         btnGuardarEditarPerfil.Name = "btnGuardarEditarPerfil"
-        btnGuardarEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnGuardarEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         btnGuardarEditarPerfil.Size = New Size(165, 57)
         btnGuardarEditarPerfil.TabIndex = 37
         btnGuardarEditarPerfil.Text = "Guardar"
         ' 
-        ' spr2EditarPerfil
+        ' pnlCuerpoEditarPerfil
         ' 
-        spr2EditarPerfil.BackColor = Color.Transparent
-        spr2EditarPerfil.BackgroundImageLayout = ImageLayout.None
-        spr2EditarPerfil.Location = New Point(24, 397)
-        spr2EditarPerfil.Margin = New Padding(0, 0, 0, 20)
-        spr2EditarPerfil.Name = "spr2EditarPerfil"
-        spr2EditarPerfil.Size = New Size(345, 13)
-        spr2EditarPerfil.TabIndex = 36
+        pnlCuerpoEditarPerfil.BackColor = Color.Transparent
+        pnlCuerpoEditarPerfil.BorderRadius = 70
+        pnlCuerpoEditarPerfil.Controls.Add(lblAviso)
+        pnlCuerpoEditarPerfil.Controls.Add(tbxMetas)
+        pnlCuerpoEditarPerfil.Controls.Add(lblNombresPerfilPapu)
+        pnlCuerpoEditarPerfil.Controls.Add(tbxNombresPerfilPapu)
+        pnlCuerpoEditarPerfil.Controls.Add(spr5EditarPerfil)
+        pnlCuerpoEditarPerfil.Controls.Add(spr2EditarPerfil)
+        pnlCuerpoEditarPerfil.Controls.Add(lblCiudadEditarPerfil)
+        pnlCuerpoEditarPerfil.Controls.Add(lblApellidosEditarPerfil)
+        pnlCuerpoEditarPerfil.Controls.Add(tbxApellidosEditarPerfil)
+        pnlCuerpoEditarPerfil.Controls.Add(srp4EditarPerfil)
+        pnlCuerpoEditarPerfil.Controls.Add(srp3EditarPerfil)
+        pnlCuerpoEditarPerfil.Controls.Add(tbxNumeroContactoEditarPerfil)
+        pnlCuerpoEditarPerfil.Controls.Add(lblNumeroContactoEditarPerfil)
+        pnlCuerpoEditarPerfil.CustomizableEdges = CustomizableEdges7
+        pnlCuerpoEditarPerfil.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        pnlCuerpoEditarPerfil.Location = New Point(0, 328)
+        pnlCuerpoEditarPerfil.Margin = New Padding(5, 0, 5, 10)
+        pnlCuerpoEditarPerfil.Name = "pnlCuerpoEditarPerfil"
+        pnlCuerpoEditarPerfil.Padding = New Padding(20, 15, 20, 15)
+        pnlCuerpoEditarPerfil.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        pnlCuerpoEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        pnlCuerpoEditarPerfil.Size = New Size(390, 422)
+        pnlCuerpoEditarPerfil.TabIndex = 64
         ' 
-        ' tbxNombresPerfilPapu
+        ' lblAviso
         ' 
-        tbxNombresPerfilPapu.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        tbxNombresPerfilPapu.BorderStyle = BorderStyle.None
-        tbxNombresPerfilPapu.ForeColor = SystemColors.ButtonFace
-        tbxNombresPerfilPapu.Location = New Point(24, 372)
-        tbxNombresPerfilPapu.Name = "tbxNombresPerfilPapu"
-        tbxNombresPerfilPapu.Size = New Size(345, 22)
-        tbxNombresPerfilPapu.TabIndex = 35
+        lblAviso.AutoSize = True
+        lblAviso.ForeColor = SystemColors.ButtonFace
+        lblAviso.Location = New Point(135, 258)
+        lblAviso.Name = "lblAviso"
+        lblAviso.Size = New Size(0, 21)
+        lblAviso.TabIndex = 49
+        lblAviso.Visible = False
+        ' 
+        ' tbxMetas
+        ' 
+        tbxMetas.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        tbxMetas.BorderStyle = BorderStyle.None
+        tbxMetas.Cursor = Cursors.IBeam
+        tbxMetas.ForeColor = SystemColors.ButtonFace
+        tbxMetas.Location = New Point(24, 355)
+        tbxMetas.Multiline = True
+        tbxMetas.Name = "tbxMetas"
+        tbxMetas.Size = New Size(345, 22)
+        tbxMetas.TabIndex = 48
+        tbxMetas.Text = "Escribe de 1 a 5 metas que tengas "
         ' 
         ' lblNombresPerfilPapu
         ' 
+        lblNombresPerfilPapu.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         lblNombresPerfilPapu.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblNombresPerfilPapu.ForeColor = SystemColors.ButtonFace
-        lblNombresPerfilPapu.Location = New Point(21, 335)
+        lblNombresPerfilPapu.Location = New Point(21, 29)
         lblNombresPerfilPapu.Margin = New Padding(4, 0, 4, 0)
         lblNombresPerfilPapu.Name = "lblNombresPerfilPapu"
         lblNombresPerfilPapu.Size = New Size(109, 34)
@@ -252,83 +234,182 @@ Partial Class frmEditarPerfil
         lblNombresPerfilPapu.Text = "Nombre(s)"
         lblNombresPerfilPapu.TextAlign = ContentAlignment.TopCenter
         ' 
+        ' tbxNombresPerfilPapu
+        ' 
+        tbxNombresPerfilPapu.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        tbxNombresPerfilPapu.BorderStyle = BorderStyle.None
+        tbxNombresPerfilPapu.Cursor = Cursors.IBeam
+        tbxNombresPerfilPapu.ForeColor = SystemColors.ButtonFace
+        tbxNombresPerfilPapu.Location = New Point(24, 71)
+        tbxNombresPerfilPapu.Name = "tbxNombresPerfilPapu"
+        tbxNombresPerfilPapu.Size = New Size(345, 22)
+        tbxNombresPerfilPapu.TabIndex = 35
+        ' 
+        ' spr5EditarPerfil
+        ' 
+        spr5EditarPerfil.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        spr5EditarPerfil.BackgroundImageLayout = ImageLayout.None
+        spr5EditarPerfil.Location = New Point(24, 380)
+        spr5EditarPerfil.Margin = New Padding(0, 0, 0, 20)
+        spr5EditarPerfil.Name = "spr5EditarPerfil"
+        spr5EditarPerfil.Size = New Size(345, 13)
+        spr5EditarPerfil.TabIndex = 47
+        ' 
+        ' spr2EditarPerfil
+        ' 
+        spr2EditarPerfil.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        spr2EditarPerfil.BackgroundImageLayout = ImageLayout.None
+        spr2EditarPerfil.Location = New Point(24, 101)
+        spr2EditarPerfil.Margin = New Padding(0, 0, 0, 20)
+        spr2EditarPerfil.Name = "spr2EditarPerfil"
+        spr2EditarPerfil.Size = New Size(345, 13)
+        spr2EditarPerfil.TabIndex = 36
+        ' 
+        ' lblCiudadEditarPerfil
+        ' 
+        lblCiudadEditarPerfil.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        lblCiudadEditarPerfil.Cursor = Cursors.IBeam
+        lblCiudadEditarPerfil.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblCiudadEditarPerfil.ForeColor = SystemColors.ButtonFace
+        lblCiudadEditarPerfil.Location = New Point(21, 308)
+        lblCiudadEditarPerfil.Margin = New Padding(4, 0, 4, 0)
+        lblCiudadEditarPerfil.Name = "lblCiudadEditarPerfil"
+        lblCiudadEditarPerfil.Size = New Size(68, 34)
+        lblCiudadEditarPerfil.TabIndex = 45
+        lblCiudadEditarPerfil.Text = "Metas"
+        lblCiudadEditarPerfil.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' lblApellidosEditarPerfil
+        ' 
+        lblApellidosEditarPerfil.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        lblApellidosEditarPerfil.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblApellidosEditarPerfil.ForeColor = SystemColors.ButtonFace
+        lblApellidosEditarPerfil.Location = New Point(21, 122)
+        lblApellidosEditarPerfil.Margin = New Padding(4, 0, 4, 0)
+        lblApellidosEditarPerfil.Name = "lblApellidosEditarPerfil"
+        lblApellidosEditarPerfil.Size = New Size(96, 34)
+        lblApellidosEditarPerfil.TabIndex = 38
+        lblApellidosEditarPerfil.Text = "Apellidos"
+        lblApellidosEditarPerfil.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' tbxApellidosEditarPerfil
+        ' 
+        tbxApellidosEditarPerfil.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        tbxApellidosEditarPerfil.BorderStyle = BorderStyle.None
+        tbxApellidosEditarPerfil.Cursor = Cursors.IBeam
+        tbxApellidosEditarPerfil.ForeColor = SystemColors.ButtonFace
+        tbxApellidosEditarPerfil.Location = New Point(24, 164)
+        tbxApellidosEditarPerfil.Name = "tbxApellidosEditarPerfil"
+        tbxApellidosEditarPerfil.Size = New Size(345, 22)
+        tbxApellidosEditarPerfil.TabIndex = 39
+        ' 
+        ' srp4EditarPerfil
+        ' 
+        srp4EditarPerfil.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        srp4EditarPerfil.BackgroundImageLayout = ImageLayout.None
+        srp4EditarPerfil.Location = New Point(24, 287)
+        srp4EditarPerfil.Margin = New Padding(0, 0, 0, 20)
+        srp4EditarPerfil.Name = "srp4EditarPerfil"
+        srp4EditarPerfil.Size = New Size(345, 13)
+        srp4EditarPerfil.TabIndex = 43
+        ' 
+        ' srp3EditarPerfil
+        ' 
+        srp3EditarPerfil.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        srp3EditarPerfil.BackgroundImageLayout = ImageLayout.None
+        srp3EditarPerfil.Location = New Point(24, 194)
+        srp3EditarPerfil.Margin = New Padding(0, 0, 0, 20)
+        srp3EditarPerfil.Name = "srp3EditarPerfil"
+        srp3EditarPerfil.Size = New Size(345, 13)
+        srp3EditarPerfil.TabIndex = 40
+        ' 
+        ' tbxNumeroContactoEditarPerfil
+        ' 
+        tbxNumeroContactoEditarPerfil.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        tbxNumeroContactoEditarPerfil.BorderStyle = BorderStyle.None
+        tbxNumeroContactoEditarPerfil.Cursor = Cursors.IBeam
+        tbxNumeroContactoEditarPerfil.ForeColor = SystemColors.ButtonFace
+        tbxNumeroContactoEditarPerfil.Location = New Point(24, 257)
+        tbxNumeroContactoEditarPerfil.Name = "tbxNumeroContactoEditarPerfil"
+        tbxNumeroContactoEditarPerfil.Size = New Size(345, 22)
+        tbxNumeroContactoEditarPerfil.TabIndex = 42
+        ' 
+        ' lblNumeroContactoEditarPerfil
+        ' 
+        lblNumeroContactoEditarPerfil.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        lblNumeroContactoEditarPerfil.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblNumeroContactoEditarPerfil.ForeColor = SystemColors.ButtonFace
+        lblNumeroContactoEditarPerfil.Location = New Point(21, 215)
+        lblNumeroContactoEditarPerfil.Margin = New Padding(4, 0, 4, 0)
+        lblNumeroContactoEditarPerfil.Name = "lblNumeroContactoEditarPerfil"
+        lblNumeroContactoEditarPerfil.Size = New Size(202, 34)
+        lblNumeroContactoEditarPerfil.TabIndex = 41
+        lblNumeroContactoEditarPerfil.Text = "Numero de Contacto"
+        lblNumeroContactoEditarPerfil.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' pnlFotoPerfil
+        ' 
+        pnlFotoPerfil.BackColor = Color.Transparent
+        pnlFotoPerfil.BorderRadius = 50
+        pnlFotoPerfil.Controls.Add(lblClickEditarPerfilPapu)
+        pnlFotoPerfil.Controls.Add(pbxFotoPerfilEditarPerfil)
+        pnlFotoPerfil.CustomizableEdges = CustomizableEdges10
+        pnlFotoPerfil.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        pnlFotoPerfil.Location = New Point(0, 101)
+        pnlFotoPerfil.Margin = New Padding(5, 0, 5, 10)
+        pnlFotoPerfil.Name = "pnlFotoPerfil"
+        pnlFotoPerfil.Padding = New Padding(20, 15, 20, 15)
+        pnlFotoPerfil.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        pnlFotoPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges11
+        pnlFotoPerfil.Size = New Size(390, 203)
+        pnlFotoPerfil.TabIndex = 65
+        ' 
+        ' lblClickEditarPerfilPapu
+        ' 
+        lblClickEditarPerfilPapu.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblClickEditarPerfilPapu.ForeColor = SystemColors.ButtonFace
+        lblClickEditarPerfilPapu.Location = New Point(64, 169)
+        lblClickEditarPerfilPapu.Margin = New Padding(4, 0, 4, 0)
+        lblClickEditarPerfilPapu.Name = "lblClickEditarPerfilPapu"
+        lblClickEditarPerfilPapu.Size = New Size(262, 34)
+        lblClickEditarPerfilPapu.TabIndex = 29
+        lblClickEditarPerfilPapu.Text = "Toca la imagen para editarla"
+        lblClickEditarPerfilPapu.TextAlign = ContentAlignment.TopCenter
+        ' 
         ' pbxFotoPerfilEditarPerfil
         ' 
         pbxFotoPerfilEditarPerfil.BackColor = Color.Transparent
+        pbxFotoPerfilEditarPerfil.Cursor = Cursors.Hand
         pbxFotoPerfilEditarPerfil.Image = My.Resources.Resources.prefiiil
         pbxFotoPerfilEditarPerfil.ImageRotate = 0F
-        pbxFotoPerfilEditarPerfil.Location = New Point(117, 105)
+        pbxFotoPerfilEditarPerfil.Location = New Point(117, 5)
         pbxFotoPerfilEditarPerfil.Name = "pbxFotoPerfilEditarPerfil"
-        pbxFotoPerfilEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges5
+        pbxFotoPerfilEditarPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges9
         pbxFotoPerfilEditarPerfil.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         pbxFotoPerfilEditarPerfil.Size = New Size(156, 152)
         pbxFotoPerfilEditarPerfil.SizeMode = PictureBoxSizeMode.StretchImage
         pbxFotoPerfilEditarPerfil.TabIndex = 34
         pbxFotoPerfilEditarPerfil.TabStop = False
         ' 
-        ' spr1EditarPerfil
-        ' 
-        spr1EditarPerfil.Location = New Point(0, 64)
-        spr1EditarPerfil.Margin = New Padding(0, 0, 0, 20)
-        spr1EditarPerfil.Name = "spr1EditarPerfil"
-        spr1EditarPerfil.Size = New Size(390, 18)
-        spr1EditarPerfil.TabIndex = 33
-        ' 
-        ' lblEditarPerfilDeUsuario
-        ' 
-        lblEditarPerfilDeUsuario.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblEditarPerfilDeUsuario.ForeColor = SystemColors.ButtonFace
-        lblEditarPerfilDeUsuario.Location = New Point(75, 19)
-        lblEditarPerfilDeUsuario.Margin = New Padding(4, 0, 4, 0)
-        lblEditarPerfilDeUsuario.Name = "lblEditarPerfilDeUsuario"
-        lblEditarPerfilDeUsuario.Size = New Size(240, 34)
-        lblEditarPerfilDeUsuario.TabIndex = 32
-        lblEditarPerfilDeUsuario.Text = "Editar Perfil de Usuario"
-        ' 
-        ' btnRegresarEditarPerfil
-        ' 
-        btnRegresarEditarPerfil.BackColor = Color.Transparent
-        btnRegresarEditarPerfil.BackgroundImage = My.Resources.Resources.ic_arrow_back_128_282261
-        btnRegresarEditarPerfil.BackgroundImageLayout = ImageLayout.Center
-        btnRegresarEditarPerfil.FlatStyle = FlatStyle.Flat
-        btnRegresarEditarPerfil.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        btnRegresarEditarPerfil.ImageAlign = ContentAlignment.BottomCenter
-        btnRegresarEditarPerfil.Location = New Point(0, 0)
-        btnRegresarEditarPerfil.Margin = New Padding(4, 5, 4, 5)
-        btnRegresarEditarPerfil.Name = "btnRegresarEditarPerfil"
-        btnRegresarEditarPerfil.Size = New Size(67, 73)
-        btnRegresarEditarPerfil.TabIndex = 25
-        btnRegresarEditarPerfil.UseVisualStyleBackColor = False
-        ' 
-        ' lblClickEditarPerfilPapu
-        ' 
-        lblClickEditarPerfilPapu.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblClickEditarPerfilPapu.ForeColor = SystemColors.ButtonFace
-        lblClickEditarPerfilPapu.Location = New Point(51, 273)
-        lblClickEditarPerfilPapu.Margin = New Padding(4, 0, 4, 0)
-        lblClickEditarPerfilPapu.Name = "lblClickEditarPerfilPapu"
-        lblClickEditarPerfilPapu.Size = New Size(288, 34)
-        lblClickEditarPerfilPapu.TabIndex = 29
-        lblClickEditarPerfilPapu.Text = "Clickea la imagen para editarla"
-        lblClickEditarPerfilPapu.TextAlign = ContentAlignment.TopCenter
-        ' 
         ' frmEditarPerfil
         ' 
         AutoScaleMode = AutoScaleMode.None
         BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         ClientSize = New Size(390, 844)
-        Controls.Add(lblClickEditarPerfilPapu)
         Controls.Add(pnlEditarPerfil)
         ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         FormBorderStyle = FormBorderStyle.None
         MaximumSize = New Size(390, 844)
         MinimumSize = New Size(390, 844)
         Name = "frmEditarPerfil"
-        Padding = New Padding(25)
+        Padding = New Padding(25, 25, 25, 40)
         StartPosition = FormStartPosition.CenterScreen
         Text = "igit "
         pnlEditarPerfil.ResumeLayout(False)
-        pnlEditarPerfil.PerformLayout()
+        pnlTopinicio.ResumeLayout(False)
+        pnlCuerpoEditarPerfil.ResumeLayout(False)
+        pnlCuerpoEditarPerfil.PerformLayout()
+        pnlFotoPerfil.ResumeLayout(False)
         CType(pbxFotoPerfilEditarPerfil, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
@@ -346,11 +427,17 @@ Partial Class frmEditarPerfil
     Friend WithEvents srp3EditarPerfil As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents tbxApellidosEditarPerfil As TextBox
     Friend WithEvents srp4EditarPerfil As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents tbxNumeroContractoEditarPerfil As TextBox
+    Friend WithEvents tbxNumeroContactoEditarPerfil As TextBox
     Friend WithEvents lblNumeroContactoEditarPerfil As Label
     Friend WithEvents lblApellidosEditarPerfil As Label
     Friend WithEvents btnCancelarEditarPerfil As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents pnlTopinicio As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents btnRegresarAjustes As Button
+    Friend WithEvents lblEditarPerfilUsuario As Label
     Friend WithEvents spr5EditarPerfil As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents tbxCiudadEditarPerfil As TextBox
     Friend WithEvents lblCiudadEditarPerfil As Label
+    Friend WithEvents pnlCuerpoEditarPerfil As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents tbxMetas As TextBox
+    Friend WithEvents pnlFotoPerfil As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents lblAviso As Label
 End Class

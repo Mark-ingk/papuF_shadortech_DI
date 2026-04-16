@@ -28,27 +28,36 @@ Partial Class frmLeccionCompletada
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlLeccionCompletada = New Panel()
-        pbrLeccionCompletada = New Guna.UI2.WinForms.Guna2ProgressBar()
-        lblProgresoCurso = New Label()
         btnCambiarContraseñaContinuar = New Guna.UI2.WinForms.Guna2Button()
         pbxLeccionCompletada = New PictureBox()
-        Label1 = New Label()
-        lblFelicidades = New Label()
         pnlTopinicio = New Guna.UI2.WinForms.Guna2Panel()
+        lblLeccionCompletada = New Label()
+        btnRegresarLeccionCompletada = New Button()
+        pnlFelicidades = New Guna.UI2.WinForms.Guna2Panel()
+        lblFelicidades = New Label()
+        Label1 = New Label()
+        pnlProgresoCurso = New Guna.UI2.WinForms.Guna2Panel()
+        pbrLeccionCompletada = New Guna.UI2.WinForms.Guna2ProgressBar()
+        lblProgresoCurso = New Label()
         pnlLeccionCompletada.SuspendLayout()
         CType(pbxLeccionCompletada, ComponentModel.ISupportInitialize).BeginInit()
+        pnlTopinicio.SuspendLayout()
+        pnlFelicidades.SuspendLayout()
+        pnlProgresoCurso.SuspendLayout()
         SuspendLayout()
         ' 
         ' pnlLeccionCompletada
         ' 
-        pnlLeccionCompletada.Controls.Add(pbrLeccionCompletada)
-        pnlLeccionCompletada.Controls.Add(lblProgresoCurso)
         pnlLeccionCompletada.Controls.Add(btnCambiarContraseñaContinuar)
         pnlLeccionCompletada.Controls.Add(pbxLeccionCompletada)
-        pnlLeccionCompletada.Controls.Add(Label1)
-        pnlLeccionCompletada.Controls.Add(lblFelicidades)
         pnlLeccionCompletada.Controls.Add(pnlTopinicio)
+        pnlLeccionCompletada.Controls.Add(pnlFelicidades)
+        pnlLeccionCompletada.Controls.Add(pnlProgresoCurso)
         pnlLeccionCompletada.Location = New Point(0, 0)
         pnlLeccionCompletada.MaximumSize = New Size(390, 844)
         pnlLeccionCompletada.MinimumSize = New Size(390, 844)
@@ -57,45 +66,11 @@ Partial Class frmLeccionCompletada
         pnlLeccionCompletada.Size = New Size(390, 844)
         pnlLeccionCompletada.TabIndex = 0
         ' 
-        ' pbrLeccionCompletada
-        ' 
-        pbrLeccionCompletada.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pbrLeccionCompletada.BorderColor = Color.Transparent
-        pbrLeccionCompletada.BorderRadius = 15
-        pbrLeccionCompletada.CustomizableEdges = CustomizableEdges1
-        pbrLeccionCompletada.FillColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        pbrLeccionCompletada.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        pbrLeccionCompletada.ForeColor = SystemColors.ButtonFace
-        pbrLeccionCompletada.Location = New Point(40, 587)
-        pbrLeccionCompletada.Name = "pbrLeccionCompletada"
-        pbrLeccionCompletada.ProgressColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        pbrLeccionCompletada.ProgressColor2 = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        pbrLeccionCompletada.ShadowDecoration.BorderRadius = 0
-        pbrLeccionCompletada.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        pbrLeccionCompletada.ShowText = True
-        pbrLeccionCompletada.Size = New Size(310, 29)
-        pbrLeccionCompletada.TabIndex = 45
-        pbrLeccionCompletada.Text = "0%"
-        pbrLeccionCompletada.TextMode = Guna.UI2.WinForms.Enums.ProgressBarTextMode.Custom
-        pbrLeccionCompletada.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
-        pbrLeccionCompletada.Value = 1
-        ' 
-        ' lblProgresoCurso
-        ' 
-        lblProgresoCurso.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblProgresoCurso.ForeColor = SystemColors.ButtonFace
-        lblProgresoCurso.Location = New Point(40, 535)
-        lblProgresoCurso.Margin = New Padding(4, 0, 4, 0)
-        lblProgresoCurso.Name = "lblProgresoCurso"
-        lblProgresoCurso.Size = New Size(199, 34)
-        lblProgresoCurso.TabIndex = 44
-        lblProgresoCurso.Text = "Progreso del Curso"
-        ' 
         ' btnCambiarContraseñaContinuar
         ' 
         btnCambiarContraseñaContinuar.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         btnCambiarContraseñaContinuar.BorderRadius = 15
-        btnCambiarContraseñaContinuar.CustomizableEdges = CustomizableEdges3
+        btnCambiarContraseñaContinuar.CustomizableEdges = CustomizableEdges1
         btnCambiarContraseñaContinuar.DisabledState.BorderColor = Color.DarkGray
         btnCambiarContraseñaContinuar.DisabledState.CustomBorderColor = Color.DarkGray
         btnCambiarContraseñaContinuar.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -103,9 +78,9 @@ Partial Class frmLeccionCompletada
         btnCambiarContraseñaContinuar.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnCambiarContraseñaContinuar.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnCambiarContraseñaContinuar.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        btnCambiarContraseñaContinuar.Location = New Point(28, 729)
+        btnCambiarContraseñaContinuar.Location = New Point(28, 657)
         btnCambiarContraseñaContinuar.Name = "btnCambiarContraseñaContinuar"
-        btnCambiarContraseñaContinuar.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnCambiarContraseñaContinuar.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btnCambiarContraseñaContinuar.Size = New Size(348, 47)
         btnCambiarContraseñaContinuar.TabIndex = 43
         btnCambiarContraseñaContinuar.Text = "Continuar"
@@ -113,18 +88,92 @@ Partial Class frmLeccionCompletada
         ' pbxLeccionCompletada
         ' 
         pbxLeccionCompletada.Image = My.Resources.Resources.ejercicio1
-        pbxLeccionCompletada.Location = New Point(99, 266)
+        pbxLeccionCompletada.Location = New Point(99, 247)
         pbxLeccionCompletada.Name = "pbxLeccionCompletada"
         pbxLeccionCompletada.Size = New Size(193, 236)
         pbxLeccionCompletada.SizeMode = PictureBoxSizeMode.StretchImage
         pbxLeccionCompletada.TabIndex = 36
         pbxLeccionCompletada.TabStop = False
         ' 
+        ' pnlTopinicio
+        ' 
+        pnlTopinicio.BorderRadius = 40
+        pnlTopinicio.Controls.Add(lblLeccionCompletada)
+        pnlTopinicio.Controls.Add(btnRegresarLeccionCompletada)
+        CustomizableEdges3.TopLeft = False
+        CustomizableEdges3.TopRight = False
+        pnlTopinicio.CustomizableEdges = CustomizableEdges3
+        pnlTopinicio.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        pnlTopinicio.Location = New Point(0, 0)
+        pnlTopinicio.Margin = New Padding(0, 0, 0, 10)
+        pnlTopinicio.Name = "pnlTopinicio"
+        pnlTopinicio.Padding = New Padding(25, 25, 25, 10)
+        pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        pnlTopinicio.Size = New Size(390, 73)
+        pnlTopinicio.TabIndex = 27
+        ' 
+        ' lblLeccionCompletada
+        ' 
+        lblLeccionCompletada.BackColor = Color.Transparent
+        lblLeccionCompletada.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblLeccionCompletada.ForeColor = SystemColors.ButtonFace
+        lblLeccionCompletada.Location = New Point(75, 17)
+        lblLeccionCompletada.Margin = New Padding(4, 0, 4, 0)
+        lblLeccionCompletada.Name = "lblLeccionCompletada"
+        lblLeccionCompletada.Size = New Size(217, 34)
+        lblLeccionCompletada.TabIndex = 46
+        lblLeccionCompletada.Text = "Leccion Completada"
+        ' 
+        ' btnRegresarLeccionCompletada
+        ' 
+        btnRegresarLeccionCompletada.BackColor = Color.Transparent
+        btnRegresarLeccionCompletada.BackgroundImage = My.Resources.Resources.ic_arrow_back_128_282261
+        btnRegresarLeccionCompletada.BackgroundImageLayout = ImageLayout.Center
+        btnRegresarLeccionCompletada.FlatStyle = FlatStyle.Flat
+        btnRegresarLeccionCompletada.ForeColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnRegresarLeccionCompletada.ImageAlign = ContentAlignment.BottomCenter
+        btnRegresarLeccionCompletada.Location = New Point(0, 0)
+        btnRegresarLeccionCompletada.Margin = New Padding(4, 5, 4, 5)
+        btnRegresarLeccionCompletada.Name = "btnRegresarLeccionCompletada"
+        btnRegresarLeccionCompletada.Size = New Size(67, 73)
+        btnRegresarLeccionCompletada.TabIndex = 51
+        btnRegresarLeccionCompletada.UseVisualStyleBackColor = True
+        ' 
+        ' pnlFelicidades
+        ' 
+        pnlFelicidades.BackColor = Color.Transparent
+        pnlFelicidades.BorderRadius = 50
+        pnlFelicidades.Controls.Add(lblFelicidades)
+        pnlFelicidades.Controls.Add(Label1)
+        pnlFelicidades.CustomizableEdges = CustomizableEdges5
+        pnlFelicidades.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        pnlFelicidades.Location = New Point(0, 108)
+        pnlFelicidades.Margin = New Padding(5, 0, 5, 10)
+        pnlFelicidades.Name = "pnlFelicidades"
+        pnlFelicidades.Padding = New Padding(20, 15, 20, 15)
+        pnlFelicidades.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        pnlFelicidades.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        pnlFelicidades.Size = New Size(390, 104)
+        pnlFelicidades.TabIndex = 46
+        ' 
+        ' lblFelicidades
+        ' 
+        lblFelicidades.BackColor = Color.Transparent
+        lblFelicidades.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblFelicidades.ForeColor = SystemColors.ButtonFace
+        lblFelicidades.Location = New Point(122, 0)
+        lblFelicidades.Margin = New Padding(4, 0, 4, 0)
+        lblFelicidades.Name = "lblFelicidades"
+        lblFelicidades.Size = New Size(141, 34)
+        lblFelicidades.TabIndex = 34
+        lblFelicidades.Text = "Felicidades!!!"
+        ' 
         ' Label1
         ' 
+        Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = SystemColors.ButtonFace
-        Label1.Location = New Point(40, 167)
+        Label1.Location = New Point(40, 34)
         Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
         Label1.Size = New Size(310, 70)
@@ -132,31 +181,56 @@ Partial Class frmLeccionCompletada
         Label1.Text = "Has Completado una Leccion Exitosamente"
         Label1.TextAlign = ContentAlignment.TopCenter
         ' 
-        ' lblFelicidades
+        ' pnlProgresoCurso
         ' 
-        lblFelicidades.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblFelicidades.ForeColor = SystemColors.ButtonFace
-        lblFelicidades.Location = New Point(125, 133)
-        lblFelicidades.Margin = New Padding(4, 0, 4, 0)
-        lblFelicidades.Name = "lblFelicidades"
-        lblFelicidades.Size = New Size(141, 34)
-        lblFelicidades.TabIndex = 34
-        lblFelicidades.Text = "Felicidades!!!"
+        pnlProgresoCurso.BackColor = Color.Transparent
+        pnlProgresoCurso.BorderRadius = 50
+        pnlProgresoCurso.Controls.Add(pbrLeccionCompletada)
+        pnlProgresoCurso.Controls.Add(lblProgresoCurso)
+        pnlProgresoCurso.CustomizableEdges = CustomizableEdges9
+        pnlProgresoCurso.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        pnlProgresoCurso.Location = New Point(0, 518)
+        pnlProgresoCurso.Margin = New Padding(5, 0, 5, 10)
+        pnlProgresoCurso.Name = "pnlProgresoCurso"
+        pnlProgresoCurso.Padding = New Padding(20, 15, 20, 15)
+        pnlProgresoCurso.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        pnlProgresoCurso.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        pnlProgresoCurso.Size = New Size(390, 104)
+        pnlProgresoCurso.TabIndex = 47
         ' 
-        ' pnlTopinicio
+        ' pbrLeccionCompletada
         ' 
-        pnlTopinicio.BorderRadius = 40
-        CustomizableEdges5.TopLeft = False
-        CustomizableEdges5.TopRight = False
-        pnlTopinicio.CustomizableEdges = CustomizableEdges5
-        pnlTopinicio.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlTopinicio.Location = New Point(0, 0)
-        pnlTopinicio.Margin = New Padding(0, 0, 0, 10)
-        pnlTopinicio.Name = "pnlTopinicio"
-        pnlTopinicio.Padding = New Padding(25, 25, 25, 10)
-        pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        pnlTopinicio.Size = New Size(390, 73)
-        pnlTopinicio.TabIndex = 27
+        pbrLeccionCompletada.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        pbrLeccionCompletada.BorderColor = Color.Transparent
+        pbrLeccionCompletada.BorderRadius = 15
+        pbrLeccionCompletada.CustomizableEdges = CustomizableEdges7
+        pbrLeccionCompletada.FillColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        pbrLeccionCompletada.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        pbrLeccionCompletada.ForeColor = SystemColors.ButtonFace
+        pbrLeccionCompletada.Location = New Point(40, 57)
+        pbrLeccionCompletada.Name = "pbrLeccionCompletada"
+        pbrLeccionCompletada.ProgressColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        pbrLeccionCompletada.ProgressColor2 = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        pbrLeccionCompletada.ShadowDecoration.BorderRadius = 0
+        pbrLeccionCompletada.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        pbrLeccionCompletada.ShowText = True
+        pbrLeccionCompletada.Size = New Size(310, 29)
+        pbrLeccionCompletada.TabIndex = 45
+        pbrLeccionCompletada.Text = "0%"
+        pbrLeccionCompletada.TextMode = Guna.UI2.WinForms.Enums.ProgressBarTextMode.Custom
+        pbrLeccionCompletada.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
+        pbrLeccionCompletada.Value = 10
+        ' 
+        ' lblProgresoCurso
+        ' 
+        lblProgresoCurso.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblProgresoCurso.ForeColor = SystemColors.ButtonFace
+        lblProgresoCurso.Location = New Point(40, 5)
+        lblProgresoCurso.Margin = New Padding(4, 0, 4, 0)
+        lblProgresoCurso.Name = "lblProgresoCurso"
+        lblProgresoCurso.Size = New Size(199, 34)
+        lblProgresoCurso.TabIndex = 44
+        lblProgresoCurso.Text = "Progreso del Curso"
         ' 
         ' frmLeccionCompletada
         ' 
@@ -173,6 +247,9 @@ Partial Class frmLeccionCompletada
         StartPosition = FormStartPosition.CenterScreen
         pnlLeccionCompletada.ResumeLayout(False)
         CType(pbxLeccionCompletada, ComponentModel.ISupportInitialize).EndInit()
+        pnlTopinicio.ResumeLayout(False)
+        pnlFelicidades.ResumeLayout(False)
+        pnlProgresoCurso.ResumeLayout(False)
         ResumeLayout(False)
     End Sub
 
@@ -184,4 +261,8 @@ Partial Class frmLeccionCompletada
     Friend WithEvents lblProgresoCurso As Label
     Friend WithEvents btnCambiarContraseñaContinuar As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents pbrLeccionCompletada As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents btnRegresarLeccionCompletada As Button
+    Friend WithEvents lblLeccionCompletada As Label
+    Friend WithEvents pnlFelicidades As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pnlProgresoCurso As Guna.UI2.WinForms.Guna2Panel
 End Class

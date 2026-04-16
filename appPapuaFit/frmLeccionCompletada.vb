@@ -1,7 +1,6 @@
 ﻿Public Class frmLeccionCompletada
-    Private Sub pnlTopinicio_Paint(sender As Object, e As PaintEventArgs) Handles pnlTopinicio.Paint
 
-    End Sub
+    Private TamañoMaximo As Integer = 100
 
     Private Sub pbrLeccionCompletada_ValueChanged(sender As Object, e As EventArgs) Handles pbrLeccionCompletada.ValueChanged
 

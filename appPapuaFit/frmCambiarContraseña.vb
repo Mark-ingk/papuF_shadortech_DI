@@ -36,4 +36,8 @@
     Private Sub tbxNuevaContraseña_TextChanged(sender As Object, e As EventArgs) Handles tbxNuevaContraseña.TextChanged
 
     End Sub
+
+    Private Sub btnCancelarCambios_Click(sender As Object, e As EventArgs) Handles btnCancelarCambios.Click
+
+    End Sub
 End Class

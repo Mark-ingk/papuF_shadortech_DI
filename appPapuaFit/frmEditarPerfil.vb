@@ -22,11 +22,11 @@ Public Class frmEditarPerfil
     End Sub
 
     Private Sub btnGuardarEditarPerfil_Click(sender As Object, e As EventArgs) Handles btnGuardarEditarPerfil.Click
-
+        MessageBox.Show("Tus datos se han guardado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub btnCancelarEditarPerfil_Click(sender As Object, e As EventArgs) Handles btnCancelarEditarPerfil.Click
-
+        MessageBox.Show("Tus cambios no se han guardado", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning)
     End Sub
 
     Private Sub txbNumeroContactoEditarPerfil_TextChanged(sender As Object, e As EventArgs) Handles tbxNumeroContactoEditarPerfil.TextChanged

@@ -25,21 +25,15 @@ Partial Class frmQR
         components = New ComponentModel.Container()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         tmrContador = New Timer(components)
         btnINS = New Guna.UI2.WinForms.Guna2Button()
         pnlQR = New Panel()
-        Panel1 = New Panel()
-        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblTimer = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblEscq = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblDes1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         pnlQR.SuspendLayout()
-        Panel1.SuspendLayout()
-        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' tmrContador
@@ -71,7 +65,6 @@ Partial Class frmQR
         ' pnlQR
         ' 
         pnlQR.Anchor = AnchorStyles.None
-        pnlQR.Controls.Add(Panel1)
         pnlQR.Controls.Add(Guna2HtmlLabel2)
         pnlQR.Controls.Add(lblTimer)
         pnlQR.Controls.Add(btnINS)
@@ -84,31 +77,6 @@ Partial Class frmQR
         pnlQR.Padding = New Padding(25, 25, 25, 40)
         pnlQR.Size = New Size(390, 844)
         pnlQR.TabIndex = 9
-        ' 
-        ' Panel1
-        ' 
-        Panel1.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        Panel1.Controls.Add(Guna2PictureBox1)
-        Panel1.Location = New Point(67, 425)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(257, 263)
-        Panel1.TabIndex = 1
-        ' 
-        ' Guna2PictureBox1
-        ' 
-        Guna2PictureBox1.BackColor = Color.White
-        Guna2PictureBox1.BackgroundImage = My.Resources.Resources.qrcodehd_1061112
-        Guna2PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges3
-        Guna2PictureBox1.FillColor = Color.Transparent
-        Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(26, 36)
-        Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.Color = Color.White
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2PictureBox1.Size = New Size(205, 191)
-        Guna2PictureBox1.TabIndex = 0
-        Guna2PictureBox1.TabStop = False
         ' 
         ' Guna2HtmlLabel2
         ' 
@@ -193,8 +161,6 @@ Partial Class frmQR
         Text = "frmQR"
         pnlQR.ResumeLayout(False)
         pnlQR.PerformLayout()
-        Panel1.ResumeLayout(False)
-        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
     Friend WithEvents tmrContador As Timer
@@ -205,6 +171,4 @@ Partial Class frmQR
     Friend WithEvents lblEscq As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblDes1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
 End Class

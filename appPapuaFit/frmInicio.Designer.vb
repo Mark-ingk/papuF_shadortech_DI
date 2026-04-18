@@ -301,13 +301,14 @@ Partial Class frmInicio
         Guna2CircleButton1.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         Guna2CircleButton1.Font = New Font("Segoe UI Semibold", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2CircleButton1.ForeColor = Color.Black
-        Guna2CircleButton1.Location = New Point(156, 5)
+        Guna2CircleButton1.Location = New Point(155, 8)
         Guna2CircleButton1.Name = "Guna2CircleButton1"
         Guna2CircleButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Guna2CircleButton1.Size = New Size(80, 80)
         Guna2CircleButton1.TabIndex = 12
         Guna2CircleButton1.Text = "+"
+        Guna2CircleButton1.TextOffset = New Point(4, -4)
         ' 
         ' IconButton3
         ' 

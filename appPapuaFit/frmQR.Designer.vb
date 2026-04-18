@@ -87,7 +87,7 @@ Partial Class frmQR
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        Panel1.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         Panel1.Controls.Add(Guna2PictureBox1)
         Panel1.Location = New Point(67, 425)
         Panel1.Name = "Panel1"
@@ -114,7 +114,7 @@ Partial Class frmQR
         ' 
         Guna2HtmlLabel2.BackColor = Color.Transparent
         Guna2HtmlLabel2.Enabled = False
-        Guna2HtmlLabel2.Font = New Font("Segoe UI", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel2.ForeColor = SystemColors.Control
         Guna2HtmlLabel2.IsSelectionEnabled = False
         Guna2HtmlLabel2.Location = New Point(129, 298)
@@ -155,7 +155,7 @@ Partial Class frmQR
         lblDes1.AutoSizeHeightOnly = True
         lblDes1.BackColor = Color.Transparent
         lblDes1.Enabled = False
-        lblDes1.Font = New Font("Segoe UI", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblDes1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblDes1.ForeColor = SystemColors.ActiveBorder
         lblDes1.IsSelectionEnabled = False
         lblDes1.Location = New Point(26, 150)
@@ -169,7 +169,7 @@ Partial Class frmQR
         ' 
         Guna2HtmlLabel1.BackColor = Color.Transparent
         Guna2HtmlLabel1.Enabled = False
-        Guna2HtmlLabel1.Font = New Font("Segoe UI", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel1.ForeColor = SystemColors.ActiveBorder
         Guna2HtmlLabel1.IsSelectionEnabled = False
         Guna2HtmlLabel1.Location = New Point(55, 234)

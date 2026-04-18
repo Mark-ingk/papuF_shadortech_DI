@@ -38,16 +38,16 @@ Partial Class frmRegistro
         lblO = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         pnlRegistro = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        LinkLabel2 = New LinkLabel()
-        IconButton1 = New FontAwesome.Sharp.IconButton()
-        IconButton2 = New FontAwesome.Sharp.IconButton()
-        IconButton3 = New FontAwesome.Sharp.IconButton()
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        lblPregunta = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        lkbIsesion = New LinkLabel()
+        icnInstragram = New FontAwesome.Sharp.IconButton()
+        icnFb = New FontAwesome.Sharp.IconButton()
+        icnGoogle = New FontAwesome.Sharp.IconButton()
+        txtCel = New Guna.UI2.WinForms.Guna2TextBox()
+        txtEmail = New Guna.UI2.WinForms.Guna2TextBox()
+        txtContra = New Guna.UI2.WinForms.Guna2TextBox()
+        txtNusuario = New Guna.UI2.WinForms.Guna2TextBox()
+        lblSep = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblLog = New Guna.UI2.WinForms.Guna2HtmlLabel()
         spr1 = New Guna.UI2.WinForms.Guna2Separator()
         spr2 = New Guna.UI2.WinForms.Guna2Separator()
@@ -87,7 +87,7 @@ Partial Class frmRegistro
         Guna2HtmlLabel1.BackColor = Color.Transparent
         Guna2HtmlLabel1.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel1.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        Guna2HtmlLabel1.Location = New Point(187, 600)
+        Guna2HtmlLabel1.Location = New Point(0, 0)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(112, 21)
         Guna2HtmlLabel1.TabIndex = 13
@@ -98,16 +98,16 @@ Partial Class frmRegistro
         pnlRegistro.Anchor = AnchorStyles.None
         pnlRegistro.AutoSize = True
         pnlRegistro.BorderRadius = 30
-        pnlRegistro.Controls.Add(Guna2HtmlLabel3)
-        pnlRegistro.Controls.Add(LinkLabel2)
-        pnlRegistro.Controls.Add(IconButton1)
-        pnlRegistro.Controls.Add(IconButton2)
-        pnlRegistro.Controls.Add(IconButton3)
-        pnlRegistro.Controls.Add(Guna2TextBox1)
-        pnlRegistro.Controls.Add(Guna2TextBox2)
-        pnlRegistro.Controls.Add(Guna2TextBox3)
-        pnlRegistro.Controls.Add(Guna2TextBox4)
-        pnlRegistro.Controls.Add(Guna2HtmlLabel2)
+        pnlRegistro.Controls.Add(lblPregunta)
+        pnlRegistro.Controls.Add(lkbIsesion)
+        pnlRegistro.Controls.Add(icnInstragram)
+        pnlRegistro.Controls.Add(icnFb)
+        pnlRegistro.Controls.Add(icnGoogle)
+        pnlRegistro.Controls.Add(txtCel)
+        pnlRegistro.Controls.Add(txtEmail)
+        pnlRegistro.Controls.Add(txtContra)
+        pnlRegistro.Controls.Add(txtNusuario)
+        pnlRegistro.Controls.Add(lblSep)
         pnlRegistro.Controls.Add(lblLog)
         pnlRegistro.Controls.Add(spr1)
         pnlRegistro.Controls.Add(spr2)
@@ -124,210 +124,210 @@ Partial Class frmRegistro
         pnlRegistro.Size = New Size(390, 844)
         pnlRegistro.TabIndex = 15
         ' 
-        ' Guna2HtmlLabel3
+        ' lblPregunta
         ' 
-        Guna2HtmlLabel3.Anchor = AnchorStyles.Bottom
-        Guna2HtmlLabel3.BackColor = Color.Transparent
-        Guna2HtmlLabel3.Enabled = False
-        Guna2HtmlLabel3.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel3.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        Guna2HtmlLabel3.IsSelectionEnabled = False
-        Guna2HtmlLabel3.Location = New Point(69, 798)
-        Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Guna2HtmlLabel3.Size = New Size(129, 23)
-        Guna2HtmlLabel3.TabIndex = 24
-        Guna2HtmlLabel3.Text = "¿Ya tienes cuenta?"
+        lblPregunta.Anchor = AnchorStyles.Bottom
+        lblPregunta.BackColor = Color.Transparent
+        lblPregunta.Enabled = False
+        lblPregunta.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblPregunta.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        lblPregunta.IsSelectionEnabled = False
+        lblPregunta.Location = New Point(69, 798)
+        lblPregunta.Name = "lblPregunta"
+        lblPregunta.Size = New Size(129, 23)
+        lblPregunta.TabIndex = 24
+        lblPregunta.Text = "¿Ya tienes cuenta?"
         ' 
-        ' LinkLabel2
+        ' lkbIsesion
         ' 
-        LinkLabel2.Anchor = AnchorStyles.Bottom
-        LinkLabel2.AutoSize = True
-        LinkLabel2.Cursor = Cursors.Hand
-        LinkLabel2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        LinkLabel2.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        LinkLabel2.LinkColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        LinkLabel2.Location = New Point(222, 798)
-        LinkLabel2.Name = "LinkLabel2"
-        LinkLabel2.Size = New Size(100, 21)
-        LinkLabel2.TabIndex = 25
-        LinkLabel2.TabStop = True
-        LinkLabel2.Text = "Iniciar sesion"
+        lkbIsesion.Anchor = AnchorStyles.Bottom
+        lkbIsesion.AutoSize = True
+        lkbIsesion.Cursor = Cursors.Hand
+        lkbIsesion.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lkbIsesion.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        lkbIsesion.LinkColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        lkbIsesion.Location = New Point(222, 798)
+        lkbIsesion.Name = "lkbIsesion"
+        lkbIsesion.Size = New Size(100, 21)
+        lkbIsesion.TabIndex = 25
+        lkbIsesion.TabStop = True
+        lkbIsesion.Text = "Iniciar sesion"
         ' 
-        ' IconButton1
+        ' icnInstragram
         ' 
-        IconButton1.Anchor = AnchorStyles.Bottom
-        IconButton1.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        IconButton1.Cursor = Cursors.Hand
-        IconButton1.FlatStyle = FlatStyle.Flat
-        IconButton1.ForeColor = Color.Black
-        IconButton1.IconChar = FontAwesome.Sharp.IconChar.Instagram
-        IconButton1.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        IconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconButton1.Location = New Point(293, 707)
-        IconButton1.Margin = New Padding(10, 0, 10, 0)
-        IconButton1.Name = "IconButton1"
-        IconButton1.Size = New Size(57, 54)
-        IconButton1.TabIndex = 32
-        IconButton1.UseVisualStyleBackColor = False
+        icnInstragram.Anchor = AnchorStyles.Bottom
+        icnInstragram.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icnInstragram.Cursor = Cursors.Hand
+        icnInstragram.FlatStyle = FlatStyle.Flat
+        icnInstragram.ForeColor = Color.Black
+        icnInstragram.IconChar = FontAwesome.Sharp.IconChar.Instagram
+        icnInstragram.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        icnInstragram.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icnInstragram.Location = New Point(293, 707)
+        icnInstragram.Margin = New Padding(10, 0, 10, 0)
+        icnInstragram.Name = "icnInstragram"
+        icnInstragram.Size = New Size(57, 54)
+        icnInstragram.TabIndex = 32
+        icnInstragram.UseVisualStyleBackColor = False
         ' 
-        ' IconButton2
+        ' icnFb
         ' 
-        IconButton2.Anchor = AnchorStyles.Bottom
-        IconButton2.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        IconButton2.Cursor = Cursors.Hand
-        IconButton2.FlatStyle = FlatStyle.Flat
-        IconButton2.ForeColor = Color.Black
-        IconButton2.IconChar = FontAwesome.Sharp.IconChar.FacebookF
-        IconButton2.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        IconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconButton2.Location = New Point(167, 707)
-        IconButton2.Margin = New Padding(10, 0, 10, 0)
-        IconButton2.Name = "IconButton2"
-        IconButton2.Size = New Size(57, 54)
-        IconButton2.TabIndex = 31
-        IconButton2.UseVisualStyleBackColor = False
+        icnFb.Anchor = AnchorStyles.Bottom
+        icnFb.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icnFb.Cursor = Cursors.Hand
+        icnFb.FlatStyle = FlatStyle.Flat
+        icnFb.ForeColor = Color.Black
+        icnFb.IconChar = FontAwesome.Sharp.IconChar.FacebookF
+        icnFb.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        icnFb.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icnFb.Location = New Point(167, 707)
+        icnFb.Margin = New Padding(10, 0, 10, 0)
+        icnFb.Name = "icnFb"
+        icnFb.Size = New Size(57, 54)
+        icnFb.TabIndex = 31
+        icnFb.UseVisualStyleBackColor = False
         ' 
-        ' IconButton3
+        ' icnGoogle
         ' 
-        IconButton3.Anchor = AnchorStyles.Bottom
-        IconButton3.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        IconButton3.Cursor = Cursors.Hand
-        IconButton3.FlatStyle = FlatStyle.Flat
-        IconButton3.ForeColor = Color.Black
-        IconButton3.IconChar = FontAwesome.Sharp.IconChar.Google
-        IconButton3.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        IconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconButton3.Location = New Point(41, 707)
-        IconButton3.Margin = New Padding(10, 0, 10, 0)
-        IconButton3.Name = "IconButton3"
-        IconButton3.Size = New Size(57, 54)
-        IconButton3.TabIndex = 30
-        IconButton3.UseVisualStyleBackColor = False
+        icnGoogle.Anchor = AnchorStyles.Bottom
+        icnGoogle.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icnGoogle.Cursor = Cursors.Hand
+        icnGoogle.FlatStyle = FlatStyle.Flat
+        icnGoogle.ForeColor = Color.Black
+        icnGoogle.IconChar = FontAwesome.Sharp.IconChar.Google
+        icnGoogle.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        icnGoogle.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icnGoogle.Location = New Point(41, 707)
+        icnGoogle.Margin = New Padding(10, 0, 10, 0)
+        icnGoogle.Name = "icnGoogle"
+        icnGoogle.Size = New Size(57, 54)
+        icnGoogle.TabIndex = 30
+        icnGoogle.UseVisualStyleBackColor = False
         ' 
-        ' Guna2TextBox1
+        ' txtCel
         ' 
-        Guna2TextBox1.Animated = True
-        Guna2TextBox1.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        Guna2TextBox1.BorderRadius = 20
-        Guna2TextBox1.Cursor = Cursors.IBeam
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges1
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox1.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox1.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox1.Location = New Point(40, 316)
-        Guna2TextBox1.Margin = New Padding(3, 40, 3, 15)
-        Guna2TextBox1.MaxLength = 10
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PlaceholderText = "Numero celular"
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2TextBox1.Size = New Size(310, 55)
-        Guna2TextBox1.TabIndex = 29
-        Guna2TextBox1.TextOffset = New Point(10, 0)
+        txtCel.Animated = True
+        txtCel.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtCel.BorderRadius = 20
+        txtCel.Cursor = Cursors.IBeam
+        txtCel.CustomizableEdges = CustomizableEdges1
+        txtCel.DefaultText = ""
+        txtCel.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtCel.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtCel.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCel.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCel.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtCel.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtCel.Font = New Font("Segoe UI", 9F)
+        txtCel.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtCel.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtCel.Location = New Point(40, 316)
+        txtCel.Margin = New Padding(3, 40, 3, 15)
+        txtCel.MaxLength = 10
+        txtCel.Name = "txtCel"
+        txtCel.PlaceholderText = "Numero celular"
+        txtCel.SelectedText = ""
+        txtCel.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtCel.Size = New Size(310, 55)
+        txtCel.TabIndex = 29
+        txtCel.TextOffset = New Point(10, 0)
         ' 
-        ' Guna2TextBox2
+        ' txtEmail
         ' 
-        Guna2TextBox2.Animated = True
-        Guna2TextBox2.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        Guna2TextBox2.BorderRadius = 20
-        Guna2TextBox2.Cursor = Cursors.IBeam
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges3
-        Guna2TextBox2.DefaultText = ""
-        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox2.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox2.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox2.Location = New Point(40, 470)
-        Guna2TextBox2.Margin = New Padding(3, 40, 3, 15)
-        Guna2TextBox2.Name = "Guna2TextBox2"
-        Guna2TextBox2.PlaceholderText = "Email"
-        Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2TextBox2.Size = New Size(310, 55)
-        Guna2TextBox2.TabIndex = 28
-        Guna2TextBox2.TextOffset = New Point(10, 0)
+        txtEmail.Animated = True
+        txtEmail.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtEmail.BorderRadius = 20
+        txtEmail.Cursor = Cursors.IBeam
+        txtEmail.CustomizableEdges = CustomizableEdges3
+        txtEmail.DefaultText = ""
+        txtEmail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtEmail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtEmail.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEmail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEmail.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtEmail.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtEmail.Font = New Font("Segoe UI", 9F)
+        txtEmail.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtEmail.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtEmail.Location = New Point(40, 470)
+        txtEmail.Margin = New Padding(3, 40, 3, 15)
+        txtEmail.Name = "txtEmail"
+        txtEmail.PlaceholderText = "Email"
+        txtEmail.SelectedText = ""
+        txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtEmail.Size = New Size(310, 55)
+        txtEmail.TabIndex = 28
+        txtEmail.TextOffset = New Point(10, 0)
         ' 
-        ' Guna2TextBox3
+        ' txtContra
         ' 
-        Guna2TextBox3.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        Guna2TextBox3.Animated = True
-        Guna2TextBox3.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        Guna2TextBox3.BorderRadius = 20
-        Guna2TextBox3.Cursor = Cursors.IBeam
-        Guna2TextBox3.CustomizableEdges = CustomizableEdges5
-        Guna2TextBox3.DefaultText = ""
-        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox3.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox3.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox3.Location = New Point(40, 393)
-        Guna2TextBox3.Margin = New Padding(3, 0, 3, 25)
-        Guna2TextBox3.Name = "Guna2TextBox3"
-        Guna2TextBox3.PlaceholderText = "Contraseña"
-        Guna2TextBox3.SelectedText = ""
-        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2TextBox3.Size = New Size(310, 55)
-        Guna2TextBox3.TabIndex = 27
-        Guna2TextBox3.TextOffset = New Point(10, 0)
-        Guna2TextBox3.UseSystemPasswordChar = True
+        txtContra.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        txtContra.Animated = True
+        txtContra.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtContra.BorderRadius = 20
+        txtContra.Cursor = Cursors.IBeam
+        txtContra.CustomizableEdges = CustomizableEdges5
+        txtContra.DefaultText = ""
+        txtContra.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtContra.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtContra.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtContra.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtContra.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtContra.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtContra.Font = New Font("Segoe UI", 9F)
+        txtContra.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtContra.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtContra.Location = New Point(40, 393)
+        txtContra.Margin = New Padding(3, 0, 3, 25)
+        txtContra.Name = "txtContra"
+        txtContra.PlaceholderText = "Contraseña"
+        txtContra.SelectedText = ""
+        txtContra.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtContra.Size = New Size(310, 55)
+        txtContra.TabIndex = 27
+        txtContra.TextOffset = New Point(10, 0)
+        txtContra.UseSystemPasswordChar = True
         ' 
-        ' Guna2TextBox4
+        ' txtNusuario
         ' 
-        Guna2TextBox4.Animated = True
-        Guna2TextBox4.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        Guna2TextBox4.BorderRadius = 20
-        Guna2TextBox4.Cursor = Cursors.IBeam
-        Guna2TextBox4.CustomizableEdges = CustomizableEdges7
-        Guna2TextBox4.DefaultText = ""
-        Guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
-        Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        Guna2TextBox4.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox4.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
-        Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(252), CByte(37))
-        Guna2TextBox4.Location = New Point(40, 239)
-        Guna2TextBox4.Margin = New Padding(3, 40, 3, 15)
-        Guna2TextBox4.MaxLength = 30
-        Guna2TextBox4.Name = "Guna2TextBox4"
-        Guna2TextBox4.PlaceholderText = "Nombre de Usuario"
-        Guna2TextBox4.SelectedText = ""
-        Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox4.Size = New Size(310, 55)
-        Guna2TextBox4.TabIndex = 26
-        Guna2TextBox4.TextOffset = New Point(10, 0)
+        txtNusuario.Animated = True
+        txtNusuario.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        txtNusuario.BorderRadius = 20
+        txtNusuario.Cursor = Cursors.IBeam
+        txtNusuario.CustomizableEdges = CustomizableEdges7
+        txtNusuario.DefaultText = ""
+        txtNusuario.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtNusuario.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtNusuario.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtNusuario.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtNusuario.FillColor = Color.FromArgb(CByte(42), CByte(42), CByte(42))
+        txtNusuario.FocusedState.BorderColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
+        txtNusuario.Font = New Font("Segoe UI", 9F)
+        txtNusuario.ForeColor = Color.FromArgb(CByte(170), CByte(170), CByte(170))
+        txtNusuario.HoverState.BorderColor = Color.FromArgb(CByte(231), CByte(252), CByte(37))
+        txtNusuario.Location = New Point(40, 239)
+        txtNusuario.Margin = New Padding(3, 40, 3, 15)
+        txtNusuario.MaxLength = 30
+        txtNusuario.Name = "txtNusuario"
+        txtNusuario.PlaceholderText = "Nombre de Usuario"
+        txtNusuario.SelectedText = ""
+        txtNusuario.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtNusuario.Size = New Size(310, 55)
+        txtNusuario.TabIndex = 26
+        txtNusuario.TextOffset = New Point(10, 0)
         ' 
-        ' Guna2HtmlLabel2
+        ' lblSep
         ' 
-        Guna2HtmlLabel2.BackColor = Color.Transparent
-        Guna2HtmlLabel2.Enabled = False
-        Guna2HtmlLabel2.Font = New Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel2.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        Guna2HtmlLabel2.IsSelectionEnabled = False
-        Guna2HtmlLabel2.Location = New Point(185, 633)
-        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Guna2HtmlLabel2.Size = New Size(23, 39)
-        Guna2HtmlLabel2.TabIndex = 18
-        Guna2HtmlLabel2.Text = "O"
+        lblSep.BackColor = Color.Transparent
+        lblSep.Enabled = False
+        lblSep.Font = New Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblSep.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        lblSep.IsSelectionEnabled = False
+        lblSep.Location = New Point(185, 633)
+        lblSep.Name = "lblSep"
+        lblSep.Size = New Size(23, 39)
+        lblSep.TabIndex = 18
+        lblSep.Text = "O"
         ' 
         ' lblLog
         ' 
@@ -422,14 +422,14 @@ Partial Class frmRegistro
     Friend WithEvents btnINS As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents iconPesa As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents lblLog As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox3 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox4 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
-    Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
-    Friend WithEvents IconButton3 As FontAwesome.Sharp.IconButton
-    Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents LinkLabel2 As LinkLabel
+    Friend WithEvents lblSep As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents txtCel As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtEmail As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtContra As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtNusuario As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents icnInstragram As FontAwesome.Sharp.IconButton
+    Friend WithEvents icnFb As FontAwesome.Sharp.IconButton
+    Friend WithEvents icnGoogle As FontAwesome.Sharp.IconButton
+    Friend WithEvents lblPregunta As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents lkbIsesion As LinkLabel
 End Class

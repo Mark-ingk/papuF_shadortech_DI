@@ -11,20 +11,4 @@
         Me.Hide()
     End Sub
 
-    Private Sub lblRegistro_Click(sender As Object, e As EventArgs) Handles lblRegistro.Click
-
-    End Sub
-
-    Private Sub icbtnInstagram_Click(sender As Object, e As EventArgs) Handles icbtnInstagram.Click
-
-    End Sub
-
-    Private Sub spr2_Click(sender As Object, e As EventArgs) Handles spr2.Click
-
-    End Sub
-
-    Private Sub txtUsuario_TextChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
 End Class

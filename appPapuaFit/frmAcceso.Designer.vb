@@ -38,7 +38,7 @@ Partial Class frmAcceso
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
+        cbtnPerfil = New Guna.UI2.WinForms.Guna2CircleButton()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2HtmlLabel6 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         pnlAcceso = New Panel()
@@ -49,6 +49,7 @@ Partial Class frmAcceso
         ' 
         ' Guna2Panel1
         ' 
+        Guna2Panel1.BackColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         Guna2Panel1.BorderRadius = 60
         Guna2Panel1.Controls.Add(Guna2HtmlLabel5)
         Guna2Panel1.Controls.Add(Guna2HtmlLabel4)
@@ -60,7 +61,7 @@ Partial Class frmAcceso
         CustomizableEdges3.BottomRight = False
         Guna2Panel1.CustomizableEdges = CustomizableEdges3
         Guna2Panel1.Dock = DockStyle.Bottom
-        Guna2Panel1.FillColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        Guna2Panel1.FillColor = Color.FromArgb(CByte(1), CByte(63), CByte(50))
         Guna2Panel1.Font = New Font("Segoe UI", 9.75F)
         Guna2Panel1.Location = New Point(0, 497)
         Guna2Panel1.MaximumSize = New Size(390, 0)
@@ -110,7 +111,7 @@ Partial Class frmAcceso
         ' 
         btnGen.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         btnGen.Animated = True
-        btnGen.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        btnGen.BackColor = Color.FromArgb(CByte(1), CByte(63), CByte(50))
         btnGen.BorderRadius = 30
         btnGen.Cursor = Cursors.Hand
         btnGen.CustomizableEdges = CustomizableEdges1
@@ -118,9 +119,9 @@ Partial Class frmAcceso
         btnGen.DisabledState.CustomBorderColor = Color.DarkGray
         btnGen.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnGen.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnGen.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnGen.FillColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
         btnGen.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnGen.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        btnGen.ForeColor = Color.FromArgb(CByte(1), CByte(63), CByte(50))
         btnGen.Location = New Point(12, 245)
         btnGen.Margin = New Padding(25, 25, 25, 30)
         btnGen.Name = "btnGen"
@@ -137,7 +138,7 @@ Partial Class frmAcceso
         Guna2HtmlLabel2.Font = New Font("Segoe UI Variable Display", 41.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel2.ForeColor = SystemColors.ActiveBorder
         Guna2HtmlLabel2.IsSelectionEnabled = False
-        Guna2HtmlLabel2.Location = New Point(267, 42)
+        Guna2HtmlLabel2.Location = New Point(237, 53)
         Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
         Guna2HtmlLabel2.Size = New Size(76, 75)
         Guna2HtmlLabel2.TabIndex = 2
@@ -148,9 +149,9 @@ Partial Class frmAcceso
         Guna2HtmlLabel1.BackColor = Color.Transparent
         Guna2HtmlLabel1.Enabled = False
         Guna2HtmlLabel1.Font = New Font("Segoe UI", 41.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel1.ForeColor = SystemColors.Control
+        Guna2HtmlLabel1.ForeColor = Color.FromArgb(CByte(253), CByte(253), CByte(253))
         Guna2HtmlLabel1.IsSelectionEnabled = False
-        Guna2HtmlLabel1.Location = New Point(52, 41)
+        Guna2HtmlLabel1.Location = New Point(25, 52)
         Guna2HtmlLabel1.Margin = New Padding(0)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(209, 76)
@@ -162,7 +163,7 @@ Partial Class frmAcceso
         Guna2HtmlLabel7.BackColor = Color.Transparent
         Guna2HtmlLabel7.Enabled = False
         Guna2HtmlLabel7.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel7.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        Guna2HtmlLabel7.ForeColor = Color.White
         Guna2HtmlLabel7.IsSelectionEnabled = False
         Guna2HtmlLabel7.Location = New Point(273, 26)
         Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
@@ -170,26 +171,26 @@ Partial Class frmAcceso
         Guna2HtmlLabel7.TabIndex = 2
         Guna2HtmlLabel7.Text = "Mario"
         ' 
-        ' Guna2CircleButton1
+        ' cbtnPerfil
         ' 
-        Guna2CircleButton1.BorderColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        Guna2CircleButton1.Cursor = Cursors.Hand
-        Guna2CircleButton1.DisabledState.BorderColor = Color.DarkGray
-        Guna2CircleButton1.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2CircleButton1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2CircleButton1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2CircleButton1.FillColor = Color.White
-        Guna2CircleButton1.Font = New Font("Segoe UI", 9F)
-        Guna2CircleButton1.ForeColor = Color.White
-        Guna2CircleButton1.Image = My.Resources.Resources.round_account_button_with_user_inside_icon_icons_com_72596
-        Guna2CircleButton1.ImageSize = New Size(35, 35)
-        Guna2CircleButton1.Location = New Point(53, 25)
-        Guna2CircleButton1.Name = "Guna2CircleButton1"
-        Guna2CircleButton1.PressedColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        Guna2CircleButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges5
-        Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Guna2CircleButton1.Size = New Size(39, 35)
-        Guna2CircleButton1.TabIndex = 3
+        cbtnPerfil.BorderColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        cbtnPerfil.Cursor = Cursors.Hand
+        cbtnPerfil.DisabledState.BorderColor = Color.DarkGray
+        cbtnPerfil.DisabledState.CustomBorderColor = Color.DarkGray
+        cbtnPerfil.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        cbtnPerfil.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        cbtnPerfil.FillColor = Color.Orange
+        cbtnPerfil.Font = New Font("Segoe UI", 9F)
+        cbtnPerfil.ForeColor = Color.White
+        cbtnPerfil.Image = My.Resources.Resources.round_account_button_with_user_inside_icon_icons_com_72596
+        cbtnPerfil.ImageSize = New Size(35, 35)
+        cbtnPerfil.Location = New Point(53, 25)
+        cbtnPerfil.Name = "cbtnPerfil"
+        cbtnPerfil.PressedColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        cbtnPerfil.ShadowDecoration.CustomizableEdges = CustomizableEdges5
+        cbtnPerfil.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        cbtnPerfil.Size = New Size(39, 35)
+        cbtnPerfil.TabIndex = 3
         ' 
         ' Guna2PictureBox1
         ' 
@@ -200,7 +201,7 @@ Partial Class frmAcceso
         Guna2PictureBox1.FillColor = Color.Transparent
         Guna2PictureBox1.Image = CType(resources.GetObject("Guna2PictureBox1.Image"), Image)
         Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(12, 75)
+        Guna2PictureBox1.Location = New Point(12, 112)
         Guna2PictureBox1.Margin = New Padding(25, 40, 25, 30)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges7
@@ -215,7 +216,7 @@ Partial Class frmAcceso
         Guna2HtmlLabel6.BackColor = Color.Transparent
         Guna2HtmlLabel6.Enabled = False
         Guna2HtmlLabel6.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel6.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        Guna2HtmlLabel6.ForeColor = Color.White
         Guna2HtmlLabel6.IsSelectionEnabled = False
         Guna2HtmlLabel6.Location = New Point(99, 25)
         Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
@@ -225,7 +226,10 @@ Partial Class frmAcceso
         ' 
         ' pnlAcceso
         ' 
-        pnlAcceso.Controls.Add(Guna2CircleButton1)
+        pnlAcceso.BackColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
+        pnlAcceso.Controls.Add(Guna2PictureBox1)
+        pnlAcceso.Controls.Add(cbtnPerfil)
+        pnlAcceso.Controls.Add(Guna2Panel1)
         pnlAcceso.Controls.Add(Guna2HtmlLabel7)
         pnlAcceso.Controls.Add(Guna2HtmlLabel6)
         pnlAcceso.Location = New Point(0, 0)
@@ -241,8 +245,6 @@ Partial Class frmAcceso
         AutoSize = True
         BackColor = SystemColors.Control
         ClientSize = New Size(390, 844)
-        Controls.Add(Guna2PictureBox1)
-        Controls.Add(Guna2Panel1)
         Controls.Add(pnlAcceso)
         FormBorderStyle = FormBorderStyle.None
         MaximizeBox = False
@@ -267,7 +269,7 @@ Partial Class frmAcceso
     Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel7 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents cbtnPerfil As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2HtmlLabel6 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents pnlAcceso As Panel

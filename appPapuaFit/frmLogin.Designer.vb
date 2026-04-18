@@ -31,7 +31,7 @@ Partial Class frmLogin
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlLogin = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        lblSep = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblLog = New Guna.UI2.WinForms.Guna2HtmlLabel()
         btnINS = New Guna.UI2.WinForms.Guna2Button()
         txtContra = New Guna.UI2.WinForms.Guna2TextBox()
@@ -51,8 +51,9 @@ Partial Class frmLogin
         ' pnlLogin
         ' 
         pnlLogin.Anchor = AnchorStyles.None
+        pnlLogin.BackColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         pnlLogin.BorderRadius = 30
-        pnlLogin.Controls.Add(Guna2HtmlLabel2)
+        pnlLogin.Controls.Add(lblSep)
         pnlLogin.Controls.Add(lblLog)
         pnlLogin.Controls.Add(btnINS)
         pnlLogin.Controls.Add(txtContra)
@@ -76,18 +77,18 @@ Partial Class frmLogin
         pnlLogin.Size = New Size(390, 844)
         pnlLogin.TabIndex = 0
         ' 
-        ' Guna2HtmlLabel2
+        ' lblSep
         ' 
-        Guna2HtmlLabel2.BackColor = Color.Transparent
-        Guna2HtmlLabel2.Enabled = False
-        Guna2HtmlLabel2.Font = New Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel2.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        Guna2HtmlLabel2.IsSelectionEnabled = False
-        Guna2HtmlLabel2.Location = New Point(184, 555)
-        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Guna2HtmlLabel2.Size = New Size(23, 39)
-        Guna2HtmlLabel2.TabIndex = 21
-        Guna2HtmlLabel2.Text = "O"
+        lblSep.BackColor = Color.Transparent
+        lblSep.Enabled = False
+        lblSep.Font = New Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblSep.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        lblSep.IsSelectionEnabled = False
+        lblSep.Location = New Point(184, 555)
+        lblSep.Name = "lblSep"
+        lblSep.Size = New Size(23, 39)
+        lblSep.TabIndex = 21
+        lblSep.Text = "O"
         ' 
         ' lblLog
         ' 
@@ -95,6 +96,7 @@ Partial Class frmLogin
         lblLog.BackColor = Color.Transparent
         lblLog.Font = New Font("Segoe UI", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblLog.ForeColor = Color.White
+        lblLog.IsSelectionEnabled = False
         lblLog.Location = New Point(87, 213)
         lblLog.Margin = New Padding(20, 40, 20, 10)
         lblLog.Name = "lblLog"
@@ -330,6 +332,6 @@ Partial Class frmLogin
     Friend WithEvents lblRegistro As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents lblSep As Guna.UI2.WinForms.Guna2HtmlLabel
 
 End Class

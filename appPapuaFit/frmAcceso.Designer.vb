@@ -139,7 +139,7 @@ Partial Class frmAcceso
         Guna2HtmlLabel1.Font = New Font("Segoe UI", 41.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2HtmlLabel1.ForeColor = SystemColors.Control
         Guna2HtmlLabel1.Location = New Point(28, 78)
-        Guna2HtmlLabel1.Margin = New Padding(0, 0, 0, 0)
+        Guna2HtmlLabel1.Margin = New Padding(0)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(209, 76)
         Guna2HtmlLabel1.TabIndex = 1
@@ -196,6 +196,7 @@ Partial Class frmAcceso
         ' 
         Guna2HtmlLabel6.BackColor = Color.Transparent
         Guna2HtmlLabel6.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Guna2HtmlLabel6.IsSelectionEnabled = False
         Guna2HtmlLabel6.Location = New Point(66, 25)
         Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
         Guna2HtmlLabel6.Size = New Size(171, 34)

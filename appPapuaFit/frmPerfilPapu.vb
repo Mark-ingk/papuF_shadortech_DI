@@ -35,23 +35,23 @@
 
     End Sub
 
-    Private Sub IconButton3_Click(sender As Object, e As EventArgs) Handles IconButton3.Click
+    Private Sub IconButton3_Click(sender As Object, e As EventArgs) Handles btnHome.Click
 
     End Sub
 
-    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles btnMetas.Click
 
     End Sub
 
-    Private Sub Guna2HtmlLabel1_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel1.Click
+    Private Sub Guna2HtmlLabel1_Click(sender As Object, e As EventArgs) Handles lblProgreso.Click
 
     End Sub
 
-    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles btnEstTiempo.Click
 
     End Sub
 
-    Private Sub IconPictureBox7_Click(sender As Object, e As EventArgs) Handles IconPictureBox7.Click
+    Private Sub IconPictureBox7_Click(sender As Object, e As EventArgs) Handles icnTiempoEst.Click
 
     End Sub
 End Class

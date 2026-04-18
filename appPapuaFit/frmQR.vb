@@ -22,25 +22,21 @@
         End If
     End Sub
 
-    Private Sub lblTimer_Click(sender As Object, e As EventArgs) Handles lblTimer.Click
-
-    End Sub
-
-    Private Sub pnlQR_Paint(sender As Object, e As PaintEventArgs) Handles pnlQR.Paint
-
-    End Sub
-
-    Private Sub lblDes1_Click(sender As Object, e As EventArgs) Handles lblDes1.Click
-
-    End Sub
-
-    Private Sub btnINS_Click(sender As Object, e As EventArgs) Handles btnINS.Click
-        Dim pantallaBienvenida As New frmInicio()
+    Private Sub btnCerrar_Click(sender As Object, e As EventArgs) Handles btnCerrar.Click
+        Dim pantallaBienvenida As New frmAcceso()
         pantallaBienvenida.Show()
         Me.Hide()
     End Sub
 
-    Private Sub lblEscq_Click(sender As Object, e As EventArgs) Handles lblEscq.Click
+    Private Sub btnFlash_Click(sender As Object, e As EventArgs) Handles btnFlash.Click
+        Dim pantallaPagos As New frmPagos()
+        pantallaPagos.Show()
+        Me.Hide()
+    End Sub
 
+    Private Sub btnSimAcceso_Click(sender As Object, e As EventArgs) Handles btnSimAcceso.Click
+        Dim pantallaInicio As New frmInicio
+        pantallaInicio.Show()
+        Hide()
     End Sub
 End Class

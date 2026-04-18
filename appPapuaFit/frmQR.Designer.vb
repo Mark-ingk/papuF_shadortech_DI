@@ -25,6 +25,18 @@ Partial Class frmQR
         components = New ComponentModel.Container()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         tmrContador = New Timer(components)
         btnINS = New Guna.UI2.WinForms.Guna2Button()
         pnlQR = New Panel()
@@ -33,7 +45,15 @@ Partial Class frmQR
         lblEscq = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblDes1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        pnlCntQR = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        pnlEsq1 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         pnlQR.SuspendLayout()
+        pnlCntQR.SuspendLayout()
+        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' tmrContador
@@ -65,6 +85,11 @@ Partial Class frmQR
         ' pnlQR
         ' 
         pnlQR.Anchor = AnchorStyles.None
+        pnlQR.Controls.Add(pnlCntQR)
+        pnlQR.Controls.Add(pnlEsq1)
+        pnlQR.Controls.Add(Guna2Panel1)
+        pnlQR.Controls.Add(Guna2Panel2)
+        pnlQR.Controls.Add(Guna2Panel3)
         pnlQR.Controls.Add(Guna2HtmlLabel2)
         pnlQR.Controls.Add(lblTimer)
         pnlQR.Controls.Add(btnINS)
@@ -98,7 +123,7 @@ Partial Class frmQR
         lblTimer.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblTimer.ForeColor = SystemColors.ButtonFace
         lblTimer.IsSelectionEnabled = False
-        lblTimer.Location = New Point(171, 362)
+        lblTimer.Location = New Point(171, 464)
         lblTimer.Name = "lblTimer"
         lblTimer.Size = New Size(28, 22)
         lblTimer.TabIndex = 14
@@ -146,6 +171,93 @@ Partial Class frmQR
         Guna2HtmlLabel1.TabIndex = 5
         Guna2HtmlLabel1.Text = "El escaneo comenzara automaticamente"
         ' 
+        ' pnlCntQR
+        ' 
+        pnlCntQR.BackColor = Color.Transparent
+        pnlCntQR.BorderRadius = 20
+        pnlCntQR.Controls.Add(Guna2PictureBox1)
+        pnlCntQR.CustomizableEdges = CustomizableEdges5
+        pnlCntQR.Location = New Point(64, 392)
+        pnlCntQR.Name = "pnlCntQR"
+        pnlCntQR.ShadowDecoration.BorderRadius = 20
+        pnlCntQR.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        pnlCntQR.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        pnlCntQR.ShadowDecoration.Enabled = True
+        pnlCntQR.Size = New Size(260, 260)
+        pnlCntQR.TabIndex = 16
+        ' 
+        ' Guna2PictureBox1
+        ' 
+        Guna2PictureBox1.BackColor = Color.White
+        Guna2PictureBox1.BackgroundImage = My.Resources.Resources.qrcodehd_1061112
+        Guna2PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges3
+        Guna2PictureBox1.FillColor = Color.Transparent
+        Guna2PictureBox1.ImageRotate = 0F
+        Guna2PictureBox1.Location = New Point(27, 37)
+        Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Guna2PictureBox1.ShadowDecoration.Color = Color.White
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2PictureBox1.Size = New Size(205, 191)
+        Guna2PictureBox1.TabIndex = 0
+        Guna2PictureBox1.TabStop = False
+        ' 
+        ' pnlEsq1
+        ' 
+        pnlEsq1.BackColor = Color.Transparent
+        pnlEsq1.BorderRadius = 20
+        pnlEsq1.CustomizableEdges = CustomizableEdges7
+        pnlEsq1.FillColor = Color.IndianRed
+        pnlEsq1.Location = New Point(48, 377)
+        pnlEsq1.Name = "pnlEsq1"
+        pnlEsq1.ShadowDecoration.BorderRadius = 30
+        pnlEsq1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        pnlEsq1.ShadowDecoration.Shadow = New Padding(10)
+        pnlEsq1.Size = New Size(92, 91)
+        pnlEsq1.TabIndex = 17
+        ' 
+        ' Guna2Panel1
+        ' 
+        Guna2Panel1.BackColor = Color.Transparent
+        Guna2Panel1.BorderRadius = 20
+        Guna2Panel1.CustomizableEdges = CustomizableEdges9
+        Guna2Panel1.FillColor = Color.IndianRed
+        Guna2Panel1.Location = New Point(48, 581)
+        Guna2Panel1.Name = "Guna2Panel1"
+        Guna2Panel1.ShadowDecoration.BorderRadius = 30
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2Panel1.ShadowDecoration.Shadow = New Padding(10)
+        Guna2Panel1.Size = New Size(92, 91)
+        Guna2Panel1.TabIndex = 18
+        ' 
+        ' Guna2Panel2
+        ' 
+        Guna2Panel2.BackColor = Color.Transparent
+        Guna2Panel2.BorderRadius = 20
+        Guna2Panel2.CustomizableEdges = CustomizableEdges11
+        Guna2Panel2.FillColor = Color.IndianRed
+        Guna2Panel2.Location = New Point(250, 377)
+        Guna2Panel2.Name = "Guna2Panel2"
+        Guna2Panel2.ShadowDecoration.BorderRadius = 30
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Guna2Panel2.ShadowDecoration.Shadow = New Padding(10)
+        Guna2Panel2.Size = New Size(92, 91)
+        Guna2Panel2.TabIndex = 19
+        ' 
+        ' Guna2Panel3
+        ' 
+        Guna2Panel3.BackColor = Color.Transparent
+        Guna2Panel3.BorderRadius = 20
+        Guna2Panel3.CustomizableEdges = CustomizableEdges13
+        Guna2Panel3.FillColor = Color.IndianRed
+        Guna2Panel3.Location = New Point(250, 581)
+        Guna2Panel3.Name = "Guna2Panel3"
+        Guna2Panel3.ShadowDecoration.BorderRadius = 30
+        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        Guna2Panel3.ShadowDecoration.Shadow = New Padding(10)
+        Guna2Panel3.Size = New Size(92, 91)
+        Guna2Panel3.TabIndex = 20
+        ' 
         ' frmQR
         ' 
         AutoScaleMode = AutoScaleMode.None
@@ -161,6 +273,8 @@ Partial Class frmQR
         Text = "frmQR"
         pnlQR.ResumeLayout(False)
         pnlQR.PerformLayout()
+        pnlCntQR.ResumeLayout(False)
+        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
     Friend WithEvents tmrContador As Timer
@@ -171,4 +285,10 @@ Partial Class frmQR
     Friend WithEvents lblEscq As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblDes1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents pnlCntQR As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents pnlEsq1 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
 End Class

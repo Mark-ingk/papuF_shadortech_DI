@@ -1,5 +1,5 @@
 ﻿Public Class frmEntrenamiento
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles pnlEntrenamientos.Paint
 
     End Sub
 

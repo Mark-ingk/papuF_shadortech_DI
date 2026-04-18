@@ -61,7 +61,7 @@ Partial Class frmCambiarContraseña
         pnlCambiarContraseña.MaximumSize = New Size(390, 844)
         pnlCambiarContraseña.MinimumSize = New Size(390, 844)
         pnlCambiarContraseña.Name = "pnlCambiarContraseña"
-        pnlCambiarContraseña.Padding = New Padding(25)
+        pnlCambiarContraseña.Padding = New Padding(0, 0, 0, 40)
         pnlCambiarContraseña.Size = New Size(390, 844)
         pnlCambiarContraseña.TabIndex = 0
         ' 
@@ -79,7 +79,7 @@ Partial Class frmCambiarContraseña
         pnlTopCambiarContraseña.Name = "pnlTopCambiarContraseña"
         pnlTopCambiarContraseña.Padding = New Padding(25, 25, 25, 10)
         pnlTopCambiarContraseña.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        pnlTopCambiarContraseña.Size = New Size(390, 77)
+        pnlTopCambiarContraseña.Size = New Size(390, 100)
         pnlTopCambiarContraseña.TabIndex = 63
         ' 
         ' btnRegresarCambiarContraseña
@@ -91,7 +91,7 @@ Partial Class frmCambiarContraseña
         btnRegresarCambiarContraseña.FlatStyle = FlatStyle.Flat
         btnRegresarCambiarContraseña.ForeColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnRegresarCambiarContraseña.ImageAlign = ContentAlignment.BottomCenter
-        btnRegresarCambiarContraseña.Location = New Point(0, 2)
+        btnRegresarCambiarContraseña.Location = New Point(0, 8)
         btnRegresarCambiarContraseña.Margin = New Padding(4, 5, 4, 5)
         btnRegresarCambiarContraseña.Name = "btnRegresarCambiarContraseña"
         btnRegresarCambiarContraseña.Size = New Size(67, 73)
@@ -103,7 +103,7 @@ Partial Class frmCambiarContraseña
         lblCambiarContraseña.BackColor = Color.Transparent
         lblCambiarContraseña.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblCambiarContraseña.ForeColor = SystemColors.ButtonFace
-        lblCambiarContraseña.Location = New Point(75, 19)
+        lblCambiarContraseña.Location = New Point(75, 25)
         lblCambiarContraseña.Margin = New Padding(4, 0, 4, 0)
         lblCambiarContraseña.Name = "lblCambiarContraseña"
         lblCambiarContraseña.Size = New Size(210, 34)
@@ -124,11 +124,11 @@ Partial Class frmCambiarContraseña
         btnCancelarCambios.FillColor = Color.Red
         btnCancelarCambios.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnCancelarCambios.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnCancelarCambios.Location = New Point(21, 422)
+        btnCancelarCambios.Location = New Point(10, 437)
         btnCancelarCambios.Margin = New Padding(4, 5, 4, 5)
         btnCancelarCambios.Name = "btnCancelarCambios"
         btnCancelarCambios.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        btnCancelarCambios.Size = New Size(159, 61)
+        btnCancelarCambios.Size = New Size(182, 61)
         btnCancelarCambios.TabIndex = 49
         btnCancelarCambios.Text = "Cancelar Cambios"
         ' 
@@ -146,11 +146,11 @@ Partial Class frmCambiarContraseña
         btnGuardarCambios.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnGuardarCambios.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnGuardarCambios.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnGuardarCambios.Location = New Point(210, 422)
+        btnGuardarCambios.Location = New Point(200, 437)
         btnGuardarCambios.Margin = New Padding(4, 5, 4, 5)
         btnGuardarCambios.Name = "btnGuardarCambios"
         btnGuardarCambios.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        btnGuardarCambios.Size = New Size(159, 61)
+        btnGuardarCambios.Size = New Size(180, 61)
         btnGuardarCambios.TabIndex = 48
         btnGuardarCambios.Text = "Guardar Cambios"
         ' 
@@ -169,13 +169,13 @@ Partial Class frmCambiarContraseña
         pnlPreferenciasAplicacion.Controls.Add(srp3CambiarContraseña)
         pnlPreferenciasAplicacion.CustomizableEdges = CustomizableEdges7
         pnlPreferenciasAplicacion.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlPreferenciasAplicacion.Location = New Point(0, 99)
-        pnlPreferenciasAplicacion.Margin = New Padding(5, 0, 5, 10)
+        pnlPreferenciasAplicacion.Location = New Point(10, 110)
+        pnlPreferenciasAplicacion.Margin = New Padding(10, 0, 10, 30)
         pnlPreferenciasAplicacion.Name = "pnlPreferenciasAplicacion"
         pnlPreferenciasAplicacion.Padding = New Padding(20, 15, 20, 15)
         pnlPreferenciasAplicacion.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         pnlPreferenciasAplicacion.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        pnlPreferenciasAplicacion.Size = New Size(390, 292)
+        pnlPreferenciasAplicacion.Size = New Size(370, 292)
         pnlPreferenciasAplicacion.TabIndex = 64
         ' 
         ' lblContraseñaActual

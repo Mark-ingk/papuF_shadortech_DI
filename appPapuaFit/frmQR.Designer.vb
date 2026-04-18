@@ -23,11 +23,11 @@ Partial Class frmQR
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -36,25 +36,30 @@ Partial Class frmQR
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         tmrContador = New Timer(components)
         pnlQR = New Panel()
+        btnSimAcceso = New Guna.UI2.WinForms.Guna2CircleButton()
+        icpbStatus = New FontAwesome.Sharp.IconPictureBox()
+        lblStatus = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        btnCerrar = New FontAwesome.Sharp.IconButton()
+        btnFlash = New FontAwesome.Sharp.IconButton()
+        btnRecargar = New FontAwesome.Sharp.IconButton()
         pnlCntQR = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        pbxQr = New Guna.UI2.WinForms.Guna2PictureBox()
         pnlEsq1 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        pnlEsq2 = New Guna.UI2.WinForms.Guna2Panel()
+        pnlEsq4 = New Guna.UI2.WinForms.Guna2Panel()
+        pnlEsq3 = New Guna.UI2.WinForms.Guna2Panel()
+        lblMxpr = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblTimer = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        btnINS = New Guna.UI2.WinForms.Guna2Button()
         lblEscq = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblDes1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        lblM2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         ErrorProvider1 = New ErrorProvider(components)
         pnlQR.SuspendLayout()
+        CType(icpbStatus, ComponentModel.ISupportInitialize).BeginInit()
         pnlCntQR.SuspendLayout()
-        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(pbxQr, ComponentModel.ISupportInitialize).BeginInit()
         CType(ErrorProvider1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -65,17 +70,22 @@ Partial Class frmQR
         ' pnlQR
         ' 
         pnlQR.Anchor = AnchorStyles.None
+        pnlQR.Controls.Add(btnSimAcceso)
+        pnlQR.Controls.Add(icpbStatus)
+        pnlQR.Controls.Add(lblStatus)
+        pnlQR.Controls.Add(btnCerrar)
+        pnlQR.Controls.Add(btnFlash)
+        pnlQR.Controls.Add(btnRecargar)
         pnlQR.Controls.Add(pnlCntQR)
         pnlQR.Controls.Add(pnlEsq1)
-        pnlQR.Controls.Add(Guna2Panel1)
-        pnlQR.Controls.Add(Guna2Panel2)
-        pnlQR.Controls.Add(Guna2Panel3)
-        pnlQR.Controls.Add(Guna2HtmlLabel2)
+        pnlQR.Controls.Add(pnlEsq2)
+        pnlQR.Controls.Add(pnlEsq4)
+        pnlQR.Controls.Add(pnlEsq3)
+        pnlQR.Controls.Add(lblMxpr)
         pnlQR.Controls.Add(lblTimer)
-        pnlQR.Controls.Add(btnINS)
         pnlQR.Controls.Add(lblEscq)
         pnlQR.Controls.Add(lblDes1)
-        pnlQR.Controls.Add(Guna2HtmlLabel1)
+        pnlQR.Controls.Add(lblM2)
         pnlQR.Location = New Point(0, 0)
         pnlQR.MaximumSize = New Size(390, 844)
         pnlQR.Name = "pnlQR"
@@ -83,151 +93,221 @@ Partial Class frmQR
         pnlQR.Size = New Size(390, 844)
         pnlQR.TabIndex = 9
         ' 
+        ' btnSimAcceso
+        ' 
+        btnSimAcceso.BackColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
+        btnSimAcceso.BackgroundImageLayout = ImageLayout.Stretch
+        btnSimAcceso.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnSimAcceso.DisabledState.BorderColor = Color.DarkGray
+        btnSimAcceso.DisabledState.CustomBorderColor = Color.DarkGray
+        btnSimAcceso.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnSimAcceso.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSimAcceso.FillColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
+        btnSimAcceso.Font = New Font("Segoe UI Semibold", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnSimAcceso.ForeColor = Color.Gray
+        btnSimAcceso.Location = New Point(349, 806)
+        btnSimAcceso.Name = "btnSimAcceso"
+        btnSimAcceso.ShadowDecoration.CustomizableEdges = CustomizableEdges1
+        btnSimAcceso.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        btnSimAcceso.Size = New Size(41, 38)
+        btnSimAcceso.TabIndex = 27
+        btnSimAcceso.Text = "+"
+        btnSimAcceso.TextOffset = New Point(4, -4)
+        ' 
+        ' icpbStatus
+        ' 
+        icpbStatus.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        icpbStatus.BackgroundImageLayout = ImageLayout.None
+        icpbStatus.ForeColor = Color.Gold
+        icpbStatus.IconChar = FontAwesome.Sharp.IconChar.Circle
+        icpbStatus.IconColor = Color.Gold
+        icpbStatus.IconFont = FontAwesome.Sharp.IconFont.Solid
+        icpbStatus.IconSize = 30
+        icpbStatus.Location = New Point(129, 39)
+        icpbStatus.Name = "icpbStatus"
+        icpbStatus.Size = New Size(30, 30)
+        icpbStatus.TabIndex = 26
+        icpbStatus.TabStop = False
+        ' 
+        ' lblStatus
+        ' 
+        lblStatus.BackColor = Color.Transparent
+        lblStatus.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblStatus.ForeColor = Color.White
+        lblStatus.Location = New Point(28, 39)
+        lblStatus.Name = "lblStatus"
+        lblStatus.Size = New Size(99, 27)
+        lblStatus.TabIndex = 25
+        lblStatus.Text = "Por vencer:"
+        ' 
+        ' btnCerrar
+        ' 
+        btnCerrar.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        btnCerrar.FlatStyle = FlatStyle.Flat
+        btnCerrar.ForeColor = SystemColors.ActiveCaptionText
+        btnCerrar.IconChar = FontAwesome.Sharp.IconChar.Close
+        btnCerrar.IconColor = Color.White
+        btnCerrar.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnCerrar.Location = New Point(321, 39)
+        btnCerrar.Margin = New Padding(0, 30, 25, 15)
+        btnCerrar.Name = "btnCerrar"
+        btnCerrar.Size = New Size(34, 34)
+        btnCerrar.TabIndex = 21
+        btnCerrar.UseVisualStyleBackColor = False
+        ' 
+        ' btnFlash
+        ' 
+        btnFlash.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        btnFlash.FlatStyle = FlatStyle.Flat
+        btnFlash.ForeColor = SystemColors.ActiveCaptionText
+        btnFlash.IconChar = FontAwesome.Sharp.IconChar.CreditCard
+        btnFlash.IconColor = Color.White
+        btnFlash.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnFlash.Location = New Point(223, 39)
+        btnFlash.Margin = New Padding(10, 30, 0, 15)
+        btnFlash.Name = "btnFlash"
+        btnFlash.Size = New Size(34, 34)
+        btnFlash.TabIndex = 22
+        btnFlash.UseVisualStyleBackColor = False
+        ' 
+        ' btnRecargar
+        ' 
+        btnRecargar.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        btnRecargar.FlatStyle = FlatStyle.Flat
+        btnRecargar.ForeColor = SystemColors.ActiveCaptionText
+        btnRecargar.IconChar = FontAwesome.Sharp.IconChar.Refresh
+        btnRecargar.IconColor = Color.White
+        btnRecargar.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnRecargar.Location = New Point(272, 39)
+        btnRecargar.Margin = New Padding(15, 30, 15, 15)
+        btnRecargar.Name = "btnRecargar"
+        btnRecargar.Size = New Size(34, 34)
+        btnRecargar.TabIndex = 24
+        btnRecargar.UseVisualStyleBackColor = False
+        ' 
         ' pnlCntQR
         ' 
         pnlCntQR.BackColor = Color.Transparent
         pnlCntQR.BorderRadius = 20
-        pnlCntQR.Controls.Add(Guna2PictureBox1)
-        pnlCntQR.CustomizableEdges = CustomizableEdges3
+        pnlCntQR.Controls.Add(pbxQr)
+        pnlCntQR.CustomizableEdges = CustomizableEdges4
         pnlCntQR.Location = New Point(64, 427)
         pnlCntQR.Name = "pnlCntQR"
         pnlCntQR.ShadowDecoration.BorderRadius = 20
         pnlCntQR.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        pnlCntQR.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        pnlCntQR.ShadowDecoration.CustomizableEdges = CustomizableEdges5
         pnlCntQR.ShadowDecoration.Enabled = True
         pnlCntQR.Size = New Size(260, 260)
         pnlCntQR.TabIndex = 16
         ' 
-        ' Guna2PictureBox1
+        ' pbxQr
         ' 
-        Guna2PictureBox1.BackColor = Color.White
-        Guna2PictureBox1.BackgroundImage = My.Resources.Resources.qrcodehd_1061112
-        Guna2PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
-        Guna2PictureBox1.FillColor = Color.Transparent
-        Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(27, 37)
-        Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.Color = Color.White
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2PictureBox1.Size = New Size(205, 191)
-        Guna2PictureBox1.TabIndex = 0
-        Guna2PictureBox1.TabStop = False
+        pbxQr.BackColor = Color.White
+        pbxQr.BackgroundImage = My.Resources.Resources.qrcodehd_1061112
+        pbxQr.BackgroundImageLayout = ImageLayout.Stretch
+        pbxQr.CustomizableEdges = CustomizableEdges2
+        pbxQr.FillColor = Color.Transparent
+        pbxQr.ImageRotate = 0F
+        pbxQr.Location = New Point(27, 37)
+        pbxQr.Name = "pbxQr"
+        pbxQr.ShadowDecoration.Color = Color.White
+        pbxQr.ShadowDecoration.CustomizableEdges = CustomizableEdges3
+        pbxQr.Size = New Size(205, 191)
+        pbxQr.TabIndex = 0
+        pbxQr.TabStop = False
         ' 
         ' pnlEsq1
         ' 
         pnlEsq1.BackColor = Color.Transparent
         pnlEsq1.BorderRadius = 20
-        pnlEsq1.CustomizableEdges = CustomizableEdges5
+        pnlEsq1.CustomizableEdges = CustomizableEdges6
         pnlEsq1.FillColor = Color.IndianRed
         pnlEsq1.Location = New Point(48, 412)
         pnlEsq1.Name = "pnlEsq1"
         pnlEsq1.ShadowDecoration.BorderRadius = 30
-        pnlEsq1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        pnlEsq1.ShadowDecoration.CustomizableEdges = CustomizableEdges7
         pnlEsq1.ShadowDecoration.Shadow = New Padding(10)
         pnlEsq1.Size = New Size(92, 91)
         pnlEsq1.TabIndex = 17
         ' 
-        ' Guna2Panel1
+        ' pnlEsq2
         ' 
-        Guna2Panel1.BackColor = Color.Transparent
-        Guna2Panel1.BorderRadius = 20
-        Guna2Panel1.CustomizableEdges = CustomizableEdges7
-        Guna2Panel1.FillColor = Color.IndianRed
-        Guna2Panel1.Location = New Point(48, 616)
-        Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.BorderRadius = 30
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2Panel1.ShadowDecoration.Shadow = New Padding(10)
-        Guna2Panel1.Size = New Size(92, 91)
-        Guna2Panel1.TabIndex = 18
+        pnlEsq2.BackColor = Color.Transparent
+        pnlEsq2.BorderRadius = 20
+        pnlEsq2.CustomizableEdges = CustomizableEdges8
+        pnlEsq2.FillColor = Color.IndianRed
+        pnlEsq2.Location = New Point(48, 616)
+        pnlEsq2.Name = "pnlEsq2"
+        pnlEsq2.ShadowDecoration.BorderRadius = 30
+        pnlEsq2.ShadowDecoration.CustomizableEdges = CustomizableEdges9
+        pnlEsq2.ShadowDecoration.Shadow = New Padding(10)
+        pnlEsq2.Size = New Size(92, 91)
+        pnlEsq2.TabIndex = 18
         ' 
-        ' Guna2Panel2
+        ' pnlEsq4
         ' 
-        Guna2Panel2.BackColor = Color.Transparent
-        Guna2Panel2.BorderRadius = 20
-        Guna2Panel2.CustomizableEdges = CustomizableEdges9
-        Guna2Panel2.FillColor = Color.IndianRed
-        Guna2Panel2.Location = New Point(250, 412)
-        Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.BorderRadius = 30
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2Panel2.ShadowDecoration.Shadow = New Padding(10)
-        Guna2Panel2.Size = New Size(92, 91)
-        Guna2Panel2.TabIndex = 19
+        pnlEsq4.BackColor = Color.Transparent
+        pnlEsq4.BorderRadius = 20
+        pnlEsq4.CustomizableEdges = CustomizableEdges10
+        pnlEsq4.FillColor = Color.IndianRed
+        pnlEsq4.Location = New Point(250, 412)
+        pnlEsq4.Name = "pnlEsq4"
+        pnlEsq4.ShadowDecoration.BorderRadius = 30
+        pnlEsq4.ShadowDecoration.CustomizableEdges = CustomizableEdges11
+        pnlEsq4.ShadowDecoration.Shadow = New Padding(10)
+        pnlEsq4.Size = New Size(92, 91)
+        pnlEsq4.TabIndex = 19
         ' 
-        ' Guna2Panel3
+        ' pnlEsq3
         ' 
-        Guna2Panel3.BackColor = Color.Transparent
-        Guna2Panel3.BorderRadius = 20
-        Guna2Panel3.CustomizableEdges = CustomizableEdges11
-        Guna2Panel3.FillColor = Color.IndianRed
-        Guna2Panel3.Location = New Point(250, 616)
-        Guna2Panel3.Name = "Guna2Panel3"
-        Guna2Panel3.ShadowDecoration.BorderRadius = 30
-        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2Panel3.ShadowDecoration.Shadow = New Padding(10)
-        Guna2Panel3.Size = New Size(92, 91)
-        Guna2Panel3.TabIndex = 20
+        pnlEsq3.BackColor = Color.Transparent
+        pnlEsq3.BorderRadius = 20
+        pnlEsq3.CustomizableEdges = CustomizableEdges12
+        pnlEsq3.FillColor = Color.IndianRed
+        pnlEsq3.Location = New Point(250, 616)
+        pnlEsq3.Name = "pnlEsq3"
+        pnlEsq3.ShadowDecoration.BorderRadius = 30
+        pnlEsq3.ShadowDecoration.CustomizableEdges = CustomizableEdges13
+        pnlEsq3.ShadowDecoration.Shadow = New Padding(10)
+        pnlEsq3.Size = New Size(92, 91)
+        pnlEsq3.TabIndex = 20
         ' 
-        ' Guna2HtmlLabel2
+        ' lblMxpr
         ' 
-        Guna2HtmlLabel2.BackColor = Color.Transparent
-        Guna2HtmlLabel2.Enabled = False
-        Guna2HtmlLabel2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel2.ForeColor = SystemColors.Control
-        Guna2HtmlLabel2.IsSelectionEnabled = False
-        Guna2HtmlLabel2.Location = New Point(129, 281)
-        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Guna2HtmlLabel2.Size = New Size(132, 23)
-        Guna2HtmlLabel2.TabIndex = 15
-        Guna2HtmlLabel2.Text = "El QR esxpirara en:"
+        lblMxpr.BackColor = Color.Transparent
+        lblMxpr.Enabled = False
+        lblMxpr.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblMxpr.ForeColor = SystemColors.Control
+        lblMxpr.IsSelectionEnabled = False
+        lblMxpr.Location = New Point(129, 281)
+        lblMxpr.Name = "lblMxpr"
+        lblMxpr.Size = New Size(132, 23)
+        lblMxpr.TabIndex = 15
+        lblMxpr.Text = "El QR esxpirara en:"
         ' 
         ' lblTimer
         ' 
         lblTimer.BackColor = Color.Transparent
         lblTimer.Enabled = False
-        lblTimer.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblTimer.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblTimer.ForeColor = SystemColors.ButtonFace
         lblTimer.IsSelectionEnabled = False
-        lblTimer.Location = New Point(177, 350)
+        lblTimer.Location = New Point(153, 343)
         lblTimer.Name = "lblTimer"
-        lblTimer.Size = New Size(28, 22)
+        lblTimer.Size = New Size(50, 39)
         lblTimer.TabIndex = 14
         lblTimer.Text = "Seg"
-        ' 
-        ' btnINS
-        ' 
-        btnINS.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        btnINS.Animated = True
-        btnINS.BorderRadius = 25
-        btnINS.Cursor = Cursors.Hand
-        btnINS.CustomizableEdges = CustomizableEdges13
-        btnINS.DisabledState.BorderColor = Color.DarkGray
-        btnINS.DisabledState.CustomBorderColor = Color.DarkGray
-        btnINS.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnINS.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnINS.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnINS.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnINS.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnINS.Location = New Point(48, 750)
-        btnINS.Margin = New Padding(0, 10, 0, 30)
-        btnINS.Name = "btnINS"
-        btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        btnINS.Size = New Size(294, 55)
-        btnINS.TabIndex = 13
-        btnINS.Text = "REGRESAR"
         ' 
         ' lblEscq
         ' 
         lblEscq.BackColor = Color.Transparent
         lblEscq.Enabled = False
-        lblEscq.Font = New Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblEscq.Font = New Font("Segoe UI Semibold", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblEscq.ForeColor = Color.White
         lblEscq.IsSelectionEnabled = False
-        lblEscq.Location = New Point(19, 83)
+        lblEscq.Location = New Point(21, 91)
         lblEscq.Name = "lblEscq"
-        lblEscq.Size = New Size(359, 49)
+        lblEscq.Size = New Size(348, 49)
         lblEscq.TabIndex = 2
         lblEscq.Text = "Escanea el Codigo QR"
         ' 
@@ -240,25 +320,25 @@ Partial Class frmQR
         lblDes1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblDes1.ForeColor = SystemColors.ActiveBorder
         lblDes1.IsSelectionEnabled = False
-        lblDes1.Location = New Point(28, 152)
+        lblDes1.Location = New Point(26, 170)
         lblDes1.Name = "lblDes1"
         lblDes1.Size = New Size(339, 43)
         lblDes1.TabIndex = 4
         lblDes1.Text = "Coloque el codigo QR correctamente dentro del area"
         lblDes1.TextAlignment = ContentAlignment.MiddleCenter
         ' 
-        ' Guna2HtmlLabel1
+        ' lblM2
         ' 
-        Guna2HtmlLabel1.BackColor = Color.Transparent
-        Guna2HtmlLabel1.Enabled = False
-        Guna2HtmlLabel1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel1.ForeColor = SystemColors.ActiveBorder
-        Guna2HtmlLabel1.IsSelectionEnabled = False
-        Guna2HtmlLabel1.Location = New Point(55, 212)
-        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Guna2HtmlLabel1.Size = New Size(280, 23)
-        Guna2HtmlLabel1.TabIndex = 5
-        Guna2HtmlLabel1.Text = "El escaneo comenzara automaticamente"
+        lblM2.BackColor = Color.Transparent
+        lblM2.Enabled = False
+        lblM2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblM2.ForeColor = SystemColors.ActiveBorder
+        lblM2.IsSelectionEnabled = False
+        lblM2.Location = New Point(55, 219)
+        lblM2.Name = "lblM2"
+        lblM2.Size = New Size(280, 23)
+        lblM2.TabIndex = 5
+        lblM2.Text = "El escaneo comenzara automaticamente"
         ' 
         ' ErrorProvider1
         ' 
@@ -279,24 +359,30 @@ Partial Class frmQR
         Text = "frmQR"
         pnlQR.ResumeLayout(False)
         pnlQR.PerformLayout()
+        CType(icpbStatus, ComponentModel.ISupportInitialize).EndInit()
         pnlCntQR.ResumeLayout(False)
-        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(pbxQr, ComponentModel.ISupportInitialize).EndInit()
         CType(ErrorProvider1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
     Friend WithEvents tmrContador As Timer
     Friend WithEvents pnlQR As Panel
     Friend WithEvents pnlCntQR As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents pbxQr As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents pnlEsq1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents pnlEsq2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pnlEsq4 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pnlEsq3 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents lblMxpr As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblTimer As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents btnINS As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents lblEscq As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblDes1 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents lblM2 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents ErrorProvider1 As ErrorProvider
+    Friend WithEvents btnCerrar As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnFlash As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnRecargar As FontAwesome.Sharp.IconButton
+    Friend WithEvents icpbStatus As FontAwesome.Sharp.IconPictureBox
+    Friend WithEvents lblStatus As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents btnSimAcceso As Guna.UI2.WinForms.Guna2CircleButton
 End Class

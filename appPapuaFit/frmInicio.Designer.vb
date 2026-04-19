@@ -276,7 +276,6 @@ Partial Class frmInicio
         ' 
         ' btnQr
         ' 
-        btnQr.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnQr.BackColor = Color.Transparent
         btnQr.Cursor = Cursors.Hand
         btnQr.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))

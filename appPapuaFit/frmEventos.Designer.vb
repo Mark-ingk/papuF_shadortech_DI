@@ -22,18 +22,24 @@ Partial Class frmEventos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlEventos = New Panel()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         pbxEventoDia = New PictureBox()
@@ -49,13 +55,24 @@ Partial Class frmEventos
         pbxTiempoEventoSemana = New PictureBox()
         lblEventoDeLaSemana = New Label()
         pbrEventoSemana = New Guna.UI2.WinForms.Guna2ProgressBar()
-        pnlTopEventos = New Guna.UI2.WinForms.Guna2Panel()
+        pnlNavI = New Guna.UI2.WinForms.Guna2Panel()
+        btnPerfil = New FontAwesome.Sharp.IconButton()
+        btnRutinas = New FontAwesome.Sharp.IconButton()
+        btnQr = New FontAwesome.Sharp.IconButton()
+        btnAgregar = New Guna.UI2.WinForms.Guna2CircleButton()
+        btnHome = New FontAwesome.Sharp.IconButton()
         lblTiempoEventoMes = New Label()
         pbx2EventoMes = New PictureBox()
         pbxEventoMes = New PictureBox()
         pbrEventoMes = New Guna.UI2.WinForms.Guna2ProgressBar()
         lblEventoDelMes = New Label()
         lblEventoMes = New Label()
+        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        pnlTopinicio = New Guna.UI2.WinForms.Guna2Panel()
+        lblSub = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        lblSaludo = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        picAvatar = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         pnlEventos.SuspendLayout()
         Guna2Panel1.SuspendLayout()
         CType(pbxEventoDia, ComponentModel.ISupportInitialize).BeginInit()
@@ -63,16 +80,21 @@ Partial Class frmEventos
         pnlMiddleEventoSemana.SuspendLayout()
         CType(pbxEventoSemana, ComponentModel.ISupportInitialize).BeginInit()
         CType(pbxTiempoEventoSemana, ComponentModel.ISupportInitialize).BeginInit()
-        pnlTopEventos.SuspendLayout()
+        pnlNavI.SuspendLayout()
         CType(pbx2EventoMes, ComponentModel.ISupportInitialize).BeginInit()
         CType(pbxEventoMes, ComponentModel.ISupportInitialize).BeginInit()
+        Guna2Panel2.SuspendLayout()
+        pnlTopinicio.SuspendLayout()
+        CType(picAvatar, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' pnlEventos
         ' 
+        pnlEventos.Controls.Add(pnlTopinicio)
+        pnlEventos.Controls.Add(Guna2Panel2)
+        pnlEventos.Controls.Add(pnlNavI)
         pnlEventos.Controls.Add(Guna2Panel1)
         pnlEventos.Controls.Add(pnlMiddleEventoSemana)
-        pnlEventos.Controls.Add(pnlTopEventos)
         pnlEventos.Location = New Point(0, 0)
         pnlEventos.MaximumSize = New Size(390, 844)
         pnlEventos.MinimumSize = New Size(390, 844)
@@ -91,15 +113,15 @@ Partial Class frmEventos
         Guna2Panel1.Controls.Add(pbxTiempoEventoDia)
         Guna2Panel1.Controls.Add(lblEventoDelDia)
         Guna2Panel1.Controls.Add(pbrEventoDia)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges3
+        Guna2Panel1.CustomizableEdges = CustomizableEdges13
         Guna2Panel1.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        Guna2Panel1.Location = New Point(0, 460)
+        Guna2Panel1.Location = New Point(14, 533)
         Guna2Panel1.Margin = New Padding(5, 0, 5, 10)
         Guna2Panel1.Name = "Guna2Panel1"
         Guna2Panel1.Padding = New Padding(20, 15, 20, 15)
         Guna2Panel1.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2Panel1.Size = New Size(390, 192)
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        Guna2Panel1.Size = New Size(362, 192)
         Guna2Panel1.TabIndex = 47
         ' 
         ' pbxEventoDia
@@ -109,7 +131,7 @@ Partial Class frmEventos
         pbxEventoDia.Cursor = Cursors.No
         pbxEventoDia.Image = My.Resources.Resources.time_running1
         pbxEventoDia.InitialImage = Nothing
-        pbxEventoDia.Location = New Point(270, 0)
+        pbxEventoDia.Location = New Point(249, 0)
         pbxEventoDia.Name = "pbxEventoDia"
         pbxEventoDia.Size = New Size(98, 94)
         pbxEventoDia.SizeMode = PictureBoxSizeMode.StretchImage
@@ -163,7 +185,7 @@ Partial Class frmEventos
         lblEventoDelDia.Location = New Point(0, 93)
         lblEventoDelDia.Margin = New Padding(4, 0, 4, 0)
         lblEventoDelDia.Name = "lblEventoDelDia"
-        lblEventoDelDia.Size = New Size(390, 34)
+        lblEventoDelDia.Size = New Size(362, 34)
         lblEventoDelDia.TabIndex = 43
         lblEventoDelDia.Text = "Completa dos lecciones en un dia"
         lblEventoDelDia.TextAlign = ContentAlignment.MiddleCenter
@@ -173,7 +195,7 @@ Partial Class frmEventos
         pbrEventoDia.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         pbrEventoDia.BorderColor = Color.Transparent
         pbrEventoDia.BorderRadius = 15
-        pbrEventoDia.CustomizableEdges = CustomizableEdges1
+        pbrEventoDia.CustomizableEdges = CustomizableEdges11
         pbrEventoDia.FillColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         pbrEventoDia.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         pbrEventoDia.ForeColor = SystemColors.ButtonFace
@@ -183,9 +205,9 @@ Partial Class frmEventos
         pbrEventoDia.ProgressColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         pbrEventoDia.ProgressColor2 = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         pbrEventoDia.ShadowDecoration.BorderRadius = 0
-        pbrEventoDia.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        pbrEventoDia.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         pbrEventoDia.ShowText = True
-        pbrEventoDia.Size = New Size(340, 30)
+        pbrEventoDia.Size = New Size(322, 30)
         pbrEventoDia.TabIndex = 44
         pbrEventoDia.Text = "0/2"
         pbrEventoDia.TextMode = Guna.UI2.WinForms.Enums.ProgressBarTextMode.Custom
@@ -202,15 +224,15 @@ Partial Class frmEventos
         pnlMiddleEventoSemana.Controls.Add(pbxTiempoEventoSemana)
         pnlMiddleEventoSemana.Controls.Add(lblEventoDeLaSemana)
         pnlMiddleEventoSemana.Controls.Add(pbrEventoSemana)
-        pnlMiddleEventoSemana.CustomizableEdges = CustomizableEdges7
+        pnlMiddleEventoSemana.CustomizableEdges = CustomizableEdges17
         pnlMiddleEventoSemana.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlMiddleEventoSemana.Location = New Point(0, 230)
+        pnlMiddleEventoSemana.Location = New Point(14, 325)
         pnlMiddleEventoSemana.Margin = New Padding(5, 0, 5, 10)
         pnlMiddleEventoSemana.Name = "pnlMiddleEventoSemana"
         pnlMiddleEventoSemana.Padding = New Padding(20, 15, 20, 15)
         pnlMiddleEventoSemana.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        pnlMiddleEventoSemana.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        pnlMiddleEventoSemana.Size = New Size(390, 192)
+        pnlMiddleEventoSemana.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        pnlMiddleEventoSemana.Size = New Size(362, 192)
         pnlMiddleEventoSemana.TabIndex = 39
         ' 
         ' pbxEventoSemana
@@ -220,7 +242,7 @@ Partial Class frmEventos
         pbxEventoSemana.Cursor = Cursors.No
         pbxEventoSemana.Image = My.Resources.Resources.excercise
         pbxEventoSemana.InitialImage = Nothing
-        pbxEventoSemana.Location = New Point(270, 0)
+        pbxEventoSemana.Location = New Point(249, 0)
         pbxEventoSemana.Name = "pbxEventoSemana"
         pbxEventoSemana.Size = New Size(98, 92)
         pbxEventoSemana.SizeMode = PictureBoxSizeMode.StretchImage
@@ -245,7 +267,7 @@ Partial Class frmEventos
         lblEventoSemana.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         lblEventoSemana.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblEventoSemana.ForeColor = SystemColors.ButtonFace
-        lblEventoSemana.Location = New Point(38, 15)
+        lblEventoSemana.Location = New Point(25, 15)
         lblEventoSemana.Margin = New Padding(4, 0, 4, 0)
         lblEventoSemana.Name = "lblEventoSemana"
         lblEventoSemana.Size = New Size(226, 34)
@@ -274,7 +296,7 @@ Partial Class frmEventos
         lblEventoDeLaSemana.Location = New Point(0, 95)
         lblEventoDeLaSemana.Margin = New Padding(4, 0, 4, 0)
         lblEventoDeLaSemana.Name = "lblEventoDeLaSemana"
-        lblEventoDeLaSemana.Size = New Size(390, 34)
+        lblEventoDeLaSemana.Size = New Size(362, 34)
         lblEventoDeLaSemana.TabIndex = 43
         lblEventoDeLaSemana.Text = "Completa una leccion al dia por 7 dias "
         lblEventoDeLaSemana.TextAlign = ContentAlignment.MiddleCenter
@@ -284,7 +306,7 @@ Partial Class frmEventos
         pbrEventoSemana.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         pbrEventoSemana.BorderColor = Color.Transparent
         pbrEventoSemana.BorderRadius = 15
-        pbrEventoSemana.CustomizableEdges = CustomizableEdges5
+        pbrEventoSemana.CustomizableEdges = CustomizableEdges15
         pbrEventoSemana.FillColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         pbrEventoSemana.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         pbrEventoSemana.ForeColor = SystemColors.ButtonFace
@@ -294,46 +316,143 @@ Partial Class frmEventos
         pbrEventoSemana.ProgressColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         pbrEventoSemana.ProgressColor2 = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         pbrEventoSemana.ShadowDecoration.BorderRadius = 0
-        pbrEventoSemana.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        pbrEventoSemana.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         pbrEventoSemana.ShowText = True
-        pbrEventoSemana.Size = New Size(340, 30)
+        pbrEventoSemana.Size = New Size(322, 30)
         pbrEventoSemana.TabIndex = 44
         pbrEventoSemana.Text = "0/7"
         pbrEventoSemana.TextMode = Guna.UI2.WinForms.Enums.ProgressBarTextMode.Custom
         pbrEventoSemana.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
         pbrEventoSemana.Value = 3
         ' 
-        ' pnlTopEventos
+        ' pnlNavI
         ' 
-        pnlTopEventos.BorderRadius = 40
-        pnlTopEventos.Controls.Add(lblTiempoEventoMes)
-        pnlTopEventos.Controls.Add(pbx2EventoMes)
-        pnlTopEventos.Controls.Add(pbxEventoMes)
-        pnlTopEventos.Controls.Add(pbrEventoMes)
-        pnlTopEventos.Controls.Add(lblEventoDelMes)
-        pnlTopEventos.Controls.Add(lblEventoMes)
-        CustomizableEdges11.TopLeft = False
-        CustomizableEdges11.TopRight = False
-        pnlTopEventos.CustomizableEdges = CustomizableEdges11
-        pnlTopEventos.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlTopEventos.Location = New Point(0, 0)
-        pnlTopEventos.Margin = New Padding(0, 0, 0, 10)
-        pnlTopEventos.Name = "pnlTopEventos"
-        pnlTopEventos.Padding = New Padding(25, 25, 25, 10)
-        pnlTopEventos.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        pnlTopEventos.Size = New Size(390, 192)
-        pnlTopEventos.TabIndex = 38
+        pnlNavI.BorderRadius = 40
+        pnlNavI.Controls.Add(btnPerfil)
+        pnlNavI.Controls.Add(btnRutinas)
+        pnlNavI.Controls.Add(btnQr)
+        pnlNavI.Controls.Add(btnAgregar)
+        pnlNavI.Controls.Add(btnHome)
+        CustomizableEdges9.BottomLeft = False
+        CustomizableEdges9.BottomRight = False
+        pnlNavI.CustomizableEdges = CustomizableEdges9
+        pnlNavI.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        pnlNavI.Location = New Point(0, 756)
+        pnlNavI.Margin = New Padding(0, 0, 0, 10)
+        pnlNavI.Name = "pnlNavI"
+        pnlNavI.Padding = New Padding(25, 25, 25, 10)
+        pnlNavI.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        pnlNavI.Size = New Size(390, 88)
+        pnlNavI.TabIndex = 7
+        ' 
+        ' btnPerfil
+        ' 
+        btnPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        btnPerfil.BackColor = Color.Transparent
+        btnPerfil.Cursor = Cursors.Hand
+        btnPerfil.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnPerfil.FlatAppearance.BorderSize = 0
+        btnPerfil.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnPerfil.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnPerfil.FlatStyle = FlatStyle.Flat
+        btnPerfil.IconChar = FontAwesome.Sharp.IconChar.User
+        btnPerfil.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        btnPerfil.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnPerfil.Location = New Point(313, 19)
+        btnPerfil.Name = "btnPerfil"
+        btnPerfil.Size = New Size(48, 53)
+        btnPerfil.TabIndex = 15
+        btnPerfil.UseVisualStyleBackColor = False
+        ' 
+        ' btnRutinas
+        ' 
+        btnRutinas.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        btnRutinas.BackColor = Color.Transparent
+        btnRutinas.Cursor = Cursors.Hand
+        btnRutinas.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnRutinas.FlatAppearance.BorderSize = 0
+        btnRutinas.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnRutinas.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnRutinas.FlatStyle = FlatStyle.Flat
+        btnRutinas.IconChar = FontAwesome.Sharp.IconChar.WeightHanging
+        btnRutinas.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        btnRutinas.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnRutinas.Location = New Point(250, 19)
+        btnRutinas.Name = "btnRutinas"
+        btnRutinas.Size = New Size(48, 53)
+        btnRutinas.TabIndex = 14
+        btnRutinas.UseVisualStyleBackColor = False
+        ' 
+        ' btnQr
+        ' 
+        btnQr.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        btnQr.BackColor = Color.Transparent
+        btnQr.Cursor = Cursors.Hand
+        btnQr.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnQr.FlatAppearance.BorderSize = 0
+        btnQr.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnQr.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnQr.FlatStyle = FlatStyle.Flat
+        btnQr.IconChar = FontAwesome.Sharp.IconChar.Qrcode
+        btnQr.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        btnQr.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnQr.Location = New Point(92, 19)
+        btnQr.Name = "btnQr"
+        btnQr.Size = New Size(48, 53)
+        btnQr.TabIndex = 13
+        btnQr.UseVisualStyleBackColor = False
+        ' 
+        ' btnAgregar
+        ' 
+        btnAgregar.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnAgregar.BackgroundImageLayout = ImageLayout.Stretch
+        btnAgregar.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnAgregar.Cursor = Cursors.Hand
+        btnAgregar.DisabledState.BorderColor = Color.DarkGray
+        btnAgregar.DisabledState.CustomBorderColor = Color.DarkGray
+        btnAgregar.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnAgregar.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnAgregar.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnAgregar.Font = New Font("Segoe UI Semibold", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnAgregar.ForeColor = Color.Black
+        btnAgregar.Location = New Point(155, 5)
+        btnAgregar.Name = "btnAgregar"
+        btnAgregar.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        btnAgregar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        btnAgregar.Size = New Size(80, 80)
+        btnAgregar.TabIndex = 12
+        btnAgregar.Text = "+"
+        btnAgregar.TextOffset = New Point(4, -4)
+        ' 
+        ' btnHome
+        ' 
+        btnHome.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        btnHome.BackColor = Color.Transparent
+        btnHome.Cursor = Cursors.Hand
+        btnHome.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnHome.FlatAppearance.BorderSize = 0
+        btnHome.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnHome.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnHome.FlatStyle = FlatStyle.Flat
+        btnHome.IconChar = FontAwesome.Sharp.IconChar.HomeLg
+        btnHome.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnHome.Location = New Point(29, 19)
+        btnHome.Name = "btnHome"
+        btnHome.Size = New Size(48, 53)
+        btnHome.TabIndex = 8
+        btnHome.UseVisualStyleBackColor = False
         ' 
         ' lblTiempoEventoMes
         ' 
         lblTiempoEventoMes.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         lblTiempoEventoMes.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblTiempoEventoMes.ForeColor = SystemColors.ButtonFace
-        lblTiempoEventoMes.Location = New Point(68, 65)
+        lblTiempoEventoMes.Location = New Point(66, 68)
         lblTiempoEventoMes.Margin = New Padding(4, 0, 4, 0)
         lblTiempoEventoMes.Name = "lblTiempoEventoMes"
         lblTiempoEventoMes.Size = New Size(145, 27)
-        lblTiempoEventoMes.TabIndex = 41
+        lblTiempoEventoMes.TabIndex = 47
         lblTiempoEventoMes.Text = "18 Dias Restantes"
         lblTiempoEventoMes.TextAlign = ContentAlignment.MiddleCenter
         ' 
@@ -344,11 +463,11 @@ Partial Class frmEventos
         pbx2EventoMes.Cursor = Cursors.No
         pbx2EventoMes.Image = My.Resources.Resources.timer
         pbx2EventoMes.InitialImage = Nothing
-        pbx2EventoMes.Location = New Point(38, 65)
+        pbx2EventoMes.Location = New Point(36, 68)
         pbx2EventoMes.Name = "pbx2EventoMes"
         pbx2EventoMes.Size = New Size(29, 27)
         pbx2EventoMes.SizeMode = PictureBoxSizeMode.StretchImage
-        pbx2EventoMes.TabIndex = 40
+        pbx2EventoMes.TabIndex = 46
         pbx2EventoMes.TabStop = False
         ' 
         ' pbxEventoMes
@@ -358,11 +477,11 @@ Partial Class frmEventos
         pbxEventoMes.Cursor = Cursors.No
         pbxEventoMes.Image = My.Resources.Resources.ar3ww
         pbxEventoMes.InitialImage = Nothing
-        pbxEventoMes.Location = New Point(270, -2)
+        pbxEventoMes.Location = New Point(249, 0)
         pbxEventoMes.Name = "pbxEventoMes"
         pbxEventoMes.Size = New Size(98, 94)
         pbxEventoMes.SizeMode = PictureBoxSizeMode.StretchImage
-        pbxEventoMes.TabIndex = 39
+        pbxEventoMes.TabIndex = 45
         pbxEventoMes.TabStop = False
         ' 
         ' pbrEventoMes
@@ -370,20 +489,20 @@ Partial Class frmEventos
         pbrEventoMes.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         pbrEventoMes.BorderColor = Color.Transparent
         pbrEventoMes.BorderRadius = 15
-        pbrEventoMes.CustomizableEdges = CustomizableEdges9
+        pbrEventoMes.CustomizableEdges = CustomizableEdges4
         pbrEventoMes.FillColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         pbrEventoMes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         pbrEventoMes.ForeColor = SystemColors.ButtonFace
-        pbrEventoMes.Location = New Point(25, 141)
+        pbrEventoMes.Location = New Point(23, 144)
         pbrEventoMes.Maximum = 15
         pbrEventoMes.Name = "pbrEventoMes"
         pbrEventoMes.ProgressColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         pbrEventoMes.ProgressColor2 = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         pbrEventoMes.ShadowDecoration.BorderRadius = 0
-        pbrEventoMes.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        pbrEventoMes.ShadowDecoration.CustomizableEdges = CustomizableEdges5
         pbrEventoMes.ShowText = True
-        pbrEventoMes.Size = New Size(340, 30)
-        pbrEventoMes.TabIndex = 37
+        pbrEventoMes.Size = New Size(324, 30)
+        pbrEventoMes.TabIndex = 44
         pbrEventoMes.Text = "0/15"
         pbrEventoMes.TextMode = Guna.UI2.WinForms.Enums.ProgressBarTextMode.Custom
         pbrEventoMes.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
@@ -394,11 +513,11 @@ Partial Class frmEventos
         lblEventoDelMes.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         lblEventoDelMes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblEventoDelMes.ForeColor = SystemColors.ButtonFace
-        lblEventoDelMes.Location = New Point(0, 97)
+        lblEventoDelMes.Location = New Point(0, 98)
         lblEventoDelMes.Margin = New Padding(4, 0, 4, 0)
         lblEventoDelMes.Name = "lblEventoDelMes"
-        lblEventoDelMes.Size = New Size(390, 34)
-        lblEventoDelMes.TabIndex = 36
+        lblEventoDelMes.Size = New Size(362, 34)
+        lblEventoDelMes.TabIndex = 43
         lblEventoDelMes.Text = "Completa 15 lecciones en el mes"
         lblEventoDelMes.TextAlign = ContentAlignment.MiddleCenter
         ' 
@@ -407,12 +526,107 @@ Partial Class frmEventos
         lblEventoMes.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         lblEventoMes.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblEventoMes.ForeColor = SystemColors.ButtonFace
-        lblEventoMes.Location = New Point(38, 15)
+        lblEventoMes.Location = New Point(36, 18)
         lblEventoMes.Margin = New Padding(4, 0, 4, 0)
         lblEventoMes.Name = "lblEventoMes"
         lblEventoMes.Size = New Size(170, 34)
-        lblEventoMes.TabIndex = 34
+        lblEventoMes.TabIndex = 42
         lblEventoMes.Text = "Eventos del mes"
+        ' 
+        ' Guna2Panel2
+        ' 
+        Guna2Panel2.BackColor = Color.Transparent
+        Guna2Panel2.BorderRadius = 50
+        Guna2Panel2.Controls.Add(pbrEventoMes)
+        Guna2Panel2.Controls.Add(lblTiempoEventoMes)
+        Guna2Panel2.Controls.Add(lblEventoMes)
+        Guna2Panel2.Controls.Add(lblEventoDelMes)
+        Guna2Panel2.Controls.Add(pbx2EventoMes)
+        Guna2Panel2.Controls.Add(pbxEventoMes)
+        Guna2Panel2.CustomizableEdges = CustomizableEdges6
+        Guna2Panel2.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        Guna2Panel2.Location = New Point(14, 117)
+        Guna2Panel2.Margin = New Padding(5, 0, 5, 10)
+        Guna2Panel2.Name = "Guna2Panel2"
+        Guna2Panel2.Padding = New Padding(20, 15, 20, 15)
+        Guna2Panel2.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges7
+        Guna2Panel2.Size = New Size(362, 192)
+        Guna2Panel2.TabIndex = 48
+        ' 
+        ' pnlTopinicio
+        ' 
+        pnlTopinicio.BorderRadius = 40
+        pnlTopinicio.Controls.Add(Guna2HtmlLabel1)
+        pnlTopinicio.Controls.Add(lblSub)
+        pnlTopinicio.Controls.Add(lblSaludo)
+        pnlTopinicio.Controls.Add(picAvatar)
+        CustomizableEdges2.TopLeft = False
+        CustomizableEdges2.TopRight = False
+        pnlTopinicio.CustomizableEdges = CustomizableEdges2
+        pnlTopinicio.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        pnlTopinicio.Location = New Point(0, 0)
+        pnlTopinicio.Margin = New Padding(0, 0, 0, 10)
+        pnlTopinicio.Name = "pnlTopinicio"
+        pnlTopinicio.Padding = New Padding(25, 25, 25, 10)
+        pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges3
+        pnlTopinicio.Size = New Size(390, 101)
+        pnlTopinicio.TabIndex = 49
+        ' 
+        ' lblSub
+        ' 
+        lblSub.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        lblSub.BackColor = Color.Transparent
+        lblSub.Font = New Font("Segoe UI", 12F)
+        lblSub.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        lblSub.IsSelectionEnabled = False
+        lblSub.Location = New Point(106, 53)
+        lblSub.Name = "lblSub"
+        lblSub.Size = New Size(207, 23)
+        lblSub.TabIndex = 5
+        lblSub.Text = "¿Estas listo para otro desafio?"
+        ' 
+        ' lblSaludo
+        ' 
+        lblSaludo.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        lblSaludo.BackColor = Color.Transparent
+        lblSaludo.Font = New Font("Segoe UI Semibold", 16F, FontStyle.Bold)
+        lblSaludo.ForeColor = Color.White
+        lblSaludo.IsSelectionEnabled = False
+        lblSaludo.Location = New Point(106, 16)
+        lblSaludo.Name = "lblSaludo"
+        lblSaludo.Size = New Size(115, 32)
+        lblSaludo.TabIndex = 4
+        lblSaludo.Text = "Hola Mario!"
+        ' 
+        ' picAvatar
+        ' 
+        picAvatar.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        picAvatar.BackgroundImageLayout = ImageLayout.Stretch
+        picAvatar.Image = My.Resources.Resources.images__1_
+        picAvatar.ImageRotate = 0F
+        picAvatar.Location = New Point(14, 16)
+        picAvatar.Margin = New Padding(25, 25, 4, 10)
+        picAvatar.Name = "picAvatar"
+        picAvatar.ShadowDecoration.CustomizableEdges = CustomizableEdges1
+        picAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        picAvatar.Size = New Size(63, 60)
+        picAvatar.SizeMode = PictureBoxSizeMode.StretchImage
+        picAvatar.TabIndex = 0
+        picAvatar.TabStop = False
+        ' 
+        ' Guna2HtmlLabel1
+        ' 
+        Guna2HtmlLabel1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        Guna2HtmlLabel1.BackColor = Color.Transparent
+        Guna2HtmlLabel1.Font = New Font("Segoe UI", 12F)
+        Guna2HtmlLabel1.ForeColor = Color.White
+        Guna2HtmlLabel1.IsSelectionEnabled = False
+        Guna2HtmlLabel1.Location = New Point(300, 21)
+        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Guna2HtmlLabel1.Size = New Size(61, 23)
+        Guna2HtmlLabel1.TabIndex = 6
+        Guna2HtmlLabel1.Text = "Nivel 10"
         ' 
         ' frmEventos
         ' 
@@ -435,20 +649,17 @@ Partial Class frmEventos
         pnlMiddleEventoSemana.ResumeLayout(False)
         CType(pbxEventoSemana, ComponentModel.ISupportInitialize).EndInit()
         CType(pbxTiempoEventoSemana, ComponentModel.ISupportInitialize).EndInit()
-        pnlTopEventos.ResumeLayout(False)
+        pnlNavI.ResumeLayout(False)
         CType(pbx2EventoMes, ComponentModel.ISupportInitialize).EndInit()
         CType(pbxEventoMes, ComponentModel.ISupportInitialize).EndInit()
+        Guna2Panel2.ResumeLayout(False)
+        pnlTopinicio.ResumeLayout(False)
+        pnlTopinicio.PerformLayout()
+        CType(picAvatar, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents pnlEventos As Panel
-    Friend WithEvents pnlTopEventos As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents pbrEventoMes As Guna.UI2.WinForms.Guna2ProgressBar
-    Friend WithEvents lblEventoDelMes As Label
-    Friend WithEvents lblEventoMes As Label
-    Friend WithEvents pbxEventoMes As PictureBox
-    Friend WithEvents lblTiempoEventoMes As Label
-    Friend WithEvents pbx2EventoMes As PictureBox
     Friend WithEvents pnlMiddleEventoSemana As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents lblTiempoEventoSemana As Label
     Friend WithEvents lblEventoSemana As Label
@@ -463,4 +674,22 @@ Partial Class frmEventos
     Friend WithEvents pbrEventoDia As Guna.UI2.WinForms.Guna2ProgressBar
     Friend WithEvents pbxEventoDia As PictureBox
     Friend WithEvents pbxEventoSemana As PictureBox
+    Friend WithEvents pnlNavI As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents btnPerfil As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnRutinas As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnQr As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnAgregar As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents btnHome As FontAwesome.Sharp.IconButton
+    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pbrEventoMes As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents lblTiempoEventoMes As Label
+    Friend WithEvents lblEventoMes As Label
+    Friend WithEvents lblEventoDelMes As Label
+    Friend WithEvents pbx2EventoMes As PictureBox
+    Friend WithEvents pbxEventoMes As PictureBox
+    Friend WithEvents pnlTopinicio As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents lblSub As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents lblSaludo As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents picAvatar As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
 End Class

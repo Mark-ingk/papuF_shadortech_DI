@@ -683,9 +683,9 @@ Partial Class frmRutinas
         lblPasosNum.ForeColor = Color.White
         lblPasosNum.Location = New Point(13, 2)
         lblPasosNum.Name = "lblPasosNum"
-        lblPasosNum.Size = New Size(74, 23)
+        lblPasosNum.Size = New Size(94, 23)
         lblPasosNum.TabIndex = 2
-        lblPasosNum.Text = "Con pesas"
+        lblPasosNum.Text = "Abdominales"
         ' 
         ' Guna2PictureBox1
         ' 

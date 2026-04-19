@@ -24,17 +24,21 @@ Partial Class frmAjustes
     Private Sub InitializeComponent()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlAjustes = New Panel()
+        icnFuegonav = New FontAwesome.Sharp.IconPictureBox()
+        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         pnlConfiguracionCuenta = New Guna.UI2.WinForms.Guna2Panel()
         lblConfiguracionCuentaAjustes = New Label()
         tbxContraseñaActualAjustes = New TextBox()
@@ -60,6 +64,7 @@ Partial Class frmAjustes
         IconButton1 = New FontAwesome.Sharp.IconButton()
         lblAjustes = New Label()
         pnlAjustes.SuspendLayout()
+        CType(icnFuegonav, ComponentModel.ISupportInitialize).BeginInit()
         pnlConfiguracionCuenta.SuspendLayout()
         pnlPreferenciasAplicacion.SuspendLayout()
         CType(IconPictureBox4, ComponentModel.ISupportInitialize).BeginInit()
@@ -69,6 +74,7 @@ Partial Class frmAjustes
         ' 
         ' pnlAjustes
         ' 
+        pnlAjustes.Controls.Add(Guna2Button2)
         pnlAjustes.Controls.Add(pnlConfiguracionCuenta)
         pnlAjustes.Controls.Add(pnlPreferenciasAplicacion)
         pnlAjustes.Controls.Add(pnlInformacionSistema)
@@ -81,6 +87,46 @@ Partial Class frmAjustes
         pnlAjustes.Size = New Size(390, 844)
         pnlAjustes.TabIndex = 0
         ' 
+        ' icnFuegonav
+        ' 
+        icnFuegonav.BackColor = Color.FromArgb(CByte(34), CByte(34), CByte(34))
+        icnFuegonav.BackgroundImageLayout = ImageLayout.None
+        icnFuegonav.ForeColor = Color.Red
+        icnFuegonav.IconChar = FontAwesome.Sharp.IconChar.SignOut
+        icnFuegonav.IconColor = Color.Red
+        icnFuegonav.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icnFuegonav.IconSize = 25
+        icnFuegonav.Location = New Point(251, 50)
+        icnFuegonav.Name = "icnFuegonav"
+        icnFuegonav.Size = New Size(25, 25)
+        icnFuegonav.TabIndex = 81
+        icnFuegonav.TabStop = False
+        ' 
+        ' Guna2Button2
+        ' 
+        Guna2Button2.Animated = True
+        Guna2Button2.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        Guna2Button2.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
+        Guna2Button2.BorderRadius = 25
+        Guna2Button2.Cursor = Cursors.Hand
+        Guna2Button2.CustomizableEdges = CustomizableEdges1
+        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button2.FillColor = Color.FromArgb(CByte(34), CByte(34), CByte(34))
+        Guna2Button2.FocusedColor = Color.FromArgb(CByte(220), CByte(53), CByte(69))
+        Guna2Button2.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Guna2Button2.ForeColor = Color.Red
+        Guna2Button2.HoverState.FillColor = Color.FromArgb(CByte(220), CByte(53), CByte(69))
+        Guna2Button2.HoverState.ForeColor = Color.White
+        Guna2Button2.Location = New Point(15, 749)
+        Guna2Button2.Name = "Guna2Button2"
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Button2.Size = New Size(365, 64)
+        Guna2Button2.TabIndex = 63
+        Guna2Button2.Text = "Cerrar Sesion"
+        ' 
         ' pnlConfiguracionCuenta
         ' 
         pnlConfiguracionCuenta.BackColor = Color.Transparent
@@ -89,15 +135,15 @@ Partial Class frmAjustes
         pnlConfiguracionCuenta.Controls.Add(tbxContraseñaActualAjustes)
         pnlConfiguracionCuenta.Controls.Add(spr2Ajustes)
         pnlConfiguracionCuenta.Controls.Add(lblCorreVinculadoAjustes)
-        pnlConfiguracionCuenta.CustomizableEdges = CustomizableEdges1
+        pnlConfiguracionCuenta.CustomizableEdges = CustomizableEdges3
         pnlConfiguracionCuenta.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         pnlConfiguracionCuenta.Location = New Point(10, 110)
         pnlConfiguracionCuenta.Margin = New Padding(10, 0, 10, 10)
         pnlConfiguracionCuenta.Name = "pnlConfiguracionCuenta"
         pnlConfiguracionCuenta.Padding = New Padding(20, 15, 20, 15)
         pnlConfiguracionCuenta.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        pnlConfiguracionCuenta.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        pnlConfiguracionCuenta.Size = New Size(370, 185)
+        pnlConfiguracionCuenta.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        pnlConfiguracionCuenta.Size = New Size(370, 166)
         pnlConfiguracionCuenta.TabIndex = 6
         ' 
         ' lblConfiguracionCuentaAjustes
@@ -119,7 +165,7 @@ Partial Class frmAjustes
         tbxContraseñaActualAjustes.Cursor = Cursors.IBeam
         tbxContraseñaActualAjustes.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         tbxContraseñaActualAjustes.ForeColor = SystemColors.ButtonFace
-        tbxContraseñaActualAjustes.Location = New Point(25, 111)
+        tbxContraseñaActualAjustes.Location = New Point(25, 91)
         tbxContraseñaActualAjustes.Name = "tbxContraseñaActualAjustes"
         tbxContraseñaActualAjustes.Size = New Size(327, 22)
         tbxContraseñaActualAjustes.TabIndex = 53
@@ -129,7 +175,7 @@ Partial Class frmAjustes
         ' 
         spr2Ajustes.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         spr2Ajustes.BackgroundImageLayout = ImageLayout.None
-        spr2Ajustes.Location = New Point(24, 136)
+        spr2Ajustes.Location = New Point(24, 116)
         spr2Ajustes.Margin = New Padding(0, 0, 0, 20)
         spr2Ajustes.Name = "spr2Ajustes"
         spr2Ajustes.Size = New Size(326, 13)
@@ -140,7 +186,7 @@ Partial Class frmAjustes
         lblCorreVinculadoAjustes.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         lblCorreVinculadoAjustes.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblCorreVinculadoAjustes.ForeColor = SystemColors.ButtonFace
-        lblCorreVinculadoAjustes.Location = New Point(16, 70)
+        lblCorreVinculadoAjustes.Location = New Point(19, 60)
         lblCorreVinculadoAjustes.Margin = New Padding(4, 0, 4, 0)
         lblCorreVinculadoAjustes.Name = "lblCorreVinculadoAjustes"
         lblCorreVinculadoAjustes.Size = New Size(151, 28)
@@ -157,15 +203,15 @@ Partial Class frmAjustes
         pnlPreferenciasAplicacion.Controls.Add(cbxNotifiacionesActivdadasAjustes)
         pnlPreferenciasAplicacion.Controls.Add(lblNotificacionesActivadasAjustes)
         pnlPreferenciasAplicacion.Controls.Add(IconPictureBox4)
-        pnlPreferenciasAplicacion.CustomizableEdges = CustomizableEdges5
+        pnlPreferenciasAplicacion.CustomizableEdges = CustomizableEdges7
         pnlPreferenciasAplicacion.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        pnlPreferenciasAplicacion.Location = New Point(10, 557)
+        pnlPreferenciasAplicacion.Location = New Point(10, 538)
         pnlPreferenciasAplicacion.Margin = New Padding(5, 0, 5, 10)
         pnlPreferenciasAplicacion.Name = "pnlPreferenciasAplicacion"
         pnlPreferenciasAplicacion.Padding = New Padding(20, 15, 20, 15)
         pnlPreferenciasAplicacion.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        pnlPreferenciasAplicacion.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        pnlPreferenciasAplicacion.Size = New Size(370, 237)
+        pnlPreferenciasAplicacion.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        pnlPreferenciasAplicacion.Size = New Size(370, 198)
         pnlPreferenciasAplicacion.TabIndex = 55
         ' 
         ' lblPreferenciaAplicacionAjustes
@@ -173,7 +219,7 @@ Partial Class frmAjustes
         lblPreferenciaAplicacionAjustes.BackColor = Color.Transparent
         lblPreferenciaAplicacionAjustes.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblPreferenciaAplicacionAjustes.ForeColor = Color.Black
-        lblPreferenciaAplicacionAjustes.Location = New Point(16, 45)
+        lblPreferenciaAplicacionAjustes.Location = New Point(19, 26)
         lblPreferenciaAplicacionAjustes.Margin = New Padding(4, 0, 4, 0)
         lblPreferenciaAplicacionAjustes.Name = "lblPreferenciaAplicacionAjustes"
         lblPreferenciaAplicacionAjustes.Size = New Size(247, 34)
@@ -187,7 +233,7 @@ Partial Class frmAjustes
         btnCerrarSesionAjustes.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         btnCerrarSesionAjustes.BorderRadius = 25
         btnCerrarSesionAjustes.Cursor = Cursors.Hand
-        btnCerrarSesionAjustes.CustomizableEdges = CustomizableEdges3
+        btnCerrarSesionAjustes.CustomizableEdges = CustomizableEdges5
         btnCerrarSesionAjustes.DisabledState.BorderColor = Color.DarkGray
         btnCerrarSesionAjustes.DisabledState.CustomBorderColor = Color.DarkGray
         btnCerrarSesionAjustes.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -198,9 +244,9 @@ Partial Class frmAjustes
         btnCerrarSesionAjustes.ForeColor = Color.White
         btnCerrarSesionAjustes.HoverState.FillColor = Color.FromArgb(CByte(1), CByte(63), CByte(53))
         btnCerrarSesionAjustes.HoverState.ForeColor = Color.FromArgb(CByte(231), CByte(254), CByte(37))
-        btnCerrarSesionAjustes.Location = New Point(25, 155)
+        btnCerrarSesionAjustes.Location = New Point(28, 116)
         btnCerrarSesionAjustes.Name = "btnCerrarSesionAjustes"
-        btnCerrarSesionAjustes.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnCerrarSesionAjustes.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         btnCerrarSesionAjustes.Size = New Size(159, 64)
         btnCerrarSesionAjustes.TabIndex = 61
         btnCerrarSesionAjustes.Text = "Cerrar Sesion"
@@ -215,7 +261,7 @@ Partial Class frmAjustes
         cbxNotifiacionesActivdadasAjustes.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cbxNotifiacionesActivdadasAjustes.CheckState = CheckState.Indeterminate
         cbxNotifiacionesActivdadasAjustes.Cursor = Cursors.Hand
-        cbxNotifiacionesActivdadasAjustes.Location = New Point(192, 91)
+        cbxNotifiacionesActivdadasAjustes.Location = New Point(192, 75)
         cbxNotifiacionesActivdadasAjustes.Name = "cbxNotifiacionesActivdadasAjustes"
         cbxNotifiacionesActivdadasAjustes.Size = New Size(22, 28)
         cbxNotifiacionesActivdadasAjustes.TabIndex = 38
@@ -230,7 +276,7 @@ Partial Class frmAjustes
         lblNotificacionesActivadasAjustes.BackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         lblNotificacionesActivadasAjustes.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblNotificacionesActivadasAjustes.ForeColor = Color.Black
-        lblNotificacionesActivadasAjustes.Location = New Point(5, 91)
+        lblNotificacionesActivadasAjustes.Location = New Point(5, 75)
         lblNotificacionesActivadasAjustes.Margin = New Padding(4, 0, 4, 0)
         lblNotificacionesActivadasAjustes.Name = "lblNotificacionesActivadasAjustes"
         lblNotificacionesActivadasAjustes.Size = New Size(209, 28)
@@ -265,14 +311,14 @@ Partial Class frmAjustes
         pnlInformacionSistema.Controls.Add(lblVersionAppAjustes)
         pnlInformacionSistema.Controls.Add(tbxUltimaActualizacionAjustes)
         pnlInformacionSistema.Controls.Add(spr3)
-        pnlInformacionSistema.CustomizableEdges = CustomizableEdges9
+        pnlInformacionSistema.CustomizableEdges = CustomizableEdges11
         pnlInformacionSistema.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlInformacionSistema.Location = New Point(10, 305)
+        pnlInformacionSistema.Location = New Point(10, 286)
         pnlInformacionSistema.Margin = New Padding(5, 0, 5, 10)
         pnlInformacionSistema.Name = "pnlInformacionSistema"
         pnlInformacionSistema.Padding = New Padding(20, 15, 20, 15)
         pnlInformacionSistema.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        pnlInformacionSistema.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        pnlInformacionSistema.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         pnlInformacionSistema.Size = New Size(370, 242)
         pnlInformacionSistema.TabIndex = 56
         ' 
@@ -280,7 +326,7 @@ Partial Class frmAjustes
         ' 
         Guna2Button1.BorderColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
         Guna2Button1.BorderRadius = 15
-        Guna2Button1.CustomizableEdges = CustomizableEdges7
+        Guna2Button1.CustomizableEdges = CustomizableEdges9
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -290,7 +336,7 @@ Partial Class frmAjustes
         Guna2Button1.ForeColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
         Guna2Button1.Location = New Point(28, 265)
         Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2Button1.Size = New Size(351, 47)
         Guna2Button1.TabIndex = 61
         Guna2Button1.Text = "Cerrar Sesion"
@@ -386,18 +432,19 @@ Partial Class frmAjustes
         ' pnlTopinicio
         ' 
         pnlTopinicio.BorderRadius = 40
+        pnlTopinicio.Controls.Add(icnFuegonav)
         pnlTopinicio.Controls.Add(btnRango)
         pnlTopinicio.Controls.Add(IconButton1)
         pnlTopinicio.Controls.Add(lblAjustes)
-        CustomizableEdges11.TopLeft = False
-        CustomizableEdges11.TopRight = False
-        pnlTopinicio.CustomizableEdges = CustomizableEdges11
+        CustomizableEdges13.TopLeft = False
+        CustomizableEdges13.TopRight = False
+        pnlTopinicio.CustomizableEdges = CustomizableEdges13
         pnlTopinicio.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         pnlTopinicio.Location = New Point(0, 0)
         pnlTopinicio.Margin = New Padding(0, 0, 0, 10)
         pnlTopinicio.Name = "pnlTopinicio"
         pnlTopinicio.Padding = New Padding(25, 25, 25, 10)
-        pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         pnlTopinicio.Size = New Size(390, 100)
         pnlTopinicio.TabIndex = 62
         ' 
@@ -458,6 +505,7 @@ Partial Class frmAjustes
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form2"
         pnlAjustes.ResumeLayout(False)
+        CType(icnFuegonav, ComponentModel.ISupportInitialize).EndInit()
         pnlConfiguracionCuenta.ResumeLayout(False)
         pnlConfiguracionCuenta.PerformLayout()
         pnlPreferenciasAplicacion.ResumeLayout(False)
@@ -493,4 +541,6 @@ Partial Class frmAjustes
     Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
     Friend WithEvents IconPictureBox4 As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents btnRango As FontAwesome.Sharp.IconButton
+    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents icnFuegonav As FontAwesome.Sharp.IconPictureBox
 End Class

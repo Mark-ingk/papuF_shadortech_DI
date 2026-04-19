@@ -1,6 +1,7 @@
 ﻿Public Class frmPagos
-    Private Sub IconButton4_Click(sender As Object, e As EventArgs)
 
+<<<<<<< HEAD
+=======
     End Sub
 
     Private Sub IconButton3_Click(sender As Object, e As EventArgs)
@@ -22,4 +23,5 @@
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
     End Sub
+>>>>>>> 7071726af31d009a94ffe0398383b4be31e3042f
 End Class

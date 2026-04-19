@@ -22,6 +22,9 @@ Partial Class frmRutinas
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -49,10 +52,10 @@ Partial Class frmRutinas
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -69,12 +72,15 @@ Partial Class frmRutinas
         Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Panel1 = New Panel()
+        pnlNavI = New Guna.UI2.WinForms.Guna2Panel()
+        btnPerfil = New FontAwesome.Sharp.IconButton()
+        btnRutinas = New FontAwesome.Sharp.IconButton()
+        btnQr = New FontAwesome.Sharp.IconButton()
+        btnAgregar = New Guna.UI2.WinForms.Guna2CircleButton()
+        btnHome = New FontAwesome.Sharp.IconButton()
         Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
         IconButton9 = New FontAwesome.Sharp.IconButton()
         Guna2Panel9 = New Guna.UI2.WinForms.Guna2Panel()
@@ -107,9 +113,8 @@ Partial Class frmRutinas
         IconPictureBox2 = New FontAwesome.Sharp.IconPictureBox()
         IconPictureBox1 = New FontAwesome.Sharp.IconPictureBox()
         Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2Panel12 = New Guna.UI2.WinForms.Guna2Panel()
         IconButton11 = New FontAwesome.Sharp.IconButton()
         Guna2Panel13 = New Guna.UI2.WinForms.Guna2Panel()
@@ -126,14 +131,10 @@ Partial Class frmRutinas
         Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
         pnlTopinicio = New Guna.UI2.WinForms.Guna2Panel()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        pnlNavI = New Guna.UI2.WinForms.Guna2Panel()
-        btnPerfil = New FontAwesome.Sharp.IconButton()
-        btnRutinas = New FontAwesome.Sharp.IconButton()
-        btnQr = New FontAwesome.Sharp.IconButton()
-        btnAgregar = New Guna.UI2.WinForms.Guna2CircleButton()
-        btnHome = New FontAwesome.Sharp.IconButton()
+        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Panel1.SuspendLayout()
+        pnlNavI.SuspendLayout()
         Guna2Panel8.SuspendLayout()
         Guna2Panel9.SuspendLayout()
         CType(Guna2PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
@@ -156,7 +157,6 @@ Partial Class frmRutinas
         Guna2Panel11.SuspendLayout()
         CType(Guna2PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         pnlTopinicio.SuspendLayout()
-        pnlNavI.SuspendLayout()
         SuspendLayout()
         ' 
         ' Panel1
@@ -182,6 +182,124 @@ Partial Class frmRutinas
         Panel1.Padding = New Padding(15, 25, 15, 0)
         Panel1.Size = New Size(390, 844)
         Panel1.TabIndex = 0
+        ' 
+        ' pnlNavI
+        ' 
+        pnlNavI.BorderRadius = 40
+        pnlNavI.Controls.Add(btnPerfil)
+        pnlNavI.Controls.Add(btnRutinas)
+        pnlNavI.Controls.Add(btnQr)
+        pnlNavI.Controls.Add(btnAgregar)
+        pnlNavI.Controls.Add(btnHome)
+        CustomizableEdges2.BottomLeft = False
+        CustomizableEdges2.BottomRight = False
+        pnlNavI.CustomizableEdges = CustomizableEdges2
+        pnlNavI.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        pnlNavI.Location = New Point(0, 756)
+        pnlNavI.Margin = New Padding(0, 0, 0, 10)
+        pnlNavI.Name = "pnlNavI"
+        pnlNavI.Padding = New Padding(25, 25, 25, 10)
+        pnlNavI.ShadowDecoration.CustomizableEdges = CustomizableEdges3
+        pnlNavI.Size = New Size(390, 88)
+        pnlNavI.TabIndex = 27
+        ' 
+        ' btnPerfil
+        ' 
+        btnPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        btnPerfil.BackColor = Color.Transparent
+        btnPerfil.Cursor = Cursors.Hand
+        btnPerfil.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnPerfil.FlatAppearance.BorderSize = 0
+        btnPerfil.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnPerfil.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnPerfil.FlatStyle = FlatStyle.Flat
+        btnPerfil.IconChar = FontAwesome.Sharp.IconChar.User
+        btnPerfil.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        btnPerfil.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnPerfil.Location = New Point(313, 19)
+        btnPerfil.Name = "btnPerfil"
+        btnPerfil.Size = New Size(48, 53)
+        btnPerfil.TabIndex = 15
+        btnPerfil.UseVisualStyleBackColor = False
+        ' 
+        ' btnRutinas
+        ' 
+        btnRutinas.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        btnRutinas.BackColor = Color.Transparent
+        btnRutinas.Cursor = Cursors.Hand
+        btnRutinas.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnRutinas.FlatAppearance.BorderSize = 0
+        btnRutinas.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnRutinas.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnRutinas.FlatStyle = FlatStyle.Flat
+        btnRutinas.IconChar = FontAwesome.Sharp.IconChar.WeightHanging
+        btnRutinas.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        btnRutinas.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnRutinas.Location = New Point(250, 19)
+        btnRutinas.Name = "btnRutinas"
+        btnRutinas.Size = New Size(48, 53)
+        btnRutinas.TabIndex = 14
+        btnRutinas.UseVisualStyleBackColor = False
+        ' 
+        ' btnQr
+        ' 
+        btnQr.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        btnQr.BackColor = Color.Transparent
+        btnQr.Cursor = Cursors.Hand
+        btnQr.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnQr.FlatAppearance.BorderSize = 0
+        btnQr.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnQr.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnQr.FlatStyle = FlatStyle.Flat
+        btnQr.IconChar = FontAwesome.Sharp.IconChar.Qrcode
+        btnQr.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        btnQr.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnQr.Location = New Point(92, 19)
+        btnQr.Name = "btnQr"
+        btnQr.Size = New Size(48, 53)
+        btnQr.TabIndex = 13
+        btnQr.UseVisualStyleBackColor = False
+        ' 
+        ' btnAgregar
+        ' 
+        btnAgregar.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnAgregar.BackgroundImageLayout = ImageLayout.Stretch
+        btnAgregar.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnAgregar.Cursor = Cursors.Hand
+        btnAgregar.DisabledState.BorderColor = Color.DarkGray
+        btnAgregar.DisabledState.CustomBorderColor = Color.DarkGray
+        btnAgregar.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnAgregar.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnAgregar.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnAgregar.Font = New Font("Segoe UI Semibold", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnAgregar.ForeColor = Color.Black
+        btnAgregar.Location = New Point(155, 5)
+        btnAgregar.Name = "btnAgregar"
+        btnAgregar.ShadowDecoration.CustomizableEdges = CustomizableEdges1
+        btnAgregar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        btnAgregar.Size = New Size(80, 80)
+        btnAgregar.TabIndex = 12
+        btnAgregar.Text = "+"
+        btnAgregar.TextOffset = New Point(4, -4)
+        ' 
+        ' btnHome
+        ' 
+        btnHome.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        btnHome.BackColor = Color.Transparent
+        btnHome.Cursor = Cursors.Hand
+        btnHome.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnHome.FlatAppearance.BorderSize = 0
+        btnHome.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnHome.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        btnHome.FlatStyle = FlatStyle.Flat
+        btnHome.IconChar = FontAwesome.Sharp.IconChar.HomeLg
+        btnHome.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto
+        btnHome.Location = New Point(29, 19)
+        btnHome.Name = "btnHome"
+        btnHome.Size = New Size(48, 53)
+        btnHome.TabIndex = 8
+        btnHome.UseVisualStyleBackColor = False
         ' 
         ' Guna2Panel8
         ' 
@@ -565,7 +683,7 @@ Partial Class frmRutinas
         lblPasosNum.ForeColor = Color.White
         lblPasosNum.Location = New Point(13, 2)
         lblPasosNum.Name = "lblPasosNum"
-        lblPasosNum.Size = New Size(74, 22)
+        lblPasosNum.Size = New Size(74, 23)
         lblPasosNum.TabIndex = 2
         lblPasosNum.Text = "Con pesas"
         ' 
@@ -652,6 +770,30 @@ Partial Class frmRutinas
         Guna2Button6.Text = "Filtros"
         Guna2Button6.TextOffset = New Point(8, 0)
         ' 
+        ' Guna2Button5
+        ' 
+        Guna2Button5.BackColor = Color.Transparent
+        Guna2Button5.BorderColor = Color.FromArgb(CByte(193), CByte(200), CByte(207))
+        Guna2Button5.Cursor = Cursors.Hand
+        Guna2Button5.CustomBorderColor = Color.FromArgb(CByte(193), CByte(200), CByte(207))
+        Guna2Button5.CustomBorderThickness = New Padding(2, 2, 0, 0)
+        Guna2Button5.CustomizableEdges = CustomizableEdges30
+        Guna2Button5.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button5.FillColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        Guna2Button5.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
+        Guna2Button5.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
+        Guna2Button5.Location = New Point(140, 112)
+        Guna2Button5.Margin = New Padding(3, 0, 3, 20)
+        Guna2Button5.Name = "Guna2Button5"
+        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges31
+        Guna2Button5.Size = New Size(123, 45)
+        Guna2Button5.TabIndex = 10
+        Guna2Button5.Text = "Tipo"
+        Guna2Button5.TextOffset = New Point(17, 0)
+        ' 
         ' Guna2Button4
         ' 
         Guna2Button4.BackColor = Color.Transparent
@@ -675,39 +817,6 @@ Partial Class frmRutinas
         Guna2Button4.TabIndex = 9
         Guna2Button4.Text = "Buscar"
         Guna2Button4.TextOffset = New Point(8, 0)
-        ' 
-        ' Guna2Button2
-        ' 
-        Guna2Button2.BackColor = Color.Transparent
-        Guna2Button2.BorderRadius = 15
-        Guna2Button2.Cursor = Cursors.Hand
-        Guna2Button2.CustomizableEdges = CustomizableEdges48
-        Guna2Button2.DefaultAutoSize = True
-        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button2.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        Guna2Button2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
-        Guna2Button2.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        Guna2Button2.Location = New Point(47, 57)
-        Guna2Button2.Margin = New Padding(3, 20, 3, 15)
-        Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges49
-        Guna2Button2.Size = New Size(141, 33)
-        Guna2Button2.TabIndex = 5
-        Guna2Button2.Text = "Entrenamiento"
-        ' 
-        ' Guna2HtmlLabel1
-        ' 
-        Guna2HtmlLabel1.BackColor = Color.Transparent
-        Guna2HtmlLabel1.Font = New Font("Segoe UI Semibold", 16F, FontStyle.Bold)
-        Guna2HtmlLabel1.ForeColor = Color.White
-        Guna2HtmlLabel1.Location = New Point(104, 12)
-        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Guna2HtmlLabel1.Size = New Size(183, 32)
-        Guna2HtmlLabel1.TabIndex = 0
-        Guna2HtmlLabel1.Text = "Rutinas y Ejercicios"
         ' 
         ' Guna2Panel12
         ' 
@@ -949,147 +1058,38 @@ Partial Class frmRutinas
         Guna2Button1.TabIndex = 6
         Guna2Button1.Text = "Calentamiento"
         ' 
-        ' Guna2Button5
+        ' Guna2HtmlLabel1
         ' 
-        Guna2Button5.BackColor = Color.Transparent
-        Guna2Button5.BorderColor = Color.FromArgb(CByte(193), CByte(200), CByte(207))
-        Guna2Button5.Cursor = Cursors.Hand
-        Guna2Button5.CustomBorderColor = Color.FromArgb(CByte(193), CByte(200), CByte(207))
-        Guna2Button5.CustomBorderThickness = New Padding(2, 2, 0, 0)
-        Guna2Button5.CustomizableEdges = CustomizableEdges30
-        Guna2Button5.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button5.FillColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        Guna2Button5.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
-        Guna2Button5.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        Guna2Button5.Location = New Point(140, 112)
-        Guna2Button5.Margin = New Padding(3, 0, 3, 20)
-        Guna2Button5.Name = "Guna2Button5"
-        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges31
-        Guna2Button5.Size = New Size(123, 45)
-        Guna2Button5.TabIndex = 10
-        Guna2Button5.Text = "Tipo"
-        Guna2Button5.TextOffset = New Point(17, 0)
+        Guna2HtmlLabel1.BackColor = Color.Transparent
+        Guna2HtmlLabel1.Font = New Font("Segoe UI Semibold", 16F, FontStyle.Bold)
+        Guna2HtmlLabel1.ForeColor = Color.White
+        Guna2HtmlLabel1.Location = New Point(104, 12)
+        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Guna2HtmlLabel1.Size = New Size(183, 32)
+        Guna2HtmlLabel1.TabIndex = 0
+        Guna2HtmlLabel1.Text = "Rutinas y Ejercicios"
         ' 
-        ' pnlNavI
+        ' Guna2Button2
         ' 
-        pnlNavI.BorderRadius = 40
-        pnlNavI.Controls.Add(btnPerfil)
-        pnlNavI.Controls.Add(btnRutinas)
-        pnlNavI.Controls.Add(btnQr)
-        pnlNavI.Controls.Add(btnAgregar)
-        pnlNavI.Controls.Add(btnHome)
-        CustomizableEdges2.BottomLeft = False
-        CustomizableEdges2.BottomRight = False
-        pnlNavI.CustomizableEdges = CustomizableEdges2
-        pnlNavI.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlNavI.Location = New Point(0, 756)
-        pnlNavI.Margin = New Padding(0, 0, 0, 10)
-        pnlNavI.Name = "pnlNavI"
-        pnlNavI.Padding = New Padding(25, 25, 25, 10)
-        pnlNavI.ShadowDecoration.CustomizableEdges = CustomizableEdges3
-        pnlNavI.Size = New Size(390, 88)
-        pnlNavI.TabIndex = 27
-        ' 
-        ' btnPerfil
-        ' 
-        btnPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        btnPerfil.BackColor = Color.Transparent
-        btnPerfil.Cursor = Cursors.Hand
-        btnPerfil.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnPerfil.FlatAppearance.BorderSize = 0
-        btnPerfil.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnPerfil.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnPerfil.FlatStyle = FlatStyle.Flat
-        btnPerfil.IconChar = FontAwesome.Sharp.IconChar.User
-        btnPerfil.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        btnPerfil.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnPerfil.Location = New Point(313, 19)
-        btnPerfil.Name = "btnPerfil"
-        btnPerfil.Size = New Size(48, 53)
-        btnPerfil.TabIndex = 15
-        btnPerfil.UseVisualStyleBackColor = False
-        ' 
-        ' btnRutinas
-        ' 
-        btnRutinas.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        btnRutinas.BackColor = Color.Transparent
-        btnRutinas.Cursor = Cursors.Hand
-        btnRutinas.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnRutinas.FlatAppearance.BorderSize = 0
-        btnRutinas.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnRutinas.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnRutinas.FlatStyle = FlatStyle.Flat
-        btnRutinas.IconChar = FontAwesome.Sharp.IconChar.WeightHanging
-        btnRutinas.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        btnRutinas.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnRutinas.Location = New Point(250, 19)
-        btnRutinas.Name = "btnRutinas"
-        btnRutinas.Size = New Size(48, 53)
-        btnRutinas.TabIndex = 14
-        btnRutinas.UseVisualStyleBackColor = False
-        ' 
-        ' btnQr
-        ' 
-        btnQr.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        btnQr.BackColor = Color.Transparent
-        btnQr.Cursor = Cursors.Hand
-        btnQr.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnQr.FlatAppearance.BorderSize = 0
-        btnQr.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnQr.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnQr.FlatStyle = FlatStyle.Flat
-        btnQr.IconChar = FontAwesome.Sharp.IconChar.Qrcode
-        btnQr.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        btnQr.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnQr.Location = New Point(92, 19)
-        btnQr.Name = "btnQr"
-        btnQr.Size = New Size(48, 53)
-        btnQr.TabIndex = 13
-        btnQr.UseVisualStyleBackColor = False
-        ' 
-        ' btnAgregar
-        ' 
-        btnAgregar.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnAgregar.BackgroundImageLayout = ImageLayout.Stretch
-        btnAgregar.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnAgregar.Cursor = Cursors.Hand
-        btnAgregar.DisabledState.BorderColor = Color.DarkGray
-        btnAgregar.DisabledState.CustomBorderColor = Color.DarkGray
-        btnAgregar.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnAgregar.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnAgregar.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnAgregar.Font = New Font("Segoe UI Semibold", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnAgregar.ForeColor = Color.Black
-        btnAgregar.Location = New Point(155, 5)
-        btnAgregar.Name = "btnAgregar"
-        btnAgregar.ShadowDecoration.CustomizableEdges = CustomizableEdges1
-        btnAgregar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        btnAgregar.Size = New Size(80, 80)
-        btnAgregar.TabIndex = 12
-        btnAgregar.Text = "+"
-        btnAgregar.TextOffset = New Point(4, -4)
-        ' 
-        ' btnHome
-        ' 
-        btnHome.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        btnHome.BackColor = Color.Transparent
-        btnHome.Cursor = Cursors.Hand
-        btnHome.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnHome.FlatAppearance.BorderSize = 0
-        btnHome.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnHome.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnHome.FlatStyle = FlatStyle.Flat
-        btnHome.IconChar = FontAwesome.Sharp.IconChar.HomeLg
-        btnHome.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnHome.Location = New Point(29, 19)
-        btnHome.Name = "btnHome"
-        btnHome.Size = New Size(48, 53)
-        btnHome.TabIndex = 8
-        btnHome.UseVisualStyleBackColor = False
+        Guna2Button2.BackColor = Color.Transparent
+        Guna2Button2.BorderRadius = 15
+        Guna2Button2.Cursor = Cursors.Hand
+        Guna2Button2.CustomizableEdges = CustomizableEdges48
+        Guna2Button2.DefaultAutoSize = True
+        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button2.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        Guna2Button2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
+        Guna2Button2.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
+        Guna2Button2.Location = New Point(47, 57)
+        Guna2Button2.Margin = New Padding(3, 20, 3, 15)
+        Guna2Button2.Name = "Guna2Button2"
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges49
+        Guna2Button2.Size = New Size(141, 33)
+        Guna2Button2.TabIndex = 5
+        Guna2Button2.Text = "Entrenamiento"
         ' 
         ' frmRutinas
         ' 
@@ -1106,6 +1106,7 @@ Partial Class frmRutinas
         StartPosition = FormStartPosition.CenterScreen
         Text = "frmInicio"
         Panel1.ResumeLayout(False)
+        pnlNavI.ResumeLayout(False)
         Guna2Panel8.ResumeLayout(False)
         Guna2Panel9.ResumeLayout(False)
         Guna2Panel9.PerformLayout()
@@ -1135,7 +1136,6 @@ Partial Class frmRutinas
         CType(Guna2PictureBox5, ComponentModel.ISupportInitialize).EndInit()
         pnlTopinicio.ResumeLayout(False)
         pnlTopinicio.PerformLayout()
-        pnlNavI.ResumeLayout(False)
         ResumeLayout(False)
     End Sub
 

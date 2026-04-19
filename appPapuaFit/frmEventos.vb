@@ -23,8 +23,8 @@
     End Sub
 
     ' ----------------- Mensual -----------------
-    Private Sub pbrEventoMes_ValueChanged(sender As Object, e As EventArgs) Handles pbrEventoMes.ValueChanged
-        ActualizarTextoMes()
+    Private Sub pbrEventoMes_ValueChanged(sender As Object, e As EventArgs)
+        ActualizarTextoMes
     End Sub
 
     Private Sub ActualizarTextoMes()
@@ -33,7 +33,7 @@
 
     ' ----------------- Semanal -----------------
     Private Sub pbrEventoSemana_ValueChanged(sender As Object, e As EventArgs) Handles pbrEventoSemana.ValueChanged
-        ActualizarTextoSemana()
+        ActualizarTextoSemana
     End Sub
 
     Private Sub ActualizarTextoSemana()
@@ -49,7 +49,19 @@
         pbrEventoDia.Text = pbrEventoDia.Value.ToString() & " / " & progresoMaximoDia.ToString()
     End Sub
 
-    Private Sub lblEventoMes_Click(sender As Object, e As EventArgs) Handles lblEventoMes.Click
+    Private Sub lblEventoMes_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub pbxEventoMes_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub pbxEventoMes_Click_1(sender As Object, e As EventArgs) Handles pbxEventoMes.Click
+
+    End Sub
+
+    Private Sub pnlEventos_Paint(sender As Object, e As PaintEventArgs) Handles pnlEventos.Paint
 
     End Sub
 End Class

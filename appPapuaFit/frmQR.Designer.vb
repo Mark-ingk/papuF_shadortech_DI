@@ -23,19 +23,19 @@ Partial Class frmQR
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         tmrContador = New Timer(components)
         pnlQR = New Panel()
         btnSimAcceso = New Guna.UI2.WinForms.Guna2CircleButton()
@@ -107,7 +107,7 @@ Partial Class frmQR
         btnSimAcceso.ForeColor = Color.Gray
         btnSimAcceso.Location = New Point(349, 806)
         btnSimAcceso.Name = "btnSimAcceso"
-        btnSimAcceso.ShadowDecoration.CustomizableEdges = CustomizableEdges1
+        btnSimAcceso.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         btnSimAcceso.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         btnSimAcceso.Size = New Size(41, 38)
         btnSimAcceso.TabIndex = 27
@@ -123,7 +123,7 @@ Partial Class frmQR
         icpbStatus.IconColor = Color.Gold
         icpbStatus.IconFont = FontAwesome.Sharp.IconFont.Solid
         icpbStatus.IconSize = 30
-        icpbStatus.Location = New Point(129, 39)
+        icpbStatus.Location = New Point(133, 36)
         icpbStatus.Name = "icpbStatus"
         icpbStatus.Size = New Size(30, 30)
         icpbStatus.TabIndex = 26
@@ -148,7 +148,7 @@ Partial Class frmQR
         btnCerrar.IconChar = FontAwesome.Sharp.IconChar.Close
         btnCerrar.IconColor = Color.White
         btnCerrar.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnCerrar.Location = New Point(321, 39)
+        btnCerrar.Location = New Point(321, 35)
         btnCerrar.Margin = New Padding(0, 30, 25, 15)
         btnCerrar.Name = "btnCerrar"
         btnCerrar.Size = New Size(34, 34)
@@ -163,7 +163,7 @@ Partial Class frmQR
         btnFlash.IconChar = FontAwesome.Sharp.IconChar.CreditCard
         btnFlash.IconColor = Color.White
         btnFlash.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnFlash.Location = New Point(223, 39)
+        btnFlash.Location = New Point(223, 35)
         btnFlash.Margin = New Padding(10, 30, 0, 15)
         btnFlash.Name = "btnFlash"
         btnFlash.Size = New Size(34, 34)
@@ -178,7 +178,7 @@ Partial Class frmQR
         btnRecargar.IconChar = FontAwesome.Sharp.IconChar.Refresh
         btnRecargar.IconColor = Color.White
         btnRecargar.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnRecargar.Location = New Point(272, 39)
+        btnRecargar.Location = New Point(272, 35)
         btnRecargar.Margin = New Padding(15, 30, 15, 15)
         btnRecargar.Name = "btnRecargar"
         btnRecargar.Size = New Size(34, 34)
@@ -190,12 +190,12 @@ Partial Class frmQR
         pnlCntQR.BackColor = Color.Transparent
         pnlCntQR.BorderRadius = 20
         pnlCntQR.Controls.Add(pbxQr)
-        pnlCntQR.CustomizableEdges = CustomizableEdges4
+        pnlCntQR.CustomizableEdges = CustomizableEdges17
         pnlCntQR.Location = New Point(64, 427)
         pnlCntQR.Name = "pnlCntQR"
         pnlCntQR.ShadowDecoration.BorderRadius = 20
         pnlCntQR.ShadowDecoration.Color = Color.FromArgb(CByte(15), CByte(15), CByte(15))
-        pnlCntQR.ShadowDecoration.CustomizableEdges = CustomizableEdges5
+        pnlCntQR.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         pnlCntQR.ShadowDecoration.Enabled = True
         pnlCntQR.Size = New Size(260, 260)
         pnlCntQR.TabIndex = 16
@@ -205,13 +205,13 @@ Partial Class frmQR
         pbxQr.BackColor = Color.White
         pbxQr.BackgroundImage = My.Resources.Resources.qrcodehd_1061112
         pbxQr.BackgroundImageLayout = ImageLayout.Stretch
-        pbxQr.CustomizableEdges = CustomizableEdges2
+        pbxQr.CustomizableEdges = CustomizableEdges15
         pbxQr.FillColor = Color.Transparent
         pbxQr.ImageRotate = 0F
         pbxQr.Location = New Point(27, 37)
         pbxQr.Name = "pbxQr"
         pbxQr.ShadowDecoration.Color = Color.White
-        pbxQr.ShadowDecoration.CustomizableEdges = CustomizableEdges3
+        pbxQr.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         pbxQr.Size = New Size(205, 191)
         pbxQr.TabIndex = 0
         pbxQr.TabStop = False
@@ -220,12 +220,12 @@ Partial Class frmQR
         ' 
         pnlEsq1.BackColor = Color.Transparent
         pnlEsq1.BorderRadius = 20
-        pnlEsq1.CustomizableEdges = CustomizableEdges6
+        pnlEsq1.CustomizableEdges = CustomizableEdges19
         pnlEsq1.FillColor = Color.IndianRed
         pnlEsq1.Location = New Point(48, 412)
         pnlEsq1.Name = "pnlEsq1"
         pnlEsq1.ShadowDecoration.BorderRadius = 30
-        pnlEsq1.ShadowDecoration.CustomizableEdges = CustomizableEdges7
+        pnlEsq1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         pnlEsq1.ShadowDecoration.Shadow = New Padding(10)
         pnlEsq1.Size = New Size(92, 91)
         pnlEsq1.TabIndex = 17
@@ -234,12 +234,12 @@ Partial Class frmQR
         ' 
         pnlEsq2.BackColor = Color.Transparent
         pnlEsq2.BorderRadius = 20
-        pnlEsq2.CustomizableEdges = CustomizableEdges8
+        pnlEsq2.CustomizableEdges = CustomizableEdges21
         pnlEsq2.FillColor = Color.IndianRed
         pnlEsq2.Location = New Point(48, 616)
         pnlEsq2.Name = "pnlEsq2"
         pnlEsq2.ShadowDecoration.BorderRadius = 30
-        pnlEsq2.ShadowDecoration.CustomizableEdges = CustomizableEdges9
+        pnlEsq2.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         pnlEsq2.ShadowDecoration.Shadow = New Padding(10)
         pnlEsq2.Size = New Size(92, 91)
         pnlEsq2.TabIndex = 18
@@ -248,12 +248,12 @@ Partial Class frmQR
         ' 
         pnlEsq4.BackColor = Color.Transparent
         pnlEsq4.BorderRadius = 20
-        pnlEsq4.CustomizableEdges = CustomizableEdges10
+        pnlEsq4.CustomizableEdges = CustomizableEdges23
         pnlEsq4.FillColor = Color.IndianRed
         pnlEsq4.Location = New Point(250, 412)
         pnlEsq4.Name = "pnlEsq4"
         pnlEsq4.ShadowDecoration.BorderRadius = 30
-        pnlEsq4.ShadowDecoration.CustomizableEdges = CustomizableEdges11
+        pnlEsq4.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         pnlEsq4.ShadowDecoration.Shadow = New Padding(10)
         pnlEsq4.Size = New Size(92, 91)
         pnlEsq4.TabIndex = 19
@@ -262,12 +262,12 @@ Partial Class frmQR
         ' 
         pnlEsq3.BackColor = Color.Transparent
         pnlEsq3.BorderRadius = 20
-        pnlEsq3.CustomizableEdges = CustomizableEdges12
+        pnlEsq3.CustomizableEdges = CustomizableEdges25
         pnlEsq3.FillColor = Color.IndianRed
         pnlEsq3.Location = New Point(250, 616)
         pnlEsq3.Name = "pnlEsq3"
         pnlEsq3.ShadowDecoration.BorderRadius = 30
-        pnlEsq3.ShadowDecoration.CustomizableEdges = CustomizableEdges13
+        pnlEsq3.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         pnlEsq3.ShadowDecoration.Shadow = New Padding(10)
         pnlEsq3.Size = New Size(92, 91)
         pnlEsq3.TabIndex = 20
@@ -279,7 +279,7 @@ Partial Class frmQR
         lblMxpr.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblMxpr.ForeColor = SystemColors.Control
         lblMxpr.IsSelectionEnabled = False
-        lblMxpr.Location = New Point(129, 281)
+        lblMxpr.Location = New Point(129, 290)
         lblMxpr.Name = "lblMxpr"
         lblMxpr.Size = New Size(132, 23)
         lblMxpr.TabIndex = 15
@@ -292,7 +292,7 @@ Partial Class frmQR
         lblTimer.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblTimer.ForeColor = SystemColors.ButtonFace
         lblTimer.IsSelectionEnabled = False
-        lblTimer.Location = New Point(153, 343)
+        lblTimer.Location = New Point(153, 341)
         lblTimer.Name = "lblTimer"
         lblTimer.Size = New Size(50, 39)
         lblTimer.TabIndex = 14
@@ -320,7 +320,7 @@ Partial Class frmQR
         lblDes1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblDes1.ForeColor = SystemColors.ActiveBorder
         lblDes1.IsSelectionEnabled = False
-        lblDes1.Location = New Point(26, 170)
+        lblDes1.Location = New Point(26, 168)
         lblDes1.Name = "lblDes1"
         lblDes1.Size = New Size(339, 43)
         lblDes1.TabIndex = 4
@@ -334,7 +334,7 @@ Partial Class frmQR
         lblM2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblM2.ForeColor = SystemColors.ActiveBorder
         lblM2.IsSelectionEnabled = False
-        lblM2.Location = New Point(55, 219)
+        lblM2.Location = New Point(55, 239)
         lblM2.Name = "lblM2"
         lblM2.Size = New Size(280, 23)
         lblM2.TabIndex = 5

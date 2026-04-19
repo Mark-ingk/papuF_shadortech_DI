@@ -22,30 +22,30 @@ Partial Class frmPerfilPapu
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlPerfilPapu = New Panel()
         btnRenovarM = New Guna.UI2.WinForms.Guna2Button()
         btnINS = New Guna.UI2.WinForms.Guna2Button()
@@ -128,18 +128,19 @@ Partial Class frmPerfilPapu
         btnRenovarM.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         btnRenovarM.Animated = True
         btnRenovarM.BorderRadius = 25
-        btnRenovarM.CustomizableEdges = CustomizableEdges25
+        btnRenovarM.Cursor = Cursors.Hand
+        btnRenovarM.CustomizableEdges = CustomizableEdges1
         btnRenovarM.DisabledState.BorderColor = Color.DarkGray
         btnRenovarM.DisabledState.CustomBorderColor = Color.DarkGray
         btnRenovarM.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnRenovarM.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnRenovarM.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnRenovarM.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnRenovarM.Font = New Font("Segoe UI", 14F, FontStyle.Bold)
         btnRenovarM.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnRenovarM.Location = New Point(10, 678)
+        btnRenovarM.Location = New Point(10, 696)
         btnRenovarM.Margin = New Padding(0, 10, 0, 30)
         btnRenovarM.Name = "btnRenovarM"
-        btnRenovarM.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        btnRenovarM.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btnRenovarM.Size = New Size(370, 48)
         btnRenovarM.TabIndex = 76
         btnRenovarM.Text = "Renovar membresia"
@@ -149,18 +150,19 @@ Partial Class frmPerfilPapu
         btnINS.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         btnINS.Animated = True
         btnINS.BorderRadius = 25
-        btnINS.CustomizableEdges = CustomizableEdges27
+        btnINS.Cursor = Cursors.Hand
+        btnINS.CustomizableEdges = CustomizableEdges3
         btnINS.DisabledState.BorderColor = Color.DarkGray
         btnINS.DisabledState.CustomBorderColor = Color.DarkGray
         btnINS.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnINS.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnINS.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnINS.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnINS.Font = New Font("Segoe UI", 14F, FontStyle.Bold)
         btnINS.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnINS.Location = New Point(10, 618)
+        btnINS.Location = New Point(10, 628)
         btnINS.Margin = New Padding(0, 10, 0, 30)
         btnINS.Name = "btnINS"
-        btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         btnINS.Size = New Size(370, 48)
         btnINS.TabIndex = 75
         btnINS.Text = "Agregar meta"
@@ -168,27 +170,27 @@ Partial Class frmPerfilPapu
         ' lblPorcentgeP
         ' 
         lblPorcentgeP.BackColor = Color.Transparent
-        lblPorcentgeP.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblPorcentgeP.Font = New Font("Segoe UI", 14F)
         lblPorcentgeP.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        lblPorcentgeP.Location = New Point(328, 514)
+        lblPorcentgeP.Location = New Point(337, 522)
         lblPorcentgeP.Name = "lblPorcentgeP"
-        lblPorcentgeP.Size = New Size(34, 23)
+        lblPorcentgeP.Size = New Size(39, 27)
         lblPorcentgeP.TabIndex = 73
         lblPorcentgeP.Text = "63%"
         ' 
         ' pbPasos
         ' 
-        pbPasos.BorderRadius = 8
-        pbPasos.CustomizableEdges = CustomizableEdges29
+        pbPasos.BorderRadius = 25
+        pbPasos.CustomizableEdges = CustomizableEdges5
         pbPasos.FillColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        pbPasos.Location = New Point(10, 559)
+        pbPasos.Location = New Point(10, 561)
         pbPasos.Maximum = 18000
         pbPasos.Name = "pbPasos"
         pbPasos.ProgressBrushMode = Guna.UI2.WinForms.Enums.BrushMode.Solid
         pbPasos.ProgressColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         pbPasos.ProgressColor2 = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        pbPasos.ShadowDecoration.CustomizableEdges = CustomizableEdges30
-        pbPasos.Size = New Size(370, 26)
+        pbPasos.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        pbPasos.Size = New Size(370, 47)
         pbPasos.TabIndex = 72
         pbPasos.Text = "Guna2ProgressBar1"
         pbPasos.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
@@ -202,23 +204,22 @@ Partial Class frmPerfilPapu
         icnPesaEst.IconChar = FontAwesome.Sharp.IconChar.Dumbbell
         icnPesaEst.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icnPesaEst.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icnPesaEst.IconSize = 25
-        icnPesaEst.Location = New Point(55, 412)
+        icnPesaEst.IconSize = 35
+        icnPesaEst.Location = New Point(52, 396)
         icnPesaEst.Name = "icnPesaEst"
-        icnPesaEst.Size = New Size(25, 25)
+        icnPesaEst.Size = New Size(35, 35)
         icnPesaEst.TabIndex = 71
         icnPesaEst.TabStop = False
         ' 
         ' lblEntEst
         ' 
         lblEntEst.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        lblEntEst.AutoSize = False
         lblEntEst.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        lblEntEst.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblEntEst.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
         lblEntEst.ForeColor = Color.White
-        lblEntEst.Location = New Point(55, 443)
+        lblEntEst.Location = New Point(54, 429)
         lblEntEst.Name = "lblEntEst"
-        lblEntEst.Size = New Size(51, 27)
+        lblEntEst.Size = New Size(30, 23)
         lblEntEst.TabIndex = 70
         lblEntEst.Text = "243"
         ' 
@@ -230,36 +231,34 @@ Partial Class frmPerfilPapu
         icnTiempoEst.IconChar = FontAwesome.Sharp.IconChar.Hourglass
         icnTiempoEst.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icnTiempoEst.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icnTiempoEst.IconSize = 25
-        icnTiempoEst.Location = New Point(184, 412)
+        icnTiempoEst.IconSize = 34
+        icnTiempoEst.Location = New Point(178, 397)
         icnTiempoEst.Name = "icnTiempoEst"
-        icnTiempoEst.Size = New Size(25, 25)
+        icnTiempoEst.Size = New Size(35, 34)
         icnTiempoEst.TabIndex = 69
         icnTiempoEst.TabStop = False
         ' 
         ' lblDuracionEst
         ' 
         lblDuracionEst.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        lblDuracionEst.AutoSize = False
         lblDuracionEst.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        lblDuracionEst.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblDuracionEst.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
         lblDuracionEst.ForeColor = Color.White
-        lblDuracionEst.Location = New Point(168, 443)
+        lblDuracionEst.Location = New Point(168, 429)
         lblDuracionEst.Name = "lblDuracionEst"
-        lblDuracionEst.Size = New Size(55, 27)
+        lblDuracionEst.Size = New Size(55, 23)
         lblDuracionEst.TabIndex = 68
         lblDuracionEst.Text = "110 min"
         ' 
         ' lblCalQ
         ' 
         lblCalQ.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        lblCalQ.AutoSize = False
         lblCalQ.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        lblCalQ.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblCalQ.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
         lblCalQ.ForeColor = Color.White
-        lblCalQ.Location = New Point(295, 443)
+        lblCalQ.Location = New Point(290, 429)
         lblCalQ.Name = "lblCalQ"
-        lblCalQ.Size = New Size(57, 27)
+        lblCalQ.Size = New Size(62, 23)
         lblCalQ.TabIndex = 67
         lblCalQ.Text = "300 kcal"
         ' 
@@ -271,30 +270,31 @@ Partial Class frmPerfilPapu
         icnFuegoEst.IconChar = FontAwesome.Sharp.IconChar.Fire
         icnFuegoEst.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icnFuegoEst.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icnFuegoEst.IconSize = 25
-        icnFuegoEst.Location = New Point(314, 412)
+        icnFuegoEst.IconSize = 35
+        icnFuegoEst.Location = New Point(304, 396)
         icnFuegoEst.Name = "icnFuegoEst"
-        icnFuegoEst.Size = New Size(25, 25)
+        icnFuegoEst.Size = New Size(35, 35)
         icnFuegoEst.TabIndex = 64
         icnFuegoEst.TabStop = False
         ' 
         ' btnEstCal
         ' 
         btnEstCal.BorderRadius = 25
-        btnEstCal.CustomizableEdges = CustomizableEdges31
+        btnEstCal.Cursor = Cursors.Hand
+        btnEstCal.CustomizableEdges = CustomizableEdges7
         btnEstCal.DisabledState.BorderColor = Color.DarkGray
         btnEstCal.DisabledState.CustomBorderColor = Color.DarkGray
         btnEstCal.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnEstCal.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnEstCal.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnEstCal.Font = New Font("Segoe UI Semibold", 6.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnEstCal.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
         btnEstCal.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnEstCal.Location = New Point(262, 402)
+        btnEstCal.Location = New Point(262, 396)
         btnEstCal.Margin = New Padding(10, 0, 10, 10)
         btnEstCal.Name = "btnEstCal"
         btnEstCal.Padding = New Padding(10)
-        btnEstCal.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        btnEstCal.Size = New Size(118, 95)
+        btnEstCal.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        btnEstCal.Size = New Size(118, 108)
         btnEstCal.TabIndex = 63
         btnEstCal.Text = "Calorias Q"
         btnEstCal.TextOffset = New Point(0, 25)
@@ -302,20 +302,21 @@ Partial Class frmPerfilPapu
         ' btnEstTiempo
         ' 
         btnEstTiempo.BorderRadius = 25
-        btnEstTiempo.CustomizableEdges = CustomizableEdges33
+        btnEstTiempo.Cursor = Cursors.Hand
+        btnEstTiempo.CustomizableEdges = CustomizableEdges9
         btnEstTiempo.DisabledState.BorderColor = Color.DarkGray
         btnEstTiempo.DisabledState.CustomBorderColor = Color.DarkGray
         btnEstTiempo.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnEstTiempo.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnEstTiempo.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnEstTiempo.Font = New Font("Segoe UI Semibold", 6.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnEstTiempo.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
         btnEstTiempo.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnEstTiempo.Location = New Point(136, 402)
+        btnEstTiempo.Location = New Point(136, 396)
         btnEstTiempo.Margin = New Padding(10, 0, 10, 10)
         btnEstTiempo.Name = "btnEstTiempo"
         btnEstTiempo.Padding = New Padding(10)
-        btnEstTiempo.ShadowDecoration.CustomizableEdges = CustomizableEdges34
-        btnEstTiempo.Size = New Size(118, 95)
+        btnEstTiempo.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        btnEstTiempo.Size = New Size(118, 108)
         btnEstTiempo.TabIndex = 62
         btnEstTiempo.Text = "Duracion Total"
         btnEstTiempo.TextOffset = New Point(0, 25)
@@ -323,20 +324,21 @@ Partial Class frmPerfilPapu
         ' btnEstEntrenamiento
         ' 
         btnEstEntrenamiento.BorderRadius = 25
-        btnEstEntrenamiento.CustomizableEdges = CustomizableEdges35
+        btnEstEntrenamiento.Cursor = Cursors.Hand
+        btnEstEntrenamiento.CustomizableEdges = CustomizableEdges11
         btnEstEntrenamiento.DisabledState.BorderColor = Color.DarkGray
         btnEstEntrenamiento.DisabledState.CustomBorderColor = Color.DarkGray
         btnEstEntrenamiento.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnEstEntrenamiento.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnEstEntrenamiento.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnEstEntrenamiento.Font = New Font("Segoe UI Semibold", 6.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnEstEntrenamiento.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
         btnEstEntrenamiento.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        btnEstEntrenamiento.Location = New Point(10, 402)
+        btnEstEntrenamiento.Location = New Point(10, 396)
         btnEstEntrenamiento.Margin = New Padding(10, 0, 10, 10)
         btnEstEntrenamiento.Name = "btnEstEntrenamiento"
         btnEstEntrenamiento.Padding = New Padding(10)
-        btnEstEntrenamiento.ShadowDecoration.CustomizableEdges = CustomizableEdges36
-        btnEstEntrenamiento.Size = New Size(118, 95)
+        btnEstEntrenamiento.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        btnEstEntrenamiento.Size = New Size(118, 108)
         btnEstEntrenamiento.TabIndex = 61
         btnEstEntrenamiento.Text = "Entrenamiento"
         btnEstEntrenamiento.TextOffset = New Point(0, 25)
@@ -344,26 +346,24 @@ Partial Class frmPerfilPapu
         ' lblEstadisticas
         ' 
         lblEstadisticas.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        lblEstadisticas.AutoSize = False
         lblEstadisticas.BackColor = Color.Transparent
-        lblEstadisticas.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblEstadisticas.Font = New Font("Segoe UI Semibold", 16F, FontStyle.Bold)
         lblEstadisticas.ForeColor = Color.White
-        lblEstadisticas.Location = New Point(10, 372)
+        lblEstadisticas.Location = New Point(10, 358)
         lblEstadisticas.Name = "lblEstadisticas"
-        lblEstadisticas.Size = New Size(142, 27)
+        lblEstadisticas.Size = New Size(112, 32)
         lblEstadisticas.TabIndex = 56
         lblEstadisticas.Text = "Estadisticas"
         ' 
         ' lblProgreso
         ' 
         lblProgreso.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        lblProgreso.AutoSize = False
         lblProgreso.BackColor = Color.Transparent
-        lblProgreso.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblProgreso.Font = New Font("Segoe UI Semibold", 16F, FontStyle.Bold)
         lblProgreso.ForeColor = Color.White
-        lblProgreso.Location = New Point(10, 510)
+        lblProgreso.Location = New Point(10, 517)
         lblProgreso.Name = "lblProgreso"
-        lblProgreso.Size = New Size(142, 27)
+        lblProgreso.Size = New Size(90, 32)
         lblProgreso.TabIndex = 55
         lblProgreso.Text = "Progreso"
         ' 
@@ -375,10 +375,10 @@ Partial Class frmPerfilPapu
         icnEntrenamiento.IconChar = FontAwesome.Sharp.IconChar.Mound
         icnEntrenamiento.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icnEntrenamiento.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icnEntrenamiento.IconSize = 30
-        icnEntrenamiento.Location = New Point(136, 311)
+        icnEntrenamiento.IconSize = 40
+        icnEntrenamiento.Location = New Point(127, 297)
         icnEntrenamiento.Name = "icnEntrenamiento"
-        icnEntrenamiento.Size = New Size(30, 30)
+        icnEntrenamiento.Size = New Size(40, 40)
         icnEntrenamiento.TabIndex = 54
         icnEntrenamiento.TabStop = False
         ' 
@@ -390,29 +390,30 @@ Partial Class frmPerfilPapu
         icnMetas.IconChar = FontAwesome.Sharp.IconChar.Medal
         icnMetas.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icnMetas.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icnMetas.IconSize = 30
-        icnMetas.Location = New Point(332, 311)
+        icnMetas.IconSize = 40
+        icnMetas.Location = New Point(322, 297)
         icnMetas.Name = "icnMetas"
-        icnMetas.Size = New Size(30, 30)
+        icnMetas.Size = New Size(40, 40)
         icnMetas.TabIndex = 53
         icnMetas.TabStop = False
         ' 
         ' btnMetas
         ' 
         btnMetas.BorderRadius = 25
-        btnMetas.CustomizableEdges = CustomizableEdges37
+        btnMetas.Cursor = Cursors.Hand
+        btnMetas.CustomizableEdges = CustomizableEdges13
         btnMetas.DisabledState.BorderColor = Color.DarkGray
         btnMetas.DisabledState.CustomBorderColor = Color.DarkGray
         btnMetas.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnMetas.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnMetas.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnMetas.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnMetas.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold)
         btnMetas.ForeColor = Color.White
-        btnMetas.Location = New Point(200, 242)
+        btnMetas.Location = New Point(200, 228)
         btnMetas.Margin = New Padding(10, 0, 10, 10)
         btnMetas.Name = "btnMetas"
         btnMetas.Padding = New Padding(10)
-        btnMetas.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        btnMetas.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         btnMetas.Size = New Size(180, 117)
         btnMetas.TabIndex = 52
         btnMetas.Text = "Metas"
@@ -421,23 +422,24 @@ Partial Class frmPerfilPapu
         ' btnEntrenamineto
         ' 
         btnEntrenamineto.BorderRadius = 25
-        btnEntrenamineto.CustomizableEdges = CustomizableEdges39
+        btnEntrenamineto.Cursor = Cursors.Hand
+        btnEntrenamineto.CustomizableEdges = CustomizableEdges15
         btnEntrenamineto.DisabledState.BorderColor = Color.DarkGray
         btnEntrenamineto.DisabledState.CustomBorderColor = Color.DarkGray
         btnEntrenamineto.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnEntrenamineto.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnEntrenamineto.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnEntrenamineto.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnEntrenamineto.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold)
         btnEntrenamineto.ForeColor = Color.White
-        btnEntrenamineto.Location = New Point(10, 242)
+        btnEntrenamineto.Location = New Point(10, 228)
         btnEntrenamineto.Margin = New Padding(10, 0, 10, 10)
         btnEntrenamineto.Name = "btnEntrenamineto"
         btnEntrenamineto.Padding = New Padding(10)
-        btnEntrenamineto.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        btnEntrenamineto.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         btnEntrenamineto.Size = New Size(180, 117)
         btnEntrenamineto.TabIndex = 51
-        btnEntrenamineto.Text = "Entrenamientos"
-        btnEntrenamineto.TextOffset = New Point(-20, -20)
+        btnEntrenamineto.Text = "Entrenamiento"
+        btnEntrenamineto.TextOffset = New Point(-15, -20)
         ' 
         ' icnEntrenador
         ' 
@@ -447,33 +449,34 @@ Partial Class frmPerfilPapu
         icnEntrenador.IconChar = FontAwesome.Sharp.IconChar.PersonBreastfeeding
         icnEntrenador.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icnEntrenador.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icnEntrenador.IconSize = 30
-        icnEntrenador.Location = New Point(322, 180)
+        icnEntrenador.IconSize = 45
+        icnEntrenador.Location = New Point(317, 160)
         icnEntrenador.Name = "icnEntrenador"
-        icnEntrenador.Size = New Size(30, 30)
+        icnEntrenador.Size = New Size(45, 45)
         icnEntrenador.TabIndex = 50
         icnEntrenador.TabStop = False
         ' 
         ' btnEntrenador
         ' 
         btnEntrenador.BorderRadius = 25
-        btnEntrenador.CustomizableEdges = CustomizableEdges41
+        btnEntrenador.Cursor = Cursors.Hand
+        btnEntrenador.CustomizableEdges = CustomizableEdges17
         btnEntrenador.DisabledState.BorderColor = Color.DarkGray
         btnEntrenador.DisabledState.CustomBorderColor = Color.DarkGray
         btnEntrenador.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnEntrenador.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnEntrenador.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnEntrenador.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btnEntrenador.Font = New Font("Segoe UI Semibold", 16F, FontStyle.Bold)
         btnEntrenador.ForeColor = Color.White
-        btnEntrenador.Location = New Point(10, 125)
+        btnEntrenador.Location = New Point(10, 111)
         btnEntrenador.Margin = New Padding(10, 0, 10, 10)
         btnEntrenador.Name = "btnEntrenador"
         btnEntrenador.Padding = New Padding(10)
-        btnEntrenador.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        btnEntrenador.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         btnEntrenador.Size = New Size(370, 107)
         btnEntrenador.TabIndex = 49
         btnEntrenador.Text = "Buscar Entrenador"
-        btnEntrenador.TextOffset = New Point(-100, -20)
+        btnEntrenador.TextOffset = New Point(-70, -20)
         ' 
         ' pnlNav
         ' 
@@ -483,15 +486,15 @@ Partial Class frmPerfilPapu
         pnlNav.Controls.Add(btnRutinas)
         pnlNav.Controls.Add(btnQr)
         pnlNav.Controls.Add(btnHome)
-        CustomizableEdges44.BottomLeft = False
-        CustomizableEdges44.BottomRight = False
-        pnlNav.CustomizableEdges = CustomizableEdges44
+        CustomizableEdges20.BottomLeft = False
+        CustomizableEdges20.BottomRight = False
+        pnlNav.CustomizableEdges = CustomizableEdges20
         pnlNav.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         pnlNav.Location = New Point(0, 756)
         pnlNav.Margin = New Padding(0, 0, 0, 10)
         pnlNav.Name = "pnlNav"
         pnlNav.Padding = New Padding(25, 25, 25, 10)
-        pnlNav.ShadowDecoration.CustomizableEdges = CustomizableEdges45
+        pnlNav.ShadowDecoration.CustomizableEdges = CustomizableEdges21
         pnlNav.Size = New Size(390, 88)
         pnlNav.TabIndex = 48
         ' 
@@ -500,6 +503,7 @@ Partial Class frmPerfilPapu
         btnCircluomas.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnCircluomas.BackgroundImageLayout = ImageLayout.Stretch
         btnCircluomas.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnCircluomas.Cursor = Cursors.Hand
         btnCircluomas.DisabledState.BorderColor = Color.DarkGray
         btnCircluomas.DisabledState.CustomBorderColor = Color.DarkGray
         btnCircluomas.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -509,7 +513,7 @@ Partial Class frmPerfilPapu
         btnCircluomas.ForeColor = Color.Black
         btnCircluomas.Location = New Point(155, 4)
         btnCircluomas.Name = "btnCircluomas"
-        btnCircluomas.ShadowDecoration.CustomizableEdges = CustomizableEdges43
+        btnCircluomas.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         btnCircluomas.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         btnCircluomas.Size = New Size(80, 80)
         btnCircluomas.TabIndex = 16
@@ -520,6 +524,7 @@ Partial Class frmPerfilPapu
         ' 
         btnPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnPerfil.BackColor = Color.Transparent
+        btnPerfil.Cursor = Cursors.Hand
         btnPerfil.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnPerfil.FlatAppearance.BorderSize = 0
         btnPerfil.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
@@ -538,6 +543,7 @@ Partial Class frmPerfilPapu
         ' 
         btnRutinas.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnRutinas.BackColor = Color.Transparent
+        btnRutinas.Cursor = Cursors.Hand
         btnRutinas.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnRutinas.FlatAppearance.BorderSize = 0
         btnRutinas.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
@@ -556,6 +562,7 @@ Partial Class frmPerfilPapu
         ' 
         btnQr.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnQr.BackColor = Color.Transparent
+        btnQr.Cursor = Cursors.Hand
         btnQr.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnQr.FlatAppearance.BorderSize = 0
         btnQr.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
@@ -574,6 +581,7 @@ Partial Class frmPerfilPapu
         ' 
         btnHome.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnHome.BackColor = Color.Transparent
+        btnHome.Cursor = Cursors.Hand
         btnHome.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnHome.FlatAppearance.BorderSize = 0
         btnHome.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
@@ -595,39 +603,39 @@ Partial Class frmPerfilPapu
         pnlTopinicio.Controls.Add(lblSaludo)
         pnlTopinicio.Controls.Add(picAvatar)
         pnlTopinicio.Controls.Add(btnAjustes)
-        CustomizableEdges47.TopLeft = False
-        CustomizableEdges47.TopRight = False
-        pnlTopinicio.CustomizableEdges = CustomizableEdges47
+        CustomizableEdges23.TopLeft = False
+        CustomizableEdges23.TopRight = False
+        pnlTopinicio.CustomizableEdges = CustomizableEdges23
         pnlTopinicio.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         pnlTopinicio.Location = New Point(0, 0)
         pnlTopinicio.Margin = New Padding(0, 0, 0, 10)
         pnlTopinicio.Name = "pnlTopinicio"
         pnlTopinicio.Padding = New Padding(25, 25, 25, 10)
-        pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges48
-        pnlTopinicio.Size = New Size(390, 115)
+        pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        pnlTopinicio.Size = New Size(390, 101)
         pnlTopinicio.TabIndex = 47
         ' 
         ' lblSub
         ' 
         lblSub.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         lblSub.BackColor = Color.Transparent
+        lblSub.Font = New Font("Segoe UI", 12F)
         lblSub.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        lblSub.Location = New Point(98, 25)
+        lblSub.Location = New Point(106, 53)
         lblSub.Name = "lblSub"
-        lblSub.Size = New Size(62, 17)
+        lblSub.Size = New Size(170, 23)
         lblSub.TabIndex = 5
-        lblSub.Text = "Bienvenido"
+        lblSub.Text = "¿Quieres ponerte al dia?"
         ' 
         ' lblSaludo
         ' 
         lblSaludo.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        lblSaludo.AutoSize = False
         lblSaludo.BackColor = Color.Transparent
-        lblSaludo.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblSaludo.Font = New Font("Segoe UI Semibold", 16F, FontStyle.Bold)
         lblSaludo.ForeColor = Color.White
-        lblSaludo.Location = New Point(98, 48)
+        lblSaludo.Location = New Point(106, 16)
         lblSaludo.Name = "lblSaludo"
-        lblSaludo.Size = New Size(198, 27)
+        lblSaludo.Size = New Size(115, 32)
         lblSaludo.TabIndex = 4
         lblSaludo.Text = "Hola Mario!"
         ' 
@@ -637,10 +645,10 @@ Partial Class frmPerfilPapu
         picAvatar.BackgroundImageLayout = ImageLayout.Stretch
         picAvatar.Image = My.Resources.Resources.images__1_
         picAvatar.ImageRotate = 0F
-        picAvatar.Location = New Point(28, 25)
+        picAvatar.Location = New Point(32, 17)
         picAvatar.Margin = New Padding(25, 25, 4, 10)
         picAvatar.Name = "picAvatar"
-        picAvatar.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        picAvatar.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         picAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         picAvatar.Size = New Size(63, 60)
         picAvatar.SizeMode = PictureBoxSizeMode.StretchImage
@@ -651,14 +659,15 @@ Partial Class frmPerfilPapu
         ' 
         btnAjustes.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnAjustes.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnAjustes.Cursor = Cursors.Hand
         btnAjustes.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnAjustes.FlatStyle = FlatStyle.Flat
         btnAjustes.IconChar = FontAwesome.Sharp.IconChar.Cog
         btnAjustes.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnAjustes.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnAjustes.Location = New Point(322, 35)
+        btnAjustes.Location = New Point(331, 31)
         btnAjustes.Name = "btnAjustes"
-        btnAjustes.Size = New Size(40, 40)
+        btnAjustes.Size = New Size(45, 45)
         btnAjustes.TabIndex = 3
         btnAjustes.UseVisualStyleBackColor = False
         ' 

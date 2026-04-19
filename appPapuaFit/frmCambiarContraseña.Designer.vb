@@ -32,7 +32,7 @@ Partial Class frmCambiarContraseña
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlCambiarContraseña = New Panel()
         pnlTopCambiarContraseña = New Guna.UI2.WinForms.Guna2Panel()
-        btnRegresarCambiarContraseña = New Button()
+        IconButton1 = New FontAwesome.Sharp.IconButton()
         lblCambiarContraseña = New Label()
         btnCancelarCambios = New Guna.UI2.WinForms.Guna2Button()
         btnGuardarCambios = New Guna.UI2.WinForms.Guna2Button()
@@ -68,7 +68,7 @@ Partial Class frmCambiarContraseña
         ' pnlTopCambiarContraseña
         ' 
         pnlTopCambiarContraseña.BorderRadius = 40
-        pnlTopCambiarContraseña.Controls.Add(btnRegresarCambiarContraseña)
+        pnlTopCambiarContraseña.Controls.Add(IconButton1)
         pnlTopCambiarContraseña.Controls.Add(lblCambiarContraseña)
         CustomizableEdges1.TopLeft = False
         CustomizableEdges1.TopRight = False
@@ -79,31 +79,31 @@ Partial Class frmCambiarContraseña
         pnlTopCambiarContraseña.Name = "pnlTopCambiarContraseña"
         pnlTopCambiarContraseña.Padding = New Padding(25, 25, 25, 10)
         pnlTopCambiarContraseña.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        pnlTopCambiarContraseña.Size = New Size(390, 100)
+        pnlTopCambiarContraseña.Size = New Size(390, 77)
         pnlTopCambiarContraseña.TabIndex = 63
         ' 
-        ' btnRegresarCambiarContraseña
+        ' IconButton1
         ' 
-        btnRegresarCambiarContraseña.BackColor = Color.Transparent
-        btnRegresarCambiarContraseña.BackgroundImage = My.Resources.Resources.ic_arrow_back_128_282261
-        btnRegresarCambiarContraseña.BackgroundImageLayout = ImageLayout.Center
-        btnRegresarCambiarContraseña.Cursor = Cursors.Hand
-        btnRegresarCambiarContraseña.FlatStyle = FlatStyle.Flat
-        btnRegresarCambiarContraseña.ForeColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        btnRegresarCambiarContraseña.ImageAlign = ContentAlignment.BottomCenter
-        btnRegresarCambiarContraseña.Location = New Point(0, 8)
-        btnRegresarCambiarContraseña.Margin = New Padding(4, 5, 4, 5)
-        btnRegresarCambiarContraseña.Name = "btnRegresarCambiarContraseña"
-        btnRegresarCambiarContraseña.Size = New Size(67, 73)
-        btnRegresarCambiarContraseña.TabIndex = 50
-        btnRegresarCambiarContraseña.UseVisualStyleBackColor = False
+        IconButton1.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        IconButton1.BackColor = Color.Transparent
+        IconButton1.Cursor = Cursors.Hand
+        IconButton1.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        IconButton1.FlatStyle = FlatStyle.Flat
+        IconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft
+        IconButton1.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
+        IconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto
+        IconButton1.Location = New Point(3, 3)
+        IconButton1.Name = "IconButton1"
+        IconButton1.Size = New Size(69, 73)
+        IconButton1.TabIndex = 66
+        IconButton1.UseVisualStyleBackColor = False
         ' 
         ' lblCambiarContraseña
         ' 
         lblCambiarContraseña.BackColor = Color.Transparent
         lblCambiarContraseña.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblCambiarContraseña.ForeColor = SystemColors.ButtonFace
-        lblCambiarContraseña.Location = New Point(75, 25)
+        lblCambiarContraseña.Location = New Point(86, 20)
         lblCambiarContraseña.Margin = New Padding(4, 0, 4, 0)
         lblCambiarContraseña.Name = "lblCambiarContraseña"
         lblCambiarContraseña.Size = New Size(210, 34)
@@ -124,11 +124,11 @@ Partial Class frmCambiarContraseña
         btnCancelarCambios.FillColor = Color.Red
         btnCancelarCambios.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnCancelarCambios.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnCancelarCambios.Location = New Point(10, 437)
+        btnCancelarCambios.Location = New Point(10, 417)
         btnCancelarCambios.Margin = New Padding(4, 5, 4, 5)
         btnCancelarCambios.Name = "btnCancelarCambios"
         btnCancelarCambios.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        btnCancelarCambios.Size = New Size(182, 61)
+        btnCancelarCambios.Size = New Size(176, 61)
         btnCancelarCambios.TabIndex = 49
         btnCancelarCambios.Text = "Cancelar Cambios"
         ' 
@@ -146,11 +146,11 @@ Partial Class frmCambiarContraseña
         btnGuardarCambios.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnGuardarCambios.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnGuardarCambios.ForeColor = Color.FromArgb(CByte(26), CByte(26), CByte(26))
-        btnGuardarCambios.Location = New Point(200, 437)
+        btnGuardarCambios.Location = New Point(204, 417)
         btnGuardarCambios.Margin = New Padding(4, 5, 4, 5)
         btnGuardarCambios.Name = "btnGuardarCambios"
         btnGuardarCambios.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        btnGuardarCambios.Size = New Size(180, 61)
+        btnGuardarCambios.Size = New Size(176, 61)
         btnGuardarCambios.TabIndex = 48
         btnGuardarCambios.Text = "Guardar Cambios"
         ' 
@@ -169,7 +169,7 @@ Partial Class frmCambiarContraseña
         pnlPreferenciasAplicacion.Controls.Add(srp3CambiarContraseña)
         pnlPreferenciasAplicacion.CustomizableEdges = CustomizableEdges7
         pnlPreferenciasAplicacion.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlPreferenciasAplicacion.Location = New Point(10, 110)
+        pnlPreferenciasAplicacion.Location = New Point(10, 101)
         pnlPreferenciasAplicacion.Margin = New Padding(10, 0, 10, 30)
         pnlPreferenciasAplicacion.Name = "pnlPreferenciasAplicacion"
         pnlPreferenciasAplicacion.Padding = New Padding(20, 15, 20, 15)
@@ -182,7 +182,7 @@ Partial Class frmCambiarContraseña
         ' 
         lblContraseñaActual.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblContraseñaActual.ForeColor = SystemColors.ButtonFace
-        lblContraseñaActual.Location = New Point(24, 15)
+        lblContraseñaActual.Location = New Point(19, 15)
         lblContraseñaActual.Margin = New Padding(4, 0, 4, 0)
         lblContraseñaActual.Name = "lblContraseñaActual"
         lblContraseñaActual.Size = New Size(174, 34)
@@ -194,20 +194,20 @@ Partial Class frmCambiarContraseña
         ' 
         srp4EditarPerfil.BackColor = Color.Transparent
         srp4EditarPerfil.BackgroundImageLayout = ImageLayout.None
-        srp4EditarPerfil.Location = New Point(27, 263)
+        srp4EditarPerfil.Location = New Point(25, 263)
         srp4EditarPerfil.Margin = New Padding(0, 0, 0, 20)
         srp4EditarPerfil.Name = "srp4EditarPerfil"
-        srp4EditarPerfil.Size = New Size(345, 13)
+        srp4EditarPerfil.Size = New Size(321, 13)
         srp4EditarPerfil.TabIndex = 52
         ' 
         ' spr2CambiarContraseña
         ' 
         spr2CambiarContraseña.BackColor = Color.Transparent
         spr2CambiarContraseña.BackgroundImageLayout = ImageLayout.None
-        spr2CambiarContraseña.Location = New Point(27, 83)
+        spr2CambiarContraseña.Location = New Point(25, 83)
         spr2CambiarContraseña.Margin = New Padding(0, 0, 0, 20)
         spr2CambiarContraseña.Name = "spr2CambiarContraseña"
-        spr2CambiarContraseña.Size = New Size(345, 13)
+        spr2CambiarContraseña.Size = New Size(321, 13)
         spr2CambiarContraseña.TabIndex = 46
         ' 
         ' tbxContraseñaActual
@@ -216,10 +216,10 @@ Partial Class frmCambiarContraseña
         tbxContraseñaActual.BorderStyle = BorderStyle.None
         tbxContraseñaActual.Cursor = Cursors.IBeam
         tbxContraseñaActual.ForeColor = SystemColors.ButtonFace
-        tbxContraseñaActual.Location = New Point(27, 58)
+        tbxContraseñaActual.Location = New Point(25, 58)
         tbxContraseñaActual.Name = "tbxContraseñaActual"
         tbxContraseñaActual.PasswordChar = "*"c
-        tbxContraseñaActual.Size = New Size(345, 16)
+        tbxContraseñaActual.Size = New Size(321, 16)
         tbxContraseñaActual.TabIndex = 45
         ' 
         ' tbxConfimarContraseña
@@ -228,17 +228,17 @@ Partial Class frmCambiarContraseña
         tbxConfimarContraseña.BorderStyle = BorderStyle.None
         tbxConfimarContraseña.Cursor = Cursors.IBeam
         tbxConfimarContraseña.ForeColor = SystemColors.ButtonFace
-        tbxConfimarContraseña.Location = New Point(27, 238)
+        tbxConfimarContraseña.Location = New Point(25, 238)
         tbxConfimarContraseña.Name = "tbxConfimarContraseña"
         tbxConfimarContraseña.PasswordChar = "*"c
-        tbxConfimarContraseña.Size = New Size(345, 16)
+        tbxConfimarContraseña.Size = New Size(321, 16)
         tbxConfimarContraseña.TabIndex = 51
         ' 
         ' lblNuevaContraseña
         ' 
         lblNuevaContraseña.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblNuevaContraseña.ForeColor = SystemColors.ButtonFace
-        lblNuevaContraseña.Location = New Point(24, 105)
+        lblNuevaContraseña.Location = New Point(19, 105)
         lblNuevaContraseña.Margin = New Padding(4, 0, 4, 0)
         lblNuevaContraseña.Name = "lblNuevaContraseña"
         lblNuevaContraseña.Size = New Size(181, 34)
@@ -252,17 +252,17 @@ Partial Class frmCambiarContraseña
         tbxNuevaContraseña.BorderStyle = BorderStyle.None
         tbxNuevaContraseña.Cursor = Cursors.IBeam
         tbxNuevaContraseña.ForeColor = SystemColors.ButtonFace
-        tbxNuevaContraseña.Location = New Point(27, 148)
+        tbxNuevaContraseña.Location = New Point(25, 148)
         tbxNuevaContraseña.Name = "tbxNuevaContraseña"
         tbxNuevaContraseña.PasswordChar = "*"c
-        tbxNuevaContraseña.Size = New Size(345, 16)
+        tbxNuevaContraseña.Size = New Size(321, 16)
         tbxNuevaContraseña.TabIndex = 48
         ' 
         ' lblConfirmarContraseña
         ' 
         lblConfirmarContraseña.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblConfirmarContraseña.ForeColor = SystemColors.ButtonFace
-        lblConfirmarContraseña.Location = New Point(24, 195)
+        lblConfirmarContraseña.Location = New Point(19, 195)
         lblConfirmarContraseña.Margin = New Padding(4, 0, 4, 0)
         lblConfirmarContraseña.Name = "lblConfirmarContraseña"
         lblConfirmarContraseña.Size = New Size(212, 34)
@@ -274,10 +274,10 @@ Partial Class frmCambiarContraseña
         ' 
         srp3CambiarContraseña.BackColor = Color.Transparent
         srp3CambiarContraseña.BackgroundImageLayout = ImageLayout.None
-        srp3CambiarContraseña.Location = New Point(27, 173)
+        srp3CambiarContraseña.Location = New Point(25, 173)
         srp3CambiarContraseña.Margin = New Padding(0, 0, 0, 20)
         srp3CambiarContraseña.Name = "srp3CambiarContraseña"
-        srp3CambiarContraseña.Size = New Size(345, 13)
+        srp3CambiarContraseña.Size = New Size(321, 13)
         srp3CambiarContraseña.TabIndex = 49
         ' 
         ' frmCambiarContraseña
@@ -312,7 +312,7 @@ Partial Class frmCambiarContraseña
     Friend WithEvents tbxContraseñaActual As TextBox
     Friend WithEvents spr2CambiarContraseña As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents pnlTopCambiarContraseña As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents btnRegresarCambiarContraseña As Button
     Friend WithEvents lblCambiarContraseña As Label
     Friend WithEvents pnlPreferenciasAplicacion As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
 End Class

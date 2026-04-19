@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="Panel1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Guna2PictureBox4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAATIAAAClCAIAAABQsObdAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAA/7JJREFUeF7kvQdcU+na7s2emT0z6liR3nvvvffeu4iAgmJBKSKCiBVEQKpUadJ7
+        vgAADr4B6kKxwAAA/7JJREFUeF7kvQdcU+na7s2emT0z6liR3nvvvffeu4iAgmJBKSKCiBVEQKpUadJ7
         773XQAq9hRJC7yBYRmf73SEOr68zs89+93nP+b7vnPW75pmVlUiSlef/XNe91pMVkpWlZaKWF5eIWlpY
         BC3OLyzg50Hzc3g8bm5uFkfUzDR2emoShJ0cn5wYmxgfHR8bAY2NDh9qdGSIqJHhwfGh/rFBDGikHzWM
         QQ6h+wZRvSA0ogvZ3dHT3tLR3NDWWAdqb6pvb25AYnr6+hHogV7MYN/gEGp4BDM6ih4bw2DHMROjqPHh
@@ -2120,7 +2123,7 @@
   <data name="Guna2PictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAIAAAC+MS2jAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAA/7JJREFUeF60/QV4FNna7g83xD1pd3fvTsfd3V077u4JSSAGBAgJDsHdg7trsBBC
+        vgAADr4B6kKxwAAA/7JJREFUeF60/QV4FNna7g83xD1pd3fvTsfd3V077u4JSSAGBAgJDsHdg7trsBBC
         lAiQYAMze7a8duT/nf/3VJo9e7a958z7fWeu56qprq4OLeu37vteVbUKtdQM/Q9riamNrn7ZomeOQVng
         l2A5S/ACfYJwKZqFMiegTJCnjCyxhmY2+khhlprjlprjURZElAUZysCcbmBOhVpqRYRCWRNQNjikrLAo
         E+ulWCbKGLazLUgqhsjXnCDTt6AaWBENbQhGaKIJmmSKIZthSeY4shkGb4rGmdvgLNB4axwRS6KSaEwG
@@ -4002,7 +4005,7 @@
   <data name="Guna2PictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAIAAADVSURYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAA/7JJREFUeF6k/QV4I3mWJnrLzMwkyyLLFhgkmS2zZWZmZmZmZmZMO5k5Kxkqq7Ko
+        vgAADr4B6kKxwAAA/7JJREFUeF6k/QV4I3mWJnrLzMwkyyLLFhgkmS2zZWZmZmZmZmZMO5k5Kxkqq7Ko
         q5qnB3Zgd2f2Ls3u7Ozd2bvfPn3f0D9L487M6jvPftVvxxMOyU6nU78450SEwrTSskKkrLwIKa8orqgs
         qawq/eng0aLK6oKKqnyS8so8ktLyHKSkLBspLs0qKsksLM5ACopSkfzCFCSvIFkZfJidm5CaHhWfGBoT
         FxQdK4uND45NDImJD5fHhyGRcaERsSHhMcFIWHQQ2RiVEE4SnRhBEhMbhsTGhccnRCanxGRmJeXlpxcV
@@ -5966,7 +5969,7 @@
   <data name="Guna2PictureBox6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAATIAAAClCAIAAABQsObdAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAA/7JJREFUeF503AVUW4m7LvzM1B1KcXe34MEtOIRA3BMI7u7u7u7u7u4OhZbSlkIF
+        vgAADr4B6kKxwAAA/7JJREFUeF503AVUW4m7LvzM1B1KcXe34MEtOIRA3BMI7u7u7u7u7u4OhZbSlkIF
         6t7pdDrttPk203PO/X933dP1rL32QKYLkvz2874hBcTOp8klqMMmoHmNW+U8u5yWtUNEfmNoQaN/fo1n
         bqVLToljbrFLYZlHZW1gc0t4R09EQ09i21hEbW9C62ha92zO4HL53G0FlLMi1l3TIVDHKUwJ7w0meEsj
         XXRdIxL65mpvH9gm5Qgi6VreiRCXuOtqthL6KBTNx8rSVl1JAYO0qayrGN+52Xf/Yd3dZ3reifK6ZG4+
@@ -8258,7 +8261,7 @@
   <data name="Guna2PictureBox5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAIAAACx0UUtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAA/7JJREFUeF6c/QV4FVfX/w+fJMfd3d2TE3d3T5AgCe7uXtyLu7uXAi3Q0lKnTgu0
+        vgAADr4B6kKxwAAA/7JJREFUeF6c/QV4FVfX/w+fJMfd3d2TE3d3T5AgCe7uXtyLu7uXAi3Q0lKnTgu0
         tLgFgger9zb+3zmb5uah7fN73jfXuubas8+cyczen/1da+2RQzM43GyxjBbByC0qO/DaG++9//HxL0/N
         mb2AQWMxI9gyjtShs8e7Y0OOaLPMwKdxVSKtXKgWc+UCloTDFFHGFnM5Eh5XyufJ+Hw5kykUi9VCoZLN
         k/piElvVdbG4Y5g8iVylN5vsSqlMzudaVbLMaG99Se6oTq3H1FfP7t8wtn1puo7r4tF8arlOJJKxOEqB

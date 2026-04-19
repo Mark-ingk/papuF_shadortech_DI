@@ -22,4 +22,12 @@
         pantallaInicio.Show()
         Me.Hide()
     End Sub
+
+    Private Sub pbPasos_ValueChanged(sender As Object, e As EventArgs) Handles pbPasos.ValueChanged
+
+    End Sub
+
+    Private Sub pnlInicio_Paint(sender As Object, e As PaintEventArgs) Handles pnlInicio.Paint
+
+    End Sub
 End Class

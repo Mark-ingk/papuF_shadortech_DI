@@ -22,4 +22,8 @@
     Private Sub pnlTopinicio_Paint(sender As Object, e As PaintEventArgs) Handles pnlTopinicio.Paint
 
     End Sub
+
+    Private Sub btnCerrarSesionAjustes_Click(sender As Object, e As EventArgs) Handles btnCerrarSesionAjustes.Click
+
+    End Sub
 End Class

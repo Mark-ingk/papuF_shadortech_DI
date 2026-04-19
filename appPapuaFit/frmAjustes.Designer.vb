@@ -37,7 +37,6 @@ Partial Class frmAjustes
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlAjustes = New Panel()
-        icnFuegonav = New FontAwesome.Sharp.IconPictureBox()
         Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         pnlConfiguracionCuenta = New Guna.UI2.WinForms.Guna2Panel()
         lblConfiguracionCuentaAjustes = New Label()
@@ -60,20 +59,22 @@ Partial Class frmAjustes
         tbxUltimaActualizacionAjustes = New TextBox()
         spr3 = New Guna.UI2.WinForms.Guna2Separator()
         pnlTopinicio = New Guna.UI2.WinForms.Guna2Panel()
+        icnFuegonav = New FontAwesome.Sharp.IconPictureBox()
         btnRango = New FontAwesome.Sharp.IconButton()
         IconButton1 = New FontAwesome.Sharp.IconButton()
         lblAjustes = New Label()
         pnlAjustes.SuspendLayout()
-        CType(icnFuegonav, ComponentModel.ISupportInitialize).BeginInit()
         pnlConfiguracionCuenta.SuspendLayout()
         pnlPreferenciasAplicacion.SuspendLayout()
         CType(IconPictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         pnlInformacionSistema.SuspendLayout()
         pnlTopinicio.SuspendLayout()
+        CType(icnFuegonav, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' pnlAjustes
         ' 
+        pnlAjustes.Controls.Add(icnFuegonav)
         pnlAjustes.Controls.Add(Guna2Button2)
         pnlAjustes.Controls.Add(pnlConfiguracionCuenta)
         pnlAjustes.Controls.Add(pnlPreferenciasAplicacion)
@@ -86,21 +87,6 @@ Partial Class frmAjustes
         pnlAjustes.Padding = New Padding(0, 0, 0, 40)
         pnlAjustes.Size = New Size(390, 844)
         pnlAjustes.TabIndex = 0
-        ' 
-        ' icnFuegonav
-        ' 
-        icnFuegonav.BackColor = Color.FromArgb(CByte(34), CByte(34), CByte(34))
-        icnFuegonav.BackgroundImageLayout = ImageLayout.None
-        icnFuegonav.ForeColor = Color.Red
-        icnFuegonav.IconChar = FontAwesome.Sharp.IconChar.SignOut
-        icnFuegonav.IconColor = Color.Red
-        icnFuegonav.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icnFuegonav.IconSize = 25
-        icnFuegonav.Location = New Point(251, 50)
-        icnFuegonav.Name = "icnFuegonav"
-        icnFuegonav.Size = New Size(25, 25)
-        icnFuegonav.TabIndex = 81
-        icnFuegonav.TabStop = False
         ' 
         ' Guna2Button2
         ' 
@@ -249,7 +235,7 @@ Partial Class frmAjustes
         btnCerrarSesionAjustes.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         btnCerrarSesionAjustes.Size = New Size(159, 64)
         btnCerrarSesionAjustes.TabIndex = 61
-        btnCerrarSesionAjustes.Text = "Cerrar Sesion"
+        btnCerrarSesionAjustes.Text = "Limpiar Cache"
         ' 
         ' cbxNotifiacionesActivdadasAjustes
         ' 
@@ -432,7 +418,6 @@ Partial Class frmAjustes
         ' pnlTopinicio
         ' 
         pnlTopinicio.BorderRadius = 40
-        pnlTopinicio.Controls.Add(icnFuegonav)
         pnlTopinicio.Controls.Add(btnRango)
         pnlTopinicio.Controls.Add(IconButton1)
         pnlTopinicio.Controls.Add(lblAjustes)
@@ -447,6 +432,21 @@ Partial Class frmAjustes
         pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         pnlTopinicio.Size = New Size(390, 100)
         pnlTopinicio.TabIndex = 62
+        ' 
+        ' icnFuegonav
+        ' 
+        icnFuegonav.BackColor = Color.FromArgb(CByte(34), CByte(34), CByte(34))
+        icnFuegonav.BackgroundImageLayout = ImageLayout.None
+        icnFuegonav.ForeColor = Color.Red
+        icnFuegonav.IconChar = FontAwesome.Sharp.IconChar.SignOut
+        icnFuegonav.IconColor = Color.Red
+        icnFuegonav.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icnFuegonav.IconSize = 25
+        icnFuegonav.Location = New Point(120, 767)
+        icnFuegonav.Name = "icnFuegonav"
+        icnFuegonav.Size = New Size(25, 25)
+        icnFuegonav.TabIndex = 81
+        icnFuegonav.TabStop = False
         ' 
         ' btnRango
         ' 
@@ -505,7 +505,6 @@ Partial Class frmAjustes
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form2"
         pnlAjustes.ResumeLayout(False)
-        CType(icnFuegonav, ComponentModel.ISupportInitialize).EndInit()
         pnlConfiguracionCuenta.ResumeLayout(False)
         pnlConfiguracionCuenta.PerformLayout()
         pnlPreferenciasAplicacion.ResumeLayout(False)
@@ -513,6 +512,7 @@ Partial Class frmAjustes
         pnlInformacionSistema.ResumeLayout(False)
         pnlInformacionSistema.PerformLayout()
         pnlTopinicio.ResumeLayout(False)
+        CType(icnFuegonav, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 

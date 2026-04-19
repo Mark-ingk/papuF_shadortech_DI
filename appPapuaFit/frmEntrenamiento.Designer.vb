@@ -22,25 +22,25 @@ Partial Class frmEntrenamiento
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlEntrenamientos = New Panel()
         pnlNavI = New Guna.UI2.WinForms.Guna2Panel()
         btnPerfil = New FontAwesome.Sharp.IconButton()
@@ -157,15 +157,15 @@ Partial Class frmEntrenamiento
         pnlNavI.Controls.Add(btnQr)
         pnlNavI.Controls.Add(btnAgregar)
         pnlNavI.Controls.Add(btnHome)
-        CustomizableEdges2.BottomLeft = False
-        CustomizableEdges2.BottomRight = False
-        pnlNavI.CustomizableEdges = CustomizableEdges2
+        CustomizableEdges21.BottomLeft = False
+        CustomizableEdges21.BottomRight = False
+        pnlNavI.CustomizableEdges = CustomizableEdges21
         pnlNavI.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         pnlNavI.Location = New Point(0, 756)
         pnlNavI.Margin = New Padding(0, 0, 0, 10)
         pnlNavI.Name = "pnlNavI"
         pnlNavI.Padding = New Padding(25, 25, 25, 10)
-        pnlNavI.ShadowDecoration.CustomizableEdges = CustomizableEdges3
+        pnlNavI.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         pnlNavI.Size = New Size(390, 88)
         pnlNavI.TabIndex = 116
         ' 
@@ -240,7 +240,7 @@ Partial Class frmEntrenamiento
         btnAgregar.ForeColor = Color.Black
         btnAgregar.Location = New Point(155, 5)
         btnAgregar.Name = "btnAgregar"
-        btnAgregar.ShadowDecoration.CustomizableEdges = CustomizableEdges1
+        btnAgregar.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         btnAgregar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         btnAgregar.Size = New Size(80, 80)
         btnAgregar.TabIndex = 12
@@ -285,7 +285,7 @@ Partial Class frmEntrenamiento
         ' 
         btnProgreso.BorderRadius = 25
         btnProgreso.Cursor = Cursors.Hand
-        btnProgreso.CustomizableEdges = CustomizableEdges4
+        btnProgreso.CustomizableEdges = CustomizableEdges23
         btnProgreso.DisabledState.BorderColor = Color.DarkGray
         btnProgreso.DisabledState.CustomBorderColor = Color.DarkGray
         btnProgreso.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -297,7 +297,7 @@ Partial Class frmEntrenamiento
         btnProgreso.Margin = New Padding(10, 0, 10, 10)
         btnProgreso.Name = "btnProgreso"
         btnProgreso.Padding = New Padding(10)
-        btnProgreso.ShadowDecoration.CustomizableEdges = CustomizableEdges5
+        btnProgreso.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         btnProgreso.Size = New Size(182, 174)
         btnProgreso.TabIndex = 114
         btnProgreso.Text = "Progreso"
@@ -366,7 +366,7 @@ Partial Class frmEntrenamiento
         ' 
         ' icnFuego
         ' 
-        icnFuego.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        icnFuego.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
         icnFuego.BackgroundImageLayout = ImageLayout.None
         icnFuego.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icnFuego.IconChar = FontAwesome.Sharp.IconChar.Fire
@@ -381,7 +381,7 @@ Partial Class frmEntrenamiento
         ' 
         ' iclTiempo
         ' 
-        iclTiempo.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        iclTiempo.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
         iclTiempo.BackgroundImageLayout = ImageLayout.None
         iclTiempo.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         iclTiempo.IconChar = FontAwesome.Sharp.IconChar.Hourglass2
@@ -407,7 +407,7 @@ Partial Class frmEntrenamiento
         ' 
         ' iclPerfil
         ' 
-        iclPerfil.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        iclPerfil.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
         iclPerfil.BackgroundImageLayout = ImageLayout.None
         iclPerfil.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         iclPerfil.IconChar = FontAwesome.Sharp.IconChar.UserCircle
@@ -450,7 +450,7 @@ Partial Class frmEntrenamiento
         btnRutinaCardio.Animated = True
         btnRutinaCardio.BorderRadius = 25
         btnRutinaCardio.Cursor = Cursors.Hand
-        btnRutinaCardio.CustomizableEdges = CustomizableEdges6
+        btnRutinaCardio.CustomizableEdges = CustomizableEdges25
         btnRutinaCardio.DisabledState.BorderColor = Color.DarkGray
         btnRutinaCardio.DisabledState.CustomBorderColor = Color.DarkGray
         btnRutinaCardio.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -461,7 +461,7 @@ Partial Class frmEntrenamiento
         btnRutinaCardio.Location = New Point(12, 611)
         btnRutinaCardio.Name = "btnRutinaCardio"
         btnRutinaCardio.Padding = New Padding(10)
-        btnRutinaCardio.ShadowDecoration.CustomizableEdges = CustomizableEdges7
+        btnRutinaCardio.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         btnRutinaCardio.Size = New Size(366, 126)
         btnRutinaCardio.TabIndex = 103
         ' 
@@ -513,7 +513,7 @@ Partial Class frmEntrenamiento
         ' 
         ' icnFuego1
         ' 
-        icnFuego1.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        icnFuego1.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
         icnFuego1.BackgroundImageLayout = ImageLayout.None
         icnFuego1.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icnFuego1.IconChar = FontAwesome.Sharp.IconChar.Fire
@@ -528,7 +528,7 @@ Partial Class frmEntrenamiento
         ' 
         ' icnTiempo1
         ' 
-        icnTiempo1.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        icnTiempo1.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
         icnTiempo1.BackgroundImageLayout = ImageLayout.None
         icnTiempo1.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icnTiempo1.IconChar = FontAwesome.Sharp.IconChar.Hourglass2
@@ -554,7 +554,7 @@ Partial Class frmEntrenamiento
         ' 
         ' icnPerfil1
         ' 
-        icnPerfil1.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        icnPerfil1.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
         icnPerfil1.BackgroundImageLayout = ImageLayout.None
         icnPerfil1.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         icnPerfil1.IconChar = FontAwesome.Sharp.IconChar.UserCircle
@@ -608,7 +608,7 @@ Partial Class frmEntrenamiento
         ' btnDuracion
         ' 
         btnDuracion.BorderRadius = 25
-        btnDuracion.CustomizableEdges = CustomizableEdges8
+        btnDuracion.CustomizableEdges = CustomizableEdges27
         btnDuracion.DisabledState.BorderColor = Color.DarkGray
         btnDuracion.DisabledState.CustomBorderColor = Color.DarkGray
         btnDuracion.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -620,7 +620,7 @@ Partial Class frmEntrenamiento
         btnDuracion.Margin = New Padding(10, 0, 10, 10)
         btnDuracion.Name = "btnDuracion"
         btnDuracion.Padding = New Padding(10)
-        btnDuracion.ShadowDecoration.CustomizableEdges = CustomizableEdges9
+        btnDuracion.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         btnDuracion.Size = New Size(179, 127)
         btnDuracion.TabIndex = 89
         btnDuracion.Text = "Duracion"
@@ -672,7 +672,7 @@ Partial Class frmEntrenamiento
         ' 
         btnCalorias.BorderRadius = 25
         btnCalorias.Cursor = Cursors.Hand
-        btnCalorias.CustomizableEdges = CustomizableEdges10
+        btnCalorias.CustomizableEdges = CustomizableEdges29
         btnCalorias.DisabledState.BorderColor = Color.DarkGray
         btnCalorias.DisabledState.CustomBorderColor = Color.DarkGray
         btnCalorias.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -684,7 +684,7 @@ Partial Class frmEntrenamiento
         btnCalorias.Margin = New Padding(10, 0, 10, 10)
         btnCalorias.Name = "btnCalorias"
         btnCalorias.Padding = New Padding(10)
-        btnCalorias.ShadowDecoration.CustomizableEdges = CustomizableEdges11
+        btnCalorias.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         btnCalorias.Size = New Size(179, 135)
         btnCalorias.TabIndex = 79
         btnCalorias.Text = "Calorias"
@@ -695,7 +695,7 @@ Partial Class frmEntrenamiento
         btnHistorias1.Animated = True
         btnHistorias1.BorderRadius = 25
         btnHistorias1.Cursor = Cursors.Hand
-        btnHistorias1.CustomizableEdges = CustomizableEdges12
+        btnHistorias1.CustomizableEdges = CustomizableEdges31
         btnHistorias1.DisabledState.BorderColor = Color.DarkGray
         btnHistorias1.DisabledState.CustomBorderColor = Color.DarkGray
         btnHistorias1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -706,7 +706,7 @@ Partial Class frmEntrenamiento
         btnHistorias1.Location = New Point(12, 467)
         btnHistorias1.Name = "btnHistorias1"
         btnHistorias1.Padding = New Padding(10)
-        btnHistorias1.ShadowDecoration.CustomizableEdges = CustomizableEdges13
+        btnHistorias1.ShadowDecoration.CustomizableEdges = CustomizableEdges32
         btnHistorias1.Size = New Size(366, 126)
         btnHistorias1.TabIndex = 78
         ' 
@@ -729,7 +729,7 @@ Partial Class frmEntrenamiento
         btnINS.Animated = True
         btnINS.BorderRadius = 25
         btnINS.Cursor = Cursors.Hand
-        btnINS.CustomizableEdges = CustomizableEdges14
+        btnINS.CustomizableEdges = CustomizableEdges33
         btnINS.DisabledState.BorderColor = Color.DarkGray
         btnINS.DisabledState.CustomBorderColor = Color.DarkGray
         btnINS.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -740,7 +740,7 @@ Partial Class frmEntrenamiento
         btnINS.Location = New Point(12, 371)
         btnINS.Margin = New Padding(0, 10, 0, 30)
         btnINS.Name = "btnINS"
-        btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges15
+        btnINS.ShadowDecoration.CustomizableEdges = CustomizableEdges34
         btnINS.Size = New Size(366, 48)
         btnINS.TabIndex = 76
         btnINS.Text = "Iniciar nueva rutina"
@@ -748,7 +748,7 @@ Partial Class frmEntrenamiento
         ' btnHistorial
         ' 
         btnHistorial.BorderRadius = 25
-        btnHistorial.CustomizableEdges = CustomizableEdges16
+        btnHistorial.CustomizableEdges = CustomizableEdges35
         btnHistorial.DisabledState.BorderColor = Color.DarkGray
         btnHistorial.DisabledState.CustomBorderColor = Color.DarkGray
         btnHistorial.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -760,7 +760,7 @@ Partial Class frmEntrenamiento
         btnHistorial.Margin = New Padding(10, 0, 10, 10)
         btnHistorial.Name = "btnHistorial"
         btnHistorial.Padding = New Padding(10)
-        btnHistorial.ShadowDecoration.CustomizableEdges = CustomizableEdges17
+        btnHistorial.ShadowDecoration.CustomizableEdges = CustomizableEdges36
         btnHistorial.Size = New Size(182, 88)
         btnHistorial.TabIndex = 66
         btnHistorial.Text = "Historial"
@@ -771,15 +771,15 @@ Partial Class frmEntrenamiento
         pnlTopinicio.BorderRadius = 40
         pnlTopinicio.Controls.Add(btnRegresar)
         pnlTopinicio.Controls.Add(lblAjustes)
-        CustomizableEdges18.TopLeft = False
-        CustomizableEdges18.TopRight = False
-        pnlTopinicio.CustomizableEdges = CustomizableEdges18
+        CustomizableEdges37.TopLeft = False
+        CustomizableEdges37.TopRight = False
+        pnlTopinicio.CustomizableEdges = CustomizableEdges37
         pnlTopinicio.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         pnlTopinicio.Location = New Point(0, 0)
         pnlTopinicio.Margin = New Padding(0, 0, 0, 15)
         pnlTopinicio.Name = "pnlTopinicio"
         pnlTopinicio.Padding = New Padding(25, 25, 25, 10)
-        pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges19
+        pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         pnlTopinicio.Size = New Size(390, 77)
         pnlTopinicio.TabIndex = 63
         ' 

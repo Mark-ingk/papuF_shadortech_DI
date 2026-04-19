@@ -156,8 +156,9 @@ Partial Class frmRegistro
         ' icnInstragram
         ' 
         icnInstragram.Anchor = AnchorStyles.Bottom
-        icnInstragram.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icnInstragram.BackColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icnInstragram.Cursor = Cursors.Hand
+        icnInstragram.FlatAppearance.BorderColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icnInstragram.FlatStyle = FlatStyle.Flat
         icnInstragram.ForeColor = Color.Black
         icnInstragram.IconChar = FontAwesome.Sharp.IconChar.Instagram
@@ -173,8 +174,9 @@ Partial Class frmRegistro
         ' icnFb
         ' 
         icnFb.Anchor = AnchorStyles.Bottom
-        icnFb.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icnFb.BackColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icnFb.Cursor = Cursors.Hand
+        icnFb.FlatAppearance.BorderColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icnFb.FlatStyle = FlatStyle.Flat
         icnFb.ForeColor = Color.Black
         icnFb.IconChar = FontAwesome.Sharp.IconChar.FacebookF
@@ -190,8 +192,9 @@ Partial Class frmRegistro
         ' icnGoogle
         ' 
         icnGoogle.Anchor = AnchorStyles.Bottom
-        icnGoogle.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icnGoogle.BackColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icnGoogle.Cursor = Cursors.Hand
+        icnGoogle.FlatAppearance.BorderColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icnGoogle.FlatStyle = FlatStyle.Flat
         icnGoogle.ForeColor = Color.Black
         icnGoogle.IconChar = FontAwesome.Sharp.IconChar.Google

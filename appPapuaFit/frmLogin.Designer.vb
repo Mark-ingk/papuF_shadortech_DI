@@ -245,8 +245,9 @@ Partial Class frmLogin
         ' icbtnInstagram
         ' 
         icbtnInstagram.Anchor = AnchorStyles.Bottom
-        icbtnInstagram.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icbtnInstagram.BackColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icbtnInstagram.Cursor = Cursors.Hand
+        icbtnInstagram.FlatAppearance.BorderColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icbtnInstagram.FlatStyle = FlatStyle.Flat
         icbtnInstagram.ForeColor = Color.Black
         icbtnInstagram.IconChar = FontAwesome.Sharp.IconChar.Instagram
@@ -262,8 +263,9 @@ Partial Class frmLogin
         ' icbtnFacebook
         ' 
         icbtnFacebook.Anchor = AnchorStyles.Bottom
-        icbtnFacebook.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icbtnFacebook.BackColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icbtnFacebook.Cursor = Cursors.Hand
+        icbtnFacebook.FlatAppearance.BorderColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icbtnFacebook.FlatStyle = FlatStyle.Flat
         icbtnFacebook.ForeColor = Color.Black
         icbtnFacebook.IconChar = FontAwesome.Sharp.IconChar.FacebookF
@@ -279,8 +281,9 @@ Partial Class frmLogin
         ' icbtnGoogle
         ' 
         icbtnGoogle.Anchor = AnchorStyles.Bottom
-        icbtnGoogle.BackColor = Color.FromArgb(CByte(15), CByte(15), CByte(15))
+        icbtnGoogle.BackColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icbtnGoogle.Cursor = Cursors.Hand
+        icbtnGoogle.FlatAppearance.BorderColor = Color.FromArgb(CByte(13), CByte(13), CByte(13))
         icbtnGoogle.FlatStyle = FlatStyle.Flat
         icbtnGoogle.ForeColor = Color.Black
         icbtnGoogle.IconChar = FontAwesome.Sharp.IconChar.Google

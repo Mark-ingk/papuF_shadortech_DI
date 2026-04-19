@@ -141,32 +141,32 @@ Partial Class frmInicio
         pnlTopinicio.Name = "pnlTopinicio"
         pnlTopinicio.Padding = New Padding(25, 25, 25, 10)
         pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges3
-        pnlTopinicio.Size = New Size(390, 115)
+        pnlTopinicio.Size = New Size(390, 101)
         pnlTopinicio.TabIndex = 4
         ' 
         ' lblSub
         ' 
         lblSub.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         lblSub.BackColor = Color.Transparent
+        lblSub.Font = New Font("Segoe UI", 12F)
         lblSub.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
         lblSub.IsSelectionEnabled = False
-        lblSub.Location = New Point(97, 61)
+        lblSub.Location = New Point(106, 53)
         lblSub.Name = "lblSub"
-        lblSub.Size = New Size(108, 17)
+        lblSub.Size = New Size(80, 23)
         lblSub.TabIndex = 5
-        lblSub.Text = "Comencemos el dia"
+        lblSub.Text = "Bienvenido"
         ' 
         ' lblSaludo
         ' 
         lblSaludo.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
-        lblSaludo.AutoSize = False
         lblSaludo.BackColor = Color.Transparent
-        lblSaludo.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblSaludo.Font = New Font("Segoe UI Semibold", 16F, FontStyle.Bold)
         lblSaludo.ForeColor = Color.White
         lblSaludo.IsSelectionEnabled = False
-        lblSaludo.Location = New Point(98, 28)
+        lblSaludo.Location = New Point(106, 16)
         lblSaludo.Name = "lblSaludo"
-        lblSaludo.Size = New Size(105, 27)
+        lblSaludo.Size = New Size(115, 32)
         lblSaludo.TabIndex = 4
         lblSaludo.Text = "Hola Mario!"
         ' 
@@ -176,7 +176,7 @@ Partial Class frmInicio
         picAvatar.BackgroundImageLayout = ImageLayout.Stretch
         picAvatar.Image = My.Resources.Resources.images__1_
         picAvatar.ImageRotate = 0F
-        picAvatar.Location = New Point(28, 25)
+        picAvatar.Location = New Point(14, 16)
         picAvatar.Margin = New Padding(25, 25, 4, 10)
         picAvatar.Name = "picAvatar"
         picAvatar.ShadowDecoration.CustomizableEdges = CustomizableEdges1
@@ -190,14 +190,15 @@ Partial Class frmInicio
         ' 
         btnRango.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnRango.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnRango.Cursor = Cursors.Hand
         btnRango.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnRango.FlatStyle = FlatStyle.Flat
         btnRango.IconChar = FontAwesome.Sharp.IconChar.Trophy
         btnRango.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnRango.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnRango.Location = New Point(322, 38)
+        btnRango.Location = New Point(331, 31)
         btnRango.Name = "btnRango"
-        btnRango.Size = New Size(40, 40)
+        btnRango.Size = New Size(45, 45)
         btnRango.TabIndex = 3
         btnRango.UseVisualStyleBackColor = False
         ' 
@@ -239,6 +240,7 @@ Partial Class frmInicio
         ' 
         btnPerfil.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnPerfil.BackColor = Color.Transparent
+        btnPerfil.Cursor = Cursors.Hand
         btnPerfil.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnPerfil.FlatAppearance.BorderSize = 0
         btnPerfil.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
@@ -247,7 +249,7 @@ Partial Class frmInicio
         btnPerfil.IconChar = FontAwesome.Sharp.IconChar.User
         btnPerfil.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
         btnPerfil.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnPerfil.Location = New Point(314, 23)
+        btnPerfil.Location = New Point(313, 19)
         btnPerfil.Name = "btnPerfil"
         btnPerfil.Size = New Size(48, 53)
         btnPerfil.TabIndex = 15
@@ -257,6 +259,7 @@ Partial Class frmInicio
         ' 
         btnRutinas.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnRutinas.BackColor = Color.Transparent
+        btnRutinas.Cursor = Cursors.Hand
         btnRutinas.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnRutinas.FlatAppearance.BorderSize = 0
         btnRutinas.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
@@ -265,7 +268,7 @@ Partial Class frmInicio
         btnRutinas.IconChar = FontAwesome.Sharp.IconChar.WeightHanging
         btnRutinas.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
         btnRutinas.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnRutinas.Location = New Point(249, 23)
+        btnRutinas.Location = New Point(250, 19)
         btnRutinas.Name = "btnRutinas"
         btnRutinas.Size = New Size(48, 53)
         btnRutinas.TabIndex = 14
@@ -275,6 +278,7 @@ Partial Class frmInicio
         ' 
         btnQr.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnQr.BackColor = Color.Transparent
+        btnQr.Cursor = Cursors.Hand
         btnQr.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnQr.FlatAppearance.BorderSize = 0
         btnQr.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
@@ -283,7 +287,7 @@ Partial Class frmInicio
         btnQr.IconChar = FontAwesome.Sharp.IconChar.Qrcode
         btnQr.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
         btnQr.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnQr.Location = New Point(91, 23)
+        btnQr.Location = New Point(92, 19)
         btnQr.Name = "btnQr"
         btnQr.Size = New Size(48, 53)
         btnQr.TabIndex = 13
@@ -294,6 +298,7 @@ Partial Class frmInicio
         btnAgregar.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnAgregar.BackgroundImageLayout = ImageLayout.Stretch
         btnAgregar.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        btnAgregar.Cursor = Cursors.Hand
         btnAgregar.DisabledState.BorderColor = Color.DarkGray
         btnAgregar.DisabledState.CustomBorderColor = Color.DarkGray
         btnAgregar.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -301,7 +306,7 @@ Partial Class frmInicio
         btnAgregar.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnAgregar.Font = New Font("Segoe UI Semibold", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnAgregar.ForeColor = Color.Black
-        btnAgregar.Location = New Point(154, 8)
+        btnAgregar.Location = New Point(155, 5)
         btnAgregar.Name = "btnAgregar"
         btnAgregar.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         btnAgregar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
@@ -314,6 +319,7 @@ Partial Class frmInicio
         ' 
         btnHome.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         btnHome.BackColor = Color.Transparent
+        btnHome.Cursor = Cursors.Hand
         btnHome.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         btnHome.FlatAppearance.BorderSize = 0
         btnHome.FlatAppearance.MouseDownBackColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
@@ -322,7 +328,7 @@ Partial Class frmInicio
         btnHome.IconChar = FontAwesome.Sharp.IconChar.HomeLg
         btnHome.IconColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
         btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnHome.Location = New Point(28, 22)
+        btnHome.Location = New Point(29, 19)
         btnHome.Name = "btnHome"
         btnHome.Size = New Size(48, 53)
         btnHome.TabIndex = 8
@@ -346,7 +352,7 @@ Partial Class frmInicio
         pnlAct.Controls.Add(lblAct)
         pnlAct.CustomizableEdges = CustomizableEdges10
         pnlAct.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlAct.Location = New Point(14, 270)
+        pnlAct.Location = New Point(14, 256)
         pnlAct.Margin = New Padding(5, 0, 5, 10)
         pnlAct.Name = "pnlAct"
         pnlAct.Padding = New Padding(20, 15, 20, 15)
@@ -419,114 +425,115 @@ Partial Class frmInicio
         ' lblDcal
         ' 
         lblDcal.BackColor = Color.Transparent
-        lblDcal.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblDcal.Font = New Font("Segoe UI", 16F)
         lblDcal.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        lblDcal.Location = New Point(65, 161)
+        lblDcal.Location = New Point(68, 153)
         lblDcal.Name = "lblDcal"
-        lblDcal.Size = New Size(55, 19)
+        lblDcal.Size = New Size(85, 32)
         lblDcal.TabIndex = 24
         lblDcal.Text = "/   650 Cal"
         ' 
         ' lblMcal
         ' 
         lblMcal.BackColor = Color.Transparent
-        lblMcal.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblMcal.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         lblMcal.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         lblMcal.Location = New Point(23, 153)
         lblMcal.Name = "lblMcal"
-        lblMcal.Size = New Size(36, 27)
+        lblMcal.Size = New Size(39, 32)
         lblMcal.TabIndex = 23
         lblMcal.Text = "400"
         ' 
         ' lblDpaso
         ' 
         lblDpaso.BackColor = Color.Transparent
-        lblDpaso.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblDpaso.Font = New Font("Segoe UI", 16F)
         lblDpaso.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        lblDpaso.Location = New Point(92, 99)
+        lblDpaso.Location = New Point(92, 88)
         lblDpaso.Name = "lblDpaso"
-        lblDpaso.Size = New Size(62, 23)
+        lblDpaso.Size = New Size(78, 32)
         lblDpaso.TabIndex = 22
         lblDpaso.Text = "/   18 000"
         ' 
         ' lblMpaso
         ' 
         lblMpaso.BackColor = Color.Transparent
-        lblMpaso.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblMpaso.Font = New Font("Segoe UI Semibold", 16F, FontStyle.Bold)
         lblMpaso.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         lblMpaso.Location = New Point(23, 88)
         lblMpaso.Name = "lblMpaso"
-        lblMpaso.Size = New Size(70, 34)
+        lblMpaso.Size = New Size(61, 32)
         lblMpaso.TabIndex = 21
         lblMpaso.Text = "11 340"
         ' 
         ' lblDagua
         ' 
         lblDagua.BackColor = Color.Transparent
-        lblDagua.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblDagua.Font = New Font("Segoe UI", 16F)
         lblDagua.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        lblDagua.Location = New Point(54, 218)
+        lblDagua.Location = New Point(62, 212)
         lblDagua.Name = "lblDagua"
-        lblDagua.Size = New Size(35, 17)
+        lblDagua.Size = New Size(60, 32)
         lblDagua.TabIndex = 20
         lblDagua.Text = "/   2.5 L"
         ' 
         ' lblMagua
         ' 
         lblMagua.BackColor = Color.Transparent
-        lblMagua.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblMagua.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         lblMagua.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         lblMagua.Location = New Point(23, 212)
         lblMagua.Name = "lblMagua"
-        lblMagua.Size = New Size(25, 23)
+        lblMagua.Size = New Size(33, 32)
         lblMagua.TabIndex = 19
         lblMagua.Text = "1.6"
         ' 
         ' lblSubCal
         ' 
         lblSubCal.BackColor = Color.Transparent
-        lblSubCal.Font = New Font("Segoe UI Variable Small", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblSubCal.Font = New Font("Segoe UI Variable Small", 12F)
         lblSubCal.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        lblSubCal.Location = New Point(23, 128)
+        lblSubCal.Location = New Point(23, 126)
         lblSubCal.Name = "lblSubCal"
-        lblSubCal.Size = New Size(50, 19)
+        lblSubCal.Size = New Size(60, 23)
         lblSubCal.TabIndex = 18
         lblSubCal.Text = "Calorias"
         ' 
         ' lblSubAgua
         ' 
         lblSubAgua.BackColor = Color.Transparent
-        lblSubAgua.Font = New Font("Segoe UI Variable Small", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblSubAgua.Font = New Font("Segoe UI Variable Small", 12F)
         lblSubAgua.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
         lblSubAgua.Location = New Point(23, 187)
         lblSubAgua.Name = "lblSubAgua"
-        lblSubAgua.Size = New Size(35, 19)
+        lblSubAgua.Size = New Size(41, 23)
         lblSubAgua.TabIndex = 17
         lblSubAgua.Text = "Agua"
         ' 
         ' lblSubPasos
         ' 
         lblSubPasos.BackColor = Color.Transparent
-        lblSubPasos.Font = New Font("Segoe UI Variable Small", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblSubPasos.Font = New Font("Segoe UI Variable Small", 12F)
         lblSubPasos.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
         lblSubPasos.Location = New Point(23, 63)
         lblSubPasos.Name = "lblSubPasos"
-        lblSubPasos.Size = New Size(37, 19)
+        lblSubPasos.Size = New Size(44, 23)
         lblSubPasos.TabIndex = 16
         lblSubPasos.Text = "Pasos"
         ' 
         ' lklVer
         ' 
         lklVer.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        lklVer.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lklVer.AutoSize = True
+        lklVer.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold)
         lklVer.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         lklVer.LinkBehavior = LinkBehavior.HoverUnderline
         lklVer.LinkColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        lklVer.Location = New Point(267, 33)
+        lklVer.Location = New Point(255, 32)
         lklVer.Margin = New Padding(10, 0, 0, 10)
         lklVer.Name = "lklVer"
         lklVer.Padding = New Padding(10, 0, 0, 0)
-        lklVer.Size = New Size(81, 24)
+        lklVer.Size = New Size(95, 25)
         lklVer.TabIndex = 15
         lklVer.TabStop = True
         lklVer.Text = "Ver todo"
@@ -535,10 +542,10 @@ Partial Class frmInicio
         ' lblAct
         ' 
         lblAct.BackColor = Color.Transparent
-        lblAct.Font = New Font("Segoe UI Variable Small", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblAct.Font = New Font("Segoe UI Variable Small", 16F)
         lblAct.ForeColor = Color.White
         lblAct.IsSelectionEnabled = False
-        lblAct.Location = New Point(20, 27)
+        lblAct.Location = New Point(23, 27)
         lblAct.Name = "lblAct"
         lblAct.Size = New Size(152, 30)
         lblAct.TabIndex = 5
@@ -555,7 +562,7 @@ Partial Class frmInicio
         pnlProgreso.Controls.Add(lblTitulo)
         pnlProgreso.CustomizableEdges = CustomizableEdges14
         pnlProgreso.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlProgreso.Location = New Point(14, 125)
+        pnlProgreso.Location = New Point(14, 111)
         pnlProgreso.Margin = New Padding(5, 0, 5, 10)
         pnlProgreso.Name = "pnlProgreso"
         pnlProgreso.Padding = New Padding(20, 15, 20, 15)
@@ -569,14 +576,14 @@ Partial Class frmInicio
         pbPasos.BorderRadius = 8
         pbPasos.CustomizableEdges = CustomizableEdges12
         pbPasos.FillColor = Color.FromArgb(CByte(58), CByte(58), CByte(58))
-        pbPasos.Location = New Point(178, 97)
+        pbPasos.Location = New Point(188, 72)
         pbPasos.Maximum = 18000
         pbPasos.Name = "pbPasos"
         pbPasos.ProgressBrushMode = Guna.UI2.WinForms.Enums.BrushMode.Solid
         pbPasos.ProgressColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         pbPasos.ProgressColor2 = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         pbPasos.ShadowDecoration.CustomizableEdges = CustomizableEdges13
-        pbPasos.Size = New Size(170, 16)
+        pbPasos.Size = New Size(162, 28)
         pbPasos.TabIndex = 4
         pbPasos.Text = "Guna2ProgressBar1"
         pbPasos.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
@@ -585,43 +592,43 @@ Partial Class frmInicio
         ' lblProgp
         ' 
         lblProgp.BackColor = Color.Transparent
-        lblProgp.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblProgp.Font = New Font("Segoe UI", 14F)
         lblProgp.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        lblProgp.Location = New Point(246, 55)
+        lblProgp.Location = New Point(250, 35)
         lblProgp.Name = "lblProgp"
-        lblProgp.Size = New Size(34, 23)
+        lblProgp.Size = New Size(39, 27)
         lblProgp.TabIndex = 3
         lblProgp.Text = "63%"
         ' 
         ' lblProgPasos
         ' 
         lblProgPasos.BackColor = Color.Transparent
-        lblProgPasos.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblProgPasos.Font = New Font("Segoe UI", 16F)
         lblProgPasos.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        lblProgPasos.Location = New Point(83, 90)
+        lblProgPasos.Location = New Point(92, 68)
         lblProgPasos.Name = "lblProgPasos"
-        lblProgPasos.Size = New Size(62, 23)
+        lblProgPasos.Size = New Size(78, 32)
         lblProgPasos.TabIndex = 2
         lblProgPasos.Text = "/   18 000"
         ' 
         ' lblPasosNum
         ' 
         lblPasosNum.BackColor = Color.Transparent
-        lblPasosNum.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblPasosNum.Font = New Font("Segoe UI Semibold", 16F, FontStyle.Bold)
         lblPasosNum.ForeColor = Color.White
-        lblPasosNum.Location = New Point(14, 79)
+        lblPasosNum.Location = New Point(23, 68)
         lblPasosNum.Name = "lblPasosNum"
-        lblPasosNum.Size = New Size(70, 34)
+        lblPasosNum.Size = New Size(61, 32)
         lblPasosNum.TabIndex = 1
         lblPasosNum.Text = "11 340"
         ' 
         ' lblTitulo
         ' 
         lblTitulo.BackColor = Color.Transparent
-        lblTitulo.Font = New Font("Segoe UI Variable Small", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblTitulo.Font = New Font("Segoe UI Variable Small", 16F)
         lblTitulo.ForeColor = Color.White
         lblTitulo.IsSelectionEnabled = False
-        lblTitulo.Location = New Point(20, 27)
+        lblTitulo.Location = New Point(23, 32)
         lblTitulo.Name = "lblTitulo"
         lblTitulo.Size = New Size(57, 30)
         lblTitulo.TabIndex = 0
@@ -645,7 +652,7 @@ Partial Class frmInicio
         pnlHistorial.Controls.Add(btnTrote)
         pnlHistorial.CustomizableEdges = CustomizableEdges20
         pnlHistorial.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlHistorial.Location = New Point(14, 540)
+        pnlHistorial.Location = New Point(14, 526)
         pnlHistorial.Margin = New Padding(5, 0, 5, 5)
         pnlHistorial.Name = "pnlHistorial"
         pnlHistorial.Padding = New Padding(20, 15, 20, 15)
@@ -657,18 +664,18 @@ Partial Class frmInicio
         ' lblSubTrote
         ' 
         lblSubTrote.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
-        lblSubTrote.Font = New Font("Segoe UI Variable Small", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblSubTrote.Font = New Font("Segoe UI Variable Small", 12F)
         lblSubTrote.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
         lblSubTrote.Location = New Point(90, 178)
         lblSubTrote.Name = "lblSubTrote"
-        lblSubTrote.Size = New Size(93, 19)
+        lblSubTrote.Size = New Size(113, 23)
         lblSubTrote.TabIndex = 31
-        lblSubTrote.Text = "Trotr matutino"
+        lblSubTrote.Text = "Trote matutino"
         ' 
         ' lblDtrote
         ' 
         lblDtrote.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
-        lblDtrote.Font = New Font("Segoe UI Variable Small", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblDtrote.Font = New Font("Segoe UI Variable Small", 16F)
         lblDtrote.ForeColor = Color.White
         lblDtrote.Location = New Point(90, 203)
         lblDtrote.Name = "lblDtrote"
@@ -679,16 +686,17 @@ Partial Class frmInicio
         ' lkbVerTodo
         ' 
         lkbVerTodo.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        lkbVerTodo.AutoSize = True
         lkbVerTodo.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
-        lkbVerTodo.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lkbVerTodo.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
         lkbVerTodo.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         lkbVerTodo.LinkBehavior = LinkBehavior.HoverUnderline
         lkbVerTodo.LinkColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        lkbVerTodo.Location = New Point(246, 209)
+        lkbVerTodo.Location = New Point(238, 212)
         lkbVerTodo.Margin = New Padding(10, 0, 0, 10)
         lkbVerTodo.Name = "lkbVerTodo"
         lkbVerTodo.Padding = New Padding(10, 0, 0, 0)
-        lkbVerTodo.Size = New Size(81, 24)
+        lkbVerTodo.Size = New Size(84, 21)
         lkbVerTodo.TabIndex = 35
         lkbVerTodo.TabStop = True
         lkbVerTodo.Text = "Ver todo"
@@ -711,18 +719,18 @@ Partial Class frmInicio
         ' lblSubPaseo
         ' 
         lblSubPaseo.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
-        lblSubPaseo.Font = New Font("Segoe UI Variable Small", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblSubPaseo.Font = New Font("Segoe UI Variable Small", 12F)
         lblSubPaseo.ForeColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
         lblSubPaseo.Location = New Point(90, 87)
         lblSubPaseo.Name = "lblSubPaseo"
-        lblSubPaseo.Size = New Size(105, 19)
+        lblSubPaseo.Size = New Size(127, 23)
         lblSubPaseo.TabIndex = 26
         lblSubPaseo.Text = "Paseo moderado"
         ' 
         ' lblDpaseo
         ' 
         lblDpaseo.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
-        lblDpaseo.Font = New Font("Segoe UI Variable Small", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblDpaseo.Font = New Font("Segoe UI Variable Small", 16F)
         lblDpaseo.ForeColor = Color.White
         lblDpaseo.Location = New Point(90, 112)
         lblDpaseo.Name = "lblDpaseo"
@@ -733,16 +741,17 @@ Partial Class frmInicio
         ' lkbVer
         ' 
         lkbVer.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        lkbVer.AutoSize = True
         lkbVer.BackColor = Color.FromArgb(CByte(46), CByte(46), CByte(46))
-        lkbVer.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lkbVer.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
         lkbVer.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         lkbVer.LinkBehavior = LinkBehavior.HoverUnderline
         lkbVer.LinkColor = Color.FromArgb(CByte(136), CByte(136), CByte(136))
-        lkbVer.Location = New Point(258, 118)
+        lkbVer.Location = New Point(272, 121)
         lkbVer.Margin = New Padding(10, 0, 0, 10)
         lkbVer.Name = "lkbVer"
         lkbVer.Padding = New Padding(10, 0, 0, 0)
-        lkbVer.Size = New Size(81, 24)
+        lkbVer.Size = New Size(50, 21)
         lkbVer.TabIndex = 30
         lkbVer.TabStop = True
         lkbVer.Text = "Hoy"
@@ -766,6 +775,7 @@ Partial Class frmInicio
         ' 
         btnPaseo.Animated = True
         btnPaseo.BorderRadius = 25
+        btnPaseo.Cursor = Cursors.Hand
         btnPaseo.CustomizableEdges = CustomizableEdges16
         btnPaseo.DisabledState.BorderColor = Color.DarkGray
         btnPaseo.DisabledState.CustomBorderColor = Color.DarkGray
@@ -784,15 +794,16 @@ Partial Class frmInicio
         ' lklblVertodo
         ' 
         lklblVertodo.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        lklblVertodo.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lklblVertodo.AutoSize = True
+        lklblVertodo.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold)
         lklblVertodo.ForeColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         lklblVertodo.LinkBehavior = LinkBehavior.HoverUnderline
         lklblVertodo.LinkColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        lklblVertodo.Location = New Point(261, 36)
+        lklblVertodo.Location = New Point(255, 35)
         lklblVertodo.Margin = New Padding(10, 0, 0, 10)
         lklblVertodo.Name = "lklblVertodo"
         lklblVertodo.Padding = New Padding(10, 0, 0, 0)
-        lklblVertodo.Size = New Size(81, 24)
+        lklblVertodo.Size = New Size(95, 25)
         lklblVertodo.TabIndex = 26
         lklblVertodo.TabStop = True
         lklblVertodo.Text = "Ver todo"
@@ -801,7 +812,7 @@ Partial Class frmInicio
         ' lblTentren
         ' 
         lblTentren.BackColor = Color.Transparent
-        lblTentren.Font = New Font("Segoe UI Variable Small", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblTentren.Font = New Font("Segoe UI Variable Small", 16F)
         lblTentren.ForeColor = Color.White
         lblTentren.IsSelectionEnabled = False
         lblTentren.Location = New Point(23, 30)
@@ -815,6 +826,7 @@ Partial Class frmInicio
         btnTrote.Animated = True
         btnTrote.AutoRoundedCorners = True
         btnTrote.BorderRadius = 41
+        btnTrote.Cursor = Cursors.Hand
         btnTrote.CustomizableEdges = CustomizableEdges18
         btnTrote.DisabledState.BorderColor = Color.DarkGray
         btnTrote.DisabledState.CustomBorderColor = Color.DarkGray
@@ -870,10 +882,8 @@ Partial Class frmInicio
     Friend WithEvents lblSub As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblSaludo As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents pnlProgreso As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents pnlNavI As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
     Friend WithEvents pnlHistorial As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents btnHome As FontAwesome.Sharp.IconButton
     Friend WithEvents lblTitulo As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblPasosNum As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents pbPasos As Guna.UI2.WinForms.Guna2ProgressBar
@@ -899,10 +909,6 @@ Partial Class frmInicio
     Friend WithEvents lkbVerTodo As LinkLabel
     Friend WithEvents ipbxTrote As FontAwesome.Sharp.IconPictureBox
     Friend WithEvents btnTrote As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents btnAgregar As Guna.UI2.WinForms.Guna2CircleButton
-    Friend WithEvents btnPerfil As FontAwesome.Sharp.IconButton
-    Friend WithEvents btnRutinas As FontAwesome.Sharp.IconButton
-    Friend WithEvents btnQr As FontAwesome.Sharp.IconButton
     Friend WithEvents crlProg1 As Guna.UI2.WinForms.Guna2CircleProgressBar
     Friend WithEvents crlProg2 As Guna.UI2.WinForms.Guna2CircleProgressBar
     Friend WithEvents crlProg3 As Guna.UI2.WinForms.Guna2CircleProgressBar
@@ -910,4 +916,10 @@ Partial Class frmInicio
     Friend WithEvents lblDcal As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblMcal As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblDpaso As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents pnlNavI As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents btnPerfil As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnRutinas As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnQr As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnAgregar As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents btnHome As FontAwesome.Sharp.IconButton
 End Class

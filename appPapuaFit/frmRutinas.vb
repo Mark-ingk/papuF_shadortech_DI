@@ -17,7 +17,11 @@
 
     End Sub
 
-    Private Sub IconButton5_Click(sender As Object, e As EventArgs) Handles IconButton5.Click
+    Private Sub IconButton5_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub lblPasosNum_Click(sender As Object, e As EventArgs) Handles lblPasosNum.Click
 
     End Sub
 End Class

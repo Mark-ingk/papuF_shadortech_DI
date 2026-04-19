@@ -40,4 +40,8 @@
     Private Sub btnCancelarCambios_Click(sender As Object, e As EventArgs) Handles btnCancelarCambios.Click
 
     End Sub
+
+    Private Sub lblCambiarContraseña_Click(sender As Object, e As EventArgs) Handles lblCambiarContraseña.Click
+
+    End Sub
 End Class

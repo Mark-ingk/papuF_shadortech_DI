@@ -33,7 +33,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.appPapuaFit.frmAjustes
+            Me.MainForm = Global.appPapuaFit.frmPerfilPapu
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _

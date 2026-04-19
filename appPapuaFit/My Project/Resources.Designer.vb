@@ -243,6 +243,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property papuabdominales() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("papuabdominales", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property prefiiil() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("prefiiil", resourceCulture)

@@ -37,6 +37,7 @@ Partial Class frmAjustes
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         pnlAjustes = New Panel()
+        icnFuegonav = New FontAwesome.Sharp.IconPictureBox()
         Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         pnlConfiguracionCuenta = New Guna.UI2.WinForms.Guna2Panel()
         lblConfiguracionCuentaAjustes = New Label()
@@ -59,17 +60,16 @@ Partial Class frmAjustes
         tbxUltimaActualizacionAjustes = New TextBox()
         spr3 = New Guna.UI2.WinForms.Guna2Separator()
         pnlTopinicio = New Guna.UI2.WinForms.Guna2Panel()
-        icnFuegonav = New FontAwesome.Sharp.IconPictureBox()
         btnRango = New FontAwesome.Sharp.IconButton()
         IconButton1 = New FontAwesome.Sharp.IconButton()
         lblAjustes = New Label()
         pnlAjustes.SuspendLayout()
+        CType(icnFuegonav, ComponentModel.ISupportInitialize).BeginInit()
         pnlConfiguracionCuenta.SuspendLayout()
         pnlPreferenciasAplicacion.SuspendLayout()
         CType(IconPictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         pnlInformacionSistema.SuspendLayout()
         pnlTopinicio.SuspendLayout()
-        CType(icnFuegonav, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' pnlAjustes
@@ -87,6 +87,21 @@ Partial Class frmAjustes
         pnlAjustes.Padding = New Padding(0, 0, 0, 40)
         pnlAjustes.Size = New Size(390, 844)
         pnlAjustes.TabIndex = 0
+        ' 
+        ' icnFuegonav
+        ' 
+        icnFuegonav.BackColor = Color.FromArgb(CByte(34), CByte(34), CByte(34))
+        icnFuegonav.BackgroundImageLayout = ImageLayout.None
+        icnFuegonav.ForeColor = Color.Red
+        icnFuegonav.IconChar = FontAwesome.Sharp.IconChar.SignOut
+        icnFuegonav.IconColor = Color.Red
+        icnFuegonav.IconFont = FontAwesome.Sharp.IconFont.Auto
+        icnFuegonav.IconSize = 25
+        icnFuegonav.Location = New Point(120, 767)
+        icnFuegonav.Name = "icnFuegonav"
+        icnFuegonav.Size = New Size(25, 25)
+        icnFuegonav.TabIndex = 81
+        icnFuegonav.TabStop = False
         ' 
         ' Guna2Button2
         ' 
@@ -106,7 +121,7 @@ Partial Class frmAjustes
         Guna2Button2.ForeColor = Color.Red
         Guna2Button2.HoverState.FillColor = Color.FromArgb(CByte(220), CByte(53), CByte(69))
         Guna2Button2.HoverState.ForeColor = Color.White
-        Guna2Button2.Location = New Point(15, 749)
+        Guna2Button2.Location = New Point(15, 747)
         Guna2Button2.Name = "Guna2Button2"
         Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2Button2.Size = New Size(365, 64)
@@ -123,7 +138,7 @@ Partial Class frmAjustes
         pnlConfiguracionCuenta.Controls.Add(lblCorreVinculadoAjustes)
         pnlConfiguracionCuenta.CustomizableEdges = CustomizableEdges3
         pnlConfiguracionCuenta.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlConfiguracionCuenta.Location = New Point(10, 110)
+        pnlConfiguracionCuenta.Location = New Point(10, 93)
         pnlConfiguracionCuenta.Margin = New Padding(10, 0, 10, 10)
         pnlConfiguracionCuenta.Name = "pnlConfiguracionCuenta"
         pnlConfiguracionCuenta.Padding = New Padding(20, 15, 20, 15)
@@ -191,7 +206,7 @@ Partial Class frmAjustes
         pnlPreferenciasAplicacion.Controls.Add(IconPictureBox4)
         pnlPreferenciasAplicacion.CustomizableEdges = CustomizableEdges7
         pnlPreferenciasAplicacion.FillColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
-        pnlPreferenciasAplicacion.Location = New Point(10, 538)
+        pnlPreferenciasAplicacion.Location = New Point(10, 533)
         pnlPreferenciasAplicacion.Margin = New Padding(5, 0, 5, 10)
         pnlPreferenciasAplicacion.Name = "pnlPreferenciasAplicacion"
         pnlPreferenciasAplicacion.Padding = New Padding(20, 15, 20, 15)
@@ -277,11 +292,11 @@ Partial Class frmAjustes
         IconPictureBox4.IconChar = FontAwesome.Sharp.IconChar.ArrowRight
         IconPictureBox4.IconColor = Color.YellowGreen
         IconPictureBox4.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconPictureBox4.IconSize = 227
-        IconPictureBox4.Location = New Point(177, -25)
+        IconPictureBox4.IconSize = 174
+        IconPictureBox4.Location = New Point(206, 40)
         IconPictureBox4.Name = "IconPictureBox4"
         IconPictureBox4.Rotation = 320R
-        IconPictureBox4.Size = New Size(227, 244)
+        IconPictureBox4.Size = New Size(184, 174)
         IconPictureBox4.TabIndex = 81
         IconPictureBox4.TabStop = False
         ' 
@@ -299,7 +314,7 @@ Partial Class frmAjustes
         pnlInformacionSistema.Controls.Add(spr3)
         pnlInformacionSistema.CustomizableEdges = CustomizableEdges11
         pnlInformacionSistema.FillColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        pnlInformacionSistema.Location = New Point(10, 286)
+        pnlInformacionSistema.Location = New Point(10, 275)
         pnlInformacionSistema.Margin = New Padding(5, 0, 5, 10)
         pnlInformacionSistema.Name = "pnlInformacionSistema"
         pnlInformacionSistema.Padding = New Padding(20, 15, 20, 15)
@@ -430,23 +445,8 @@ Partial Class frmAjustes
         pnlTopinicio.Name = "pnlTopinicio"
         pnlTopinicio.Padding = New Padding(25, 25, 25, 10)
         pnlTopinicio.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        pnlTopinicio.Size = New Size(390, 100)
+        pnlTopinicio.Size = New Size(390, 77)
         pnlTopinicio.TabIndex = 62
-        ' 
-        ' icnFuegonav
-        ' 
-        icnFuegonav.BackColor = Color.FromArgb(CByte(34), CByte(34), CByte(34))
-        icnFuegonav.BackgroundImageLayout = ImageLayout.None
-        icnFuegonav.ForeColor = Color.Red
-        icnFuegonav.IconChar = FontAwesome.Sharp.IconChar.SignOut
-        icnFuegonav.IconColor = Color.Red
-        icnFuegonav.IconFont = FontAwesome.Sharp.IconFont.Auto
-        icnFuegonav.IconSize = 25
-        icnFuegonav.Location = New Point(120, 767)
-        icnFuegonav.Name = "icnFuegonav"
-        icnFuegonav.Size = New Size(25, 25)
-        icnFuegonav.TabIndex = 81
-        icnFuegonav.TabStop = False
         ' 
         ' btnRango
         ' 
@@ -457,22 +457,22 @@ Partial Class frmAjustes
         btnRango.IconChar = FontAwesome.Sharp.IconChar.Key
         btnRango.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         btnRango.IconFont = FontAwesome.Sharp.IconFont.Auto
-        btnRango.Location = New Point(308, 17)
+        btnRango.Location = New Point(308, 15)
         btnRango.Name = "btnRango"
-        btnRango.Size = New Size(54, 58)
+        btnRango.Size = New Size(45, 45)
         btnRango.TabIndex = 36
         btnRango.UseVisualStyleBackColor = False
         ' 
         ' IconButton1
         ' 
         IconButton1.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        IconButton1.BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
+        IconButton1.BackColor = Color.Transparent
         IconButton1.FlatAppearance.BorderColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
         IconButton1.FlatStyle = FlatStyle.Flat
         IconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowLeft
         IconButton1.IconColor = Color.FromArgb(CByte(198), CByte(241), CByte(53))
         IconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconButton1.Location = New Point(0, 10)
+        IconButton1.Location = New Point(0, 0)
         IconButton1.Name = "IconButton1"
         IconButton1.Size = New Size(69, 73)
         IconButton1.TabIndex = 35
@@ -483,7 +483,7 @@ Partial Class frmAjustes
         lblAjustes.BackColor = Color.Transparent
         lblAjustes.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblAjustes.ForeColor = SystemColors.ButtonFace
-        lblAjustes.Location = New Point(92, 27)
+        lblAjustes.Location = New Point(86, 20)
         lblAjustes.Margin = New Padding(4, 0, 4, 0)
         lblAjustes.Name = "lblAjustes"
         lblAjustes.Size = New Size(88, 34)
@@ -505,6 +505,7 @@ Partial Class frmAjustes
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form2"
         pnlAjustes.ResumeLayout(False)
+        CType(icnFuegonav, ComponentModel.ISupportInitialize).EndInit()
         pnlConfiguracionCuenta.ResumeLayout(False)
         pnlConfiguracionCuenta.PerformLayout()
         pnlPreferenciasAplicacion.ResumeLayout(False)
@@ -512,7 +513,6 @@ Partial Class frmAjustes
         pnlInformacionSistema.ResumeLayout(False)
         pnlInformacionSistema.PerformLayout()
         pnlTopinicio.ResumeLayout(False)
-        CType(icnFuegonav, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
